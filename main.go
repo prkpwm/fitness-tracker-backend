@@ -161,50 +161,22 @@ func loadData() {
 	data, err := os.ReadFile(dataFile)
 	if err != nil {
 		log.Println("No local file found, trying backup...")
-		loadFromBackup()
+		loadFromGitHub()
 		return
 	}
 	
 	err = json.Unmarshal(data, &fitnessRecords)
 	if err != nil {
 		log.Printf("Error parsing local data: %v, trying backup...", err)
-		loadFromBackup()
+		loadFromGitHub()
 		return
 	}
 	
 	// If local data is empty, try backup
 	if len(fitnessRecords) == 0 {
 		log.Println("Local data empty, trying backup...")
-		loadFromBackup()
-	}
-}
-
-func loadFromBackup() {
-	data, err := os.ReadFile(backupFile)
-	if err != nil {
-		log.Println("No backup found, fetching from GitHub...")
 		loadFromGitHub()
-		return
 	}
-	
-	// Extract JSON from backup format
-	content := string(data)
-	startIdx := strings.Index(content, "[")
-	if startIdx == -1 {
-		log.Println("Invalid backup format, fetching from GitHub...")
-		loadFromGitHub()
-		return
-	}
-	
-	jsonData := content[startIdx:]
-	err = json.Unmarshal([]byte(jsonData), &fitnessRecords)
-	if err != nil {
-		log.Printf("Error parsing backup data: %v, fetching from GitHub...", err)
-		loadFromGitHub()
-		return
-	}
-	
-	log.Printf("Loaded %d records from backup", len(fitnessRecords))
 }
 
 func loadFromGitHub() {

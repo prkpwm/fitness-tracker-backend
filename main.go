@@ -48,15 +48,7 @@ func (rw *responseWrapper) WriteHeader(code int) {
 func main() {
 	loadData()
 	
-	// Auto-refresh data every 5 minutes
-	go func() {
-		ticker := time.NewTicker(5 * time.Minute)
-		defer ticker.Stop()
-		for range ticker.C {
-			log.Println("Auto-refreshing data...")
-			loadData()
-		}
-	}()
+
 	
 	r := mux.NewRouter()
 	

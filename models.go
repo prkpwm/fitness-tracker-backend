@@ -10,6 +10,7 @@ type UserProfile struct {
 	TargetProteinG            int     `json:"target_protein_g"`
 	GoalCalories              int     `json:"goal_calories"`
 	MaintenanceProteinTargetG int     `json:"maintenance_protein_target_g"`
+	RecommendedDailyCalories  int     `json:"recommended_daily_calories"`
 }
 
 type FoodItem struct {

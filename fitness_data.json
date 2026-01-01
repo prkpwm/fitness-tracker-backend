@@ -64,26 +64,33 @@
       }
     ],
     "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 107,
+        "calories_burned": 469,
+        "distance_mi": 5.2,
+        "duration_min": 99,
+        "type": "Treadmill Running"
+      },
       "strength_training": {
         "calories_burned": 150,
         "duration_min": 30,
         "target": "Weight Training"
       },
-      "total_burned_calories": 150
+      "total_burned_calories": 619
     },
     "daily_total_stats": {
       "total_intake_calories": 1255,
-      "total_burned_calories": 150,
-      "net_calories": 1105,
+      "total_burned_calories": 619,
+      "net_calories": 636,
       "total_protein_g": 85,
       "total_carbs_g": 152.5,
       "total_fat_g": 34.5,
       "protein_per_kg": 1
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Great Progress (85g reached)",
-      "weight_loss_status": "On Track",
-      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 85 กรัมแล้วครับ ขาดอีกเพียง 35 กรัมก็จะถึงเป้าหมาย 120 กรัม พลังงานรวมยังเหลือโควตาอีก 245 kcal สำหรับวันนี้ครับ"
+      "muscle_maintenance": "Good (85g Protein), Body will prioritize recovery now.",
+      "weight_loss_status": "Significant Deficit Achieved",
+      "recommendation": "คุณเผาผลาญไปรวมกว่า 619 kcal ทำให้ค่าพลังงานสุทธิ (Net Calories) อยู่ที่เพียง 636 kcal ซึ่งต่ำกว่าเป้าหมายมาก แนะนำให้ดื่มน้ำมากๆ และพักผ่อนให้เพียงพอครับ"
     }
   },
   {

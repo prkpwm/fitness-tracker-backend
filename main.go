@@ -1,7 +1,10 @@
 package main
 
 import (
+	"bytes"
+	"encoding/base64"
 	"encoding/json"
+	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -15,6 +18,7 @@ import (
 
 var fitnessRecords []FitnessData
 const dataFile = "fitness_data.json"
+const backupFile = "backup.txt"
 
 func loggingMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
@@ -156,23 +160,51 @@ func loadData() {
 	// Try local file first
 	data, err := os.ReadFile(dataFile)
 	if err != nil {
-		log.Println("No local file found, fetching from GitHub...")
-		loadFromGitHub()
+		log.Println("No local file found, trying backup...")
+		loadFromBackup()
 		return
 	}
 	
 	err = json.Unmarshal(data, &fitnessRecords)
 	if err != nil {
-		log.Printf("Error parsing local data: %v, fetching from GitHub...", err)
+		log.Printf("Error parsing local data: %v, trying backup...", err)
+		loadFromBackup()
+		return
+	}
+	
+	// If local data is empty, try backup
+	if len(fitnessRecords) == 0 {
+		log.Println("Local data empty, trying backup...")
+		loadFromBackup()
+	}
+}
+
+func loadFromBackup() {
+	data, err := os.ReadFile(backupFile)
+	if err != nil {
+		log.Println("No backup found, fetching from GitHub...")
 		loadFromGitHub()
 		return
 	}
 	
-	// If local data is empty, fetch from GitHub
-	if len(fitnessRecords) == 0 {
-		log.Println("Local data empty, fetching from GitHub...")
+	// Extract JSON from backup format
+	content := string(data)
+	startIdx := strings.Index(content, "[")
+	if startIdx == -1 {
+		log.Println("Invalid backup format, fetching from GitHub...")
 		loadFromGitHub()
+		return
 	}
+	
+	jsonData := content[startIdx:]
+	err = json.Unmarshal([]byte(jsonData), &fitnessRecords)
+	if err != nil {
+		log.Printf("Error parsing backup data: %v, fetching from GitHub...", err)
+		loadFromGitHub()
+		return
+	}
+	
+	log.Printf("Loaded %d records from backup", len(fitnessRecords))
 }
 
 func loadFromGitHub() {
@@ -209,4 +241,83 @@ func saveData() {
 	if err != nil {
 		log.Printf("Error saving data: %v", err)
 	}
+	
+	// Create backup
+	createBackup(data)
+	
+	// Update GitHub
+	updateGitHub(data)
+}
+
+func createBackup(data []byte) {
+	timestamp := time.Now().Format("2006-01-02 15:04:05")
+	backupContent := fmt.Sprintf("[%s] Backup created\n%s\n\n", timestamp, string(data))
+	
+	err := os.WriteFile(backupFile, []byte(backupContent), 0644)
+	if err != nil {
+		log.Printf("Error creating backup: %v", err)
+	} else {
+		log.Println("Backup created successfully")
+	}
+}
+
+func updateGitHub(data []byte) {
+	token := os.Getenv("UP_TOK")
+	if token == "" {
+		log.Println("No GitHub token, skipping GitHub update")
+		return
+	}
+	
+	sha, err := getFileSHA(token)
+	if err != nil {
+		log.Printf("Error getting file SHA: %v", err)
+		return
+	}
+	
+	payload := map[string]interface{}{
+		"message": "Update fitness data",
+		"content": base64.StdEncoding.EncodeToString(data),
+		"sha":     sha,
+	}
+	
+	jsonPayload, _ := json.Marshal(payload)
+	req, _ := http.NewRequest("PUT", "https://api.github.com/repos/prkpwm/fitness-tracker-backend/contents/fitness_data.json", bytes.NewBuffer(jsonPayload))
+	req.Header.Set("Authorization", "token "+token)
+	req.Header.Set("Content-Type", "application/json")
+	
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	if err != nil {
+		log.Printf("Error updating GitHub: %v", err)
+		return
+	}
+	defer resp.Body.Close()
+	
+	if resp.StatusCode == 200 {
+		log.Println("Successfully updated GitHub")
+	} else {
+		log.Printf("GitHub update failed: %d", resp.StatusCode)
+	}
+}
+
+func getFileSHA(token string) (string, error) {
+	req, _ := http.NewRequest("GET", "https://api.github.com/repos/prkpwm/fitness-tracker-backend/contents/fitness_data.json", nil)
+	req.Header.Set("Authorization", "token "+token)
+	
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	if err != nil {
+		return "", err
+	}
+	defer resp.Body.Close()
+	
+	var result map[string]interface{}
+	json.NewDecoder(resp.Body).Decode(&result)
+	
+	sha, ok := result["sha"].(string)
+	if !ok {
+		return "", fmt.Errorf("SHA not found")
+	}
+	
+	return sha, nil
 }

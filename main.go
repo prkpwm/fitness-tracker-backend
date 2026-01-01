@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -12,8 +13,10 @@ import (
 )
 
 var fitnessRecords []FitnessData
+const dataFile = "fitness_data.json"
 
 func main() {
+	loadData()
 	r := mux.NewRouter()
 	
 	r.HandleFunc("/api/fitness", getFitnessData).Methods("GET")
@@ -47,11 +50,8 @@ func createFitnessData(w http.ResponseWriter, r *http.Request) {
 	var data FitnessData
 	json.NewDecoder(r.Body).Decode(&data)
 	
-	if data.Date == "" {
-		data.Date = time.Now().Format("2006-01-02")
-	}
-	
 	fitnessRecords = append(fitnessRecords, data)
+	saveData()
 	
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(data)
@@ -87,4 +87,30 @@ func getRawJsonByDate(w http.ResponseWriter, r *http.Request) {
 	}
 	
 	http.NotFound(w, r)
+}
+
+func loadData() {
+	data, err := ioutil.ReadFile(dataFile)
+	if err != nil {
+		log.Println("No existing data file found, starting fresh")
+		return
+	}
+	
+	err = json.Unmarshal(data, &fitnessRecords)
+	if err != nil {
+		log.Printf("Error loading data: %v", err)
+	}
+}
+
+func saveData() {
+	data, err := json.MarshalIndent(fitnessRecords, "", "  ")
+	if err != nil {
+		log.Printf("Error marshaling data: %v", err)
+		return
+	}
+	
+	err = ioutil.WriteFile(dataFile, data, 0644)
+	if err != nil {
+		log.Printf("Error saving data: %v", err)
+	}
 }

@@ -20,6 +20,7 @@ func main() {
 	r := mux.NewRouter()
 	
 	r.HandleFunc("/api/fitness", getFitnessData).Methods("GET")
+	r.HandleFunc("/api/fitness/all", getAllFitnessData).Methods("GET")
 	r.HandleFunc("/api/fitness", createFitnessData).Methods("POST")
 	r.HandleFunc("/api/fitness/{date}", getFitnessDataByDate).Methods("GET")
 	r.HandleFunc("/get", getRawJsonByDate).Methods("GET")
@@ -46,10 +47,27 @@ func getFitnessData(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(fitnessRecords)
 }
 
+func getAllFitnessData(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(fitnessRecords)
+}
+
 func createFitnessData(w http.ResponseWriter, r *http.Request) {
 	var data FitnessData
 	json.NewDecoder(r.Body).Decode(&data)
 	
+	// Check for duplicate by date and replace if exists
+	for i, record := range fitnessRecords {
+		if record.Date == data.Date {
+			fitnessRecords[i] = data
+			saveData()
+			w.Header().Set("Content-Type", "application/json")
+			json.NewEncoder(w).Encode(data)
+			return
+		}
+	}
+	
+	// If no duplicate found, append new record
 	fitnessRecords = append(fitnessRecords, data)
 	saveData()
 	

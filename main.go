@@ -2,9 +2,11 @@ package main
 
 import (
 	"encoding/json"
+	"io"
 	"log"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 
 	"github.com/gorilla/mux"
@@ -14,8 +16,48 @@ import (
 var fitnessRecords []FitnessData
 const dataFile = "fitness_data.json"
 
+func loggingMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		start := time.Now()
+		
+		// Log request
+		body, _ := io.ReadAll(r.Body)
+		r.Body = io.NopCloser(strings.NewReader(string(body)))
+		log.Printf("REQ: %s %s - Body: %s", r.Method, r.URL.Path, string(body))
+		
+		// Capture response
+		wrapper := &responseWrapper{ResponseWriter: w, statusCode: 200}
+		next.ServeHTTP(wrapper, r)
+		
+		// Log response
+		duration := time.Since(start)
+		log.Printf("RES: %d - %s %s - %v", wrapper.statusCode, r.Method, r.URL.Path, duration)
+	})
+}
+
+type responseWrapper struct {
+	http.ResponseWriter
+	statusCode int
+}
+
+func (rw *responseWrapper) WriteHeader(code int) {
+	rw.statusCode = code
+	rw.ResponseWriter.WriteHeader(code)
+}
+
 func main() {
 	loadData()
+	
+	// Auto-refresh data every 5 minutes
+	go func() {
+		ticker := time.NewTicker(5 * time.Minute)
+		defer ticker.Stop()
+		for range ticker.C {
+			log.Println("Auto-refreshing data...")
+			loadData()
+		}
+	}()
+	
 	r := mux.NewRouter()
 	
 	r.HandleFunc("/api/fitness", getFitnessData).Methods("GET")
@@ -30,7 +72,7 @@ func main() {
 		AllowedHeaders: []string{"*"},
 	})
 	
-	handler := c.Handler(r)
+	handler := c.Handler(loggingMiddleware(r))
 	
 	port := os.Getenv("PORT")
 	if port == "" {
@@ -42,11 +84,17 @@ func main() {
 }
 
 func getFitnessData(w http.ResponseWriter, r *http.Request) {
+	if len(fitnessRecords) == 0 {
+		loadData()
+	}
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(fitnessRecords)
 }
 
 func getAllFitnessData(w http.ResponseWriter, r *http.Request) {
+	if len(fitnessRecords) == 0 {
+		loadData()
+	}
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(fitnessRecords)
 }
@@ -75,6 +123,9 @@ func createFitnessData(w http.ResponseWriter, r *http.Request) {
 }
 
 func getFitnessDataByDate(w http.ResponseWriter, r *http.Request) {
+	if len(fitnessRecords) == 0 {
+		loadData()
+	}
 	vars := mux.Vars(r)
 	date := vars["date"]
 	
@@ -90,6 +141,9 @@ func getFitnessDataByDate(w http.ResponseWriter, r *http.Request) {
 }
 
 func getRawJsonByDate(w http.ResponseWriter, r *http.Request) {
+	if len(fitnessRecords) == 0 {
+		loadData()
+	}
 	date := r.URL.Query().Get("date")
 	if date == "" {
 		date = time.Now().Format("2006-01-02")

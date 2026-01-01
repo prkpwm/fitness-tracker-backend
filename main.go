@@ -161,16 +161,49 @@ func getRawJsonByDate(w http.ResponseWriter, r *http.Request) {
 }
 
 func loadData() {
+	// Try local file first
 	data, err := os.ReadFile(dataFile)
 	if err != nil {
-		log.Println("No existing data file found, starting fresh")
+		log.Println("No local file found, fetching from GitHub...")
+		loadFromGitHub()
 		return
 	}
 	
 	err = json.Unmarshal(data, &fitnessRecords)
 	if err != nil {
-		log.Printf("Error loading data: %v", err)
+		log.Printf("Error parsing local data: %v, fetching from GitHub...", err)
+		loadFromGitHub()
+		return
 	}
+	
+	// If local data is empty, fetch from GitHub
+	if len(fitnessRecords) == 0 {
+		log.Println("Local data empty, fetching from GitHub...")
+		loadFromGitHub()
+	}
+}
+
+func loadFromGitHub() {
+	resp, err := http.Get("https://raw.githubusercontent.com/prkpwm/fitness-tracker-backend/refs/heads/main/fitness_data.json")
+	if err != nil {
+		log.Printf("Error fetching from GitHub: %v", err)
+		return
+	}
+	defer resp.Body.Close()
+	
+	data, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Printf("Error reading GitHub response: %v", err)
+		return
+	}
+	
+	err = json.Unmarshal(data, &fitnessRecords)
+	if err != nil {
+		log.Printf("Error parsing GitHub data: %v", err)
+		return
+	}
+	
+	log.Printf("Loaded %d records from GitHub", len(fitnessRecords))
 }
 
 func saveData() {

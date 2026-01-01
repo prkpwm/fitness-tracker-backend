@@ -56,7 +56,15 @@
       },
       {
         "time": "",
-        "item": "เวย์โปรตีน (4 สกู๊ป)",
+        "item": "เวย์โปรตีน รอบที่ 1 (4 สกู๊ป)",
+        "calories": 160,
+        "protein_g": 32,
+        "carbs_g": 4,
+        "fat_g": 2
+      },
+      {
+        "time": "",
+        "item": "เวย์โปรตีน รอบที่ 2 (4 สกู๊ป)",
         "calories": 160,
         "protein_g": 32,
         "carbs_g": 4,
@@ -65,7 +73,6 @@
     ],
     "exercise_summary": {
       "cardio_session_1": {
-        "avg_hr_bpm": 107,
         "calories_burned": 469,
         "distance_mi": 5.2,
         "duration_min": 99,
@@ -79,18 +86,18 @@
       "total_burned_calories": 619
     },
     "daily_total_stats": {
-      "total_intake_calories": 1255,
+      "total_intake_calories": 1415,
       "total_burned_calories": 619,
-      "net_calories": 636,
-      "total_protein_g": 85,
-      "total_carbs_g": 152.5,
-      "total_fat_g": 34.5,
-      "protein_per_kg": 1
+      "net_calories": 796,
+      "total_protein_g": 117,
+      "total_carbs_g": 156.5,
+      "total_fat_g": 36.5,
+      "protein_per_kg": 1.38
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (85g reached)",
-      "weight_loss_status": "High Deficit (Net 636 kcal)",
-      "recommendation": "ได้รับโปรตีนสะสม 85 กรัมแล้วครับ เหลืออีกเพียง 35 กรัมจะถึงเป้าหมาย 120 กรัม การเติมเวย์ 4 สกู๊ปหลังวิ่ง ช่วยฟื้นฟูกล้ามเนื้อได้ดีมากครับ"
+      "muscle_maintenance": "Excellent! (117g Protein reached)",
+      "weight_loss_status": "Perfect Deficit",
+      "recommendation": "คุณแตะระดับโปรตีน 117 กรัมแล้ว ขาดอีกเพียง 3 กรัมก็จะครบเป้าหมาย 120 กรัมครับ ถือว่าปิดวันได้อย่างสุดยอดมากสำหรับการซ่อมแซมร่างกายหลังจากวิ่งและเวทครับ"
     }
   },
   {

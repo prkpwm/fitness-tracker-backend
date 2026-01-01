@@ -22,10 +22,7 @@ type FoodItem struct {
 	FatG     float64 `json:"fat_g"`
 }
 
-type ExerciseSummary struct {
-	TotalBurnedCalories int    `json:"total_burned_calories"`
-	Status              string `json:"status,omitempty"`
-}
+type ExerciseSummary map[string]interface{}
 
 type DailyTotalStats struct {
 	TotalIntakeCalories  int     `json:"total_intake_calories"`

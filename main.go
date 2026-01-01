@@ -84,7 +84,7 @@ func main() {
 }
 
 func getFitnessData(w http.ResponseWriter, r *http.Request) {
-	if len(fitnessRecords) == 0 {
+	if fitnessRecords == nil || len(fitnessRecords) == 0 {
 		loadData()
 	}
 	w.Header().Set("Content-Type", "application/json")
@@ -92,7 +92,7 @@ func getFitnessData(w http.ResponseWriter, r *http.Request) {
 }
 
 func getAllFitnessData(w http.ResponseWriter, r *http.Request) {
-	if len(fitnessRecords) == 0 {
+	if fitnessRecords == nil || len(fitnessRecords) == 0 {
 		loadData()
 	}
 	w.Header().Set("Content-Type", "application/json")
@@ -123,7 +123,7 @@ func createFitnessData(w http.ResponseWriter, r *http.Request) {
 }
 
 func getFitnessDataByDate(w http.ResponseWriter, r *http.Request) {
-	if len(fitnessRecords) == 0 {
+	if fitnessRecords == nil || len(fitnessRecords) == 0 {
 		loadData()
 	}
 	vars := mux.Vars(r)
@@ -141,7 +141,7 @@ func getFitnessDataByDate(w http.ResponseWriter, r *http.Request) {
 }
 
 func getRawJsonByDate(w http.ResponseWriter, r *http.Request) {
-	if len(fitnessRecords) == 0 {
+	if fitnessRecords == nil || len(fitnessRecords) == 0 {
 		loadData()
 	}
 	date := r.URL.Query().Get("date")

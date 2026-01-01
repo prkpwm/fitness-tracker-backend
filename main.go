@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -108,7 +107,7 @@ func getRawJsonByDate(w http.ResponseWriter, r *http.Request) {
 }
 
 func loadData() {
-	data, err := ioutil.ReadFile(dataFile)
+	data, err := os.ReadFile(dataFile)
 	if err != nil {
 		log.Println("No existing data file found, starting fresh")
 		return
@@ -127,7 +126,7 @@ func saveData() {
 		return
 	}
 	
-	err = ioutil.WriteFile(dataFile, data, 0644)
+	err = os.WriteFile(dataFile, data, 0644)
 	if err != nil {
 		log.Printf("Error saving data: %v", err)
 	}

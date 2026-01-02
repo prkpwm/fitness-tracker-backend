@@ -146,22 +146,30 @@
         "protein_g": 1.2,
         "carbs_g": 8,
         "fat_g": 0
+      },
+      {
+        "time": "",
+        "item": "โวลต์ ซิงค์ (1 ขวด)",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 12,
+        "fat_g": 0
       }
     ],
     "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 690,
+      "total_intake_calories": 740,
       "total_burned_calories": 0,
-      "net_calories": 690,
+      "net_calories": 740,
       "total_protein_g": 60.2,
-      "total_carbs_g": 83,
+      "total_carbs_g": 95,
       "total_fat_g": 11.5,
       "protein_per_kg": 0.71
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (60.2g reached)",
-      "weight_loss_status": "Healthy Deficit",
-      "recommendation": "ตอนนี้โปรตีนมาถึง 60 กรัมแล้วครับ (ครึ่งทางพอดี) พลังงานรวมยังอยู่ที่ 690 kcal ถือว่าคุมได้ดีมาก นมเปรี้ยวสูตรนี้ช่วยเรื่องระบบขับถ่ายได้ดีโดยไม่เพิ่มน้ำตาลมากเกินไปครับ"
+      "muscle_maintenance": "Halfway to goal (60.2g reached)",
+      "weight_loss_status": "Steady Progress",
+      "recommendation": "ตอนนี้ได้รับพลังงานรวม 740 kcal โดยมีสัดส่วนของคาร์โบไฮเดรตเพิ่มขึ้นเล็กน้อยจากเครื่องดื่ม อย่าลืมเน้นโปรตีนในมื้อถัดไปเพื่อให้ครบเป้าหมาย 120 กรัมนะครับ"
     }
   }
 ]

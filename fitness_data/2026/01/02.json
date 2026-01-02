@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-02",
-    "last_update": "2026-01-02 19:10:51",
+    "last_update": "2026-01-02 19:13:32",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -74,7 +74,7 @@
       {
         "time": "",
         "item": "ขนมขาไก่ (1 จานเล็ก)",
-        "calories": 160,
+        "calories": 180,
         "protein_g": 2,
         "carbs_g": 20,
         "fat_g": 7
@@ -103,7 +103,7 @@
       "total_burned_calories": 1005
     },
     "daily_total_stats": {
-      "total_intake_calories": 1480,
+      "total_intake_calories": 1500,
       "total_burned_calories": 1005,
       "net_calories": 465,
       "total_protein_g": 125.4,

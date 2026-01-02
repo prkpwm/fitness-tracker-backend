@@ -125,27 +125,35 @@
       },
       {
         "time": "",
-        "item": "เนสที ชามะนาว (1 ซอง - 13 กรัม)",
+        "item": "เนสที ชามะนาว (1 ซอง)",
         "calories": 50,
         "protein_g": 0,
         "carbs_g": 12,
         "fat_g": 0
+      },
+      {
+        "time": "",
+        "item": "ก๋วยเตี๋ยวเส้นหมี่ไก่ฉีกน้ำใส",
+        "calories": 350,
+        "protein_g": 25,
+        "carbs_g": 45,
+        "fat_g": 8
       }
     ],
     "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 170,
+      "total_intake_calories": 520,
       "total_burned_calories": 0,
-      "net_calories": 170,
-      "total_protein_g": 24,
-      "total_carbs_g": 15,
-      "total_fat_g": 1.5,
-      "protein_per_kg": 0.28
+      "net_calories": 520,
+      "total_protein_g": 49,
+      "total_carbs_g": 60,
+      "total_fat_g": 9.5,
+      "protein_per_kg": 0.58
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (24g reached)",
-      "weight_loss_status": "Early Stage of Day",
-      "recommendation": "ตอนนี้ได้รับพลังงานไป 170 kcal และโปรตีน 24 กรัม อย่าลืมเติมสารอาหารจากมื้อหลักเพื่อให้ได้โปรตีนครบตามเป้าหมาย 120 กรัมนะครับ"
+      "muscle_maintenance": "Good Progress (49g reached)",
+      "weight_loss_status": "Balanced Intake",
+      "recommendation": "ตอนนี้ได้รับโปรตีนไปแล้ว 49 กรัม ยังคงขาดอีก 71 กรัม เพื่อให้ถึงเป้าหมาย 120 กรัมครับ พลังงานรวมยังอยู่ในระดับที่ต่ำ (520 kcal) สามารถเลือกทานมื้อเย็นที่มีโปรตีนสูงได้อีกเยอะเลยครับ"
     }
   }
 ]

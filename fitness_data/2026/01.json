@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-02",
-    "last_update": "2026-01-02 18:08:32",
+    "last_update": "2026-01-02 18:16:20",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,10 +81,19 @@
       }
     ],
     "exercise_summary": {
-      "cardio_total": {
-        "calories_burned": 855,
-        "distance_mi": 11.17,
-        "type": "Treadmill Running (2 Sessions)"
+      "cardio_session_1": {
+        "avg_hr_bpm": 114,
+        "calories_burned": 499,
+        "distance_mi": 6.86,
+        "duration_min": 100,
+        "type": "Treadmill Running"
+      },
+      "cardio_session_2": {
+        "avg_hr_bpm": 115,
+        "calories_burned": 356,
+        "distance_mi": 4.31,
+        "duration_min": 64,
+        "type": "Treadmill Running"
       },
       "strength_training": {
         "calories_burned": 150,
@@ -105,7 +114,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "Excellent (125.4g Protein)",
       "weight_loss_status": "Successful Deficit",
-      "recommendation": "พลังงานรวมตอนนี้อยู่ที่ 1,470 kcal เกือบถึงเป้าหมาย 1,500 kcal แล้วครับ แต่เมื่อหักลบกับการออกกำลังกายที่หนักหน่วงในวันนี้ คุณยังมีภาวะ Deficit ที่สูงมาก ขนมจานนี้ถือเป็นรางวัลเล็กๆ หลังการทำสถิติใหม่ได้ดีครับ"
+      "recommendation": "คุณทำสถิติวิ่งได้ยอดเยี่ยมมากทั้ง 2 รอบ รวมระยะทางกว่า 11 ไมล์! การเวทเพิ่มอีก 30 นาทีช่วยให้การเผาผลาญรวมพุ่งเกิน 1,000 kcal พรุ่งนี้ควรให้ความสำคัญกับการพักผ่อนและดื่มน้ำมากๆ นะครับ"
     }
   }
 ]

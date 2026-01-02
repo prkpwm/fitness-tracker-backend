@@ -63,121 +63,30 @@
         "fat_g": 1.5
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 114,
+        "calories_burned": 499,
+        "distance_mi": 6.86,
+        "duration_min": 100,
+        "status": "New Personal Record",
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 499
+    },
     "daily_total_stats": {
       "total_intake_calories": 900,
-      "total_burned_calories": 0,
-      "net_calories": 900,
+      "total_burned_calories": 499,
+      "net_calories": 401,
       "total_protein_g": 85.4,
       "total_carbs_g": 106,
       "total_fat_g": 13,
       "protein_per_kg": 1
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Great Progress (85.4g reached)",
-      "weight_loss_status": "Active Deficit",
-      "recommendation": "ตอนนี้โปรตีนพุ่งขึ้นมาที่ 85.4 กรัมแล้วครับ ขาดอีกเพียง 34.6 กรัมจะครบเป้าหมาย 120 กรัม พลังงานรวมยังเหลือโควตาอีก 600 kcal สำหรับมื้อเย็นครับ"
-    }
-  },
-  {
-    "date": "2026-01-01",
-    "user_profile": {
-      "age": 28,
-      "weight_kg": 85,
-      "height_cm": 173,
-      "bmr_kcal": 0,
-      "tdee_maintenance_kcal": 0,
-      "target_lose_weight_kcal": 0,
-      "target_protein_g": 0,
-      "goal_calories": 1500,
-      "maintenance_protein_target_g": 120,
-      "recommended_daily_calories": 2100
-    },
-    "food_diary": [
-      {
-        "time": "",
-        "item": "นมเปรี้ยวบีทาเกน โปร (300 มล.)",
-        "calories": 150,
-        "protein_g": 16,
-        "carbs_g": 16,
-        "fat_g": 2.5
-      },
-      {
-        "time": "",
-        "item": "แกงจืดวุ้นเส้นซี่โครงหมู + ข้าวสวย",
-        "calories": 620,
-        "protein_g": 32,
-        "carbs_g": 55,
-        "fat_g": 30
-      },
-      {
-        "time": "",
-        "item": "ส้มสายน้ำผึ้ง (3 ลูก)",
-        "calories": 135,
-        "protein_g": 2,
-        "carbs_g": 33,
-        "fat_g": 0
-      },
-      {
-        "time": "",
-        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ (ครึ่งขวด)",
-        "calories": 140,
-        "protein_g": 3,
-        "carbs_g": 32.5,
-        "fat_g": 0
-      },
-      {
-        "time": "",
-        "item": "เนสที ชามะนาว (1 ซอง)",
-        "calories": 50,
-        "protein_g": 0,
-        "carbs_g": 12,
-        "fat_g": 0
-      },
-      {
-        "time": "",
-        "item": "เวย์โปรตีน รอบที่ 1 (4 สกู๊ป)",
-        "calories": 160,
-        "protein_g": 32,
-        "carbs_g": 4,
-        "fat_g": 2
-      },
-      {
-        "time": "",
-        "item": "เวย์โปรตีน รอบที่ 2 (4 สกู๊ป)",
-        "calories": 160,
-        "protein_g": 32,
-        "carbs_g": 4,
-        "fat_g": 2
-      }
-    ],
-    "exercise_summary": {
-      "cardio_session_1": {
-        "calories_burned": 469,
-        "distance_mi": 5.2,
-        "duration_min": 99,
-        "type": "Treadmill Running"
-      },
-      "strength_training": {
-        "calories_burned": 150,
-        "duration_min": 30,
-        "target": "Weight Training"
-      },
-      "total_burned_calories": 619
-    },
-    "daily_total_stats": {
-      "total_intake_calories": 1415,
-      "total_burned_calories": 619,
-      "net_calories": 796,
-      "total_protein_g": 117,
-      "total_carbs_g": 156.5,
-      "total_fat_g": 36.5,
-      "protein_per_kg": 1.38
-    },
-    "ai_evaluation": {
-      "muscle_maintenance": "Excellent! (117g Protein reached)",
-      "weight_loss_status": "Perfect Deficit",
-      "recommendation": "คุณแตะระดับโปรตีน 117 กรัมแล้ว ขาดอีกเพียง 3 กรัมก็จะครบเป้าหมาย 120 กรัมครับ ถือว่าปิดวันได้อย่างสุดยอดมากสำหรับการซ่อมแซมร่างกายหลังจากวิ่งและเวทครับ"
+      "muscle_maintenance": "Good Progress (85.4g reached)",
+      "weight_loss_status": "Aggressive Deficit (Net 401 kcal)",
+      "recommendation": "วันนี้คุณเบิร์นหนักมากและทำสถิติใหม่ได้สำเร็จ! พลังงานสุทธิเหลือเพียง 401 kcal แนะนำให้ทานมื้อเย็นที่มีโปรตีนและคาร์โบไฮเดรตเชิงซ้อนเพื่อฟื้นฟูกล้ามเนื้อและเติมพลังงานที่เสียไปครับ"
     }
   }
 ]

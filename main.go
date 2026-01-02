@@ -116,6 +116,9 @@ func createFitnessData(w http.ResponseWriter, r *http.Request) {
 	var data FitnessData
 	json.NewDecoder(r.Body).Decode(&data)
 	
+	// Set last update timestamp
+	data.LastUpdate = time.Now().Format("2006-01-02 15:04:05")
+	
 	// Check for duplicate by date and replace if exists
 	for i, record := range fitnessRecords {
 		if record.Date == data.Date {

@@ -42,6 +42,7 @@ type AIEvaluation struct {
 
 type FitnessData struct {
 	Date            string           `json:"date"`
+	LastUpdate      string           `json:"last_update"`
 	UserProfile     UserProfile      `json:"user_profile"`
 	FoodDiary       []FoodItem       `json:"food_diary"`
 	ExerciseSummary ExerciseSummary  `json:"exercise_summary"`

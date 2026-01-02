@@ -65,7 +65,7 @@
       {
         "time": "",
         "item": "ไก่ทอดไร้น้ำมัน (7 ชิ้น)",
-        "calories": 440,
+        "calories": 420,
         "protein_g": 38,
         "carbs_g": 15,
         "fat_g": 12
@@ -82,7 +82,7 @@
       "total_burned_calories": 499
     },
     "daily_total_stats": {
-      "total_intake_calories": 1340,
+      "total_intake_calories": 1320,
       "total_burned_calories": 499,
       "net_calories": 821,
       "total_protein_g": 123.4,

@@ -85,20 +85,16 @@ func main() {
 
 func getFitnessData(w http.ResponseWriter, r *http.Request) {
 	// Get today's date
-	today := time.Now().Format("2006-01-02")
 	t := time.Now()
 	
-	// Load data from GitHub for today's month file
-	githubPath := fmt.Sprintf("fitness_data/%d/%02d.json", t.Year(), t.Month())
-	monthRecords := loadFromGitHubFile(githubPath)
+	// Load data from GitHub for today's daily file
+	githubPath := fmt.Sprintf("fitness_data/%d/%02d/%02d.json", t.Year(), t.Month(), t.Day())
+	dailyRecord := loadFromGitHubFile(githubPath)
 	
-	// Find today's record
-	for _, record := range monthRecords {
-		if record.Date == today {
-			w.Header().Set("Content-Type", "application/json")
-			json.NewEncoder(w).Encode(record)
-			return
-		}
+	if len(dailyRecord) > 0 {
+		w.Header().Set("Content-Type", "application/json")
+		json.NewEncoder(w).Encode(dailyRecord[0])
+		return
 	}
 	
 	http.NotFound(w, r)
@@ -142,24 +138,21 @@ func getFitnessDataByDate(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	date := vars["date"]
 	
-	// Parse date to determine year/month
+	// Parse date to determine year/month/day
 	t, err := time.Parse("2006-01-02", date)
 	if err != nil {
 		http.Error(w, "Invalid date format", http.StatusBadRequest)
 		return
 	}
 	
-	// Load data from GitHub for specific month file
-	githubPath := fmt.Sprintf("fitness_data/%d/%02d.json", t.Year(), t.Month())
-	monthRecords := loadFromGitHubFile(githubPath)
+	// Load data from GitHub for specific daily file
+	githubPath := fmt.Sprintf("fitness_data/%d/%02d/%02d.json", t.Year(), t.Month(), t.Day())
+	dailyRecord := loadFromGitHubFile(githubPath)
 	
-	// Find specific date record
-	for _, record := range monthRecords {
-		if record.Date == date {
-			w.Header().Set("Content-Type", "application/json")
-			json.NewEncoder(w).Encode(record)
-			return
-		}
+	if len(dailyRecord) > 0 {
+		w.Header().Set("Content-Type", "application/json")
+		json.NewEncoder(w).Encode(dailyRecord[0])
+		return
 	}
 	
 	http.NotFound(w, r)
@@ -186,8 +179,8 @@ func getFitnessDataByYear(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	year := vars["year"]
 	
-	// Load data from GitHub for specific year
-	yearRecords := loadFromGitHubByPath(fmt.Sprintf("fitness_data/%s", year))
+	// Load data from GitHub for specific year by traversing all months
+	yearRecords := loadFromGitHubByYearPath(fmt.Sprintf("fitness_data/%s", year))
 	
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(yearRecords)
@@ -198,9 +191,8 @@ func getFitnessDataByMonth(w http.ResponseWriter, r *http.Request) {
 	year := vars["year"]
 	month := vars["month"]
 	
-	// Load data from GitHub for specific month file
-	githubPath := fmt.Sprintf("fitness_data/%s/%s.json", year, month)
-	monthRecords := loadFromGitHubFile(githubPath)
+	// Load data from GitHub for specific month directory
+	monthRecords := loadFromGitHubByPath(fmt.Sprintf("fitness_data/%s/%s", year, month))
 	
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(monthRecords)
@@ -216,31 +208,83 @@ func loadData() {
 }
 
 func saveData() {
-	// Update GitHub with monthly files only
-	grouped := make(map[string][]FitnessData)
-	
+	log.Printf("Starting saveData for %d records", len(fitnessRecords))
+	// Update GitHub with daily files
 	for _, record := range fitnessRecords {
 		t, err := time.Parse("2006-01-02", record.Date)
 		if err != nil {
+			log.Printf("Error parsing date %s: %v", record.Date, err)
 			continue
 		}
 		
-		key := fmt.Sprintf("%d/%02d", t.Year(), t.Month())
-		grouped[key] = append(grouped[key], record)
+		data, err := json.MarshalIndent([]FitnessData{record}, "", "  ")
+		if err != nil {
+			log.Printf("Error marshaling data for %s: %v", record.Date, err)
+			continue
+		}
+		
+		githubPath := fmt.Sprintf("fitness_data/%d/%02d/%02d.json", t.Year(), t.Month(), t.Day())
+		log.Printf("Saving record for date %s to %s", record.Date, githubPath)
+		ensureGitHubDirectories(githubPath)
+		updateGitHubFile(githubPath, data)
+	}
+}
+
+func ensureGitHubDirectories(filePath string) {
+	log.Printf("Ensuring directories exist for %s", filePath)
+	token := os.Getenv("UP_TOK")
+	if token == "" {
+		return
 	}
 	
-	// Update GitHub with each month's data
-	for key, records := range grouped {
-		parts := strings.Split(key, "/")
-		year, month := parts[0], parts[1]
-		
-		data, err := json.MarshalIndent(records, "", "  ")
-		if err != nil {
-			continue
+	parts := strings.Split(filePath, "/")
+	for i := 1; i < len(parts)-1; i++ {
+		dirPath := strings.Join(parts[:i+1], "/")
+		if !checkGitHubPathExists(token, dirPath) {
+			createGitHubDirectory(token, dirPath)
 		}
-		
-		githubPath := fmt.Sprintf("fitness_data/%s/%s.json", year, month)
-		updateGitHubFile(githubPath, data)
+	}
+}
+
+func checkGitHubPathExists(token, path string) bool {
+	log.Printf("GitHub API Request: GET %s", path)
+	url := fmt.Sprintf("https://api.github.com/repos/prkpwm/fitness-tracker-backend/contents/%s", path)
+	req, _ := http.NewRequest("GET", url, nil)
+	req.Header.Set("Authorization", "token "+token)
+	
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	if err != nil {
+		return false
+	}
+	defer resp.Body.Close()
+	return resp.StatusCode == 200
+}
+
+func createGitHubDirectory(token, dirPath string) {
+	log.Printf("GitHub API Request: PUT %s/.gitkeep", dirPath)
+	readmePath := fmt.Sprintf("%s/.gitkeep", dirPath)
+	payload := map[string]interface{}{
+		"message": fmt.Sprintf("Create directory %s", dirPath),
+		"content": base64.StdEncoding.EncodeToString([]byte("")),
+	}
+	
+	jsonPayload, _ := json.Marshal(payload)
+	url := fmt.Sprintf("https://api.github.com/repos/prkpwm/fitness-tracker-backend/contents/%s", readmePath)
+	req, _ := http.NewRequest("PUT", url, bytes.NewBuffer(jsonPayload))
+	req.Header.Set("Authorization", "token "+token)
+	req.Header.Set("Content-Type", "application/json")
+	
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	if err != nil {
+		log.Printf("Failed to create directory %s: %v", dirPath, err)
+		return
+	}
+	defer resp.Body.Close()
+	
+	if resp.StatusCode == 201 {
+		log.Printf("Created directory: %s", dirPath)
 	}
 }
 
@@ -249,6 +293,8 @@ func updateGitHubFile(githubPath string, data []byte) {
 	if token == "" {
 		return
 	}
+	
+	log.Printf("GitHub API Request: PUT %s", githubPath)
 	
 	sha := getGitHubFileSHA(token, githubPath)
 	
@@ -266,8 +312,6 @@ func updateGitHubFile(githubPath string, data []byte) {
 	req, _ := http.NewRequest("PUT", url, bytes.NewBuffer(jsonPayload))
 	req.Header.Set("Authorization", "token "+token)
 	req.Header.Set("Content-Type", "application/json")
-	
-	log.Printf("GitHub API Request: %s %s", req.Method, req.URL)
 	
 	client := &http.Client{}
 	resp, err := client.Do(req)
@@ -324,38 +368,44 @@ func loadFromGitHub() {
 		log.Printf("[%s] Found %d months in year %s", time.Now().Format("15:04:05"), len(months), year)
 		
 		for _, month := range months {
-			if !strings.HasSuffix(month, ".json") {
-				continue
-			}
+			// Get month directory contents (daily files)
+			days := getGitHubDirectoryContents(token, fmt.Sprintf("fitness_data/%s/%s", year, month))
+			log.Printf("[%s] Found %d days in %s/%s", time.Now().Format("15:04:05"), len(days), year, month)
 			
-			githubPath := fmt.Sprintf("fitness_data/%s/%s", year, month)
-			url := fmt.Sprintf("https://raw.githubusercontent.com/prkpwm/fitness-tracker-backend/main/%s", githubPath)
-			
-			resp, err := http.Get(url)
-			if err != nil || resp.StatusCode != 200 {
-				log.Printf("[%s] Failed to load %s (status: %d)", time.Now().Format("15:04:05"), githubPath, resp.StatusCode)
-				if resp != nil {
-					resp.Body.Close()
+			for _, day := range days {
+				if !strings.HasSuffix(day, ".json") {
+					continue
 				}
-				continue
+				
+				githubPath := fmt.Sprintf("fitness_data/%s/%s/%s", year, month, day)
+				url := fmt.Sprintf("https://raw.githubusercontent.com/prkpwm/fitness-tracker-backend/main/%s", githubPath)
+				
+				resp, err := http.Get(url)
+				if err != nil || resp.StatusCode != 200 {
+					log.Printf("[%s] Failed to load %s (status: %d)", time.Now().Format("15:04:05"), githubPath, resp.StatusCode)
+					if resp != nil {
+						resp.Body.Close()
+					}
+					continue
+				}
+				
+				data, err := io.ReadAll(resp.Body)
+				resp.Body.Close()
+				if err != nil {
+					log.Printf("[%s] Error reading %s: %v", time.Now().Format("15:04:05"), githubPath, err)
+					continue
+				}
+				
+				var dailyRecords []FitnessData
+				err = json.Unmarshal(data, &dailyRecords)
+				if err != nil {
+					log.Printf("[%s] Error parsing %s: %v", time.Now().Format("15:04:05"), githubPath, err)
+					continue
+				}
+				
+				log.Printf("[%s] Loaded %d records from %s", time.Now().Format("15:04:05"), len(dailyRecords), githubPath)
+				fitnessRecords = append(fitnessRecords, dailyRecords...)
 			}
-			
-			data, err := io.ReadAll(resp.Body)
-			resp.Body.Close()
-			if err != nil {
-				log.Printf("[%s] Error reading %s: %v", time.Now().Format("15:04:05"), githubPath, err)
-				continue
-			}
-			
-			var monthRecords []FitnessData
-			err = json.Unmarshal(data, &monthRecords)
-			if err != nil {
-				log.Printf("[%s] Error parsing %s: %v", time.Now().Format("15:04:05"), githubPath, err)
-				continue
-			}
-			
-			log.Printf("[%s] Loaded %d records from %s", time.Now().Format("15:04:05"), len(monthRecords), githubPath)
-			fitnessRecords = append(fitnessRecords, monthRecords...)
 		}
 	}
 	duration := time.Since(start)
@@ -406,7 +456,7 @@ func loadFromGitHubByPath(path string) []FitnessData {
 	
 	var records []FitnessData
 	
-	// Get directory contents
+	// Get directory contents (daily files)
 	files := getGitHubDirectoryContents(token, path)
 	
 	for _, file := range files {
@@ -482,3 +532,28 @@ func loadFromGitHubFile(githubPath string) []FitnessData {
 	return records
 }
 
+func loadFromGitHubByYearPath(yearPath string) []FitnessData {
+	start := time.Now()
+	log.Printf("[%s] Loading from GitHub by year path: %s", start.Format("15:04:05"), yearPath)
+	token := os.Getenv("UP_TOK")
+	if token == "" {
+		log.Printf("[%s] No GitHub token available", time.Now().Format("15:04:05"))
+		return nil
+	}
+
+	var records []FitnessData
+
+	// Get month directories
+	months := getGitHubDirectoryContents(token, yearPath)
+	log.Printf("[%s] Found %d months in %s", time.Now().Format("15:04:05"), len(months), yearPath)
+
+	for _, month := range months {
+		monthPath := fmt.Sprintf("%s/%s", yearPath, month)
+		monthRecords := loadFromGitHubByPath(monthPath)
+		records = append(records, monthRecords...)
+	}
+
+	duration := time.Since(start)
+	log.Printf("[%s] Completed loading from year path %s: %d total records (took %v)", time.Now().Format("15:04:05"), yearPath, len(records), duration)
+	return records
+}

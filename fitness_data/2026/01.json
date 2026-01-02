@@ -16,7 +16,7 @@
     "food_diary": [
       {
         "time": "",
-        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "item": "เวย์โปรตีน รอบที่ 1 (3 สกู๊ป)",
         "calories": 120,
         "protein_g": 24,
         "carbs_g": 3,
@@ -40,7 +40,7 @@
       },
       {
         "time": "",
-        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (รวม 1 ขวด)",
+        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (1 ขวด)",
         "calories": 80,
         "protein_g": 2.4,
         "carbs_g": 16,
@@ -53,22 +53,30 @@
         "protein_g": 0,
         "carbs_g": 12,
         "fat_g": 0
+      },
+      {
+        "time": "",
+        "item": "เวย์โปรตีน รอบที่ 2 (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 780,
+      "total_intake_calories": 900,
       "total_burned_calories": 0,
-      "net_calories": 780,
-      "total_protein_g": 61.4,
-      "total_carbs_g": 103,
-      "total_fat_g": 11.5,
-      "protein_per_kg": 0.72
+      "net_calories": 900,
+      "total_protein_g": 85.4,
+      "total_carbs_g": 106,
+      "total_fat_g": 13,
+      "protein_per_kg": 1
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (61.4g reached)",
-      "weight_loss_status": "Healthy Deficit",
-      "recommendation": "ตอนนี้โปรตีนมาได้เกินครึ่งทางเล็กน้อยแล้วครับ (61.4/120g) พลังงานรวมอยู่ที่ 780 kcal ยังมีโควตาสำหรับมื้อเย็นที่เน้นโปรตีนได้อีกพอสมควรเลยครับ"
+      "muscle_maintenance": "Great Progress (85.4g reached)",
+      "weight_loss_status": "Active Deficit",
+      "recommendation": "ตอนนี้โปรตีนพุ่งขึ้นมาที่ 85.4 กรัมแล้วครับ ขาดอีกเพียง 34.6 กรัมจะครบเป้าหมาย 120 กรัม พลังงานรวมยังเหลือโควตาอีก 600 kcal สำหรับมื้อเย็นครับ"
     }
   },
   {

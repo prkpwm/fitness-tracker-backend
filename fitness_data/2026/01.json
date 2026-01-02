@@ -133,27 +133,27 @@
       },
       {
         "time": "",
-        "item": "ก๋วยเตี๋ยวเส้นหมี่ไก่ฉีกน้ำใส",
-        "calories": 350,
-        "protein_g": 25,
-        "carbs_g": 45,
-        "fat_g": 8
+        "item": "ก๋วยเตี๋ยวเส้นหมี่ไก่ฉีกน้ำใส (พิเศษ)",
+        "calories": 480,
+        "protein_g": 35,
+        "carbs_g": 60,
+        "fat_g": 10
       }
     ],
     "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 520,
+      "total_intake_calories": 650,
       "total_burned_calories": 0,
-      "net_calories": 520,
-      "total_protein_g": 49,
-      "total_carbs_g": 60,
-      "total_fat_g": 9.5,
-      "protein_per_kg": 0.58
+      "net_calories": 650,
+      "total_protein_g": 59,
+      "total_carbs_g": 75,
+      "total_fat_g": 11.5,
+      "protein_per_kg": 0.69
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (49g reached)",
-      "weight_loss_status": "Balanced Intake",
-      "recommendation": "ตอนนี้ได้รับโปรตีนไปแล้ว 49 กรัม ยังคงขาดอีก 71 กรัม เพื่อให้ถึงเป้าหมาย 120 กรัมครับ พลังงานรวมยังอยู่ในระดับที่ต่ำ (520 kcal) สามารถเลือกทานมื้อเย็นที่มีโปรตีนสูงได้อีกเยอะเลยครับ"
+      "muscle_maintenance": "Excellent Progress (59g reached)",
+      "weight_loss_status": "Healthy Deficit",
+      "recommendation": "ตอนนี้โปรตีนมาได้ครึ่งทางแล้วครับ (59/120g) พลังงานสุทธิยังเหลืออีก 850 kcal สำหรับช่วงบ่ายและเย็น ถือว่าจัดการได้ดีมากครับ"
     }
   }
 ]

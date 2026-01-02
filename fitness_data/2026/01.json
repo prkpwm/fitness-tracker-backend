@@ -61,11 +61,18 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
+      },
+      {
+        "time": "",
+        "item": "ไก่ทอดไร้น้ำมัน (7 ชิ้น)",
+        "calories": 420,
+        "protein_g": 38,
+        "carbs_g": 15,
+        "fat_g": 12
       }
     ],
     "exercise_summary": {
       "cardio_session_1": {
-        "avg_hr_bpm": 114,
         "calories_burned": 499,
         "distance_mi": 6.86,
         "duration_min": 100,
@@ -75,18 +82,18 @@
       "total_burned_calories": 499
     },
     "daily_total_stats": {
-      "total_intake_calories": 900,
+      "total_intake_calories": 1320,
       "total_burned_calories": 499,
-      "net_calories": 401,
-      "total_protein_g": 85.4,
-      "total_carbs_g": 106,
-      "total_fat_g": 13,
-      "protein_per_kg": 1
+      "net_calories": 821,
+      "total_protein_g": 123.4,
+      "total_carbs_g": 121,
+      "total_fat_g": 25,
+      "protein_per_kg": 1.45
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (85.4g reached)",
-      "weight_loss_status": "Aggressive Deficit (Net 401 kcal)",
-      "recommendation": "วันนี้คุณเบิร์นหนักมากและทำสถิติใหม่ได้สำเร็จ! พลังงานสุทธิเหลือเพียง 401 kcal แนะนำให้ทานมื้อเย็นที่มีโปรตีนและคาร์โบไฮเดรตเชิงซ้อนเพื่อฟื้นฟูกล้ามเนื้อและเติมพลังงานที่เสียไปครับ"
+      "muscle_maintenance": "Excellent! (123.4g Protein - Goal Exceeded)",
+      "weight_loss_status": "Successful Deficit",
+      "recommendation": "คุณปิดวันได้อย่างสมบูรณ์แบบครับ! ได้โปรตีนครบตามเป้าหมาย 120 กรัมเพื่อซ่อมแซมร่างกายหลังทำสถิติวิ่งใหม่ และพลังงานสุทธิยังต่ำกว่าเป้าหมาย 1,500 kcal อีกด้วย"
     }
   }
 ]

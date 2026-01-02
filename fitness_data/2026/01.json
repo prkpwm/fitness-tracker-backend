@@ -1,106 +1,5 @@
 [
   {
-    "date": "2026-01-01",
-    "user_profile": {
-      "age": 28,
-      "weight_kg": 85,
-      "height_cm": 173,
-      "bmr_kcal": 0,
-      "tdee_maintenance_kcal": 0,
-      "target_lose_weight_kcal": 0,
-      "target_protein_g": 0,
-      "goal_calories": 1500,
-      "maintenance_protein_target_g": 120,
-      "recommended_daily_calories": 2100
-    },
-    "food_diary": [
-      {
-        "time": "",
-        "item": "นมเปรี้ยวบีทาเกน โปร (300 มล.)",
-        "calories": 150,
-        "protein_g": 16,
-        "carbs_g": 16,
-        "fat_g": 2.5
-      },
-      {
-        "time": "",
-        "item": "แกงจืดวุ้นเส้นซี่โครงหมู + ข้าวสวย",
-        "calories": 620,
-        "protein_g": 32,
-        "carbs_g": 55,
-        "fat_g": 30
-      },
-      {
-        "time": "",
-        "item": "ส้มสายน้ำผึ้ง (3 ลูก)",
-        "calories": 135,
-        "protein_g": 2,
-        "carbs_g": 33,
-        "fat_g": 0
-      },
-      {
-        "time": "",
-        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ (ครึ่งขวด)",
-        "calories": 140,
-        "protein_g": 3,
-        "carbs_g": 32.5,
-        "fat_g": 0
-      },
-      {
-        "time": "",
-        "item": "เนสที ชามะนาว (1 ซอง)",
-        "calories": 50,
-        "protein_g": 0,
-        "carbs_g": 12,
-        "fat_g": 0
-      },
-      {
-        "time": "",
-        "item": "เวย์โปรตีน รอบที่ 1 (4 สกู๊ป)",
-        "calories": 160,
-        "protein_g": 32,
-        "carbs_g": 4,
-        "fat_g": 2
-      },
-      {
-        "time": "",
-        "item": "เวย์โปรตีน รอบที่ 2 (4 สกู๊ป)",
-        "calories": 160,
-        "protein_g": 32,
-        "carbs_g": 4,
-        "fat_g": 2
-      }
-    ],
-    "exercise_summary": {
-      "cardio_session_1": {
-        "calories_burned": 469,
-        "distance_mi": 5.2,
-        "duration_min": 99,
-        "type": "Treadmill Running"
-      },
-      "strength_training": {
-        "calories_burned": 150,
-        "duration_min": 30,
-        "target": "Weight Training"
-      },
-      "total_burned_calories": 619
-    },
-    "daily_total_stats": {
-      "total_intake_calories": 1415,
-      "total_burned_calories": 619,
-      "net_calories": 796,
-      "total_protein_g": 117,
-      "total_carbs_g": 156.5,
-      "total_fat_g": 36.5,
-      "protein_per_kg": 1.38
-    },
-    "ai_evaluation": {
-      "muscle_maintenance": "Excellent! (117g Protein reached)",
-      "weight_loss_status": "Perfect Deficit",
-      "recommendation": "คุณแตะระดับโปรตีน 117 กรัมแล้ว ขาดอีกเพียง 3 กรัมก็จะครบเป้าหมาย 120 กรัมครับ ถือว่าปิดวันได้อย่างสุดยอดมากสำหรับการซ่อมแซมร่างกายหลังจากวิ่งและเวทครับ"
-    }
-  },
-  {
     "date": "2026-01-02",
     "user_profile": {
       "age": 28,
@@ -141,10 +40,10 @@
       },
       {
         "time": "",
-        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (ครึ่งขวด)",
-        "calories": 40,
-        "protein_g": 1.2,
-        "carbs_g": 8,
+        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (รวม 1 ขวด)",
+        "calories": 80,
+        "protein_g": 2.4,
+        "carbs_g": 16,
         "fat_g": 0
       },
       {
@@ -158,18 +57,18 @@
     ],
     "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 740,
+      "total_intake_calories": 780,
       "total_burned_calories": 0,
-      "net_calories": 740,
-      "total_protein_g": 60.2,
-      "total_carbs_g": 95,
+      "net_calories": 780,
+      "total_protein_g": 61.4,
+      "total_carbs_g": 103,
       "total_fat_g": 11.5,
-      "protein_per_kg": 0.71
+      "protein_per_kg": 0.72
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Halfway to goal (60.2g reached)",
-      "weight_loss_status": "Steady Progress",
-      "recommendation": "ตอนนี้ได้รับพลังงานรวม 740 kcal โดยมีสัดส่วนของคาร์โบไฮเดรตเพิ่มขึ้นเล็กน้อยจากเครื่องดื่ม อย่าลืมเน้นโปรตีนในมื้อถัดไปเพื่อให้ครบเป้าหมาย 120 กรัมนะครับ"
+      "muscle_maintenance": "Good Progress (61.4g reached)",
+      "weight_loss_status": "Healthy Deficit",
+      "recommendation": "ตอนนี้โปรตีนมาได้เกินครึ่งทางเล็กน้อยแล้วครับ (61.4/120g) พลังงานรวมอยู่ที่ 780 kcal ยังมีโควตาสำหรับมื้อเย็นที่เน้นโปรตีนได้อีกพอสมควรเลยครับ"
     }
   }
 ]

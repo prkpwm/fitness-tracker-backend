@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 11:56:41",
+    "last_update": "2026-01-03 13:23:00",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -88,26 +88,33 @@
         "duration_min": 62,
         "type": "Indoor Running"
       },
+      "cardio_session_2": {
+        "avg_hr_bpm": 116,
+        "calories_burned": 363,
+        "distance_mi": 4.38,
+        "duration_min": 64,
+        "type": "Treadmill Running"
+      },
       "strength_training": {
         "calories_burned": 0,
         "duration_min": 0,
         "target": "N/A"
       },
-      "total_burned_calories": 346
+      "total_burned_calories": 709
     },
     "daily_total_stats": {
       "total_intake_calories": 1205,
-      "total_burned_calories": 346,
-      "net_calories": 859,
+      "total_burned_calories": 709,
+      "net_calories": 496,
       "total_protein_g": 71.4,
       "total_carbs_g": 133.2,
       "total_fat_g": 41,
       "protein_per_kg": 0.84
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (71.4g protein reached)",
-      "weight_loss_status": "Successful Deficit",
-      "recommendation": "ยอดโปรตีนพุ่งขึ้นมาที่ 71.4 กรัมแล้วครับ! ถือว่าเกินครึ่งทางของเป้าหมาย 120 กรัมแล้ว พลังงานรวมยังคุมได้ดีที่ 1,205 kcal มื้อเย็นนี้ถ้าจัดโปรตีนหนักๆ อีกสักหนึ่งมื้อ เป้าหมายวันนี้สำเร็จแน่นอนครับ"
+      "muscle_maintenance": "Good Progress (71.4g Protein)",
+      "weight_loss_status": "Massive Deficit (Net 496 kcal)",
+      "recommendation": "วันนี้คุณโหดมากครับ วิ่งไป 2 รอบรวมกว่า 8 ไมล์ (เบิร์นไป 709 kcal) ทำให้ Net Calories เหลือไม่ถึง 500 kcal แม้จะทานเวย์เพิ่มแล้วแต่โปรตีนยังอยู่ที่ 71.4g หากไหวแนะนำมื้อดึกเบาๆ เป็นไข่ต้มหรือนมโปรตีนสูงอีกสักนิดจะดีต่อการฟื้นฟูกล้ามเนื้อครับ"
     }
   }
 ]

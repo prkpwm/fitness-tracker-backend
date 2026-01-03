@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 13:23:00",
+    "last_update": "2026-01-03 14:10:13",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,6 +78,14 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
+      },
+      {
+        "time": "",
+        "item": "ไก่ทอดไร้น้ำมัน (5 ชิ้น) + น้ำจิ้มบาร์บีคิว",
+        "calories": 330,
+        "protein_g": 28,
+        "carbs_g": 15,
+        "fat_g": 16
       }
     ],
     "exercise_summary": {
@@ -103,18 +111,18 @@
       "total_burned_calories": 709
     },
     "daily_total_stats": {
-      "total_intake_calories": 1205,
+      "total_intake_calories": 1535,
       "total_burned_calories": 709,
-      "net_calories": 496,
-      "total_protein_g": 71.4,
-      "total_carbs_g": 133.2,
-      "total_fat_g": 41,
-      "protein_per_kg": 0.84
+      "net_calories": 826,
+      "total_protein_g": 99.4,
+      "total_carbs_g": 148.2,
+      "total_fat_g": 57,
+      "protein_per_kg": 1.17
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (71.4g Protein)",
-      "weight_loss_status": "Massive Deficit (Net 496 kcal)",
-      "recommendation": "วันนี้คุณโหดมากครับ วิ่งไป 2 รอบรวมกว่า 8 ไมล์ (เบิร์นไป 709 kcal) ทำให้ Net Calories เหลือไม่ถึง 500 kcal แม้จะทานเวย์เพิ่มแล้วแต่โปรตีนยังอยู่ที่ 71.4g หากไหวแนะนำมื้อดึกเบาๆ เป็นไข่ต้มหรือนมโปรตีนสูงอีกสักนิดจะดีต่อการฟื้นฟูกล้ามเนื้อครับ"
+      "muscle_maintenance": "Excellent (99.4g Protein reached)",
+      "weight_loss_status": "Successful Deficit",
+      "recommendation": "วันนี้คุณทำผลงานได้ยอดเยี่ยมมากครับ! วิ่งรวมกันกว่า 8.48 ไมล์ เบิร์นไปถึง 709 kcal และการเพิ่มไก่ทอดไร้น้ำมันช่วยให้ยอดโปรตีนพุ่งแตะ 99.4 กรัม ซึ่งใกล้เคียงเป้าหมาย 120 กรัมมากแล้วครับ"
     }
   }
 ]

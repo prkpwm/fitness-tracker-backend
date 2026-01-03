@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 11:52:43",
+    "last_update": "2026-01-03 11:56:41",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,6 +70,14 @@
         "protein_g": 2.4,
         "carbs_g": 16,
         "fat_g": 0
+      },
+      {
+        "time": "",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": {
@@ -88,18 +96,18 @@
       "total_burned_calories": 346
     },
     "daily_total_stats": {
-      "total_intake_calories": 1085,
+      "total_intake_calories": 1205,
       "total_burned_calories": 346,
-      "net_calories": 739,
-      "total_protein_g": 47.4,
-      "total_carbs_g": 130.2,
-      "total_fat_g": 39.5,
-      "protein_per_kg": 0.56
+      "net_calories": 859,
+      "total_protein_g": 71.4,
+      "total_carbs_g": 133.2,
+      "total_fat_g": 41,
+      "protein_per_kg": 0.84
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (47.4g protein)",
+      "muscle_maintenance": "Good Progress (71.4g protein reached)",
       "weight_loss_status": "Successful Deficit",
-      "recommendation": "วันนี้คุณคาร์ดิโอได้ดีเยี่ยมในโซน Fat Burn (114 bpm) ทำให้เผาผลาญไปได้ 346 kcal ครับ พลังงานสุทธิปัจจุบันอยู่ที่ 739 kcal แนะนำให้เพิ่มมื้อเย็นที่เน้นโปรตีนสูงเพื่อซ่อมแซมร่างกายหลังจากวิ่งมา 1 ชั่วโมงเต็มนะครับ"
+      "recommendation": "ยอดโปรตีนพุ่งขึ้นมาที่ 71.4 กรัมแล้วครับ! ถือว่าเกินครึ่งทางของเป้าหมาย 120 กรัมแล้ว พลังงานรวมยังคุมได้ดีที่ 1,205 kcal มื้อเย็นนี้ถ้าจัดโปรตีนหนักๆ อีกสักหนึ่งมื้อ เป้าหมายวันนี้สำเร็จแน่นอนครับ"
     }
   }
 ]

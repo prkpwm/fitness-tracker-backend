@@ -17,7 +17,7 @@ import (
 	"github.com/rs/cors"
 )
 
-var fitnessRecords []FitnessData
+var cacheRecords []FitnessData
 const dataDir = "fitness_data"
 const backupFile = "backup.txt"
 
@@ -86,6 +86,16 @@ func main() {
 func getFitnessData(w http.ResponseWriter, r *http.Request) {
 	// Get today's date
 	t := time.Now()
+	today := t.Format("2006-01-02")
+	
+	// Check if record exists in cacheRecords first
+	for _, record := range cacheRecords {
+		if record.Date == today {
+			w.Header().Set("Content-Type", "application/json")
+			json.NewEncoder(w).Encode(record)
+			return
+		}
+	}
 	
 	// Load data from GitHub for today's daily file
 	githubPath := fmt.Sprintf("fitness_data/%d/%02d/%02d.json", t.Year(), t.Month(), t.Day())
@@ -101,11 +111,11 @@ func getFitnessData(w http.ResponseWriter, r *http.Request) {
 }
 
 func getAllFitnessData(w http.ResponseWriter, r *http.Request) {
-	if fitnessRecords == nil || len(fitnessRecords) == 0 {
+	if cacheRecords == nil || len(cacheRecords) == 0 {
 		loadData()
 	}
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(fitnessRecords)
+	json.NewEncoder(w).Encode(cacheRecords)
 }
 
 func createFitnessData(w http.ResponseWriter, r *http.Request) {
@@ -116,9 +126,9 @@ func createFitnessData(w http.ResponseWriter, r *http.Request) {
 	data.LastUpdate = time.Now().Format("2006-01-02 15:04:05")
 	
 	// Check for duplicate by date and replace if exists
-	for i, record := range fitnessRecords {
+	for i, record := range cacheRecords {
 		if record.Date == data.Date {
-			fitnessRecords[i] = data
+			cacheRecords[i] = data
 			saveData()
 			w.Header().Set("Content-Type", "application/json")
 			json.NewEncoder(w).Encode(data)
@@ -127,7 +137,7 @@ func createFitnessData(w http.ResponseWriter, r *http.Request) {
 	}
 	
 	// If no duplicate found, append new record
-	fitnessRecords = append(fitnessRecords, data)
+	cacheRecords = append(cacheRecords, data)
 	saveData()
 	
 	w.Header().Set("Content-Type", "application/json")
@@ -137,6 +147,15 @@ func createFitnessData(w http.ResponseWriter, r *http.Request) {
 func getFitnessDataByDate(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	date := vars["date"]
+	
+	// Check if record exists in cacheRecords first
+	for _, record := range cacheRecords {
+		if record.Date == date {
+			w.Header().Set("Content-Type", "application/json")
+			json.NewEncoder(w).Encode(record)
+			return
+		}
+	}
 	
 	// Parse date to determine year/month/day
 	t, err := time.Parse("2006-01-02", date)
@@ -164,7 +183,7 @@ func getRawJsonByDate(w http.ResponseWriter, r *http.Request) {
 		date = time.Now().Format("2006-01-02")
 	}
 	
-	for _, record := range fitnessRecords {
+	for _, record := range cacheRecords {
 		if record.Date == date {
 			w.Header().Set("Content-Type", "application/json")
 			json.NewEncoder(w).Encode(record)
@@ -179,8 +198,17 @@ func getFitnessDataByYear(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	year := vars["year"]
 	
+	// Check cacheRecords first for matching year
+	var yearRecords []FitnessData
+	
+	if len(yearRecords) > 0 {
+		w.Header().Set("Content-Type", "application/json")
+		json.NewEncoder(w).Encode(yearRecords)
+		return
+	}
+	
 	// Load data from GitHub for specific year by traversing all months
-	yearRecords := loadFromGitHubByYearPath(fmt.Sprintf("fitness_data/%s", year))
+	yearRecords = loadFromGitHubByYearPath(fmt.Sprintf("fitness_data/%s", year))
 	
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(yearRecords)
@@ -191,26 +219,34 @@ func getFitnessDataByMonth(w http.ResponseWriter, r *http.Request) {
 	year := vars["year"]
 	month := vars["month"]
 	
+	// Check cacheRecords first for matching year-month
+	var monthRecords []FitnessData
+	if len(monthRecords) > 0 {
+		w.Header().Set("Content-Type", "application/json")
+		json.NewEncoder(w).Encode(monthRecords)
+		return
+	}
+	
 	// Load data from GitHub for specific month directory
-	monthRecords := loadFromGitHubByPath(fmt.Sprintf("fitness_data/%s/%s", year, month))
+	monthRecords = loadFromGitHubByPath(fmt.Sprintf("fitness_data/%s/%s", year, month))
 	
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(monthRecords)
 }
 
 func loadData() {
-	fitnessRecords = []FitnessData{}
+	cacheRecords = []FitnessData{}
 	
 	// Load data from GitHub
 	loadFromGitHub()
 	
-	log.Printf("Loaded %d records from GitHub", len(fitnessRecords))
+	log.Printf("Loaded %d records from GitHub", len(cacheRecords))
 }
 
 func saveData() {
-	log.Printf("Starting saveData for %d records", len(fitnessRecords))
+	log.Printf("Starting saveData for %d records", len(cacheRecords))
 	// Update GitHub with daily files
-	for _, record := range fitnessRecords {
+	for _, record := range cacheRecords {
 		t, err := time.Parse("2006-01-02", record.Date)
 		if err != nil {
 			log.Printf("Error parsing date %s: %v", record.Date, err)
@@ -404,12 +440,12 @@ func loadFromGitHub() {
 				}
 				
 				log.Printf("[%s] Loaded %d records from %s", time.Now().Format("15:04:05"), len(dailyRecords), githubPath)
-				fitnessRecords = append(fitnessRecords, dailyRecords...)
+				cacheRecords = append(cacheRecords, dailyRecords...)
 			}
 		}
 	}
 	duration := time.Since(start)
-	log.Printf("[%s] Completed full GitHub data load: %d total records (took %v)", time.Now().Format("15:04:05"), len(fitnessRecords), duration)
+	log.Printf("[%s] Completed full GitHub data load: %d total records (took %v)", time.Now().Format("15:04:05"), len(cacheRecords), duration)
 }
 
 func getGitHubDirectoryContents(token, path string) []string {

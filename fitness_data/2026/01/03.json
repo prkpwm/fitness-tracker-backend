@@ -1,0 +1,43 @@
+[
+  {
+    "date": "2026-01-03",
+    "last_update": "2026-01-03 06:21:27",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "",
+        "item": "กระดูกหมูทอดไร้น้ำมัน",
+        "calories": 350,
+        "protein_g": 22,
+        "carbs_g": 0,
+        "fat_g": 28
+      }
+    ],
+    "exercise_summary": null,
+    "daily_total_stats": {
+      "total_intake_calories": 350,
+      "total_burned_calories": 0,
+      "net_calories": 350,
+      "total_protein_g": 22,
+      "total_carbs_g": 0,
+      "total_fat_g": 28,
+      "protein_per_kg": 0.26
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Starting strong (22g protein reached)",
+      "weight_loss_status": "Healthy Start",
+      "recommendation": "เป็นการเริ่มต้นมื้อแรกของวันที่ดีครับ ได้โปรตีนเน้นๆ แต่อย่าลืมเพิ่มผักหรือคาร์โบไฮเดรตเชิงซ้อนเพื่อให้ร่างกายได้รับสารอาหารครบถ้วนและมีพลังงานเพียงพอสำหรับการใช้ชีวิตในวันหยุดนะครับ"
+    }
+  }
+]

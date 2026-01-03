@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 14:10:13",
+    "last_update": "2026-01-03 15:44:11",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -103,26 +103,33 @@
         "duration_min": 64,
         "type": "Treadmill Running"
       },
-      "strength_training": {
-        "calories_burned": 0,
-        "duration_min": 0,
-        "target": "N/A"
+      "cardio_session_3": {
+        "avg_hr_bpm": 118,
+        "calories_burned": 327,
+        "distance_mi": 3.43,
+        "duration_min": 55,
+        "type": "Indoor Running"
       },
-      "total_burned_calories": 709
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Full Body/Core"
+      },
+      "total_burned_calories": 1186
     },
     "daily_total_stats": {
       "total_intake_calories": 1535,
-      "total_burned_calories": 709,
-      "net_calories": 826,
+      "total_burned_calories": 1186,
+      "net_calories": 349,
       "total_protein_g": 99.4,
       "total_carbs_g": 148.2,
       "total_fat_g": 57,
       "protein_per_kg": 1.17
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (99.4g Protein reached)",
-      "weight_loss_status": "Successful Deficit",
-      "recommendation": "วันนี้คุณทำผลงานได้ยอดเยี่ยมมากครับ! วิ่งรวมกันกว่า 8.48 ไมล์ เบิร์นไปถึง 709 kcal และการเพิ่มไก่ทอดไร้น้ำมันช่วยให้ยอดโปรตีนพุ่งแตะ 99.4 กรัม ซึ่งใกล้เคียงเป้าหมาย 120 กรัมมากแล้วครับ"
+      "muscle_maintenance": "Excellent Effort (99.4g Protein + Weight Training)",
+      "weight_loss_status": "Extreme Deficit (Net 349 kcal)",
+      "recommendation": "วันนี้คือที่สุดครับ! ทั้งวิ่ง 3 รอบและเวทเพิ่มอีก 30 นาที เผาผลาญรวมเกือบ 1,200 kcal ทำให้ค่า Net Calories ต่ำมากเพียง 349 kcal ครับ พยายามดื่มน้ำเยอะๆ และพักผ่อนให้เพียงพอเพื่อลดอาการล้าของกล้ามเนื้อนะครับ"
     }
   }
 ]

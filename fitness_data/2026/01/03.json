@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 08:51:35",
+    "last_update": "2026-01-03 08:52:21",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,7 +70,7 @@
     "daily_total_stats": {
       "total_intake_calories": 985,
       "total_burned_calories": 0,
-      "net_calories": 1005,
+      "net_calories": 985,
       "total_protein_g": 45,
       "total_carbs_g": 114.2,
       "total_fat_g": 39.5,

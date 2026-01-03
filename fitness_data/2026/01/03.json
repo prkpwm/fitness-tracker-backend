@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 06:40:51",
+    "last_update": "2026-01-03 07:40:56",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -41,11 +41,11 @@
       },
       {
         "time": "",
-        "item": "ข้าวเหนียว (ถุง 10 บาท)",
-        "calories": 160,
-        "protein_g": 3,
-        "carbs_g": 35,
-        "fat_g": 0.5
+        "item": "ข้าวเหนียว (2 ถุง)",
+        "calories": 320,
+        "protein_g": 6,
+        "carbs_g": 70,
+        "fat_g": 1
       },
       {
         "time": "",
@@ -72,18 +72,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 795,
+      "total_intake_calories": 955,
       "total_burned_calories": 0,
-      "net_calories": 795,
-      "total_protein_g": 42,
-      "total_carbs_g": 67.2,
-      "total_fat_g": 39,
-      "protein_per_kg": 0.49
+      "net_calories": 955,
+      "total_protein_g": 45,
+      "total_carbs_g": 102.2,
+      "total_fat_g": 39.5,
+      "protein_per_kg": 0.53
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (42g protein reached)",
-      "weight_loss_status": "Healthy Intake",
-      "recommendation": "ตอนนี้โปรตีนขยับขึ้นมาที่ 42 กรัมแล้วครับ ถือว่ามาได้เกือบ 1 ใน 3 ของเป้าหมาย (42/120g) พลังงานรวมยังอยู่ที่ 795 kcal ยังมีโควตาสำหรับมื้อเย็นที่เน้นโปรตีนได้อีกเยอะเลยครับ"
+      "muscle_maintenance": "Progressing (45g protein reached)",
+      "weight_loss_status": "Balanced Intake",
+      "recommendation": "ตอนนี้พลังงานขยับขึ้นมาเกือบแตะ 1,000 kcal แล้วครับ (955/1,500) โปรตีนรวมอยู่ที่ 45 กรัม เย็นนี้หากเติมโปรตีนเน้นๆ อีกประมาณ 75 กรัม ก็จะถึงเป้าหมาย 120 กรัมพอดีครับ"
     }
   }
 ]

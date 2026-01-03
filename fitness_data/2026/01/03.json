@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 06:37:42",
+    "last_update": "2026-01-03 06:40:51",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -30,6 +30,30 @@
         "protein_g": 0,
         "carbs_g": 10,
         "fat_g": 0
+      },
+      {
+        "time": "",
+        "item": "ส้มตำปลาร้า (ไม่ใส่น้ำตาล/มะเขือเทศ) *มะละกอเยอะ",
+        "calories": 95,
+        "protein_g": 3,
+        "carbs_g": 21,
+        "fat_g": 0.5
+      },
+      {
+        "time": "",
+        "item": "ข้าวเหนียว (ถุง 10 บาท)",
+        "calories": 160,
+        "protein_g": 3,
+        "carbs_g": 35,
+        "fat_g": 0.5
+      },
+      {
+        "time": "",
+        "item": "ไข่คั่วไม่ใส่น้ำมัน (2 ฟอง)",
+        "calories": 140,
+        "protein_g": 14,
+        "carbs_g": 1.2,
+        "fat_g": 10
       }
     ],
     "exercise_summary": {
@@ -48,18 +72,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 400,
+      "total_intake_calories": 795,
       "total_burned_calories": 0,
-      "net_calories": 400,
-      "total_protein_g": 22,
-      "total_carbs_g": 10,
-      "total_fat_g": 28,
-      "protein_per_kg": 0.26
+      "net_calories": 795,
+      "total_protein_g": 42,
+      "total_carbs_g": 67.2,
+      "total_fat_g": 39,
+      "protein_per_kg": 0.49
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Initial Phase (22g protein)",
-      "weight_loss_status": "Waiting for Activity",
-      "recommendation": "พลังงานรับเข้าอยู่ที่ 400 kcal ครับ หากวันนี้มีแผนจะไปทำสถิติวิ่งใหม่เหมือนเมื่อวาน หรือจะสลับมาเวทเทรนนิ่ง สามารถส่งข้อมูลมาให้ผมบันทึกได้ทันทีเลยนะครับ"
+      "muscle_maintenance": "Progressing (42g protein reached)",
+      "weight_loss_status": "Healthy Intake",
+      "recommendation": "ตอนนี้โปรตีนขยับขึ้นมาที่ 42 กรัมแล้วครับ ถือว่ามาได้เกือบ 1 ใน 3 ของเป้าหมาย (42/120g) พลังงานรวมยังอยู่ที่ 795 kcal ยังมีโควตาสำหรับมื้อเย็นที่เน้นโปรตีนได้อีกเยอะเลยครับ"
     }
   }
 ]

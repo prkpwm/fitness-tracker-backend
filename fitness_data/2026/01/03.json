@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 07:40:56",
+    "last_update": "2026-01-03 08:25:20",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -54,6 +54,14 @@
         "protein_g": 14,
         "carbs_g": 1.2,
         "fat_g": 10
+      },
+      {
+        "time": "",
+        "item": "เนสที ชามะนาว (1 ซอง)",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 12,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
@@ -72,18 +80,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 955,
+      "total_intake_calories": 1005,
       "total_burned_calories": 0,
-      "net_calories": 955,
+      "net_calories": 1005,
       "total_protein_g": 45,
-      "total_carbs_g": 102.2,
+      "total_carbs_g": 114.2,
       "total_fat_g": 39.5,
       "protein_per_kg": 0.53
     },
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (45g protein reached)",
-      "weight_loss_status": "Balanced Intake",
-      "recommendation": "ตอนนี้พลังงานขยับขึ้นมาเกือบแตะ 1,000 kcal แล้วครับ (955/1,500) โปรตีนรวมอยู่ที่ 45 กรัม เย็นนี้หากเติมโปรตีนเน้นๆ อีกประมาณ 75 กรัม ก็จะถึงเป้าหมาย 120 กรัมพอดีครับ"
+      "weight_loss_status": "Steady",
+      "recommendation": "พลังงานรวมวันนี้แตะ 1,000 kcal แล้วครับ (1,005/1,500) โปรตีนยังอยู่ที่ 45 กรัม มื้อเย็นแนะนำให้เน้นแหล่งโปรตีนที่ไม่มีไขมันสูงนัก เช่น ปลา หรืออกไก่ เพื่อให้ถึงเป้าหมาย 120 กรัม โดยไม่ให้พลังงานเกินเป้าครับ"
     }
   }
 ]

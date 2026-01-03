@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 06:22:02",
+    "last_update": "2026-01-03 06:37:42",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -22,22 +22,44 @@
         "protein_g": 22,
         "carbs_g": 0,
         "fat_g": 28
+      },
+      {
+        "time": "",
+        "item": "โวลต์ ซิงค์ (1 ขวด)",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 10,
+        "fat_g": 0
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 0,
+        "calories_burned": 0,
+        "distance_mi": 0,
+        "duration_min": 0,
+        "type": "N/A"
+      },
+      "strength_training": {
+        "calories_burned": 0,
+        "duration_min": 0,
+        "target": "N/A"
+      },
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
-      "total_intake_calories": 350,
+      "total_intake_calories": 400,
       "total_burned_calories": 0,
-      "net_calories": 350,
+      "net_calories": 400,
       "total_protein_g": 22,
-      "total_carbs_g": 0,
+      "total_carbs_g": 10,
       "total_fat_g": 28,
       "protein_per_kg": 0.26
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Starting strong (22g protein reached)",
-      "weight_loss_status": "Healthy Start",
-      "recommendation": "เป็นการเริ่มต้นมื้อแรกของวันที่ดีครับ ได้โปรตีนเน้นๆ แต่อย่าลืมเพิ่มผักหรือคาร์โบไฮเดรตเชิงซ้อนเพื่อให้ร่างกายได้รับสารอาหารครบถ้วนและมีพลังงานเพียงพอสำหรับการใช้ชีวิตในวันหยุดนะครับ"
+      "muscle_maintenance": "Initial Phase (22g protein)",
+      "weight_loss_status": "Waiting for Activity",
+      "recommendation": "พลังงานรับเข้าอยู่ที่ 400 kcal ครับ หากวันนี้มีแผนจะไปทำสถิติวิ่งใหม่เหมือนเมื่อวาน หรือจะสลับมาเวทเทรนนิ่ง สามารถส่งข้อมูลมาให้ผมบันทึกได้ทันทีเลยนะครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-03",
-    "last_update": "2026-01-03 10:44:23",
+    "last_update": "2026-01-03 11:52:43",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -74,23 +74,23 @@
     ],
     "exercise_summary": {
       "cardio_session_1": {
-        "avg_hr_bpm": 0,
-        "calories_burned": 0,
-        "distance_mi": 0,
-        "duration_min": 0,
-        "type": "N/A"
+        "avg_hr_bpm": 114,
+        "calories_burned": 346,
+        "distance_mi": 4.1,
+        "duration_min": 62,
+        "type": "Indoor Running"
       },
       "strength_training": {
         "calories_burned": 0,
         "duration_min": 0,
         "target": "N/A"
       },
-      "total_burned_calories": 0
+      "total_burned_calories": 346
     },
     "daily_total_stats": {
       "total_intake_calories": 1085,
-      "total_burned_calories": 0,
-      "net_calories": 1085,
+      "total_burned_calories": 346,
+      "net_calories": 739,
       "total_protein_g": 47.4,
       "total_carbs_g": 130.2,
       "total_fat_g": 39.5,
@@ -98,8 +98,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (47.4g protein)",
-      "weight_loss_status": "Steady",
-      "recommendation": "พลังงานรวมตอนนี้ขยับมาที่ 1,085 kcal ครับ ยังเหลือโควตาอีกประมาณ 415 kcal เพื่อให้ครบเป้า 1,500 kcal แนะนำให้มื้อถัดไปเน้นโปรตีนหนักๆ เพื่อดึงยอดโปรตีนรวมให้ใกล้เคียง 120 กรัมครับ"
+      "weight_loss_status": "Successful Deficit",
+      "recommendation": "วันนี้คุณคาร์ดิโอได้ดีเยี่ยมในโซน Fat Burn (114 bpm) ทำให้เผาผลาญไปได้ 346 kcal ครับ พลังงานสุทธิปัจจุบันอยู่ที่ 739 kcal แนะนำให้เพิ่มมื้อเย็นที่เน้นโปรตีนสูงเพื่อซ่อมแซมร่างกายหลังจากวิ่งมา 1 ชั่วโมงเต็มนะครับ"
     }
   }
 ]

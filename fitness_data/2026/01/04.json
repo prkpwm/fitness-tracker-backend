@@ -1,0 +1,45 @@
+[
+  {
+    "date": "2026-01-04",
+    "last_update": "2026-01-04 07:58:46",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "",
+        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (ครึ่งขวด)",
+        "calories": 40,
+        "protein_g": 1.2,
+        "carbs_g": 8,
+        "fat_g": 0
+      }
+    ],
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 40,
+      "total_burned_calories": 0,
+      "net_calories": 40,
+      "total_protein_g": 1.2,
+      "total_carbs_g": 8,
+      "total_fat_g": 0,
+      "protein_per_kg": 0
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "",
+      "weight_loss_status": "",
+      "recommendation": "เริ่มต้นมื้อแรกของวันด้วยนมเปรี้ยวเบาๆ 40 kcal ครับ วันนี้อย่าลืมเติมโปรตีนให้ครบ 120 กรัมตามเป้าหมายเพื่อช่วยฟื้นฟูกล้ามเนื้อจากการออกกำลังกายหนักเมื่อวานนะครับ"
+    }
+  }
+]

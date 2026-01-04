@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-04",
-    "last_update": "2026-01-04 14:06:09",
+    "last_update": "2026-01-04 14:47:35",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,43 +70,42 @@
         "protein_g": 0,
         "carbs_g": 12,
         "fat_g": 0
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 360,
+        "protein_g": 75,
+        "carbs_g": 9,
+        "fat_g": 3
       }
     ],
     "exercise_summary": {
-      "cardio_session_1": {
-        "avg_hr_bpm": 115,
-        "calories_burned": 319,
-        "distance_mi": 4.14,
-        "duration_min": 55,
-        "type": "Treadmill Running (New Personal Record)"
-      },
-      "cardio_session_2": {
-        "avg_hr_bpm": 111,
-        "calories_burned": 166,
-        "distance_mi": 2.08,
-        "duration_min": 28,
-        "type": "Treadmill Running"
+      "cardio_total": {
+        "calories_burned": 485,
+        "distance_mi": 6.22,
+        "type": "Treadmill Running (2 Sessions)"
       },
       "strength_training": {
         "calories_burned": 150,
         "duration_min": 30,
-        "target": "Full Body/Core"
+        "type": "Full Body/Core"
       },
       "total_burned_calories": 635
     },
     "daily_total_stats": {
-      "total_intake_calories": 1410,
+      "total_intake_calories": 1770,
       "total_burned_calories": 635,
-      "net_calories": 775,
-      "total_protein_g": 93.7,
-      "total_carbs_g": 117,
-      "total_fat_g": 58.5,
-      "protein_per_kg": 1.1
+      "net_calories": 1135,
+      "total_protein_g": 168.7,
+      "total_carbs_g": 126,
+      "total_fat_g": 61.5,
+      "protein_per_kg": 1.98
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (93.7g Protein)",
-      "weight_loss_status": "Intense Deficit (Net 775 kcal)",
-      "recommendation": "วันนี้คุณใช้พลังงานไปเยอะมาก (Burn 635 kcal) ส่งผลให้แคลอรี่สุทธิลดลงเหลือเพียง 775 kcal ถือว่าอยู่ในช่วงเบิร์นไขมันที่เข้มข้นมากครับ อย่าลืมให้ความสำคัญกับการเติมโปรตีนให้ครบ 120g เพื่อป้องกันการสลายของกล้ามเนื้อหลังเวทนะครับ"
+      "muscle_maintenance": "Superior (168.7g Protein - High Quality Intake)",
+      "weight_loss_status": "Successful Deficit (Net 1135 kcal)",
+      "recommendation": "วันนี้สมบูรณ์แบบมากครับ! คุณทานโปรตีนได้ถึง 168.7 กรัม (เกินเป้า 120 กรัมมาเยอะมาก) ซึ่งจะช่วยซ่อมแซมกล้ามเนื้อจากการวิ่ง Personal Record และการเวทเทรนนิ่งวันนี้ได้อย่างดีเยี่ยม แม้แคลอรี่รับเข้าจะเกิน 1,500 มานิดหน่อย แต่เมื่อหักลบการออกกำลังกายแล้ว พลังงานสุทธิยังอยู่ที่ 1,135 kcal ซึ่งถือว่าลดไขมันได้ดีมากครับ"
     }
   }
 ]

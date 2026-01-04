@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-01-04",
-    "last_update": "2026-01-04 09:31:46",
+    "last_update": "2026-01-04 09:49:49",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
       "height_cm": 173,
-      "bmr_kcal": 0,
-      "tdee_maintenance_kcal": 0,
-      "target_lose_weight_kcal": 0,
-      "target_protein_g": 0,
+      "bmr_kcal": 1850,
+      "tdee_maintenance_kcal": 2100,
+      "target_lose_weight_kcal": 1500,
+      "target_protein_g": 120,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
       "recommended_daily_calories": 2100
@@ -46,22 +46,44 @@
         "protein_g": 4.5,
         "carbs_g": 52,
         "fat_g": 0.5
+      },
+      {
+        "time": "บ่าย",
+        "item": "ขิงผงผสมน้ำตาลทรายแดง (1 ซอง)",
+        "calories": 70,
+        "protein_g": 0,
+        "carbs_g": 18,
+        "fat_g": 0
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 0,
+        "calories_burned": 0,
+        "distance_mi": 0,
+        "duration_min": 0,
+        "type": "N/A"
+      },
+      "strength_training": {
+        "calories_burned": 0,
+        "duration_min": 0,
+        "target": "N/A"
+      },
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
-      "total_intake_calories": 730,
+      "total_intake_calories": 800,
       "total_burned_calories": 0,
-      "net_calories": 730,
+      "net_calories": 800,
       "total_protein_g": 45.7,
-      "total_carbs_g": 63,
+      "total_carbs_g": 81,
       "total_fat_g": 30.5,
       "protein_per_kg": 0.53
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (45.7g Protein)",
-      "weight_loss_status": "Balanced Intake",
-      "recommendation": "การนับจำนวนชิ้นช่วยให้คำนวณโปรตีนได้แม่นยำขึ้นครับ ตอนนี้สะสมได้ 45.7 กรัมแล้ว เย็นนี้ถ้าเติมเวย์โปรตีนหรือเนื้อสัตว์เพิ่มอีกสักมื้อก็จะถึงเป้าหมาย 120 กรัมได้ไม่ยากครับ"
+      "muscle_maintenance": "Progressing (45.7g Protein)",
+      "weight_loss_status": "Balanced Deficit",
+      "recommendation": "ยอดโปรตีนยังอยู่ที่ 45.7 กรัมครับ เพื่อการฟื้นฟูกล้ามเนื้อที่ดีที่สุดหลังจากออกกำลังกายหนักมาเมื่อวาน แนะนำให้เติมโปรตีนคุณภาพดีในมื้อเย็นอีกประมาณ 75 กรัมเพื่อให้ถึงเป้า 120 กรัมนะครับ"
     }
   }
 ]

@@ -1,22 +1,22 @@
 [
   {
     "date": "2026-01-04",
-    "last_update": "2026-01-04 08:34:14",
+    "last_update": "2026-01-04 08:35:52",
     "user_profile": {
-      "age": 0,
-      "weight_kg": 0,
-      "height_cm": 0,
-      "bmr_kcal": 0,
-      "tdee_maintenance_kcal": 0,
-      "target_lose_weight_kcal": 0,
-      "target_protein_g": 0,
-      "goal_calories": 0,
-      "maintenance_protein_target_g": 0,
-      "recommended_daily_calories": 0
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 1850,
+      "tdee_maintenance_kcal": 2100,
+      "target_lose_weight_kcal": 1500,
+      "target_protein_g": 120,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
     },
     "food_diary": [
       {
-        "time": "",
+        "time": "เช้า",
         "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (ครึ่งขวด)",
         "calories": 40,
         "protein_g": 1.2,
@@ -24,7 +24,7 @@
         "fat_g": 0
       },
       {
-        "time": "",
+        "time": "กลางวัน",
         "item": "ต้มจืดกระดูกหมู",
         "calories": 150,
         "protein_g": 12,
@@ -32,7 +32,7 @@
         "fat_g": 10
       },
       {
-        "time": "",
+        "time": "กลางวัน",
         "item": "กระดูกหมูผัดพริกแกง",
         "calories": 350,
         "protein_g": 20,
@@ -40,7 +40,7 @@
         "fat_g": 28
       },
       {
-        "time": "",
+        "time": "กลางวัน",
         "item": "ข้าวสวย",
         "calories": 240,
         "protein_g": 4.5,
@@ -48,20 +48,34 @@
         "fat_g": 0.5
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 0,
+        "calories_burned": 0,
+        "distance_mi": 0,
+        "duration_min": 0,
+        "type": "N/A"
+      },
+      "strength_training": {
+        "calories_burned": 0,
+        "duration_min": 0,
+        "target": "N/A"
+      },
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
       "total_intake_calories": 780,
       "total_burned_calories": 0,
-      "net_calories": 0,
+      "net_calories": 780,
       "total_protein_g": 37.7,
       "total_carbs_g": 67,
       "total_fat_g": 38.5,
-      "protein_per_kg": 0
+      "protein_per_kg": 0.44
     },
     "ai_evaluation": {
-      "muscle_maintenance": "",
-      "weight_loss_status": "",
-      "recommendation": "มื้อหลักนี้ช่วยเติมโปรตีนขึ้นมาเป็น 37.7 กรัมแล้วครับ เนื่องจากเมื่อวานคุณออกกำลังกายหนักมาก วันนี้แนะนำให้เน้นทานโปรตีนให้ถึงเป้าหมาย 120 กรัม เพื่อฟื้นฟูกล้ามเนื้ออย่างเต็มที่นะครับ"
+      "muscle_maintenance": "In Progress (37.7g Protein)",
+      "weight_loss_status": "Balanced Intake",
+      "recommendation": "วันนี้มื้อหลักจัดเต็มค่อนข้างดีครับ ได้โปรตีนจากกระดูกหมูมาช่วยสะสมยอด แต่ยังขาดอีกประมาณ 82 กรัมถึงจะครบเป้า 120 กรัมครับ เมื่อวานคุณเบิร์นหนักมาก วันนี้ถ้าเน้นพักผ่อนและเติมโปรตีนให้ถึงจะช่วยซ่อมแซมร่างกายได้ดีเยี่ยมครับ"
     }
   }
 ]

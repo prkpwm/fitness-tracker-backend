@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-04",
-    "last_update": "2026-01-04 10:29:48",
+    "last_update": "2026-01-04 11:24:07",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -62,22 +62,44 @@
         "protein_g": 48,
         "carbs_g": 24,
         "fat_g": 28
+      },
+      {
+        "time": "เย็น",
+        "item": "เนสที ชามะนาว (1 ซอง)",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 12,
+        "fat_g": 0
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 0,
+        "calories_burned": 0,
+        "distance_mi": 0,
+        "duration_min": 0,
+        "type": "N/A"
+      },
+      "strength_training": {
+        "calories_burned": 0,
+        "duration_min": 0,
+        "target": "N/A"
+      },
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
-      "total_intake_calories": 1360,
+      "total_intake_calories": 1410,
       "total_burned_calories": 0,
-      "net_calories": 1360,
+      "net_calories": 1410,
       "total_protein_g": 93.7,
-      "total_carbs_g": 105,
+      "total_carbs_g": 117,
       "total_fat_g": 58.5,
       "protein_per_kg": 1.1
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent Progress (93.7g Protein)",
-      "weight_loss_status": "Target Near",
-      "recommendation": "ตอนนี้โปรตีนแตะ 93.7 กรัมแล้วครับ! ขาดอีกแค่ประมาณ 26 กรัมก็จะครบเป้าหมาย 120 กรัม วันนี้กินดีมากครับ โปรตีนเน้นๆ ช่วยฟื้นฟูกล้ามเนื้อได้ดีเยี่ยมเลย"
+      "muscle_maintenance": "Excellent (93.7g Protein reached)",
+      "weight_loss_status": "Near Target Deficit",
+      "recommendation": "วันนี้คุณทานโปรตีนได้สูงมาก (93.7 กรัม) ขาดอีกเพียง 26.3 กรัมก็จะครบเป้าหมาย 120 กรัมครับ แคลอรี่รวมอยู่ที่ 1,410 kcal ซึ่งยังอยู่ในเกณฑ์ควบคุม 1,500 kcal ได้อย่างดีเยี่ยมครับ"
     }
   }
 ]

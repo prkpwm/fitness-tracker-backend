@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-04",
-    "last_update": "2026-01-04 14:51:03",
+    "last_update": "2026-01-04 15:39:54",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,10 +17,10 @@
     "food_diary": [
       {
         "time": "เช้า",
-        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (ครึ่งขวด)",
-        "calories": 40,
-        "protein_g": 1.2,
-        "carbs_g": 8,
+        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (1 ขวด)",
+        "calories": 80,
+        "protein_g": 2.4,
+        "carbs_g": 16,
         "fat_g": 0
       },
       {
@@ -80,39 +80,20 @@
         "fat_g": 1.5
       }
     ],
-    "exercise_summary": {
-      "cardio_session_1": {
-        "calories_burned": 319,
-        "distance_mi": 4.14,
-        "duration_min": 54.59,
-        "type": "Treadmill Running (PR!)"
-      },
-      "cardio_session_2": {
-        "calories_burned": 166,
-        "distance_mi": 2.08,
-        "duration_min": 28.26,
-        "type": "Treadmill Running"
-      },
-      "strength_training": {
-        "calories_burned": 150,
-        "duration_min": 30,
-        "type": "Weight Training"
-      },
-      "total_burned_calories": 635
-    },
+    "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 1530,
+      "total_intake_calories": 1570,
       "total_burned_calories": 635,
-      "net_calories": 895,
-      "total_protein_g": 117.7,
-      "total_carbs_g": 120,
+      "net_calories": 935,
+      "total_protein_g": 118.9,
+      "total_carbs_g": 128,
       "total_fat_g": 60,
-      "protein_per_kg": 1.38
+      "protein_per_kg": 1.4
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Mission Accomplished (117.7g Protein)",
-      "weight_loss_status": "Ideal Deficit (Net 895 kcal)",
-      "recommendation": "ยอดโปรตีนวันนี้ 117.7 กรัม ถือว่าถึงเป้า 120 กรัมแบบยอมรับได้ (Margin of error) และการออกกำลังกายที่หนักหน่วงทำให้พลังงานสุทธิเหลือเพียง 895 kcal ซึ่งช่วยให้ลดน้ำหนักได้อย่างมีประสิทธิภาพมากครับ"
+      "muscle_maintenance": "Excellent (118.9g Protein)",
+      "weight_loss_status": "Ideal Deficit (Net 935 kcal)",
+      "recommendation": "ยอดโปรตีนรวมตอนนี้อยู่ที่ 118.9 กรัม ถือว่าบรรลุเป้าหมาย 120 กรัมได้อย่างยอดเยี่ยมครับ ในขณะที่พลังงานสุทธิ (Net Calories) ยังคุมได้ต่ำกว่า 1,000 kcal เป็นวันที่วินัยดีมากจริงๆ ครับ"
     }
   }
 ]

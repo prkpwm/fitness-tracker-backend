@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-04",
-    "last_update": "2026-01-04 14:49:04",
+    "last_update": "2026-01-04 14:51:03",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -15,6 +15,14 @@
       "recommended_daily_calories": 2100
     },
     "food_diary": [
+      {
+        "time": "เช้า",
+        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ 0.1% (ครึ่งขวด)",
+        "calories": 40,
+        "protein_g": 1.2,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
       {
         "time": "กลางวัน",
         "item": "ข้าวสวย",
@@ -49,11 +57,19 @@
       },
       {
         "time": "เย็น",
-        "item": "ไก่ทอดไร้น้ำมัน (8 ชิ้น)",
+        "item": "ไก่ทอดไร้น้ำมัน (8 ชิ้น) + น้ำจิ้มบาร์บีคิว",
         "calories": 560,
         "protein_g": 48,
         "carbs_g": 24,
         "fat_g": 28
+      },
+      {
+        "time": "เย็น",
+        "item": "เนสที ชามะนาว (1 ซอง)",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 12,
+        "fat_g": 0
       },
       {
         "time": "ดึก",
@@ -66,14 +82,12 @@
     ],
     "exercise_summary": {
       "cardio_session_1": {
-        "avg_hr_bpm": 115,
         "calories_burned": 319,
         "distance_mi": 4.14,
         "duration_min": 54.59,
-        "type": "Treadmill Running (New Personal Record)"
+        "type": "Treadmill Running (PR!)"
       },
       "cardio_session_2": {
-        "avg_hr_bpm": 111,
         "calories_burned": 166,
         "distance_mi": 2.08,
         "duration_min": 28.26,
@@ -87,18 +101,18 @@
       "total_burned_calories": 635
     },
     "daily_total_stats": {
-      "total_intake_calories": 1440,
+      "total_intake_calories": 1530,
       "total_burned_calories": 635,
-      "net_calories": 805,
-      "total_protein_g": 116.5,
-      "total_carbs_g": 100,
+      "net_calories": 895,
+      "total_protein_g": 117.7,
+      "total_carbs_g": 120,
       "total_fat_g": 60,
-      "protein_per_kg": 1.37
+      "protein_per_kg": 1.38
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (116.5g Protein)",
-      "weight_loss_status": "High Deficit (Net 805 kcal)",
-      "recommendation": "วันนี้ยอดเยี่ยมมากครับ! คุณทำ Personal Record ในการวิ่ง และออกกำลังกายรวมถึง 3 เซสชัน โปรตีนวันนี้เกือบแตะเป้าหมายที่ 116.5 กรัม ซึ่งเพียงพอต่อการซ่อมแซมกล้ามเนื้อแน่นอนครับ"
+      "muscle_maintenance": "Mission Accomplished (117.7g Protein)",
+      "weight_loss_status": "Ideal Deficit (Net 895 kcal)",
+      "recommendation": "ยอดโปรตีนวันนี้ 117.7 กรัม ถือว่าถึงเป้า 120 กรัมแบบยอมรับได้ (Margin of error) และการออกกำลังกายที่หนักหน่วงทำให้พลังงานสุทธิเหลือเพียง 895 kcal ซึ่งช่วยให้ลดน้ำหนักได้อย่างมีประสิทธิภาพมากครับ"
     }
   }
 ]

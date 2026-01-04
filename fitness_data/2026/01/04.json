@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-04",
-    "last_update": "2026-01-04 15:39:54",
+    "last_update": "2026-01-04 15:40:55",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -80,7 +80,29 @@
         "fat_g": 1.5
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 115,
+        "calories_burned": 319,
+        "distance_mi": 4.14,
+        "duration_min": 54.59,
+        "type": "Treadmill Running (New Personal Record)"
+      },
+      "cardio_session_2": {
+        "avg_hr_bpm": 111,
+        "calories_burned": 166,
+        "distance_mi": 2.08,
+        "duration_min": 28.26,
+        "type": "Treadmill Running"
+      },
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Full Body/Core",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 635
+    },
     "daily_total_stats": {
       "total_intake_calories": 1570,
       "total_burned_calories": 635,
@@ -92,8 +114,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Excellent (118.9g Protein)",
-      "weight_loss_status": "Ideal Deficit (Net 935 kcal)",
-      "recommendation": "ยอดโปรตีนรวมตอนนี้อยู่ที่ 118.9 กรัม ถือว่าบรรลุเป้าหมาย 120 กรัมได้อย่างยอดเยี่ยมครับ ในขณะที่พลังงานสุทธิ (Net Calories) ยังคุมได้ต่ำกว่า 1,000 kcal เป็นวันที่วินัยดีมากจริงๆ ครับ"
+      "weight_loss_status": "High Deficit (Net 935 kcal)",
+      "recommendation": "เป็นวันที่ดีเยี่ยมมากครับ สถิติการวิ่งใหม่ 4.14 ไมล์ บวกกับการเวทเทรนนิ่งช่วยเพิ่มอัตราเผาผลาญได้ดีมาก แม้แคลอรี่รับเข้าจะเกินเป้า 1,500 kcal มาเล็กน้อย แต่พลังงานสุทธิยังต่ำกว่า 1,000 kcal ซึ่งถือว่าลดไขมันได้มีประสิทธิภาพมากครับ"
     }
   }
 ]

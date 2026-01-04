@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-04",
-    "last_update": "2026-01-04 10:13:44",
+    "last_update": "2026-01-04 10:29:48",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -57,41 +57,27 @@
       },
       {
         "time": "เย็น",
-        "item": "ไก่ทอดไร้น้ำมัน (4 ชิ้น) + น้ำจิ้มบาร์บีคิว",
-        "calories": 280,
-        "protein_g": 24,
-        "carbs_g": 12,
-        "fat_g": 14
+        "item": "ไก่ทอดไร้น้ำมัน (รวม 8 ชิ้น) + น้ำจิ้มบาร์บีคิว",
+        "calories": 560,
+        "protein_g": 48,
+        "carbs_g": 24,
+        "fat_g": 28
       }
     ],
-    "exercise_summary": {
-      "cardio_session_1": {
-        "avg_hr_bpm": 0,
-        "calories_burned": 0,
-        "distance_mi": 0,
-        "duration_min": 0,
-        "type": "N/A"
-      },
-      "strength_training": {
-        "calories_burned": 0,
-        "duration_min": 0,
-        "target": "N/A"
-      },
-      "total_burned_calories": 0
-    },
+    "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 1080,
+      "total_intake_calories": 1360,
       "total_burned_calories": 0,
-      "net_calories": 1080,
-      "total_protein_g": 69.7,
-      "total_carbs_g": 93,
-      "total_fat_g": 44.5,
-      "protein_per_kg": 0.82
+      "net_calories": 1360,
+      "total_protein_g": 93.7,
+      "total_carbs_g": 105,
+      "total_fat_g": 58.5,
+      "protein_per_kg": 1.1
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (69.7g Protein)",
-      "weight_loss_status": "Balanced Deficit",
-      "recommendation": "ตอนนี้สะสมโปรตีนได้ 69.7 กรัมแล้วครับ ขาดอีกประมาณ 50 กรัมจะถึงเป้าหมาย 120 กรัม แนะนำมื้อค่ำเป็นเวย์โปรตีนหรือเนื้อสัตว์ลีนๆ อีกสักมื้อ จะช่วยฟื้นฟูร่างกายจากที่ออกกำลังกายหนักมาเมื่อวานได้ดีมากครับ"
+      "muscle_maintenance": "Excellent Progress (93.7g Protein)",
+      "weight_loss_status": "Target Near",
+      "recommendation": "ตอนนี้โปรตีนแตะ 93.7 กรัมแล้วครับ! ขาดอีกแค่ประมาณ 26 กรัมก็จะครบเป้าหมาย 120 กรัม วันนี้กินดีมากครับ โปรตีนเน้นๆ ช่วยฟื้นฟูกล้ามเนื้อได้ดีเยี่ยมเลย"
     }
   }
 ]

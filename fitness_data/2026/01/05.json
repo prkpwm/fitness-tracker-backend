@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-05",
-    "last_update": "2026-01-05 06:50:22",
+    "last_update": "2026-01-05 11:00:07",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -38,22 +38,30 @@
         "protein_g": 0,
         "carbs_g": 12,
         "fat_g": 0
+      },
+      {
+        "time": "เย็น",
+        "item": "ขนมขาไก่ (ครึ่งถ้วยน้ำจิ้ม)",
+        "calories": 125,
+        "protein_g": 2,
+        "carbs_g": 16,
+        "fat_g": 6
       }
     ],
     "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 250,
+      "total_intake_calories": 375,
       "total_burned_calories": 0,
-      "net_calories": 250,
-      "total_protein_g": 26.4,
-      "total_carbs_g": 31,
-      "total_fat_g": 1.5,
+      "net_calories": 375,
+      "total_protein_g": 28.4,
+      "total_carbs_g": 47,
+      "total_fat_g": 7.5,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (26.4g Protein)",
+      "muscle_maintenance": "Progressing (28.4g Protein)",
       "weight_loss_status": "On Track",
-      "recommendation": "ตอนนี้ได้รับพลังงานรวม 250 kcal และโปรตีน 26.4 กรัมครับ ยังเหลือโควตาสำหรับมื้อเย็นอีกพอสมควรเพื่อให้ถึงเป้าหมายโปรตีน 120 กรัมครับ"
+      "recommendation": "ตอนนี้ได้รับโปรตีนรวม 28.4 กรัม และพลังงาน 375 kcal ครับ ขนมขาไก่มีโซเดียมและไขมันแฝงอยู่บ้าง มื้อหลักถัดไปแนะนำให้เน้นโปรตีนจากเนื้อสัตว์ไม่ติดมันเพื่อเร่งยอดให้ถึงเป้า 120 กรัมนะครับ"
     }
   }
 ]

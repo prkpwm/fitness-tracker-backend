@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-05",
-    "last_update": "2026-01-05 11:30:51",
+    "last_update": "2026-01-05 11:32:40",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -58,26 +58,29 @@
       {
         "time": "เย็น",
         "item": "ข้าวเหนียว (2 ถุง)",
-        "calories": 400,
-        "protein_g": 8,
-        "carbs_g": 88,
-        "fat_g": 1.2
+        "calories": 300,
+        "protein_g": 6,
+        "carbs_g": 66,
+        "fat_g": 0.9
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "note": "วันนี้ไม่มีการออกกำลังกาย",
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
-      "total_intake_calories": 1275,
+      "total_intake_calories": 1175,
       "total_burned_calories": 0,
-      "net_calories": 1275,
-      "total_protein_g": 86.4,
-      "total_carbs_g": 150,
-      "total_fat_g": 33.7,
+      "net_calories": 1175,
+      "total_protein_g": 84.4,
+      "total_carbs_g": 128,
+      "total_fat_g": 33.4,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Protein Day (86.4g)",
-      "weight_loss_status": "Near Limit",
-      "recommendation": "ตอนนี้โปรตีนพุ่งขึ้นมาที่ 86.4 กรัมแล้วครับ ขาดอีกเพียง 33.6 กรัมจะถึงเป้า 120 กรัม พลังงานรวมอยู่ที่ 1,275 kcal ยังมีโควตาเหลืออีกประมาณ 225 kcal ก่อนจะถึงเป้าหมาย 1,500 kcal ครับ"
+      "muscle_maintenance": "Progressing (84.4g Protein)",
+      "weight_loss_status": "Rest Day",
+      "recommendation": "วันนี้เป็นวันพักผ่อน (Rest Day) ที่ดีครับ พลังงานสุทธิอยู่ที่ 1,175 kcal ยังอยู่ในเกณฑ์ควบคุมน้ำหนักได้ดี ส่วนโปรตีนยังขาดอีก 35.6 กรัมเพื่อให้ถึงเป้า 120 กรัมครับ"
     }
   }
 ]

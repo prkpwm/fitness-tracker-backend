@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-05",
-    "last_update": "2026-01-05 11:32:40",
+    "last_update": "2026-01-05 12:41:53",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -62,6 +62,22 @@
         "protein_g": 6,
         "carbs_g": 66,
         "fat_g": 0.9
+      },
+      {
+        "time": "ค่ำ",
+        "item": "กะหรี่ปั๊บไก่ (2 ชิ้น)",
+        "calories": 300,
+        "protein_g": 8,
+        "carbs_g": 30,
+        "fat_g": 16
+      },
+      {
+        "time": "ค่ำ",
+        "item": "ข้าวโพดต้ม (1 ฝัก)",
+        "calories": 150,
+        "protein_g": 4,
+        "carbs_g": 32,
+        "fat_g": 2
       }
     ],
     "exercise_summary": {
@@ -69,18 +85,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1175,
+      "total_intake_calories": 1625,
       "total_burned_calories": 0,
-      "net_calories": 1175,
-      "total_protein_g": 84.4,
-      "total_carbs_g": 128,
-      "total_fat_g": 33.4,
+      "net_calories": 1625,
+      "total_protein_g": 96.4,
+      "total_carbs_g": 190,
+      "total_fat_g": 51.4,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (84.4g Protein)",
-      "weight_loss_status": "Rest Day",
-      "recommendation": "วันนี้เป็นวันพักผ่อน (Rest Day) ที่ดีครับ พลังงานสุทธิอยู่ที่ 1,175 kcal ยังอยู่ในเกณฑ์ควบคุมน้ำหนักได้ดี ส่วนโปรตีนยังขาดอีก 35.6 กรัมเพื่อให้ถึงเป้า 120 กรัมครับ"
+      "muscle_maintenance": "Progressing (96.4g Protein)",
+      "weight_loss_status": "Slightly Over Calories",
+      "recommendation": "ตอนนี้พลังงานรับเข้าอยู่ที่ 1,625 kcal ซึ่งเกินเป้าหมาย 1,500 kcal มาเล็กน้อย และโปรตีนอยู่ที่ 96.4 กรัม ขาดอีก 23.6 กรัมจะถึงเป้า 120 กรัมครับ หากต้องการให้โปรตีนถึงเป้าโดยไม่เพิ่มแคลอรี่มากนัก แนะนำเป็นเวย์โปรตีนหรือไข่ขาวต้มครับ"
     }
   }
 ]

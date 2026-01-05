@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-05",
-    "last_update": "2026-01-05 11:30:03",
+    "last_update": "2026-01-05 11:30:04",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -46,38 +46,22 @@
         "protein_g": 2,
         "carbs_g": 16,
         "fat_g": 6
-      },
-      {
-        "time": "เย็น",
-        "item": "แกงไก่อีสาน (พิเศษ)",
-        "calories": 500,
-        "protein_g": 50,
-        "carbs_g": 15,
-        "fat_g": 25
-      },
-      {
-        "time": "เย็น",
-        "item": "ข้าวเหนียว (2 ถุง)",
-        "calories": 400,
-        "protein_g": 8,
-        "carbs_g": 88,
-        "fat_g": 1.2
       }
     ],
     "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 1275,
+      "total_intake_calories": 375,
       "total_burned_calories": 0,
-      "net_calories": 1275,
-      "total_protein_g": 86.4,
-      "total_carbs_g": 150,
-      "total_fat_g": 33.7,
+      "net_calories": 375,
+      "total_protein_g": 28.4,
+      "total_carbs_g": 47,
+      "total_fat_g": 7.5,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Protein Day (86.4g)",
-      "weight_loss_status": "Near Limit",
-      "recommendation": "ตอนนี้โปรตีนพุ่งขึ้นมาที่ 86.4 กรัมแล้วครับ ขาดอีกเพียง 33.6 กรัมจะถึงเป้า 120 กรัม พลังงานรวมอยู่ที่ 1,275 kcal ยังมีโควตาเหลืออีกประมาณ 225 kcal ก่อนจะถึงเป้าหมาย 1,500 kcal ครับ"
+      "muscle_maintenance": "Progressing (28.4g Protein)",
+      "weight_loss_status": "On Track",
+      "recommendation": "ตอนนี้ได้รับโปรตีนรวม 28.4 กรัม และพลังงาน 375 kcal ครับ ขนมขาไก่มีโซเดียมและไขมันแฝงอยู่บ้าง มื้อหลักถัดไปแนะนำให้เน้นโปรตีนจากเนื้อสัตว์ไม่ติดมันเพื่อเร่งยอดให้ถึงเป้า 120 กรัมนะครับ"
     }
   }
 ]

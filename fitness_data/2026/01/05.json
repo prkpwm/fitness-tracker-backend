@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-05",
-    "last_update": "2026-01-05 12:41:53",
+    "last_update": "2026-01-05 12:43:46",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,6 +78,14 @@
         "protein_g": 4,
         "carbs_g": 32,
         "fat_g": 2
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": {
@@ -85,18 +93,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1625,
+      "total_intake_calories": 1745,
       "total_burned_calories": 0,
-      "net_calories": 1625,
-      "total_protein_g": 96.4,
-      "total_carbs_g": 190,
-      "total_fat_g": 51.4,
+      "net_calories": 1745,
+      "total_protein_g": 120.4,
+      "total_carbs_g": 193,
+      "total_fat_g": 52.9,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (96.4g Protein)",
-      "weight_loss_status": "Slightly Over Calories",
-      "recommendation": "ตอนนี้พลังงานรับเข้าอยู่ที่ 1,625 kcal ซึ่งเกินเป้าหมาย 1,500 kcal มาเล็กน้อย และโปรตีนอยู่ที่ 96.4 กรัม ขาดอีก 23.6 กรัมจะถึงเป้า 120 กรัมครับ หากต้องการให้โปรตีนถึงเป้าโดยไม่เพิ่มแคลอรี่มากนัก แนะนำเป็นเวย์โปรตีนหรือไข่ขาวต้มครับ"
+      "muscle_maintenance": "Goal Achieved (120.4g Protein)",
+      "weight_loss_status": "Maintenance",
+      "recommendation": "ยอดโปรตีนแตะเป้า 120 กรัมเรียบร้อยครับ! แม้แคลอรี่รวม (1,745 kcal) จะสูงกว่าเป้าหมายไปบ้างเล็กน้อย แต่ถือว่าเป็นวันที่รักษามวลกล้ามเนื้อได้ดีมากในวันพักผ่อนครับ"
     }
   }
 ]

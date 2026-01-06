@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-06",
-    "last_update": "2026-01-06 13:33:21",
+    "last_update": "2026-01-06 13:34:12",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -65,11 +65,11 @@
       },
       {
         "time": "ดึก",
-        "item": "เวย์โปรตีน (3 สกู๊ป)",
-        "calories": 120,
-        "protein_g": 24,
-        "carbs_g": 3,
-        "fat_g": 1.5
+        "item": "เวย์โปรตีน (4 สกู๊ป)",
+        "calories": 160,
+        "protein_g": 32,
+        "carbs_g": 4,
+        "fat_g": 2
       }
     ],
     "exercise_summary": {
@@ -77,18 +77,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1730,
+      "total_intake_calories": 1770,
       "total_burned_calories": 0,
-      "net_calories": 1730,
-      "total_protein_g": 99,
-      "total_carbs_g": 150,
-      "total_fat_g": 81.5,
+      "net_calories": 1770,
+      "total_protein_g": 107,
+      "total_carbs_g": 151,
+      "total_fat_g": 82,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Protein Day (99g)",
+      "muscle_maintenance": "High Protein Day (107g)",
       "weight_loss_status": "Maintenance Range",
-      "recommendation": "ยอดโปรตีนรวมตอนนี้อยู่ที่ 99g แล้วครับ ขาดอีกเพียง 21g จะถึงเป้าหมาย 120g สำหรับวันนี้ครับ"
+      "recommendation": "ยอดโปรตีนรวมตอนนี้อยู่ที่ 107g แล้วครับ ขาดอีกเพียง 13g จะถึงเป้าหมาย 120g ครับ"
     }
   }
 ]

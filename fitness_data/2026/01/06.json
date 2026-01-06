@@ -1,18 +1,18 @@
 [
   {
     "date": "2026-01-06",
-    "last_update": "2026-01-06 02:52:44",
+    "last_update": "2026-01-06 02:54:50",
     "user_profile": {
-      "age": 0,
-      "weight_kg": 0,
-      "height_cm": 0,
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
       "bmr_kcal": 0,
       "tdee_maintenance_kcal": 0,
       "target_lose_weight_kcal": 0,
       "target_protein_g": 0,
-      "goal_calories": 0,
-      "maintenance_protein_target_g": 0,
-      "recommended_daily_calories": 0
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
     },
     "food_diary": [
       {
@@ -22,30 +22,25 @@
         "protein_g": 4,
         "carbs_g": 10,
         "fat_g": 1
-      },
-      {
-        "time": "สาย",
-        "item": "เวย์โปรตีน (3 สกู๊ป)",
-        "calories": 120,
-        "protein_g": 24,
-        "carbs_g": 3,
-        "fat_g": 1.5
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "note": "ยังไม่มีการออกกำลังกาย",
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
-      "total_intake_calories": 190,
+      "total_intake_calories": 70,
       "total_burned_calories": 0,
-      "net_calories": 0,
-      "total_protein_g": 28,
-      "total_carbs_g": 13,
-      "total_fat_g": 2.5,
+      "net_calories": 70,
+      "total_protein_g": 4,
+      "total_carbs_g": 10,
+      "total_fat_g": 1,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Start (28g Protein)",
-      "weight_loss_status": "",
-      "recommendation": "เริ่มต้นเช้าวันใหม่ได้ดีครับ ได้โปรตีนไปแล้ว 28 กรัม อย่าลืมติดตามยอดรวมให้ถึง 120 กรัมตามเป้าหมายเดิมนะครับ"
+      "muscle_maintenance": "Starting (4g Protein)",
+      "weight_loss_status": "Early Stage",
+      "recommendation": "เริ่มต้นวันด้วยนมเปรี้ยวสูตรไม่เติมน้ำตาล ข้อมูล Validate เรียบร้อยครับ ตอนนี้โปรตีนอยู่ที่ 4g ขาดอีก 116g จะถึงเป้าหมายครับ"
     }
   }
 ]

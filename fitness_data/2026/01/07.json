@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-07",
-    "last_update": "2026-01-07 14:37:31",
+    "last_update": "2026-01-07 16:07:37",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -86,6 +86,14 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
+      },
+      {
+        "time": "ดึกมาก",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": {
@@ -96,21 +104,34 @@
         "duration_min": 65.28,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 368
+      "cardio_session_2": {
+        "avg_hr_bpm": 117,
+        "calories_burned": 443,
+        "distance_mi": 5.08,
+        "duration_min": 76.67,
+        "type": "Treadmill Running (New Personal Record)"
+      },
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Full Body/Core",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 961
     },
     "daily_total_stats": {
-      "total_intake_calories": 1430,
-      "total_burned_calories": 368,
-      "net_calories": 1062,
-      "total_protein_g": 98,
-      "total_carbs_g": 82.4,
-      "total_fat_g": 77.5,
-      "protein_per_kg": 1.15
+      "total_intake_calories": 1550,
+      "total_burned_calories": 961,
+      "net_calories": 589,
+      "total_protein_g": 122,
+      "total_carbs_g": 85.4,
+      "total_fat_g": 79,
+      "protein_per_kg": 1.43
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Protein Day (98g)",
-      "weight_loss_status": "High Deficit (Net 1062 kcal)",
-      "recommendation": "โปรตีนรวมตอนนี้อยู่ที่ 98g ขาดอีก 22g จะถึงเป้า 120g ครับ แคลอรี่สุทธิยังต่ำกว่าเป้าหมายมาก ถือเป็นวันที่คุมอาหารและออกกำลังกายได้ดีเยี่ยมครับ"
+      "muscle_maintenance": "Goal Achieved (122g Protein)",
+      "weight_loss_status": "Extreme Deficit (Net 589 kcal)",
+      "recommendation": "ปิดท้ายวันด้วยการเล่นเวทเทรนนิ่งได้เยี่ยมมากครับ! วันนี้คุณเผาผลาญไปเกือบ 1,000 kcal ในขณะที่โปรตีนถึงเป้า 122g ซึ่งจะช่วยรักษาและสร้างกล้ามเนื้อได้ดีมาก พลังงานสุทธิรวมเพียง 589 kcal ถือว่ามีประสิทธิภาพสูงสุดในการลดไขมันครับ"
     }
   }
 ]

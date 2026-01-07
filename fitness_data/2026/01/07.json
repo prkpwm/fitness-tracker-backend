@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-07",
-    "last_update": "2026-01-07 13:49:13",
+    "last_update": "2026-01-07 13:50:37",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -65,17 +65,13 @@
       }
     ],
     "exercise_summary": {
-      "details": [
-        {
-          "avg_hr_bpm": 113,
-          "avg_pace_mi": "15:40",
-          "burned_calories": 368,
-          "distance_mi": 4.17,
-          "duration_min": 65.28,
-          "type": "Treadmill Running"
-        }
-      ],
-      "note": "วิ่งลู่วิ่ง 4.17 ไมล์ ใช้เวลาประมาณ 1 ชั่วโมง 5 นาที",
+      "cardio_session_1": {
+        "avg_hr_bpm": 113,
+        "calories_burned": 368,
+        "distance_mi": 4.17,
+        "duration_min": 65.28,
+        "type": "Treadmill Running"
+      },
       "total_burned_calories": 368
     },
     "daily_total_stats": {
@@ -85,12 +81,12 @@
       "total_protein_g": 41,
       "total_carbs_g": 76,
       "total_fat_g": 44,
-      "protein_per_kg": 0
+      "protein_per_kg": 0.48
     },
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (41g Protein)",
-      "weight_loss_status": "Excellent (Calorie Deficit)",
-      "recommendation": "วันนี้ออกกำลังกายได้เยี่ยมมากครับ เผาผลาญไป 368 kcal ทำให้ Net Calories อยู่ที่เพียง 512 kcal ตอนนี้โปรตีนอยู่ที่ 41g ยังขาดอีก 79g แนะนำเติมโปรตีนในมื้อเย็นเพื่อให้ถึงเป้าหมาย 120g ครับ"
+      "weight_loss_status": "Excellent (Net 512 kcal)",
+      "recommendation": "วันนี้การออกกำลังกายโดดเด่นมากครับ วิ่งไปกว่า 4 ไมล์ ช่วยเผาผลาญได้ดีเยี่ยม ตอนนี้พลังงานสุทธิยังต่ำมาก แต่โปรตีนยังขาดอีก 79g แนะนำให้เติมโปรตีนในมื้อเย็นหรือมื้อดึกเพื่อให้ใกล้เคียงเป้าหมาย 120g ครับ"
     }
   }
 ]

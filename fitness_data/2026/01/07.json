@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2026-01-07",
+    "last_update": "2026-01-07 09:59:08",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เช้า",
+        "item": "นมเปรี้ยว Meiji สูตรไม่เติมน้ำตาล (1 ขวด)",
+        "calories": 70,
+        "protein_g": 4,
+        "carbs_g": 10,
+        "fat_g": 1
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ส้มตำปลาร้า (ไม่ใส่น้ำตาล)",
+        "calories": 60,
+        "protein_g": 2,
+        "carbs_g": 10,
+        "fat_g": 1.5
+      },
+      {
+        "time": "กลางวัน",
+        "item": "หมูทอด (100g)",
+        "calories": 350,
+        "protein_g": 20,
+        "carbs_g": 2,
+        "fat_g": 28
+      },
+      {
+        "time": "กลางวัน",
+        "item": "แกงออม (นิดหน่อย)",
+        "calories": 100,
+        "protein_g": 8,
+        "carbs_g": 6,
+        "fat_g": 5
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเหนียว (1 ถุง)",
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 33,
+        "fat_g": 0.5
+      },
+      {
+        "time": "บ่าย",
+        "item": "กะหรี่ปั๊บไก่ (1 ชิ้น)",
+        "calories": 150,
+        "protein_g": 4,
+        "carbs_g": 15,
+        "fat_g": 8
+      }
+    ],
+    "exercise_summary": {
+      "note": "ยังไม่มีการออกกำลังกาย",
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 880,
+      "total_burned_calories": 0,
+      "net_calories": 880,
+      "total_protein_g": 41,
+      "total_carbs_g": 76,
+      "total_fat_g": 44,
+      "protein_per_kg": 0
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Progressing (41g Protein)",
+      "weight_loss_status": "Healthy Range",
+      "recommendation": "ตอนนี้โปรตีนรวมอยู่ที่ 41g ขาดอีก 79g จะถึงเป้า 120g ครับ พลังงานรวมยังอยู่ในเกณฑ์ดีที่ 880 kcal ครับ"
+    }
+  }
+]

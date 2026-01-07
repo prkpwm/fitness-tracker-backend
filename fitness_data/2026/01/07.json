@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-07",
-    "last_update": "2026-01-07 14:34:19",
+    "last_update": "2026-01-07 14:37:31",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,6 +78,14 @@
         "protein_g": 9,
         "carbs_g": 1,
         "fat_g": 12
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": {
@@ -91,18 +99,18 @@
       "total_burned_calories": 368
     },
     "daily_total_stats": {
-      "total_intake_calories": 1310,
+      "total_intake_calories": 1430,
       "total_burned_calories": 368,
-      "net_calories": 942,
-      "total_protein_g": 74,
-      "total_carbs_g": 79.4,
-      "total_fat_g": 76,
-      "protein_per_kg": 0.87
+      "net_calories": 1062,
+      "total_protein_g": 98,
+      "total_carbs_g": 82.4,
+      "total_fat_g": 77.5,
+      "protein_per_kg": 1.15
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (74g Protein)",
-      "weight_loss_status": "High Deficit (Net 942 kcal)",
-      "recommendation": "ปรับลดแคลอรี่หมูทอดลงทำให้วันนี้คุมพลังงานได้ดีมากครับ ตอนนี้โปรตีนรวมอยู่ที่ 74g ขาดอีก 46g จะถึงเป้า 120g แนะนำเวย์โปรตีน 3-4 สกู๊ปก่อนจบวันครับ"
+      "muscle_maintenance": "High Protein Day (98g)",
+      "weight_loss_status": "High Deficit (Net 1062 kcal)",
+      "recommendation": "โปรตีนรวมตอนนี้อยู่ที่ 98g ขาดอีก 22g จะถึงเป้า 120g ครับ แคลอรี่สุทธิยังต่ำกว่าเป้าหมายมาก ถือเป็นวันที่คุมอาหารและออกกำลังกายได้ดีเยี่ยมครับ"
     }
   }
 ]

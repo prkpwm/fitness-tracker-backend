@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-08",
-    "last_update": "2026-01-08 15:05:29",
+    "last_update": "2026-01-08 15:59:37",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -88,12 +88,25 @@
         "duration_min": 77.45,
         "type": "Treadmill Running (New Personal Record)"
       },
-      "total_burned_calories": 392
+      "cardio_session_2": {
+        "avg_hr_bpm": 118,
+        "calories_burned": 257,
+        "distance_mi": 3.16,
+        "duration_min": 39.35,
+        "type": "Treadmill Running (New Personal Record)"
+      },
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Core (ลำตัว)",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 799
     },
     "daily_total_stats": {
       "total_intake_calories": 1230,
-      "total_burned_calories": 392,
-      "net_calories": 838,
+      "total_burned_calories": 799,
+      "net_calories": 431,
       "total_protein_g": 99.9,
       "total_carbs_g": 124.8,
       "total_fat_g": 36,
@@ -101,8 +114,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Excellent Progress (99.9g Protein)",
-      "weight_loss_status": "High Deficit (Net 838 kcal)",
-      "recommendation": "เพิ่มส้มโอช่วยให้ได้วิตามินและกากใยเพิ่มขึ้นครับ ตอนนี้โปรตีนรวมอยู่ที่ 99.9g ขาดอีกเพียง 20.1g จะถึงเป้า 120g พลังงานรวมและพลังงานสุทธิยังอยู่ในเกณฑ์ดีเยี่ยมสำหรับการลดน้ำหนักครับ"
+      "weight_loss_status": "Extreme Deficit (Net 431 kcal)",
+      "recommendation": "วันนี้คุณทำ New PR วิ่งได้ถึง 2 ครั้ง และเสริมด้วยเวทเทรนนิ่งช่วงลำตัว ทำให้เผาผลาญรวมไปถึง 799 kcal พลังงานสุทธิรวม 431 kcal ถือว่าต่ำมากและช่วยลดไขมันได้ดีเยี่ยมครับ ตอนนี้โปรตีนขาดอีกเพียง 20.1g จะถึงเป้า 120g ครับ"
     }
   }
 ]

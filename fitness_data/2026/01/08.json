@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-08",
-    "last_update": "2026-01-08 14:41:07",
+    "last_update": "2026-01-08 15:05:29",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,6 +70,14 @@
         "protein_g": 28,
         "carbs_g": 0,
         "fat_g": 14
+      },
+      {
+        "time": "ดึก",
+        "item": "ส้มโอ (ขนาดกลาง 1 ลูก)",
+        "calories": 160,
+        "protein_g": 3,
+        "carbs_g": 40,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
@@ -83,18 +91,18 @@
       "total_burned_calories": 392
     },
     "daily_total_stats": {
-      "total_intake_calories": 1070,
+      "total_intake_calories": 1230,
       "total_burned_calories": 392,
-      "net_calories": 678,
-      "total_protein_g": 96.9,
-      "total_carbs_g": 84.8,
+      "net_calories": 838,
+      "total_protein_g": 99.9,
+      "total_carbs_g": 124.8,
       "total_fat_g": 36,
-      "protein_per_kg": 1.14
+      "protein_per_kg": 1.18
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent Progress (96.9g Protein)",
-      "weight_loss_status": "High Deficit (Net 678 kcal)",
-      "recommendation": "เพิ่มโปรตีนจากน่องไก่ได้ดีมากครับ ตอนนี้ยอดรวมโปรตีนอยู่ที่ 96.9g ขาดอีกเพียง 23.1g จะถึงเป้า 120g พลังงานสุทธิยังอยู่ในเกณฑ์ที่ยอดเยี่ยมสำหรับการลดน้ำหนักครับ"
+      "muscle_maintenance": "Excellent Progress (99.9g Protein)",
+      "weight_loss_status": "High Deficit (Net 838 kcal)",
+      "recommendation": "เพิ่มส้มโอช่วยให้ได้วิตามินและกากใยเพิ่มขึ้นครับ ตอนนี้โปรตีนรวมอยู่ที่ 99.9g ขาดอีกเพียง 20.1g จะถึงเป้า 120g พลังงานรวมและพลังงานสุทธิยังอยู่ในเกณฑ์ดีเยี่ยมสำหรับการลดน้ำหนักครับ"
     }
   }
 ]

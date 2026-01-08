@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-08",
-    "last_update": "2026-01-08 14:22:17",
+    "last_update": "2026-01-08 14:41:07",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -62,6 +62,14 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
+      },
+      {
+        "time": "เย็น",
+        "item": "น่องไก่เล็กทอดไร้น้ำมัน (4 ชิ้น)",
+        "calories": 240,
+        "protein_g": 28,
+        "carbs_g": 0,
+        "fat_g": 14
       }
     ],
     "exercise_summary": {
@@ -75,18 +83,18 @@
       "total_burned_calories": 392
     },
     "daily_total_stats": {
-      "total_intake_calories": 830,
+      "total_intake_calories": 1070,
       "total_burned_calories": 392,
-      "net_calories": 438,
-      "total_protein_g": 68.9,
+      "net_calories": 678,
+      "total_protein_g": 96.9,
       "total_carbs_g": 84.8,
-      "total_fat_g": 22,
-      "protein_per_kg": 0.81
+      "total_fat_g": 36,
+      "protein_per_kg": 1.14
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (68.9g Protein)",
-      "weight_loss_status": "Extreme Deficit (Net 438 kcal)",
-      "recommendation": "สุดยอดมากครับ! ทำ New PR วิ่งได้ 5.41 ไมล์ ทำให้พลังงานสุทธิอยู่ในระดับต่ำมาก (438 kcal) ช่วยเร่งการลดไขมันได้ดีเยี่ยม ตอนนี้โปรตีนอยู่ที่ 68.9g ขาดอีก 51.1g จะถึงเป้า แนะนำเติมโปรตีนเพิ่มอีกนิดเพื่อซ่อมแซมกล้ามเนื้อหลังวิ่งหนักครับ"
+      "muscle_maintenance": "Excellent Progress (96.9g Protein)",
+      "weight_loss_status": "High Deficit (Net 678 kcal)",
+      "recommendation": "เพิ่มโปรตีนจากน่องไก่ได้ดีมากครับ ตอนนี้ยอดรวมโปรตีนอยู่ที่ 96.9g ขาดอีกเพียง 23.1g จะถึงเป้า 120g พลังงานสุทธิยังอยู่ในเกณฑ์ที่ยอดเยี่ยมสำหรับการลดน้ำหนักครับ"
     }
   }
 ]

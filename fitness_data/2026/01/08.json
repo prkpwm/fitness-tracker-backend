@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2026-01-08",
+    "last_update": "2026-01-08 12:25:03",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เช้า/กลางวัน",
+        "item": "นมเปรี้ยวดัชมิลล์ ดีไลท์ (1 ขวด)",
+        "calories": 80,
+        "protein_g": 2.4,
+        "carbs_g": 16,
+        "fat_g": 0
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ไข่เจียวไม่ใส่น้ำมัน (3 ฟอง)",
+        "calories": 210,
+        "protein_g": 18,
+        "carbs_g": 1.8,
+        "fat_g": 15
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ปลาทูย่าง (1 ตัว)",
+        "calories": 130,
+        "protein_g": 20,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (1 จาน)",
+        "calories": 240,
+        "protein_g": 4.5,
+        "carbs_g": 52,
+        "fat_g": 0.5
+      },
+      {
+        "time": "บ่าย",
+        "item": "ชามะนาว (1 ซอง)",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 12,
+        "fat_g": 0
+      },
+      {
+        "time": "เย็น",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
+      }
+    ],
+    "exercise_summary": {
+      "note": "ยังไม่มีการออกกำลังกาย",
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 830,
+      "total_burned_calories": 0,
+      "net_calories": 830,
+      "total_protein_g": 68.9,
+      "total_carbs_g": 84.8,
+      "total_fat_g": 22,
+      "protein_per_kg": 0.81
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Good Progress (68.9g Protein)",
+      "weight_loss_status": "Within Target",
+      "recommendation": "ตอนนี้โปรตีนรวมอยู่ที่ 68.9g ขาดอีก 51.1g จะถึงเป้า 120g ครับ แคลอรี่รวมยังเหลือโควตาอีกพอสมควรสำหรับมื้อเย็นครับ"
+    }
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-08",
-    "last_update": "2026-01-08 15:59:37",
+    "last_update": "2026-01-08 16:59:21",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,44 +78,42 @@
         "protein_g": 3,
         "carbs_g": 40,
         "fat_g": 0
+      },
+      {
+        "time": "ดึกมาก",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
+      },
+      {
+        "time": "ก่อนนอน",
+        "item": "เบ็ดเตล็ด",
+        "calories": 300,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
-      "cardio_session_1": {
-        "avg_hr_bpm": 111,
-        "calories_burned": 392,
-        "distance_mi": 5.41,
-        "duration_min": 77.45,
-        "type": "Treadmill Running (New Personal Record)"
-      },
-      "cardio_session_2": {
-        "avg_hr_bpm": 118,
-        "calories_burned": 257,
-        "distance_mi": 3.16,
-        "duration_min": 39.35,
-        "type": "Treadmill Running (New Personal Record)"
-      },
-      "strength_training": {
-        "calories_burned": 150,
-        "duration_min": 30,
-        "target": "Core (ลำตัว)",
-        "type": "Weight Training"
-      },
+      "cardio": "8.57 mi total running (2 sessions)",
+      "strength": "Core training 30 min",
       "total_burned_calories": 799
     },
     "daily_total_stats": {
-      "total_intake_calories": 1230,
+      "total_intake_calories": 1650,
       "total_burned_calories": 799,
-      "net_calories": 431,
-      "total_protein_g": 99.9,
-      "total_carbs_g": 124.8,
-      "total_fat_g": 36,
-      "protein_per_kg": 1.18
+      "net_calories": 851,
+      "total_protein_g": 123.9,
+      "total_carbs_g": 127.8,
+      "total_fat_g": 37.5,
+      "protein_per_kg": 1.46
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent Progress (99.9g Protein)",
-      "weight_loss_status": "Extreme Deficit (Net 431 kcal)",
-      "recommendation": "วันนี้คุณทำ New PR วิ่งได้ถึง 2 ครั้ง และเสริมด้วยเวทเทรนนิ่งช่วงลำตัว ทำให้เผาผลาญรวมไปถึง 799 kcal พลังงานสุทธิรวม 431 kcal ถือว่าต่ำมากและช่วยลดไขมันได้ดีเยี่ยมครับ ตอนนี้โปรตีนขาดอีกเพียง 20.1g จะถึงเป้า 120g ครับ"
+      "muscle_maintenance": "Goal Achieved (123.9g Protein)",
+      "weight_loss_status": "High Deficit (Net 851 kcal)",
+      "recommendation": "ถึงแม้จะมีการเพิ่มรายการเบ็ดเตล็ด 300 แคลอรี่ แต่เนื่องจากวันนี้คุณออกกำลังกายหนักมาก พลังงานสุทธิรวมยังอยู่ที่ 851 kcal ซึ่งต่ำกว่าเป้าหมาย 1500 kcal มาก ถือว่าคุมน้ำหนักได้ดีเยี่ยมและโปรตีนถึงเป้าครับ"
     }
   }
 ]

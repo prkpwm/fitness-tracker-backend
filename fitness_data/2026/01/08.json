@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-08",
-    "last_update": "2026-01-08 16:59:21",
+    "last_update": "2026-01-08 17:02:59",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -97,8 +97,26 @@
       }
     ],
     "exercise_summary": {
-      "cardio": "8.57 mi total running (2 sessions)",
-      "strength": "Core training 30 min",
+      "cardio_session_1": {
+        "avg_hr_bpm": 111,
+        "calories_burned": 392,
+        "distance_mi": 5.41,
+        "duration_min": 77.45,
+        "type": "Treadmill Running (New Personal Record)"
+      },
+      "cardio_session_2": {
+        "avg_hr_bpm": 118,
+        "calories_burned": 257,
+        "distance_mi": 3.16,
+        "duration_min": 39.35,
+        "type": "Treadmill Running"
+      },
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Core (ลำตัว)",
+        "type": "Weight Training"
+      },
       "total_burned_calories": 799
     },
     "daily_total_stats": {
@@ -113,7 +131,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "Goal Achieved (123.9g Protein)",
       "weight_loss_status": "High Deficit (Net 851 kcal)",
-      "recommendation": "ถึงแม้จะมีการเพิ่มรายการเบ็ดเตล็ด 300 แคลอรี่ แต่เนื่องจากวันนี้คุณออกกำลังกายหนักมาก พลังงานสุทธิรวมยังอยู่ที่ 851 kcal ซึ่งต่ำกว่าเป้าหมาย 1500 kcal มาก ถือว่าคุมน้ำหนักได้ดีเยี่ยมและโปรตีนถึงเป้าครับ"
+      "recommendation": "วันนี้คุณทำผลงานได้ยอดเยี่ยมมากครับ! โปรตีนทะลุเป้า 120g (รวม 123.9g) ช่วยซ่อมแซมกล้ามเนื้อจากการวิ่งระยะไกล 5.41 ไมล์ (New PR) และการเวทเทรนนิ่งได้ดีเยี่ยม แม้จะมีรายการเบ็ดเตล็ดเพิ่มเข้ามาแต่พลังงานสุทธิยังอยู่ในเกณฑ์ลดน้ำหนักได้ดีมากครับ"
     }
   }
 ]

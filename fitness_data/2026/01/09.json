@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-09",
-    "last_update": "2026-01-09 09:42:11",
+    "last_update": "2026-01-09 13:57:49",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -54,6 +54,14 @@
         "protein_g": 0,
         "carbs_g": 12,
         "fat_g": 0
+      },
+      {
+        "time": "เย็น",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": {
@@ -61,18 +69,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 540,
+      "total_intake_calories": 660,
       "total_burned_calories": 0,
-      "net_calories": 540,
-      "total_protein_g": 35,
-      "total_carbs_g": 61.2,
-      "total_fat_g": 17,
-      "protein_per_kg": 0.41
+      "net_calories": 660,
+      "total_protein_g": 59,
+      "total_carbs_g": 64.2,
+      "total_fat_g": 18.5,
+      "protein_per_kg": 0.69
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (35g Protein)",
+      "muscle_maintenance": "Progressing (59g Protein)",
       "weight_loss_status": "Healthy Range",
-      "recommendation": "ยอดโปรตีนปัจจุบัน 35g ขาดอีก 85g จะถึงเป้า 120g ครับ เย็นนี้มีแผนจะไปวิ่งทำ New PR เหมือนเมื่อวานไหมครับ?"
+      "recommendation": "ยอดโปรตีนปัจจุบันอยู่ที่ 59g ขาดอีก 61g จะถึงเป้าหมาย 120g ครับ วันนี้มีแผนจะออกกำลังกายเพิ่มไหมครับ?"
     }
   }
 ]

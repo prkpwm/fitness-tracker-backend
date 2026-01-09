@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-09",
-    "last_update": "2026-01-09 13:57:49",
+    "last_update": "2026-01-09 16:24:03",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -65,13 +65,27 @@
       }
     ],
     "exercise_summary": {
-      "note": "ยังไม่มีข้อมูลการออกกำลังกายสำหรับวันนี้",
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_hr_bpm": 119,
+        "calories_burned": 444,
+        "distance_mi": 5.45,
+        "duration_min": 78.18,
+        "time": "21:59",
+        "type": "Treadmill Running"
+      },
+      "cardio_session_2": {
+        "calories_burned": 115,
+        "distance_mi": 1.5,
+        "duration_min": 20,
+        "note": "ข้อมูลประมาณการเดิม",
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 559
     },
     "daily_total_stats": {
       "total_intake_calories": 660,
-      "total_burned_calories": 0,
-      "net_calories": 660,
+      "total_burned_calories": 559,
+      "net_calories": 101,
       "total_protein_g": 59,
       "total_carbs_g": 64.2,
       "total_fat_g": 18.5,
@@ -79,8 +93,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (59g Protein)",
-      "weight_loss_status": "Healthy Range",
-      "recommendation": "ยอดโปรตีนปัจจุบันอยู่ที่ 59g ขาดอีก 61g จะถึงเป้าหมาย 120g ครับ วันนี้มีแผนจะออกกำลังกายเพิ่มไหมครับ?"
+      "weight_loss_status": "Extreme Deficit (Net 101 kcal)",
+      "recommendation": "วันนี้คุณวิ่งได้ระยะทางยอดเยี่ยมมากครับ (5.45 ไมล์) ทำให้พลังงานสุทธิเหลือเพียง 101 kcal ซึ่งช่วยในการลดน้ำหนักได้ดีมาก อย่าลืมเติมโปรตีนให้ถึงเป้าหมาย 120g นะครับ"
     }
   }
 ]

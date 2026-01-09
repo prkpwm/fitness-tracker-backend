@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-01-09",
+    "last_update": "2026-01-09 03:02:10",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เช้า",
+        "item": "นมเปรี้ยว Meiji สูตรไม่เติมน้ำตาล (1 ขวด)",
+        "calories": 70,
+        "protein_g": 4,
+        "carbs_g": 10,
+        "fat_g": 1
+      }
+    ],
+    "exercise_summary": {
+      "note": "ยังไม่มีการออกกำลังกาย",
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 70,
+      "total_burned_calories": 0,
+      "net_calories": 70,
+      "total_protein_g": 4,
+      "total_carbs_g": 10,
+      "total_fat_g": 1,
+      "protein_per_kg": 0.05
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Initial Stage",
+      "weight_loss_status": "Starting Day",
+      "recommendation": "เริ่มต้นวันได้ดีครับ อย่าลืมเติมโปรตีนในมื้อถัดไปเพื่อให้ใกล้เคียงเป้าหมาย 120g นะครับ"
+    }
+  }
+]

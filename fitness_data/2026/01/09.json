@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-09",
-    "last_update": "2026-01-09 03:02:10",
+    "last_update": "2026-01-09 09:40:20",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -22,6 +22,38 @@
         "protein_g": 4,
         "carbs_g": 10,
         "fat_g": 1
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ผัดกะเพราไม่ใส่น้ำมันและน้ำตาล (70g)",
+        "calories": 120,
+        "protein_g": 14,
+        "carbs_g": 2,
+        "fat_g": 6
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (1 จาน/2 ทัพพี)",
+        "calories": 160,
+        "protein_g": 3,
+        "carbs_g": 36,
+        "fat_g": 0
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ไข่ต้ม (2 ฟอง)",
+        "calories": 140,
+        "protein_g": 14,
+        "carbs_g": 1.2,
+        "fat_g": 10
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ชามะนาว (1 ซอง)",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 12,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
@@ -29,18 +61,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 70,
+      "total_intake_calories": 540,
       "total_burned_calories": 0,
-      "net_calories": 70,
-      "total_protein_g": 4,
-      "total_carbs_g": 10,
-      "total_fat_g": 1,
-      "protein_per_kg": 0.05
+      "net_calories": 540,
+      "total_protein_g": 35,
+      "total_carbs_g": 61.2,
+      "total_fat_g": 17,
+      "protein_per_kg": 0.41
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Initial Stage",
-      "weight_loss_status": "Starting Day",
-      "recommendation": "เริ่มต้นวันได้ดีครับ อย่าลืมเติมโปรตีนในมื้อถัดไปเพื่อให้ใกล้เคียงเป้าหมาย 120g นะครับ"
+      "muscle_maintenance": "Progressing (35g Protein)",
+      "weight_loss_status": "On Track",
+      "recommendation": "มื้อกลางวันเลือกได้ดีมากครับ ไม่ใส่น้ำมันและน้ำตาลช่วยลดแคลอรี่ได้เยอะ ตอนนี้โปรตีนสะสมอยู่ที่ 35g ขาดอีก 85g จะถึงเป้าหมาย 120g ครับ"
     }
   }
 ]

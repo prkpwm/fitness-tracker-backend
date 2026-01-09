@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-09",
-    "last_update": "2026-01-09 09:40:20",
+    "last_update": "2026-01-09 09:41:24",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -12,12 +12,12 @@
       "target_protein_g": 0,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
-      "recommended_daily_calories": 2100
+      "recommended_daily_calories": 0
     },
     "food_diary": [
       {
         "time": "เช้า",
-        "item": "นมเปรี้ยว Meiji สูตรไม่เติมน้ำตาล (1 ขวด)",
+        "item": "นมเปรี้ยว Meiji สูตรไม่เติมน้ำตาล",
         "calories": 70,
         "protein_g": 4,
         "carbs_g": 10,
@@ -25,7 +25,7 @@
       },
       {
         "time": "กลางวัน",
-        "item": "ผัดกะเพราไม่ใส่น้ำมันและน้ำตาล (70g)",
+        "item": "ผัดกะเพราหมูไม่ใส่น้ำมันและน้ำตาล (70g)",
         "calories": 120,
         "protein_g": 14,
         "carbs_g": 2,
@@ -33,7 +33,7 @@
       },
       {
         "time": "กลางวัน",
-        "item": "ข้าวเปล่า (1 จาน/2 ทัพพี)",
+        "item": "ข้าวเปล่า (2 ทัพพี)",
         "calories": 160,
         "protein_g": 3,
         "carbs_g": 36,
@@ -56,23 +56,20 @@
         "fat_g": 0
       }
     ],
-    "exercise_summary": {
-      "note": "ยังไม่มีการออกกำลังกาย",
-      "total_burned_calories": 0
-    },
+    "exercise_summary": null,
     "daily_total_stats": {
       "total_intake_calories": 540,
       "total_burned_calories": 0,
-      "net_calories": 540,
+      "net_calories": 0,
       "total_protein_g": 35,
       "total_carbs_g": 61.2,
       "total_fat_g": 17,
-      "protein_per_kg": 0.41
+      "protein_per_kg": 0
     },
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (35g Protein)",
-      "weight_loss_status": "On Track",
-      "recommendation": "มื้อกลางวันเลือกได้ดีมากครับ ไม่ใส่น้ำมันและน้ำตาลช่วยลดแคลอรี่ได้เยอะ ตอนนี้โปรตีนสะสมอยู่ที่ 35g ขาดอีก 85g จะถึงเป้าหมาย 120g ครับ"
+      "weight_loss_status": "",
+      "recommendation": "ยอดโปรตีนตอนนี้อยู่ที่ 35g ขาดอีก 85g จะถึงเป้า 120g ครับ เย็นนี้เติมโปรตีนเน้นๆ ได้เลย!"
     }
   }
 ]

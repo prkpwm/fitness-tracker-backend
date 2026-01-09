@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-09",
-    "last_update": "2026-01-09 16:48:42",
+    "last_update": "2026-01-09 16:57:54",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,6 +70,22 @@
         "protein_g": 33,
         "carbs_g": 6,
         "fat_g": 8
+      },
+      {
+        "time": "ดึกมาก",
+        "item": "เวย์โปรตีน (3.5 สกู๊ป)",
+        "calories": 140,
+        "protein_g": 28,
+        "carbs_g": 3.5,
+        "fat_g": 1.8
+      },
+      {
+        "time": "ก่อนนอน",
+        "item": "เบ็ดเตล็ด",
+        "calories": 400,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
@@ -85,21 +101,27 @@
         "duration_min": 20,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 559
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Full Body/Core",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 709
     },
     "daily_total_stats": {
-      "total_intake_calories": 900,
-      "total_burned_calories": 559,
-      "net_calories": 341,
-      "total_protein_g": 92,
-      "total_carbs_g": 70.2,
-      "total_fat_g": 26.5,
-      "protein_per_kg": 1.08
+      "total_intake_calories": 1440,
+      "total_burned_calories": 709,
+      "net_calories": 731,
+      "total_protein_g": 120,
+      "total_carbs_g": 73.7,
+      "total_fat_g": 28.3,
+      "protein_per_kg": 1.41
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (92g Protein)",
-      "weight_loss_status": "Extreme Deficit (Net 341 kcal)",
-      "recommendation": "ยอดโปรตีนตอนนี้อยู่ที่ 92g ขาดอีก 28g จะถึงเป้า 120g ครับ พลังงานสุทธิรวมยังต่ำมาก (341 kcal) ซึ่งดีต่อการลดไขมันมากครับ"
+      "muscle_maintenance": "Goal Achieved (120g Protein)",
+      "weight_loss_status": "High Deficit (Net 731 kcal)",
+      "recommendation": "ยินดีด้วยครับ! วันนี้คุณทำได้ตามเป้าหมายทั้งโปรตีน (120g) และการออกกำลังกายที่หนักหน่วง พลังงานสุทธิ 731 kcal จะช่วยให้การลดน้ำหนักเห็นผลชัดเจนมาก พักผ่อนให้เต็มที่นะครับ!"
     }
   }
 ]

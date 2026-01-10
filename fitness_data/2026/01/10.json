@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 10:02:44",
+    "last_update": "2026-01-10 10:03:43",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -12,7 +12,7 @@
       "target_protein_g": 0,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
-      "recommended_daily_calories": 0
+      "recommended_daily_calories": 2100
     },
     "food_diary": [
       {
@@ -40,20 +40,23 @@
         "fat_g": 12
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "note": "ยังไม่มีข้อมูลการออกกำลังกายสำหรับวันนี้",
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
       "total_intake_calories": 590,
       "total_burned_calories": 0,
-      "net_calories": 0,
+      "net_calories": 590,
       "total_protein_g": 41,
       "total_carbs_g": 26,
       "total_fat_g": 36,
-      "protein_per_kg": 0
+      "protein_per_kg": 0.48
     },
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (41g Protein)",
-      "weight_loss_status": "",
-      "recommendation": "ยอดโปรตีนตอนนี้อยู่ที่ 41g ขาดอีก 79g จะถึงเป้า 120g ครับ วันนี้คุณยังไม่ได้บันทึกการออกกำลังกาย มีแผนจะไปวิ่งเพื่อทำลายสถิติ (New PR) เหมือนเมื่อวันที่ 8 หรือ 9 ที่ผ่านมาไหมครับ?"
+      "weight_loss_status": "Starting Day",
+      "recommendation": "ตอนนี้โปรตีนอยู่ที่ 41g ขาดอีก 79g จะถึงเป้า 120g ครับ วันนี้ยังไม่มีกิจกรรมเผาผลาญ พลังงานเน็ตยังอยู่ที่ 590 kcal ครับ"
     }
   }
 ]

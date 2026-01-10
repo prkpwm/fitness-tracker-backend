@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 16:48:54",
+    "last_update": "2026-01-10 16:51:47",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -80,7 +80,8 @@
       "strength_training": {
         "calories_burned": 150,
         "duration_min": 30,
-        "type": "Weight Training (Core/Abs)"
+        "target": "Core/Abs",
+        "type": "Weight Training"
       },
       "total_burned_calories": 681
     },
@@ -96,7 +97,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (67g Protein)",
       "weight_loss_status": "Extreme Deficit (Net 229 kcal)",
-      "recommendation": "วันนี้วินัยการออกกำลังกายยอดเยี่ยมมากครับ เผาผลาญรวม 681 kcal ทำให้ค่าพลังงานสุทธิ (Net Calories) ต่ำมากเพียง 229 kcal ตอนนี้โปรตีนยังอยู่ที่ 67g ขาดอีก 53g จะถึงเป้า 120g ครับ"
+      "recommendation": "วันนี้วินัยการออกกำลังกายยอดเยี่ยมมากครับ เผาผลาญรวม 681 kcal ทำให้ค่าพลังงานสุทธิต่ำมากเพียง 229 kcal ตอนนี้โปรตีนยังอยู่ที่ 67g ขาดอีก 53g จะถึงเป้า 120g ครับ"
     }
   }
 ]

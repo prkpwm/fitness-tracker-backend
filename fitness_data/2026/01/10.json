@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 17:38:21",
+    "last_update": "2026-01-10 17:58:33",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,6 +70,22 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
+      },
+      {
+        "time": "ดึก",
+        "item": "ต้มกระดูกหมู (8 ชิ้นเล็ก)",
+        "calories": 120,
+        "protein_g": 12,
+        "carbs_g": 0,
+        "fat_g": 8
+      },
+      {
+        "time": "ดึก",
+        "item": "เนื้อย่าง (20g)",
+        "calories": 50,
+        "protein_g": 5,
+        "carbs_g": 0,
+        "fat_g": 3
       }
     ],
     "exercise_summary": {
@@ -94,18 +110,18 @@
       "total_burned_calories": 681
     },
     "daily_total_stats": {
-      "total_intake_calories": 1030,
+      "total_intake_calories": 1200,
       "total_burned_calories": 681,
-      "net_calories": 349,
-      "total_protein_g": 91,
+      "net_calories": 519,
+      "total_protein_g": 108,
       "total_carbs_g": 69,
-      "total_fat_g": 43.5,
-      "protein_per_kg": 1.07
+      "total_fat_g": 54.5,
+      "protein_per_kg": 1.27
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (91g Protein)",
-      "weight_loss_status": "Extreme Deficit (Net 349 kcal)",
-      "recommendation": "อัปเดตข้อมูลของวันที่ 10 เรียบร้อยครับ ตอนนี้โปรตีนรวมอยู่ที่ 91g ขาดอีก 29g จะถึงเป้า 120g พลังงานสุทธิยังต่ำมาก (349 kcal) ช่วยในการลดไขมันได้ดีเยี่ยมครับ"
+      "muscle_maintenance": "Good Progress (108g Protein)",
+      "weight_loss_status": "High Deficit (Net 519 kcal)",
+      "recommendation": "ยอดโปรตีนสะสมอยู่ที่ 108g แล้วครับ ขาดอีกเพียง 12g จะถึงเป้า 120g พลังงานสุทธิยังคุมได้ดีมากที่ 519 kcal ครับ"
     }
   }
 ]

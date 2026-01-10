@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 18:03:36",
+    "last_update": "2026-01-10 18:05:15",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -98,29 +98,32 @@
     ],
     "exercise_summary": {
       "cardio_session_1": {
+        "avg_hr_bpm": 121,
         "calories_burned": 395,
         "distance_mi": 3.86,
         "duration_min": 60.57,
+        "time": "21:16",
         "type": "Treadmill Running"
       },
       "cardio_session_2": {
-        "calories_burned": 136,
-        "distance_mi": 1.14,
-        "duration_min": 24.38,
+        "avg_hr_bpm": 115,
+        "calories_burned": 352,
+        "distance_mi": 3.6,
+        "duration_min": 63.42,
+        "time": "22:43",
         "type": "Treadmill Running"
       },
       "strength_training": {
         "calories_burned": 150,
         "duration_min": 30,
-        "target": "Core/Abs",
-        "type": "Weight Training"
+        "type": "Weight Training (Core/Abs)"
       },
-      "total_burned_calories": 681
+      "total_burned_calories": 897
     },
     "daily_total_stats": {
       "total_intake_calories": 1605,
-      "total_burned_calories": 681,
-      "net_calories": 924,
+      "total_burned_calories": 897,
+      "net_calories": 708,
       "total_protein_g": 119,
       "total_carbs_g": 69,
       "total_fat_g": 61.5,
@@ -128,8 +131,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Goal Achieved (119g Protein)",
-      "weight_loss_status": "Healthy Deficit (Net 924 kcal)",
-      "recommendation": "ยอดโปรตีนรวมอยู่ที่ 119g ขาดอีกเพียง 1g เท่านั้นก็จะครบเป้า 120g ครับ วันนี้ทำได้ยอดเยี่ยมมากครับ!"
+      "weight_loss_status": "Extreme Deficit (Net 708 kcal)",
+      "recommendation": "ยอดเยี่ยมมากครับ! ข้อมูลการวิ่งรอบสองอยู่ที่ 3.60 ไมล์ รวมกับรอบแรก 3.86 ไมล์ ทำให้วันนี้คุณเบิร์นไปเกือบ 900 kcal พลังงานสุทธิเหลือเพียง 708 kcal เท่านั้น ส่วนโปรตีนขาดอีกแค่ 1g จะถึงเป้า 120g ครับ"
     }
   }
 ]

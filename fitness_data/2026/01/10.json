@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 17:58:33",
+    "last_update": "2026-01-10 17:59:29",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -86,6 +86,14 @@
         "protein_g": 5,
         "carbs_g": 0,
         "fat_g": 3
+      },
+      {
+        "time": "ก่อนนอน",
+        "item": "เบ็ดเตล็ด",
+        "calories": 300,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
@@ -110,9 +118,9 @@
       "total_burned_calories": 681
     },
     "daily_total_stats": {
-      "total_intake_calories": 1200,
+      "total_intake_calories": 1500,
       "total_burned_calories": 681,
-      "net_calories": 519,
+      "net_calories": 819,
       "total_protein_g": 108,
       "total_carbs_g": 69,
       "total_fat_g": 54.5,
@@ -120,8 +128,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Good Progress (108g Protein)",
-      "weight_loss_status": "High Deficit (Net 519 kcal)",
-      "recommendation": "ยอดโปรตีนสะสมอยู่ที่ 108g แล้วครับ ขาดอีกเพียง 12g จะถึงเป้า 120g พลังงานสุทธิยังคุมได้ดีมากที่ 519 kcal ครับ"
+      "weight_loss_status": "Healthy Deficit (Net 819 kcal)",
+      "recommendation": "พลังงานรวมวันนี้อยู่ที่ 1,500 kcal พอดีเป๊ะตามเป้าหมายครับ! ถึงจะมีแคลอรี่เบ็ดเตล็ดเพิ่มเข้ามา แต่เพราะคุณออกกำลังกายหนักมาก (เบิร์นไป 681 kcal) ทำให้พลังงานสุทธิยังอยู่ในระดับที่ลดน้ำหนักได้อย่างดีเยี่ยม ส่วนโปรตีนขาดอีกแค่ 12g จะถึงเป้าครับ"
     }
   }
 ]

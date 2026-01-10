@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 14:03:02",
+    "last_update": "2026-01-10 15:19:37",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -65,13 +65,20 @@
       }
     ],
     "exercise_summary": {
-      "note": "ยังไม่มีข้อมูลการออกกำลังกายสำหรับวันนี้",
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_hr_bpm": 121,
+        "calories_burned": 395,
+        "distance_mi": 3.86,
+        "duration_min": 60.57,
+        "time": "21:16",
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 395
     },
     "daily_total_stats": {
       "total_intake_calories": 910,
-      "total_burned_calories": 0,
-      "net_calories": 910,
+      "total_burned_calories": 395,
+      "net_calories": 515,
       "total_protein_g": 67,
       "total_carbs_g": 66,
       "total_fat_g": 42,
@@ -79,8 +86,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (67g Protein)",
-      "weight_loss_status": "Healthy Range",
-      "recommendation": "ยอดโปรตีนสะสมขยับขึ้นมาเป็น 67g แล้วครับ ขาดอีก 53g จะถึงเป้าหมาย 120g เย็นนี้มีแผนจะไปวิ่งเบิร์นแคลอรี่เหมือนเมื่อวานไหมครับ?"
+      "weight_loss_status": "High Deficit (Net 515 kcal)",
+      "recommendation": "วันนี้คุณวิ่งได้ต่อเนื่อง 1 ชม. เต็ม (3.86 ไมล์) เผาผลาญไปถึง 395 kcal ทำให้พลังงานสุทธิเหลือเพียง 515 kcal ซึ่งดีมากต่อการลดไขมัน ส่วนโปรตีนตอนนี้อยู่ที่ 67g ขาดอีก 53g จะถึงเป้า 120g ครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 17:59:29",
+    "last_update": "2026-01-10 18:02:31",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -25,11 +25,11 @@
       },
       {
         "time": "กลางวัน",
-        "item": "หมูย่าง (70g)",
-        "calories": 180,
-        "protein_g": 15,
-        "carbs_g": 1,
-        "fat_g": 13
+        "item": "หมูย่าง (30g)",
+        "calories": 80,
+        "protein_g": 6.5,
+        "carbs_g": 0.5,
+        "fat_g": 5.5
       },
       {
         "time": "ของหวาน",
@@ -74,10 +74,10 @@
       {
         "time": "ดึก",
         "item": "ต้มกระดูกหมู (8 ชิ้นเล็ก)",
-        "calories": 120,
-        "protein_g": 12,
+        "calories": 200,
+        "protein_g": 20,
         "carbs_g": 0,
-        "fat_g": 8
+        "fat_g": 13
       },
       {
         "time": "ดึก",
@@ -118,18 +118,18 @@
       "total_burned_calories": 681
     },
     "daily_total_stats": {
-      "total_intake_calories": 1500,
+      "total_intake_calories": 1480,
       "total_burned_calories": 681,
-      "net_calories": 819,
-      "total_protein_g": 108,
-      "total_carbs_g": 69,
-      "total_fat_g": 54.5,
-      "protein_per_kg": 1.27
+      "net_calories": 799,
+      "total_protein_g": 107.5,
+      "total_carbs_g": 68.5,
+      "total_fat_g": 52,
+      "protein_per_kg": 1.26
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (108g Protein)",
-      "weight_loss_status": "Healthy Deficit (Net 819 kcal)",
-      "recommendation": "พลังงานรวมวันนี้อยู่ที่ 1,500 kcal พอดีเป๊ะตามเป้าหมายครับ! ถึงจะมีแคลอรี่เบ็ดเตล็ดเพิ่มเข้ามา แต่เพราะคุณออกกำลังกายหนักมาก (เบิร์นไป 681 kcal) ทำให้พลังงานสุทธิยังอยู่ในระดับที่ลดน้ำหนักได้อย่างดีเยี่ยม ส่วนโปรตีนขาดอีกแค่ 12g จะถึงเป้าครับ"
+      "muscle_maintenance": "Good Progress (107.5g Protein)",
+      "weight_loss_status": "Healthy Deficit (Net 799 kcal)",
+      "recommendation": "หลังปรับลดหมูย่าง พลังงานสุทธิลดลงเหลือ 799 kcal ซึ่งดีมากครับ ยอดโปรตีนสะสมอยู่ที่ 107.5g ใกล้เป้าหมาย 120g มากแล้วครับ"
     }
   }
 ]

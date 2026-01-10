@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 17:37:03",
+    "last_update": "2026-01-10 17:38:21",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -57,7 +57,15 @@
       },
       {
         "time": "เย็น",
-        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "item": "เวย์โปรตีน รอบที่ 1 (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน รอบที่ 2 (3 สกู๊ป)",
         "calories": 120,
         "protein_g": 24,
         "carbs_g": 3,
@@ -86,18 +94,18 @@
       "total_burned_calories": 681
     },
     "daily_total_stats": {
-      "total_intake_calories": 910,
+      "total_intake_calories": 1030,
       "total_burned_calories": 681,
-      "net_calories": 229,
-      "total_protein_g": 67,
-      "total_carbs_g": 66,
-      "total_fat_g": 42,
-      "protein_per_kg": 0.79
+      "net_calories": 349,
+      "total_protein_g": 91,
+      "total_carbs_g": 69,
+      "total_fat_g": 43.5,
+      "protein_per_kg": 1.07
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (67g Protein)",
-      "weight_loss_status": "Extreme Deficit (Net 229 kcal)",
-      "recommendation": "วันนี้วินัยการออกกำลังกายยอดเยี่ยมมากครับ เผาผลาญรวม 681 kcal ทำให้ค่าพลังงานสุทธิต่ำมากเพียง 229 kcal ตอนนี้โปรตีนยังอยู่ที่ 67g ขาดอีก 53g จะถึงเป้า 120g ครับ"
+      "muscle_maintenance": "Good Progress (91g Protein)",
+      "weight_loss_status": "Extreme Deficit (Net 349 kcal)",
+      "recommendation": "อัปเดตข้อมูลของวันที่ 10 เรียบร้อยครับ ตอนนี้โปรตีนรวมอยู่ที่ 91g ขาดอีก 29g จะถึงเป้า 120g พลังงานสุทธิยังต่ำมาก (349 kcal) ช่วยในการลดไขมันได้ดีเยี่ยมครับ"
     }
   }
 ]

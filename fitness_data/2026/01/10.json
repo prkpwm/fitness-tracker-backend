@@ -1,0 +1,59 @@
+[
+  {
+    "date": "2026-01-10",
+    "last_update": "2026-01-10 10:02:44",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 0
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "หมูผัดพริกแกงไม่ใส่น้ำตาล (120g)",
+        "calories": 210,
+        "protein_g": 24,
+        "carbs_g": 4,
+        "fat_g": 11
+      },
+      {
+        "time": "กลางวัน",
+        "item": "หมูย่าง (70g)",
+        "calories": 180,
+        "protein_g": 15,
+        "carbs_g": 1,
+        "fat_g": 13
+      },
+      {
+        "time": "ของหวาน",
+        "item": "ไอศกรีมวานิลลาเคลือบช็อกโกแลต",
+        "calories": 200,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 12
+      }
+    ],
+    "exercise_summary": null,
+    "daily_total_stats": {
+      "total_intake_calories": 590,
+      "total_burned_calories": 0,
+      "net_calories": 0,
+      "total_protein_g": 41,
+      "total_carbs_g": 26,
+      "total_fat_g": 36,
+      "protein_per_kg": 0
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Progressing (41g Protein)",
+      "weight_loss_status": "",
+      "recommendation": "ยอดโปรตีนตอนนี้อยู่ที่ 41g ขาดอีก 79g จะถึงเป้า 120g ครับ วันนี้คุณยังไม่ได้บันทึกการออกกำลังกาย มีแผนจะไปวิ่งเพื่อทำลายสถิติ (New PR) เหมือนเมื่อวันที่ 8 หรือ 9 ที่ผ่านมาไหมครับ?"
+    }
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 18:02:31",
+    "last_update": "2026-01-10 18:03:36",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -25,11 +25,11 @@
       },
       {
         "time": "กลางวัน",
-        "item": "หมูย่าง (30g)",
-        "calories": 80,
-        "protein_g": 6.5,
-        "carbs_g": 0.5,
-        "fat_g": 5.5
+        "item": "หมูย่าง (70g)",
+        "calories": 180,
+        "protein_g": 15,
+        "carbs_g": 1,
+        "fat_g": 13
       },
       {
         "time": "ของหวาน",
@@ -81,11 +81,11 @@
       },
       {
         "time": "ดึก",
-        "item": "เนื้อย่าง (20g)",
-        "calories": 50,
-        "protein_g": 5,
+        "item": "เนื้อย่าง (30g)",
+        "calories": 75,
+        "protein_g": 8,
         "carbs_g": 0,
-        "fat_g": 3
+        "fat_g": 5
       },
       {
         "time": "ก่อนนอน",
@@ -118,18 +118,18 @@
       "total_burned_calories": 681
     },
     "daily_total_stats": {
-      "total_intake_calories": 1480,
+      "total_intake_calories": 1605,
       "total_burned_calories": 681,
-      "net_calories": 799,
-      "total_protein_g": 107.5,
-      "total_carbs_g": 68.5,
-      "total_fat_g": 52,
-      "protein_per_kg": 1.26
+      "net_calories": 924,
+      "total_protein_g": 119,
+      "total_carbs_g": 69,
+      "total_fat_g": 61.5,
+      "protein_per_kg": 1.4
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (107.5g Protein)",
-      "weight_loss_status": "Healthy Deficit (Net 799 kcal)",
-      "recommendation": "หลังปรับลดหมูย่าง พลังงานสุทธิลดลงเหลือ 799 kcal ซึ่งดีมากครับ ยอดโปรตีนสะสมอยู่ที่ 107.5g ใกล้เป้าหมาย 120g มากแล้วครับ"
+      "muscle_maintenance": "Goal Achieved (119g Protein)",
+      "weight_loss_status": "Healthy Deficit (Net 924 kcal)",
+      "recommendation": "ยอดโปรตีนรวมอยู่ที่ 119g ขาดอีกเพียง 1g เท่านั้นก็จะครบเป้า 120g ครับ วันนี้ทำได้ยอดเยี่ยมมากครับ!"
     }
   }
 ]

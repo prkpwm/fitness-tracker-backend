@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-10",
-    "last_update": "2026-01-10 18:05:15",
+    "last_update": "2026-01-10 18:06:40",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -98,25 +98,22 @@
     ],
     "exercise_summary": {
       "cardio_session_1": {
-        "avg_hr_bpm": 121,
         "calories_burned": 395,
         "distance_mi": 3.86,
         "duration_min": 60.57,
-        "time": "21:16",
         "type": "Treadmill Running"
       },
       "cardio_session_2": {
-        "avg_hr_bpm": 115,
         "calories_burned": 352,
         "distance_mi": 3.6,
         "duration_min": 63.42,
-        "time": "22:43",
         "type": "Treadmill Running"
       },
       "strength_training": {
         "calories_burned": 150,
         "duration_min": 30,
-        "type": "Weight Training (Core/Abs)"
+        "target": "Core/Abs",
+        "type": "Weight Training"
       },
       "total_burned_calories": 897
     },
@@ -131,8 +128,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Goal Achieved (119g Protein)",
-      "weight_loss_status": "Extreme Deficit (Net 708 kcal)",
-      "recommendation": "ยอดเยี่ยมมากครับ! ข้อมูลการวิ่งรอบสองอยู่ที่ 3.60 ไมล์ รวมกับรอบแรก 3.86 ไมล์ ทำให้วันนี้คุณเบิร์นไปเกือบ 900 kcal พลังงานสุทธิเหลือเพียง 708 kcal เท่านั้น ส่วนโปรตีนขาดอีกแค่ 1g จะถึงเป้า 120g ครับ"
+      "weight_loss_status": "High Deficit (Net 708 kcal)",
+      "recommendation": "วันนี้ทำได้ยอดเยี่ยมมากครับ! ทั้งการวิ่ง 2 รอบ และเวทเทรนนิ่ง รวมเบิร์นไปถึง 897 kcal พลังงานสุทธิ 708 kcal จะช่วยให้เห็นผลชัดเจนมาก ส่วนโปรตีนขาดอีก 1g จะถึงเป้าครับ"
     }
   }
 ]

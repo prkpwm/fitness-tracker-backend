@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-11",
-    "last_update": "2026-01-11 12:50:49",
+    "last_update": "2026-01-11 13:17:42",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -54,24 +54,32 @@
         "protein_g": 2.1,
         "carbs_g": 36,
         "fat_g": 0.3
+      },
+      {
+        "time": "ดึก",
+        "item": "ข้าวหมูแดงหมูกรอบ (75g) + ไข่ (2.5 ฟอง) + ข้าว (100g)",
+        "calories": 580,
+        "protein_g": 32,
+        "carbs_g": 45,
+        "fat_g": 30
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1095,
+      "total_intake_calories": 1675,
       "total_burned_calories": 0,
-      "net_calories": 1095,
-      "total_protein_g": 84.6,
-      "total_carbs_g": 123,
-      "total_fat_g": 26.8,
-      "protein_per_kg": 1
+      "net_calories": 1675,
+      "total_protein_g": 116.6,
+      "total_carbs_g": 168,
+      "total_fat_g": 56.8,
+      "protein_per_kg": 1.37
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (84.6g Protein)",
-      "weight_loss_status": "Starting Day",
-      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 84.6g ขาดอีก 35.4g จะถึงเป้า 120g ครับ วันนี้จะมีการออกกำลังกายเพิ่มเติมไหมครับ?"
+      "muscle_maintenance": "Almost Achieved (116.6g Protein)",
+      "weight_loss_status": "Near Goal",
+      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 116.6g ขาดอีกเพียง 3.4g จะถึงเป้าหมาย 120g ครับ! วันนี้ทานโปรตีนได้ดีมากครับ"
     }
   }
 ]

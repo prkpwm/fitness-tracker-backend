@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-11",
-    "last_update": "2026-01-11 09:21:56",
+    "last_update": "2026-01-11 09:22:37",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -40,7 +40,9 @@
         "fat_g": 0
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
       "total_intake_calories": 625,
       "total_burned_calories": 0,
@@ -48,12 +50,12 @@
       "total_protein_g": 54.5,
       "total_carbs_g": 75,
       "total_fat_g": 8.5,
-      "protein_per_kg": 0
+      "protein_per_kg": 0.64
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (54.5g Protein)",
-      "weight_loss_status": "",
-      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 54.5g แล้วครับ ถือเป็นการเริ่มต้นวันที่ดีมากสำหรับกล้ามเนื้อ ขาดอีก 65.5g จะถึงเป้า 120g ครับ"
+      "muscle_maintenance": "Progressing (54.5g Protein)",
+      "weight_loss_status": "Starting Day",
+      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 54.5g ขาดอีก 65.5g จะถึงเป้าหมาย 120g ครับ วันนี้มีแผนจะไปวิ่งรอบเย็นไหมครับ?"
     }
   }
 ]

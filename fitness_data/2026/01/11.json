@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-11",
-    "last_update": "2026-01-11 09:19:43",
+    "last_update": "2026-01-11 09:21:56",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,11 +17,11 @@
     "food_diary": [
       {
         "time": "กลางวัน",
-        "item": "ไก่ทอดไร้น้ำมันราดซอสบาร์บีคิว (190g)",
-        "calories": 360,
-        "protein_g": 42,
+        "item": "อกไก่ทอดไร้น้ำมันราดซอสบาร์บีคิว (190g)",
+        "calories": 320,
+        "protein_g": 48,
         "carbs_g": 10,
-        "fat_g": 16
+        "fat_g": 8
       },
       {
         "time": "กลางวัน",
@@ -40,22 +40,20 @@
         "fat_g": 0
       }
     ],
-    "exercise_summary": {
-      "total_burned_calories": 0
-    },
+    "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 665,
+      "total_intake_calories": 625,
       "total_burned_calories": 0,
-      "net_calories": 665,
-      "total_protein_g": 48.5,
+      "net_calories": 625,
+      "total_protein_g": 54.5,
       "total_carbs_g": 75,
-      "total_fat_g": 16.5,
-      "protein_per_kg": 0.57
+      "total_fat_g": 8.5,
+      "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (48.5g Protein)",
-      "weight_loss_status": "Starting Day",
-      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 48.5g ขาดอีก 71.5g จะถึงเป้าหมาย 120g ครับ วันนี้มีแผนจะไปวิ่งรอบเย็นไหมครับ?"
+      "muscle_maintenance": "Excellent (54.5g Protein)",
+      "weight_loss_status": "",
+      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 54.5g แล้วครับ ถือเป็นการเริ่มต้นวันที่ดีมากสำหรับกล้ามเนื้อ ขาดอีก 65.5g จะถึงเป้า 120g ครับ"
     }
   }
 ]

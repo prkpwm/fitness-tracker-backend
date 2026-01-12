@@ -1,17 +1,17 @@
 [
   {
     "date": "2026-01-12",
-    "last_update": "2026-01-12 03:32:26",
+    "last_update": "2026-01-12 07:47:43",
     "user_profile": {
-      "age": 28,
-      "weight_kg": 85,
-      "height_cm": 173,
+      "age": 0,
+      "weight_kg": 0,
+      "height_cm": 0,
       "bmr_kcal": 0,
       "tdee_maintenance_kcal": 0,
       "target_lose_weight_kcal": 0,
       "target_protein_g": 0,
-      "goal_calories": 1500,
-      "maintenance_protein_target_g": 120,
+      "goal_calories": 0,
+      "maintenance_protein_target_g": 0,
       "recommended_daily_calories": 0
     },
     "food_diary": [
@@ -22,24 +22,62 @@
         "protein_g": 2,
         "carbs_g": 13,
         "fat_g": 1
+      },
+      {
+        "time": "กลางวัน",
+        "item": "หมูสมุนไพรทอด (45g * 3 ชิ้น)",
+        "calories": 480,
+        "protein_g": 33,
+        "carbs_g": 3,
+        "fat_g": 38
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ต้มแซ่บกระดูกหมู (10 ชิ้น)",
+        "calories": 300,
+        "protein_g": 25,
+        "carbs_g": 5,
+        "fat_g": 20
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ซุปมะเขือใส่ปลาทู (20g)",
+        "calories": 25,
+        "protein_g": 3,
+        "carbs_g": 2,
+        "fat_g": 0.5
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเหนียว (150g)",
+        "calories": 290,
+        "protein_g": 4.5,
+        "carbs_g": 65,
+        "fat_g": 0.5
+      },
+      {
+        "time": "บ่าย",
+        "item": "ส้ม (2 ผล)",
+        "calories": 100,
+        "protein_g": 1.4,
+        "carbs_g": 24,
+        "fat_g": 0.2
       }
     ],
-    "exercise_summary": {
-      "total_burned_calories": 0
-    },
+    "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 70,
+      "total_intake_calories": 1265,
       "total_burned_calories": 0,
-      "net_calories": 70,
-      "total_protein_g": 2,
-      "total_carbs_g": 13,
-      "total_fat_g": 1,
-      "protein_per_kg": 0.02
+      "net_calories": 0,
+      "total_protein_g": 68.9,
+      "total_carbs_g": 112,
+      "total_fat_g": 60.2,
+      "protein_per_kg": 0.81
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Starting Day",
+      "muscle_maintenance": "Progressing (68.9g Protein)",
       "weight_loss_status": "",
-      "recommendation": "แก้ไขข้อมูลนมเปรี้ยวตามจริงเรียบร้อยครับ วันนี้โปรตีนยังขาดอีก 118g เพื่อให้ถึงเป้าหมาย 120g ครับ"
+      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 68.9g ขาดอีก 51.1g จะถึงเป้าหมาย 120g ครับ วันนี้มีแผนจะรับประทานอะไรเพิ่มเติมอีกไหมครับ?"
     }
   }
 ]

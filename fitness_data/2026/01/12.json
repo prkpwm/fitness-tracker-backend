@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-12",
-    "last_update": "2026-01-12 14:16:23",
+    "last_update": "2026-01-12 15:03:57",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -79,12 +79,18 @@
         "duration_min": 68.92,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 418
+      "cardio_session_2": {
+        "calories_burned": 217,
+        "distance_mi": 2.6,
+        "duration_min": 40.38,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 635
     },
     "daily_total_stats": {
       "total_intake_calories": 1385,
-      "total_burned_calories": 418,
-      "net_calories": 967,
+      "total_burned_calories": 635,
+      "net_calories": 750,
       "total_protein_g": 92.9,
       "total_carbs_g": 115,
       "total_fat_g": 61.7,
@@ -92,8 +98,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Excellent (92.9g Protein)",
-      "weight_loss_status": "Active (Net 967 kcal)",
-      "recommendation": "วันนี้วิ่งสะสมระยะได้ดีมากครับ 4.39 ไมล์ ช่วยให้พลังงานสุทธิไม่เกิน 1,000 kcal ส่วนโปรตีนตอนนี้อยู่ที่ 92.9g ขาดอีก 27.1g จะถึงเป้าหมาย 120g ครับ"
+      "weight_loss_status": "High Deficit (Net 750 kcal)",
+      "recommendation": "ยอดเยี่ยมมากครับ! วันนี้วิ่งไป 2 รอบ รวมเบิร์นได้ถึง 635 kcal ทำให้พลังงานสุทธิเหลือเพียง 750 kcal ส่วนโปรตีนตอนนี้สะสมได้ 92.9g ขาดอีก 27.1g จะถึงเป้า 120g ครับ"
     }
   }
 ]

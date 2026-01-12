@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-12",
-    "last_update": "2026-01-12 15:03:57",
+    "last_update": "2026-01-12 15:47:19",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,6 +70,22 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
+      },
+      {
+        "time": "ดึก",
+        "item": "ต้มกระดูกหมู (140g)",
+        "calories": 250,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 16
+      },
+      {
+        "time": "ดึก",
+        "item": "หมูทอดสมุนไพร (40g)",
+        "calories": 140,
+        "protein_g": 10,
+        "carbs_g": 1,
+        "fat_g": 11
       }
     ],
     "exercise_summary": {
@@ -88,18 +104,18 @@
       "total_burned_calories": 635
     },
     "daily_total_stats": {
-      "total_intake_calories": 1385,
+      "total_intake_calories": 1775,
       "total_burned_calories": 635,
-      "net_calories": 750,
-      "total_protein_g": 92.9,
-      "total_carbs_g": 115,
-      "total_fat_g": 61.7,
-      "protein_per_kg": 1.09
+      "net_calories": 1140,
+      "total_protein_g": 128.9,
+      "total_carbs_g": 116,
+      "total_fat_g": 88.7,
+      "protein_per_kg": 1.52
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (92.9g Protein)",
-      "weight_loss_status": "High Deficit (Net 750 kcal)",
-      "recommendation": "ยอดเยี่ยมมากครับ! วันนี้วิ่งไป 2 รอบ รวมเบิร์นได้ถึง 635 kcal ทำให้พลังงานสุทธิเหลือเพียง 750 kcal ส่วนโปรตีนตอนนี้สะสมได้ 92.9g ขาดอีก 27.1g จะถึงเป้า 120g ครับ"
+      "muscle_maintenance": "Goal Achieved (128.9g Protein)",
+      "weight_loss_status": "High Deficit (Net 1140 kcal)",
+      "recommendation": "ยอดเยี่ยมมากครับ! วันนี้คุณทำโปรตีนได้ถึง 128.9g ซึ่งเกินเป้าหมายที่ตั้งไว้ และแม้จะรับประทานเพิ่มแต่การออกกำลังกาย 2 รอบช่วยให้พลังงานสุทธิยังอยู่ในเกณฑ์ที่ต่ำมาก (1,140 kcal) เป็นวันที่สมบูรณ์แบบมากครับ"
     }
   }
 ]

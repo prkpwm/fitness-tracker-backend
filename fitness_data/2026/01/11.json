@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-11",
-    "last_update": "2026-01-11 13:42:35",
+    "last_update": "2026-01-12 14:13:02",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -49,11 +49,11 @@
       },
       {
         "time": "ค่ำ",
-        "item": "ส้มสายน้ำผึ้ง (3 ลูก)",
-        "calories": 150,
-        "protein_g": 2.1,
-        "carbs_g": 36,
-        "fat_g": 0.3
+        "item": "ส้มสายน้ำผึ้ง (4 ลูก)",
+        "calories": 200,
+        "protein_g": 2.8,
+        "carbs_g": 48,
+        "fat_g": 0.4
       },
       {
         "time": "ดึก",
@@ -68,18 +68,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1510,
+      "total_intake_calories": 1560,
       "total_burned_calories": 0,
-      "net_calories": 1510,
-      "total_protein_g": 115.1,
-      "total_carbs_g": 143,
-      "total_fat_g": 56.8,
-      "protein_per_kg": 1.35
+      "net_calories": 1560,
+      "total_protein_g": 115.8,
+      "total_carbs_g": 155,
+      "total_fat_g": 56.9,
+      "protein_per_kg": 1.36
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Almost Achieved (115.1g Protein)",
+      "muscle_maintenance": "Almost Achieved (115.8g Protein)",
       "weight_loss_status": "Near Goal",
-      "recommendation": "หลังลดปริมาณข้าวลง พลังงานรวมวันนี้อยู่ที่ 1,510 kcal ซึ่งใกล้เคียงเป้าหมายมากครับ ส่วนโปรตีนสะสมอยู่ที่ 115.1g ขาดอีกเพียง 4.9g จะครบ 120g ครับ"
+      "recommendation": "ยอดโปรตีนสะสมอยู่ที่ 115.8g ขาดอีกเพียง 4.2g จะครบเป้าหมาย 120g ครับ พลังงานรวมวันนี้อยู่ที่ 1,560 kcal ถือว่าอยู่ในเกณฑ์ที่ดีมากครับ"
     }
   }
 ]

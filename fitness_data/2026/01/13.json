@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-13",
-    "last_update": "2026-01-13 07:44:24",
+    "last_update": "2026-01-13 07:45:10",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,11 +17,11 @@
     "food_diary": [
       {
         "time": "มื้อหลัก",
-        "item": "กระดูกหมูทอดไร้น้ำมัน (120g)",
-        "calories": 300,
-        "protein_g": 20,
+        "item": "กระดูกหมูทอดไร้น้ำมัน (150g)",
+        "calories": 375,
+        "protein_g": 25,
         "carbs_g": 0,
-        "fat_g": 24
+        "fat_g": 30
       },
       {
         "time": "มื้อหลัก",
@@ -36,18 +36,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 470,
+      "total_intake_calories": 545,
       "total_burned_calories": 0,
-      "net_calories": 470,
-      "total_protein_g": 24,
+      "net_calories": 545,
+      "total_protein_g": 29,
       "total_carbs_g": 36,
-      "total_fat_g": 24.5,
-      "protein_per_kg": 0.28
+      "total_fat_g": 30.5,
+      "protein_per_kg": 0.34
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Protein Low (24g)",
+      "muscle_maintenance": "Protein Low (29g)",
       "weight_loss_status": "Low Intake Day",
-      "recommendation": "วันนี้พลังงานและโปรตีนยังต่ำมาก แนะนำเพิ่มแหล่งโปรตีนไม่ติดมัน (อกไก่ ไข่ เวย์) เพื่อให้เข้าใกล้เป้า 120g และช่วยรักษามวลกล้ามเนื้อ"
+      "recommendation": "พลังงานยังต่ำมากเมื่อเทียบกับเป้า 1,500 kcal และโปรตีนยังไม่พอ แนะนำเพิ่มโปรตีนไม่ติดมันอีก 2–3 มื้อ หรือเสริมเวย์ เพื่อช่วยรักษามวลกล้ามเนื้อ"
     }
   }
 ]

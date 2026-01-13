@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-13",
-    "last_update": "2026-01-13 15:54:43",
+    "last_update": "2026-01-13 16:38:08",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,12 +81,20 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_heart_rate_bpm": 111,
+        "avg_pace_min_per_mi": "16:05",
+        "calories_burned": 536,
+        "distance_mi": 6.55,
+        "duration": "01:45:20",
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 536
     },
     "daily_total_stats": {
       "total_intake_calories": 1325,
-      "total_burned_calories": 0,
-      "net_calories": 1325,
+      "total_burned_calories": 536,
+      "net_calories": 789,
       "total_protein_g": 114,
       "total_carbs_g": 76.5,
       "total_fat_g": 60.5,
@@ -94,8 +102,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Protein Near Target (114g)",
-      "weight_loss_status": "Moderate Deficit Day",
-      "recommendation": "วันนี้โปรตีนเกือบถึงเป้าแล้ว ขาดอีกประมาณ 6g เท่านั้น ถ้าเพิ่มเวย์ครึ่งสกู๊ปหรือไข่ขาว 1–2 ฟอง จะเข้าเป้า 120g พอดี"
+      "weight_loss_status": "High Deficit Day (Net 789 kcal)",
+      "recommendation": "วันนี้ทำได้ดีมาก วิ่งยาวกว่า 6.5 ไมล์ เผาผลาญสูง และโปรตีนเกือบถึงเป้าแล้ว แนะนำเติมโปรตีนอีกเล็กน้อย (~6g) และพักผ่อนให้เพียงพอเพื่อฟื้นฟูกล้ามเนื้อ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-13",
-    "last_update": "2026-01-13 07:51:39",
+    "last_update": "2026-01-13 15:54:43",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -54,24 +54,48 @@
         "protein_g": 5,
         "carbs_g": 12.5,
         "fat_g": 0
+      },
+      {
+        "time": "เสริม",
+        "item": "เวย์โปรตีน (3 สกู๊ป รอบที่ 2)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
+      },
+      {
+        "time": "มื้อเสริม",
+        "item": "กระดูกหมูทอดไร้น้ำมัน (70g)",
+        "calories": 175,
+        "protein_g": 12,
+        "carbs_g": 0,
+        "fat_g": 14
+      },
+      {
+        "time": "มื้อเย็น",
+        "item": "กระดูกหมูอ่อนใส่วุ้นเส้น (กระดูกหมู 120g)",
+        "calories": 240,
+        "protein_g": 20,
+        "carbs_g": 10,
+        "fat_g": 13
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 790,
+      "total_intake_calories": 1325,
       "total_burned_calories": 0,
-      "net_calories": 790,
-      "total_protein_g": 58,
-      "total_carbs_g": 63.5,
-      "total_fat_g": 32,
-      "protein_per_kg": 0.68
+      "net_calories": 1325,
+      "total_protein_g": 114,
+      "total_carbs_g": 76.5,
+      "total_fat_g": 60.5,
+      "protein_per_kg": 1.34
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Protein Improving (58g)",
-      "weight_loss_status": "Low Intake Day",
-      "recommendation": "โปรตีนดีขึ้นจากนมเปรี้ยว แต่ยังต่ำกว่าเป้า 120g แนะนำเพิ่มโปรตีนไม่ติดมันอีก 1–2 มื้อ หรือเวย์อีก 1 รอบ เพื่อช่วยรักษามวลกล้ามเนื้อ"
+      "muscle_maintenance": "Protein Near Target (114g)",
+      "weight_loss_status": "Moderate Deficit Day",
+      "recommendation": "วันนี้โปรตีนเกือบถึงเป้าแล้ว ขาดอีกประมาณ 6g เท่านั้น ถ้าเพิ่มเวย์ครึ่งสกู๊ปหรือไข่ขาว 1–2 ฟอง จะเข้าเป้า 120g พอดี"
     }
   }
 ]

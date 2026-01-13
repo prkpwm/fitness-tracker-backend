@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-13",
-    "last_update": "2026-01-13 16:38:08",
+    "last_update": "2026-01-13 16:40:06",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,6 +78,14 @@
         "protein_g": 20,
         "carbs_g": 10,
         "fat_g": 13
+      },
+      {
+        "time": "ของหวาน",
+        "item": "ไอศกรีมวานิลลาเคลือบช็อกโกแลต (1 แท่ง)",
+        "calories": 200,
+        "protein_g": 3,
+        "carbs_g": 15,
+        "fat_g": 12
       }
     ],
     "exercise_summary": {
@@ -92,18 +100,18 @@
       "total_burned_calories": 536
     },
     "daily_total_stats": {
-      "total_intake_calories": 1325,
+      "total_intake_calories": 1525,
       "total_burned_calories": 536,
-      "net_calories": 789,
-      "total_protein_g": 114,
-      "total_carbs_g": 76.5,
-      "total_fat_g": 60.5,
-      "protein_per_kg": 1.34
+      "net_calories": 989,
+      "total_protein_g": 117,
+      "total_carbs_g": 91.5,
+      "total_fat_g": 72.5,
+      "protein_per_kg": 1.38
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Protein Near Target (114g)",
-      "weight_loss_status": "High Deficit Day (Net 789 kcal)",
-      "recommendation": "วันนี้ทำได้ดีมาก วิ่งยาวกว่า 6.5 ไมล์ เผาผลาญสูง และโปรตีนเกือบถึงเป้าแล้ว แนะนำเติมโปรตีนอีกเล็กน้อย (~6g) และพักผ่อนให้เพียงพอเพื่อฟื้นฟูกล้ามเนื้อ"
+      "muscle_maintenance": "Protein Near Target (117g)",
+      "weight_loss_status": "Healthy Deficit Day (Net 989 kcal)",
+      "recommendation": "แม้จะมีของหวาน แต่ยังคุมแคลและโปรตีนได้ดีมาก ขาดโปรตีนอีกเล็กน้อย (~3g) ก็ถึงเป้า 120g แล้ว ถือว่าเป็นวันลดไขมันที่สมดุลมาก"
     }
   }
 ]

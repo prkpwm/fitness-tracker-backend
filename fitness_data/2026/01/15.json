@@ -1,0 +1,45 @@
+[
+  {
+    "date": "2026-01-15",
+    "last_update": "2026-01-14 17:27:12",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เช้า",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
+      }
+    ],
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 120,
+      "total_burned_calories": 0,
+      "net_calories": 120,
+      "total_protein_g": 24,
+      "total_carbs_g": 3,
+      "total_fat_g": 1.5,
+      "protein_per_kg": 0.28
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Starting (24g Protein)",
+      "weight_loss_status": "Starting Day",
+      "recommendation": "เริ่มต้นวันด้วยโปรตีน 24g ครับ ขาดอีก 96g จะถึงเป้าหมาย 120g วันนี้มีแผนมื้ออาหารหรือการออกกำลังกายอย่างไรบ้างครับ?"
+    }
+  }
+]

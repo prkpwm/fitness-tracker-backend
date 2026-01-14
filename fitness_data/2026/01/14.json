@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-14",
-    "last_update": "2026-01-14 12:35:16",
+    "last_update": "2026-01-14 15:16:19",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,30 +78,44 @@
         "protein_g": 4.5,
         "carbs_g": 52,
         "fat_g": 0.5
+      },
+      {
+        "time": "ค่ำ",
+        "item": "ไอศกรีมวานิลลาเคลือบช็อกโกแลต (68g)",
+        "calories": 200,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 12
       }
     ],
     "exercise_summary": {
+      "cardio_session_1": {
+        "calories_burned": 643,
+        "distance_mi": 7.58,
+        "duration_min": 107.85,
+        "type": "Treadmill Running"
+      },
       "strength_training": {
         "calories_burned": 150,
         "duration_min": 30,
         "target": "Shoulder",
         "type": "Weight Training"
       },
-      "total_burned_calories": 150
+      "total_burned_calories": 793
     },
     "daily_total_stats": {
-      "total_intake_calories": 1750,
-      "total_burned_calories": 150,
-      "net_calories": 1600,
-      "total_protein_g": 118,
-      "total_carbs_g": 140,
-      "total_fat_g": 78.5,
-      "protein_per_kg": 1.39
+      "total_intake_calories": 1950,
+      "total_burned_calories": 793,
+      "net_calories": 1157,
+      "total_protein_g": 120,
+      "total_carbs_g": 161,
+      "total_fat_g": 90.5,
+      "protein_per_kg": 1.41
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Goal Achieved (118g Protein)",
-      "weight_loss_status": "Near Goal",
-      "recommendation": "วันนี้เล่นเวทไหล่ได้ดีมากครับ ช่วยเพิ่มการเผาผลาญและรักษามวลกล้ามเนื้อ ตอนนี้โปรตีนอยู่ที่ 118g ขาดอีกเพียง 2g จะครบ 120g แคลอรี่สุทธิอยู่ที่ 1,600 kcal ถือว่าใกล้เคียงเป้าหมายมากครับ"
+      "muscle_maintenance": "Goal Achieved (120g Protein)",
+      "weight_loss_status": "High Deficit (Net 1157 kcal)",
+      "recommendation": "เป็นวันที่ยอดเยี่ยมมากครับ! คุณทำโปรตีนได้ครบ 120g ตามเป้าหมายพอดี และการวิ่งระยะไกล 7.58 ไมล์ช่วยเผาผลาญพลังงานได้มหาศาล ทำให้พลังงานสุทธิอยู่ในเกณฑ์ที่ช่วยลดน้ำหนักได้ดีมากแม้จะมีของหวานครับ"
     }
   }
 ]

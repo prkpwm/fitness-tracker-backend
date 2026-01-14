@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-14",
-    "last_update": "2026-01-14 15:56:01",
+    "last_update": "2026-01-14 15:59:18",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -12,7 +12,7 @@
       "target_protein_g": 0,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
-      "recommended_daily_calories": 0
+      "recommended_daily_calories": 2100
     },
     "food_diary": [
       {
@@ -81,7 +81,7 @@
       },
       {
         "time": "ค่ำ",
-        "item": "ไอศกรีมวานิลลาเคลือบช็อกโกแลต (68g)",
+        "item": "ไอศกรีมวานิลลาเคลือบช็อกโกแลต",
         "calories": 200,
         "protein_g": 2,
         "carbs_g": 21,
@@ -92,13 +92,13 @@
       "cardio_session_1": {
         "calories_burned": 643,
         "distance_mi": 7.58,
-        "duration": "1:47:51",
+        "duration_min": 107.85,
         "type": "Treadmill Running"
       },
       "cardio_session_2": {
         "calories_burned": 162,
         "distance_mi": 2.11,
-        "duration": "30:02",
+        "duration_min": 30.03,
         "type": "Treadmill Running"
       },
       "strength_training": {
@@ -116,12 +116,12 @@
       "total_protein_g": 120,
       "total_carbs_g": 161,
       "total_fat_g": 90.5,
-      "protein_per_kg": 0
+      "protein_per_kg": 1.41
     },
     "ai_evaluation": {
       "muscle_maintenance": "Goal Achieved (120g Protein)",
-      "weight_loss_status": "Excellent (Net 995 kcal)",
-      "recommendation": "ยอดเยี่ยมมากครับ! การวิ่งรอบที่สาม (2.11 ไมล์) ช่วยดึงพลังงานสุทธิลงมาเหลือไม่ถึง 1,000 kcal ซึ่งถือว่าอยู่ในเกณฑ์ลดน้ำหนักที่ได้ผลดีมาก และวันนี้คุณทำโปรตีนได้ครบตามเป้าหมาย 120g พอดีเป๊ะ เป็นวันที่วินัยสูงมากครับ"
+      "weight_loss_status": "High Deficit (Net 995 kcal)",
+      "recommendation": "วันนี้ทำได้สมบูรณ์แบบมากครับ ทั้งโปรตีนที่ครบ 120g และการวิ่งสะสมระยะที่ดึง Net Calories ลงมาต่ำกว่า 1,000 kcal ได้สำเร็จครับ"
     }
   }
 ]

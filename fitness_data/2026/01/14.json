@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-14",
-    "last_update": "2026-01-14 15:16:19",
+    "last_update": "2026-01-14 15:56:01",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -12,7 +12,7 @@
       "target_protein_g": 0,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
-      "recommended_daily_calories": 2100
+      "recommended_daily_calories": 0
     },
     "food_diary": [
       {
@@ -92,7 +92,13 @@
       "cardio_session_1": {
         "calories_burned": 643,
         "distance_mi": 7.58,
-        "duration_min": 107.85,
+        "duration": "1:47:51",
+        "type": "Treadmill Running"
+      },
+      "cardio_session_2": {
+        "calories_burned": 162,
+        "distance_mi": 2.11,
+        "duration": "30:02",
         "type": "Treadmill Running"
       },
       "strength_training": {
@@ -101,21 +107,21 @@
         "target": "Shoulder",
         "type": "Weight Training"
       },
-      "total_burned_calories": 793
+      "total_burned_calories": 955
     },
     "daily_total_stats": {
       "total_intake_calories": 1950,
-      "total_burned_calories": 793,
-      "net_calories": 1157,
+      "total_burned_calories": 955,
+      "net_calories": 995,
       "total_protein_g": 120,
       "total_carbs_g": 161,
       "total_fat_g": 90.5,
-      "protein_per_kg": 1.41
+      "protein_per_kg": 0
     },
     "ai_evaluation": {
       "muscle_maintenance": "Goal Achieved (120g Protein)",
-      "weight_loss_status": "High Deficit (Net 1157 kcal)",
-      "recommendation": "เป็นวันที่ยอดเยี่ยมมากครับ! คุณทำโปรตีนได้ครบ 120g ตามเป้าหมายพอดี และการวิ่งระยะไกล 7.58 ไมล์ช่วยเผาผลาญพลังงานได้มหาศาล ทำให้พลังงานสุทธิอยู่ในเกณฑ์ที่ช่วยลดน้ำหนักได้ดีมากแม้จะมีของหวานครับ"
+      "weight_loss_status": "Excellent (Net 995 kcal)",
+      "recommendation": "ยอดเยี่ยมมากครับ! การวิ่งรอบที่สาม (2.11 ไมล์) ช่วยดึงพลังงานสุทธิลงมาเหลือไม่ถึง 1,000 kcal ซึ่งถือว่าอยู่ในเกณฑ์ลดน้ำหนักที่ได้ผลดีมาก และวันนี้คุณทำโปรตีนได้ครบตามเป้าหมาย 120g พอดีเป๊ะ เป็นวันที่วินัยสูงมากครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-14",
-    "last_update": "2026-01-14 11:55:09",
+    "last_update": "2026-01-14 12:35:16",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,12 +81,18 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Shoulder",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 150
     },
     "daily_total_stats": {
       "total_intake_calories": 1750,
-      "total_burned_calories": 0,
-      "net_calories": 1750,
+      "total_burned_calories": 150,
+      "net_calories": 1600,
       "total_protein_g": 118,
       "total_carbs_g": 140,
       "total_fat_g": 78.5,
@@ -94,8 +100,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Goal Achieved (118g Protein)",
-      "weight_loss_status": "Slightly Over Calories",
-      "recommendation": "ยอดเยี่ยมมากครับ! ตอนนี้โปรตีนสะสมอยู่ที่ 118g ขาดอีกเพียง 2g จะถึงเป้าหมาย 120g ครับ วันนี้ทำได้ดีมากครับ!"
+      "weight_loss_status": "Near Goal",
+      "recommendation": "วันนี้เล่นเวทไหล่ได้ดีมากครับ ช่วยเพิ่มการเผาผลาญและรักษามวลกล้ามเนื้อ ตอนนี้โปรตีนอยู่ที่ 118g ขาดอีกเพียง 2g จะครบ 120g แคลอรี่สุทธิอยู่ที่ 1,600 kcal ถือว่าใกล้เคียงเป้าหมายมากครับ"
     }
   }
 ]

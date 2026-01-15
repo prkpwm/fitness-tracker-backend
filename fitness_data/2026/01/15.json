@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-15",
-    "last_update": "2026-01-15 12:20:34",
+    "last_update": "2026-01-15 17:38:51",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,12 +81,19 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_heart_rate": 112,
+        "calories_burned": 492,
+        "distance_mi": 6.67,
+        "duration_min": 97.48,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 492
     },
     "daily_total_stats": {
       "total_intake_calories": 1550,
-      "total_burned_calories": 0,
-      "net_calories": 1550,
+      "total_burned_calories": 492,
+      "net_calories": 1058,
       "total_protein_g": 107,
       "total_carbs_g": 139.8,
       "total_fat_g": 58.5,
@@ -94,8 +101,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Good Progress (107g Protein)",
-      "weight_loss_status": "Near Target",
-      "recommendation": "ปรับลดแคลอรี่ต้มยำปลาดุกแล้ว ทำให้ยอดรวมพลังงานใกล้เคียงเป้าหมายมากขึ้นครับ ตอนนี้โปรตีนอยู่ที่ 107g ขาดอีก 13g จะครบ 120g ครับ"
+      "weight_loss_status": "High Deficit (Net 1058 kcal)",
+      "recommendation": "ปิดจบวันได้สวยงามมากครับ! การวิ่งระยะ 6.67 ไมล์ ช่วยดึงพลังงานสุทธิลงมาเหลือเพียง 1,058 kcal ซึ่งต่ำกว่าเป้าหมาย 1,500 kcal ของคุณอย่างมาก ส่วนโปรตีนอยู่ที่ 107g ขาดอีกเพียงเล็กน้อยจะครบเป้าหมาย 120g ครับ"
     }
   }
 ]

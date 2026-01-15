@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-15",
-    "last_update": "2026-01-15 07:13:57",
+    "last_update": "2026-01-15 11:53:34",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -22,56 +22,24 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
-      },
-      {
-        "time": "กลางวัน",
-        "item": "แกงเขียวหวานไก่",
-        "calories": 300,
-        "protein_g": 18,
-        "carbs_g": 10,
-        "fat_g": 20
-      },
-      {
-        "time": "กลางวัน",
-        "item": "ข้าวเปล่า (1 จาน)",
-        "calories": 240,
-        "protein_g": 4.5,
-        "carbs_g": 52,
-        "fat_g": 0.5
-      },
-      {
-        "time": "กลางวัน",
-        "item": "ไข่ต้ม (3 ฟอง)",
-        "calories": 210,
-        "protein_g": 18,
-        "carbs_g": 1.8,
-        "fat_g": 15
-      },
-      {
-        "time": "บ่าย",
-        "item": "นมเปรี้ยวดีไลท์ (1 ขวด)",
-        "calories": 70,
-        "protein_g": 2,
-        "carbs_g": 15,
-        "fat_g": 0
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 940,
+      "total_intake_calories": 120,
       "total_burned_calories": 0,
-      "net_calories": 940,
-      "total_protein_g": 66.5,
-      "total_carbs_g": 81.8,
-      "total_fat_g": 37,
-      "protein_per_kg": 0.78
+      "net_calories": 120,
+      "total_protein_g": 24,
+      "total_carbs_g": 3,
+      "total_fat_g": 1.5,
+      "protein_per_kg": 0.28
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (66.5g Protein)",
-      "weight_loss_status": "In Control",
-      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 66.5g ขาดอีก 53.5g จะถึงเป้าหมาย 120g ครับ แคลอรี่รวมยังไม่เกินเป้าหมาย 1,500 kcal วันนี้มีแผนจะออกกำลังกายเพิ่มเติมไหมครับ?"
+      "muscle_maintenance": "Starting (24g Protein)",
+      "weight_loss_status": "Starting Day",
+      "recommendation": "เริ่มต้นวันด้วยโปรตีน 24g ครับ ขาดอีก 96g จะถึงเป้าหมาย 120g วันนี้มีแผนมื้ออาหารหรือการออกกำลังกายอย่างไรบ้างครับ?"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-15",
-    "last_update": "2026-01-15 12:13:47",
+    "last_update": "2026-01-15 12:18:40",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,24 +70,32 @@
         "protein_g": 4.5,
         "carbs_g": 52,
         "fat_g": 0.5
+      },
+      {
+        "time": "เย็น",
+        "item": "ต้มยำปลาดุก (ใส่ปลาดุกครึ่งตัว)",
+        "calories": 180,
+        "protein_g": 20,
+        "carbs_g": 4,
+        "fat_g": 9
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1460,
+      "total_intake_calories": 1640,
       "total_burned_calories": 0,
-      "net_calories": 1460,
-      "total_protein_g": 93,
-      "total_carbs_g": 137.8,
-      "total_fat_g": 55.5,
-      "protein_per_kg": 1.09
+      "net_calories": 1640,
+      "total_protein_g": 113,
+      "total_carbs_g": 141.8,
+      "total_fat_g": 64.5,
+      "protein_per_kg": 1.33
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (93g Protein)",
-      "weight_loss_status": "Perfect Deficit",
-      "recommendation": "ยอดเยี่ยมมากครับ! ตอนนี้โปรตีนอยู่ที่ 93g ขาดอีกเพียง 27g จะถึงเป้าหมาย 120g ขณะที่แคลอรี่รวมยังอยู่ในเกณฑ์ที่ตั้งไว้ (1,460/1,500 kcal) วันนี้มีแผนจะไปวิ่งหรือเวทเทรนนิ่งเพื่อเพิ่มโควตาการกินมื้อดึกไหมครับ?"
+      "muscle_maintenance": "High Progress (113g Protein)",
+      "weight_loss_status": "Near Target",
+      "recommendation": "แก้ไขรายการอาหารเรียบร้อยครับ ตอนนี้โปรตีนสะสมอยู่ที่ 113g ขาดอีก 7g จะถึงเป้าหมาย 120g แคลอรี่รวมอยู่ที่ 1,640 kcal ใกล้เคียงเป้าหมายมากครับ"
     }
   }
 ]

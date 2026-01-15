@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-15",
-    "last_update": "2026-01-15 12:18:40",
+    "last_update": "2026-01-15 12:20:34",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -74,28 +74,28 @@
       {
         "time": "เย็น",
         "item": "ต้มยำปลาดุก (ใส่ปลาดุกครึ่งตัว)",
-        "calories": 180,
-        "protein_g": 20,
-        "carbs_g": 4,
-        "fat_g": 9
+        "calories": 90,
+        "protein_g": 14,
+        "carbs_g": 2,
+        "fat_g": 3
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1640,
+      "total_intake_calories": 1550,
       "total_burned_calories": 0,
-      "net_calories": 1640,
-      "total_protein_g": 113,
-      "total_carbs_g": 141.8,
-      "total_fat_g": 64.5,
-      "protein_per_kg": 1.33
+      "net_calories": 1550,
+      "total_protein_g": 107,
+      "total_carbs_g": 139.8,
+      "total_fat_g": 58.5,
+      "protein_per_kg": 1.26
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (113g Protein)",
+      "muscle_maintenance": "Good Progress (107g Protein)",
       "weight_loss_status": "Near Target",
-      "recommendation": "แก้ไขรายการอาหารเรียบร้อยครับ ตอนนี้โปรตีนสะสมอยู่ที่ 113g ขาดอีก 7g จะถึงเป้าหมาย 120g แคลอรี่รวมอยู่ที่ 1,640 kcal ใกล้เคียงเป้าหมายมากครับ"
+      "recommendation": "ปรับลดแคลอรี่ต้มยำปลาดุกแล้ว ทำให้ยอดรวมพลังงานใกล้เคียงเป้าหมายมากขึ้นครับ ตอนนี้โปรตีนอยู่ที่ 107g ขาดอีก 13g จะครบ 120g ครับ"
     }
   }
 ]

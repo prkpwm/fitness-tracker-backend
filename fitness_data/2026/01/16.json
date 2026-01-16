@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-16",
-    "last_update": "2026-01-16 18:17:25",
+    "last_update": "2026-01-16 18:55:04",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,12 +78,18 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน (3 สกู๊ป) - เพิ่มเติม",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": {
       "cardio_session_1": {
-        "avg_heart_rate": 113,
-        "avg_pace_min_mi": "14:16",
         "calories_burned": 503,
         "distance_mi": 6.63,
         "duration_min": 94.58,
@@ -97,18 +103,18 @@
       "total_burned_calories": 683
     },
     "daily_total_stats": {
-      "total_intake_calories": 1330,
+      "total_intake_calories": 1450,
       "total_burned_calories": 683,
-      "net_calories": 647,
-      "total_protein_g": 99.5,
-      "total_carbs_g": 174,
-      "total_fat_g": 27.6,
-      "protein_per_kg": 1.17
+      "net_calories": 767,
+      "total_protein_g": 123.5,
+      "total_carbs_g": 177,
+      "total_fat_g": 29.1,
+      "protein_per_kg": 1.45
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (99.5g Protein)",
-      "weight_loss_status": "Extreme Deficit (Net 647 kcal)",
-      "recommendation": "วันนี้วินัยการออกกำลังกายยอดเยี่ยมมากครับ! การวิ่ง Indoor Running ระยะ 6.63 ไมล์ช่วยเผาผลาญไปอีก 503 kcal ทำให้ Net Calories รวมต่ำลงมาเหลือเพียง 647 kcal ซึ่งสร้าง Caloric Deficit ได้สูงมากสำหรับการลดน้ำหนัก แม้โปรตีนจะขาดอีกเพียง 20.5g แต่ภาพรวมถือว่าทำได้ดีกว่าเป้าหมายมากครับ"
+      "muscle_maintenance": "Goal Reached (123.5g Protein)",
+      "weight_loss_status": "Excellent Deficit (Net 767 kcal)",
+      "recommendation": "ยินดีด้วยครับ! วันนี้คุณทำสำเร็จตามเป้าหมายทั้งสองอย่าง คือโปรตีนถึง 120g (ทำได้ 123.5g) และควบคุมแคลอรี่สุทธิได้ต่ำมากเพียง 767 kcal เป็นวันที่สมบูรณ์แบบมากครับ"
     }
   }
 ]

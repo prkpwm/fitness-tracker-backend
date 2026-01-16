@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-16",
-    "last_update": "2026-01-16 15:32:25",
+    "last_update": "2026-01-16 18:17:25",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,17 +81,25 @@
       }
     ],
     "exercise_summary": {
+      "cardio_session_1": {
+        "avg_heart_rate": 113,
+        "avg_pace_min_mi": "14:16",
+        "calories_burned": 503,
+        "distance_mi": 6.63,
+        "duration_min": 94.58,
+        "type": "Indoor Running"
+      },
       "strength_training": {
         "calories_burned": 180,
         "duration_min": 30,
         "type": "Weight Training (Full Body)"
       },
-      "total_burned_calories": 180
+      "total_burned_calories": 683
     },
     "daily_total_stats": {
       "total_intake_calories": 1330,
-      "total_burned_calories": 180,
-      "net_calories": 1150,
+      "total_burned_calories": 683,
+      "net_calories": 647,
       "total_protein_g": 99.5,
       "total_carbs_g": 174,
       "total_fat_g": 27.6,
@@ -99,8 +107,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "High Progress (99.5g Protein)",
-      "weight_loss_status": "Excellent Deficit (Net 1150 kcal)",
-      "recommendation": "ยอดเยี่ยมมากครับ! การเล่นเวทช่วยกระตุ้นกล้ามเนื้อได้ดีมาก แม้โปรตีนจะขาดอีกเพียง 20.5g แต่ภาพรวมสารอาหารและแคลอรี่สุทธิ (1,150 kcal) ถือว่าอยู่ในระดับที่ลดน้ำหนักได้อย่างมีประสิทธิภาพครับ"
+      "weight_loss_status": "Extreme Deficit (Net 647 kcal)",
+      "recommendation": "วันนี้วินัยการออกกำลังกายยอดเยี่ยมมากครับ! การวิ่ง Indoor Running ระยะ 6.63 ไมล์ช่วยเผาผลาญไปอีก 503 kcal ทำให้ Net Calories รวมต่ำลงมาเหลือเพียง 647 kcal ซึ่งสร้าง Caloric Deficit ได้สูงมากสำหรับการลดน้ำหนัก แม้โปรตีนจะขาดอีกเพียง 20.5g แต่ภาพรวมถือว่าทำได้ดีกว่าเป้าหมายมากครับ"
     }
   }
 ]

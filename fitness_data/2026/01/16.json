@@ -1,16 +1,16 @@
 [
   {
     "date": "2026-01-16",
-    "last_update": "2026-01-16 11:40:34",
+    "last_update": "2026-01-16 11:41:47",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
       "height_cm": 173,
-      "bmr_kcal": 0,
-      "tdee_maintenance_kcal": 0,
-      "target_lose_weight_kcal": 0,
+      "bmr_kcal": 1860,
+      "tdee_maintenance_kcal": 2558,
+      "target_lose_weight_kcal": 1500,
       "target_protein_g": 0,
-      "goal_calories": 1500,
+      "goal_calories": 0,
       "maintenance_protein_target_g": 120,
       "recommended_daily_calories": 0
     },
@@ -80,11 +80,20 @@
         "fat_g": 1.5
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "activities": [
+        {
+          "burned_kcal": 150,
+          "duration_min": 30,
+          "type": "Weight Training (Core/Abs)"
+        }
+      ],
+      "total_burned_calories": 150
+    },
     "daily_total_stats": {
       "total_intake_calories": 1330,
-      "total_burned_calories": 0,
-      "net_calories": 0,
+      "total_burned_calories": 150,
+      "net_calories": 1180,
       "total_protein_g": 99.5,
       "total_carbs_g": 174,
       "total_fat_g": 27.6,
@@ -92,8 +101,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "High Progress (99.5g Protein)",
-      "weight_loss_status": "Perfect Deficit",
-      "recommendation": "ตอนนี้โปรตีนสะสมเกือบแตะ 100g แล้วครับ! (อยู่ที่ 99.5g) ขาดอีกเพียง 20.5g จะถึงเป้าหมาย 120g ขณะที่แคลอรี่รวมยังคุมได้ดีมากที่ 1,330 kcal ครับ"
+      "weight_loss_status": "Perfect Deficit (Net 1180 kcal)",
+      "recommendation": "ข้อมูลได้รับการปรับปรุงให้ถูกต้องตามโปรไฟล์ร่างกายแล้วครับ ตอนนี้ Net Calories อยู่ที่ 1,180 kcal ต่ำกว่าเป้าหมาย 1,500 kcal ทำให้การลดน้ำหนักเป็นไปตามแผนดีเยี่ยมครับ"
     }
   }
 ]

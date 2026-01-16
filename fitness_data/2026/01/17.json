@@ -1,0 +1,45 @@
+[
+  {
+    "date": "2026-01-17",
+    "last_update": "2026-01-16 18:55:55",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 1860,
+      "tdee_maintenance_kcal": 2558,
+      "target_lose_weight_kcal": 1500,
+      "target_protein_g": 120,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เช้า",
+        "item": "ขนมขาไก่",
+        "calories": 300,
+        "protein_g": 4,
+        "carbs_g": 40,
+        "fat_g": 14
+      }
+    ],
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 300,
+      "total_burned_calories": 0,
+      "net_calories": 300,
+      "total_protein_g": 4,
+      "total_carbs_g": 40,
+      "total_fat_g": 14,
+      "protein_per_kg": 0.05
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Starting (4g Protein)",
+      "weight_loss_status": "Early Day",
+      "recommendation": "เริ่มต้นวันใหม่ด้วยขนมขาไก่นะครับ วันนี้มีโควตาโปรตีนเหลืออีก 116g และแคลอรี่อีก 1,200 kcal สำหรับมื้อหลักครับ มีแผนมื้อเช้าที่มีโปรตีนสูงเตรียมไว้หรือยังครับ?"
+    }
+  }
+]

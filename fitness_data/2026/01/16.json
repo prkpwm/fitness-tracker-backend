@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-16",
-    "last_update": "2026-01-16 11:43:16",
+    "last_update": "2026-01-16 15:32:25",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,12 +81,17 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "strength_training": {
+        "calories_burned": 180,
+        "duration_min": 30,
+        "type": "Weight Training (Full Body)"
+      },
+      "total_burned_calories": 180
     },
     "daily_total_stats": {
       "total_intake_calories": 1330,
-      "total_burned_calories": 0,
-      "net_calories": 1330,
+      "total_burned_calories": 180,
+      "net_calories": 1150,
       "total_protein_g": 99.5,
       "total_carbs_g": 174,
       "total_fat_g": 27.6,
@@ -94,8 +99,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "High Progress (99.5g Protein)",
-      "weight_loss_status": "Perfect Deficit",
-      "recommendation": "ตอนนี้โปรตีนขาดอีก 20.5g จะครบเป้าหมาย 120g ครับ แคลอรี่รวมยังอยู่ในเกณฑ์ดีเยี่ยม (1,330/1,500 kcal) หากมีการออกกำลังกายเพิ่มในคืนนี้ จะช่วยสร้าง Deficit ได้มากขึ้นเหมือนเมื่อวานครับ"
+      "weight_loss_status": "Excellent Deficit (Net 1150 kcal)",
+      "recommendation": "ยอดเยี่ยมมากครับ! การเล่นเวทช่วยกระตุ้นกล้ามเนื้อได้ดีมาก แม้โปรตีนจะขาดอีกเพียง 20.5g แต่ภาพรวมสารอาหารและแคลอรี่สุทธิ (1,150 kcal) ถือว่าอยู่ในระดับที่ลดน้ำหนักได้อย่างมีประสิทธิภาพครับ"
     }
   }
 ]

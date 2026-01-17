@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-17",
-    "last_update": "2026-01-16 18:55:55",
+    "last_update": "2026-01-17 05:01:07",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -22,24 +22,40 @@
         "protein_g": 4,
         "carbs_g": 40,
         "fat_g": 14
+      },
+      {
+        "time": "กลางวัน",
+        "item": "หมูผัดฉ่า (หมู 220g)",
+        "calories": 550,
+        "protein_g": 44,
+        "carbs_g": 10,
+        "fat_g": 38
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (190g)",
+        "calories": 250,
+        "protein_g": 5,
+        "carbs_g": 54,
+        "fat_g": 0.5
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 300,
+      "total_intake_calories": 1100,
       "total_burned_calories": 0,
-      "net_calories": 300,
-      "total_protein_g": 4,
-      "total_carbs_g": 40,
-      "total_fat_g": 14,
-      "protein_per_kg": 0.05
+      "net_calories": 1100,
+      "total_protein_g": 53,
+      "total_carbs_g": 104,
+      "total_fat_g": 52.5,
+      "protein_per_kg": 0.62
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Starting (4g Protein)",
-      "weight_loss_status": "Early Day",
-      "recommendation": "เริ่มต้นวันใหม่ด้วยขนมขาไก่นะครับ วันนี้มีโควตาโปรตีนเหลืออีก 116g และแคลอรี่อีก 1,200 kcal สำหรับมื้อหลักครับ มีแผนมื้อเช้าที่มีโปรตีนสูงเตรียมไว้หรือยังครับ?"
+      "muscle_maintenance": "Good Progress (53g Protein)",
+      "weight_loss_status": "On Track",
+      "recommendation": "มื้อกลางวันจัดเต็มโปรตีนได้ดีมากครับ ตอนนี้สะสมโปรตีนได้ 53g ขาดอีก 67g จะถึงเป้าหมาย 120g แคลอรี่รวมยังเหลือโควตาอีก 400 kcal สำหรับวันนี้ครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-17",
-    "last_update": "2026-01-17 06:22:29",
+    "last_update": "2026-01-17 08:31:00",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,7 +17,7 @@
     "food_diary": [
       {
         "time": "เช้า",
-        "item": "ขนมขาไก่",
+        "item": "ขนมขาไก่ (เดิม)",
         "calories": 300,
         "protein_g": 4,
         "carbs_g": 40,
@@ -41,29 +41,29 @@
       },
       {
         "time": "บ่าย",
-        "item": "นมเปรี้ยวดีไลท์ (1 ขวด)",
-        "calories": 70,
-        "protein_g": 2,
-        "carbs_g": 15,
-        "fat_g": 0
+        "item": "ขนมขาไก่ (เพิ่ม 40g)",
+        "calories": 213,
+        "protein_g": 2.7,
+        "carbs_g": 21.3,
+        "fat_g": 13.3
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1040,
+      "total_intake_calories": 1183,
       "total_burned_calories": 0,
-      "net_calories": 1040,
-      "total_protein_g": 55,
-      "total_carbs_g": 117,
-      "total_fat_g": 38.5,
-      "protein_per_kg": 0.65
+      "net_calories": 1183,
+      "total_protein_g": 55.7,
+      "total_carbs_g": 123.3,
+      "total_fat_g": 51.8,
+      "protein_per_kg": 0.66
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (55g Protein)",
-      "weight_loss_status": "In Control (Net 1040 kcal)",
-      "recommendation": "เพิ่มโปรตีนสะสมเป็น 55g แล้วครับ ตอนนี้ขาดอีก 65g จะถึงเป้าหมาย 120g แคลอรี่รวมยังคงจัดการได้ดีมาก มีแผนจะออกกำลังกายหรือรับโปรตีนเสริมในช่วงเย็นไหมครับ?"
+      "muscle_maintenance": "Progressing (55.7g Protein)",
+      "weight_loss_status": "Near Min Target (Net 1183 kcal)",
+      "recommendation": "แคลอรี่รวมขยับขึ้นมาใกล้เกณฑ์ขั้นต่ำ 1,200 kcal แล้วครับ ตอนนี้โปรตีนยังขาดอีก 64.3g แนะนำให้เน้นมื้อเย็นเป็นโปรตีนลีนๆ เช่น อกไก่หรือปลา เพื่อให้สารอาหารครบตามเป้าหมายโดยไม่ทำให้ไขมันรวมสูงเกินไปครับ"
     }
   }
 ]

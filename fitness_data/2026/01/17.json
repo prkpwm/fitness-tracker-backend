@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-17",
-    "last_update": "2026-01-17 11:50:07",
+    "last_update": "2026-01-17 13:50:10",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -73,21 +73,28 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_hr_bpm": 110,
+        "calories_burned": 477,
+        "distance_mi": 6.38,
+        "duration_min": 96.88,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 477
     },
     "daily_total_stats": {
       "total_intake_calories": 1663,
-      "total_burned_calories": 0,
-      "net_calories": 1663,
+      "total_burned_calories": 477,
+      "net_calories": 1186,
       "total_protein_g": 101,
       "total_carbs_g": 154.3,
       "total_fat_g": 71.8,
       "protein_per_kg": 1.19
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (101g Protein)",
-      "weight_loss_status": "Perfect Deficit (Net 1663 kcal)",
-      "recommendation": "ชามะนาวช่วยให้สดชื่นก่อนไปออกกำลังกายได้ดีครับ ตอนนี้โปรตีนยังอยู่ที่ 101g ถ้าคืนนี้ไปเวทและวิ่งตามแผน อย่าลืมเติมเวย์โปรตีนหลังจบกิจกรรมเพื่อให้ถึงเป้า 120g นะครับ"
+      "muscle_maintenance": "High Progress (101g Protein)",
+      "weight_loss_status": "Excellent Deficit (Net 1186 kcal)",
+      "recommendation": "การวิ่ง Treadmill 6.38 ไมล์ ช่วยเผาผลาญไปได้ถึง 477 kcal ทำให้พลังงานสุทธิ (Net Calories) ลงมาอยู่ที่ 1,186 kcal ซึ่งใกล้เคียงเป้าหมาย 1,200 kcal มากครับ ตอนนี้ขาดโปรตีนอีกเพียง 19g จะถึงเป้า 120g แนะนำให้เติมเวย์โปรตีน 1 สกู๊ป เพื่อปิดจบวันได้อย่างสมบูรณ์แบบครับ"
     }
   }
 ]

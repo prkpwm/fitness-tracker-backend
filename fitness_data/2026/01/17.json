@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-17",
-    "last_update": "2026-01-17 14:44:53",
+    "last_update": "2026-01-17 15:13:08",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,6 +70,14 @@
         "protein_g": 0,
         "carbs_g": 15,
         "fat_g": 0
+      },
+      {
+        "time": "ดึก",
+        "item": "หมูมะนาว (127g - ไม่ใส่น้ำตาล)",
+        "calories": 215,
+        "protein_g": 27,
+        "carbs_g": 3,
+        "fat_g": 11
       }
     ],
     "exercise_summary": {
@@ -89,18 +97,18 @@
       "total_burned_calories": 657
     },
     "daily_total_stats": {
-      "total_intake_calories": 1663,
+      "total_intake_calories": 1878,
       "total_burned_calories": 657,
-      "net_calories": 1006,
-      "total_protein_g": 101,
-      "total_carbs_g": 154.3,
-      "total_fat_g": 71.8,
-      "protein_per_kg": 1.19
+      "net_calories": 1221,
+      "total_protein_g": 128,
+      "total_carbs_g": 157.3,
+      "total_fat_g": 82.8,
+      "protein_per_kg": 1.5
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (101g Protein)",
-      "weight_loss_status": "Aggressive Deficit (Net 1006 kcal)",
-      "recommendation": "วันนี้คุณออกกำลังกายหนักมากทั้งคาร์ดิโอและเวท รวมเบิร์นไปถึง 657 kcal! ทำให้พลังงานสุทธิเหลือเพียง 1,006 kcal ซึ่งต่ำกว่าเกณฑ์ 1,200 kcal แนะนำอย่างยิ่งให้เติมเวย์โปรตีน 1-2 สกู๊ป เพื่อซ่อมแซมกล้ามเนื้อหน้าท้องที่เพิ่งฝึกไป และช่วยให้โปรตีนถึงเป้า 120g ครับ"
+      "muscle_maintenance": "Goal Reached (128g Protein)",
+      "weight_loss_status": "Perfect Deficit (Net 1221 kcal)",
+      "recommendation": "แม้จะลดปริมาณหมูมะนาวลง แต่โปรตีนรวมยังคงอยู่ที่ 128g ซึ่งสูงกว่าเป้าหมาย 120g และพลังงานสุทธิ 1,221 kcal อยู่ในเกณฑ์ลดน้ำหนักที่ตั้งไว้ (1,200-1,800) ได้อย่างพอดีเป๊ะครับ ยอดเยี่ยมมาก!"
     }
   }
 ]

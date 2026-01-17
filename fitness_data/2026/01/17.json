@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-17",
-    "last_update": "2026-01-17 05:01:07",
+    "last_update": "2026-01-17 05:02:19",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -25,11 +25,11 @@
       },
       {
         "time": "กลางวัน",
-        "item": "หมูผัดฉ่า (หมู 220g)",
-        "calories": 550,
+        "item": "หมูผัดฉ่า (หมู 220g - ไม่ใส่น้ำมัน)",
+        "calories": 420,
         "protein_g": 44,
-        "carbs_g": 10,
-        "fat_g": 38
+        "carbs_g": 8,
+        "fat_g": 24
       },
       {
         "time": "กลางวัน",
@@ -44,18 +44,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1100,
+      "total_intake_calories": 970,
       "total_burned_calories": 0,
-      "net_calories": 1100,
+      "net_calories": 970,
       "total_protein_g": 53,
-      "total_carbs_g": 104,
-      "total_fat_g": 52.5,
+      "total_carbs_g": 102,
+      "total_fat_g": 38.5,
       "protein_per_kg": 0.62
     },
     "ai_evaluation": {
       "muscle_maintenance": "Good Progress (53g Protein)",
-      "weight_loss_status": "On Track",
-      "recommendation": "มื้อกลางวันจัดเต็มโปรตีนได้ดีมากครับ ตอนนี้สะสมโปรตีนได้ 53g ขาดอีก 67g จะถึงเป้าหมาย 120g แคลอรี่รวมยังเหลือโควตาอีก 400 kcal สำหรับวันนี้ครับ"
+      "weight_loss_status": "Excellent (Lower Fat)",
+      "recommendation": "การเลือกไม่ใส่น้ำมันช่วยลดแคลอรี่ไปได้ถึง 130 kcal และลดไขมันส่วนเกินได้ดีมากครับ ตอนนี้แคลอรี่รวมยังไม่ถึง 1,000 kcal ทำให้คุณมีโควตาสำหรับมื้อเย็นและเวย์โปรตีนได้อีกเพียบเพื่อพิชิตเป้าหมาย 120g ครับ"
     }
   }
 ]

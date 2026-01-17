@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-17",
-    "last_update": "2026-01-17 10:42:06",
+    "last_update": "2026-01-17 10:43:24",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -57,29 +57,29 @@
       },
       {
         "time": "เย็น",
-        "item": "ขนมทอดกรอบ (ราดน้ำแตงโม)",
-        "calories": 250,
-        "protein_g": 2,
-        "carbs_g": 35,
-        "fat_g": 12
+        "item": "ขนมทอดกรอบ (ราดน้ำแตงโม - 2 ชิ้น)",
+        "calories": 40,
+        "protein_g": 0.3,
+        "carbs_g": 6,
+        "fat_g": 2
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1813,
+      "total_intake_calories": 1603,
       "total_burned_calories": 0,
-      "net_calories": 1813,
-      "total_protein_g": 102.7,
-      "total_carbs_g": 168.3,
-      "total_fat_g": 81.8,
-      "protein_per_kg": 1.21
+      "net_calories": 1603,
+      "total_protein_g": 101,
+      "total_carbs_g": 139.3,
+      "total_fat_g": 71.8,
+      "protein_per_kg": 1.19
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (102.7g Protein)",
-      "weight_loss_status": "Upper Limit Reached (Net 1813 kcal)",
-      "recommendation": "ตอนนี้แคลอรี่รวมแตะขอบบนของช่วงลดน้ำหนัก (1,800 kcal) แล้วครับ หากต้องการลดน้ำหนักให้ได้ตามแผน แนะนำให้งดของหวานหรือขนมเพิ่มเติมในวันนี้ และหากเป็นไปได้ การออกกำลังกายเบาๆ คืนนี้จะช่วยสร้าง Deficit ได้ดีขึ้นครับ"
+      "muscle_maintenance": "High Progress (101g Protein)",
+      "weight_loss_status": "Perfect Deficit (Net 1603 kcal)",
+      "recommendation": "ดีมากครับที่ควบคุมปริมาณขนมได้เพียง 2 ชิ้น ทำให้ Net Calories กลับมาอยู่ในช่วงที่เหมาะสม (1500-1800 kcal) ตอนนี้โปรตีนขาดอีก 19g จะครบเป้าหมาย 120g ครับ"
     }
   }
 ]

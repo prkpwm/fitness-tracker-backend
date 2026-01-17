@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-16",
-    "last_update": "2026-01-17 06:14:31",
+    "last_update": "2026-01-17 07:10:54",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -72,17 +72,32 @@
         "fat_g": 0
       },
       {
+        "time": "เย็น",
+        "item": "จิปาถะ",
+        "calories": 200,
+        "protein_g": 0,
+        "carbs_g": 25,
+        "fat_g": 11
+      },
+      {
         "time": "ดึก",
-        "item": "เวย์โปรตีน (6 สกู๊ป)",
-        "calories": 240,
-        "protein_g": 48,
-        "carbs_g": 6,
-        "fat_g": 3
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน (3 สกู๊ป) - เพิ่มเติม",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": {
       "cardio_session_1": {
-        "avg_hr_bpm": 113,
         "calories_burned": 503,
         "distance_mi": 6.63,
         "duration_min": 94.58,
@@ -91,24 +106,23 @@
       "strength_training": {
         "calories_burned": 180,
         "duration_min": 30,
-        "target": "Full Body",
-        "type": "Weight Training"
+        "type": "Weight Training (Full Body)"
       },
       "total_burned_calories": 683
     },
     "daily_total_stats": {
-      "total_intake_calories": 1450,
+      "total_intake_calories": 1650,
       "total_burned_calories": 683,
-      "net_calories": 767,
+      "net_calories": 967,
       "total_protein_g": 123.5,
-      "total_carbs_g": 177,
-      "total_fat_g": 29.1,
+      "total_carbs_g": 202,
+      "total_fat_g": 40.1,
       "protein_per_kg": 1.45
     },
     "ai_evaluation": {
       "muscle_maintenance": "Goal Reached (123.5g Protein)",
-      "weight_loss_status": "Excellent Deficit (Net 767 kcal)",
-      "recommendation": "เมื่อวานเป็นวันที่ยอดเยี่ยมมากครับ คุณทำโปรตีนได้ถึงเป้าหมายและมีการออกกำลังกายทั้ง Cardio และ Strength Training ที่เข้มข้น ส่งผลให้ Net Calories ต่ำกว่าเป้าหมายมากครับ"
+      "weight_loss_status": "Extreme Deficit (Net 967 kcal)",
+      "recommendation": "แม้จะมีการทานจิปาถะเพิ่ม 200 แคลอรี่ แต่แคลอรี่สุทธิยังคงต่ำเพียง 967 kcal ซึ่งต่ำกว่าเกณฑ์ min (1200 kcal) เล็กน้อย แต่เนื่องจากโปรตีนทำได้เกินเป้าหมาย ถือว่าเป็นวันที่รักษามวลกล้ามเนื้อได้ยอดเยี่ยมมากครับ"
     }
   }
 ]

@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-01-17",
-    "last_update": "2026-01-17 05:02:19",
+    "last_update": "2026-01-17 06:22:29",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
       "height_cm": 173,
-      "bmr_kcal": 1860,
-      "tdee_maintenance_kcal": 2558,
-      "target_lose_weight_kcal": 1500,
-      "target_protein_g": 120,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
       "recommended_daily_calories": 2100
@@ -38,24 +38,32 @@
         "protein_g": 5,
         "carbs_g": 54,
         "fat_g": 0.5
+      },
+      {
+        "time": "บ่าย",
+        "item": "นมเปรี้ยวดีไลท์ (1 ขวด)",
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 15,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 970,
+      "total_intake_calories": 1040,
       "total_burned_calories": 0,
-      "net_calories": 970,
-      "total_protein_g": 53,
-      "total_carbs_g": 102,
+      "net_calories": 1040,
+      "total_protein_g": 55,
+      "total_carbs_g": 117,
       "total_fat_g": 38.5,
-      "protein_per_kg": 0.62
+      "protein_per_kg": 0.65
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (53g Protein)",
-      "weight_loss_status": "Excellent (Lower Fat)",
-      "recommendation": "การเลือกไม่ใส่น้ำมันช่วยลดแคลอรี่ไปได้ถึง 130 kcal และลดไขมันส่วนเกินได้ดีมากครับ ตอนนี้แคลอรี่รวมยังไม่ถึง 1,000 kcal ทำให้คุณมีโควตาสำหรับมื้อเย็นและเวย์โปรตีนได้อีกเพียบเพื่อพิชิตเป้าหมาย 120g ครับ"
+      "muscle_maintenance": "Good Progress (55g Protein)",
+      "weight_loss_status": "In Control (Net 1040 kcal)",
+      "recommendation": "เพิ่มโปรตีนสะสมเป็น 55g แล้วครับ ตอนนี้ขาดอีก 65g จะถึงเป้าหมาย 120g แคลอรี่รวมยังคงจัดการได้ดีมาก มีแผนจะออกกำลังกายหรือรับโปรตีนเสริมในช่วงเย็นไหมครับ?"
     }
   }
 ]

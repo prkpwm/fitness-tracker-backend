@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-01-16",
-    "last_update": "2026-01-16 18:55:04",
+    "last_update": "2026-01-17 06:14:31",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
       "height_cm": 173,
-      "bmr_kcal": 1860,
-      "tdee_maintenance_kcal": 2558,
-      "target_lose_weight_kcal": 1500,
-      "target_protein_g": 120,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
       "recommended_daily_calories": 2100
@@ -73,23 +73,16 @@
       },
       {
         "time": "ดึก",
-        "item": "เวย์โปรตีน (3 สกู๊ป)",
-        "calories": 120,
-        "protein_g": 24,
-        "carbs_g": 3,
-        "fat_g": 1.5
-      },
-      {
-        "time": "ดึก",
-        "item": "เวย์โปรตีน (3 สกู๊ป) - เพิ่มเติม",
-        "calories": 120,
-        "protein_g": 24,
-        "carbs_g": 3,
-        "fat_g": 1.5
+        "item": "เวย์โปรตีน (6 สกู๊ป)",
+        "calories": 240,
+        "protein_g": 48,
+        "carbs_g": 6,
+        "fat_g": 3
       }
     ],
     "exercise_summary": {
       "cardio_session_1": {
+        "avg_hr_bpm": 113,
         "calories_burned": 503,
         "distance_mi": 6.63,
         "duration_min": 94.58,
@@ -98,7 +91,8 @@
       "strength_training": {
         "calories_burned": 180,
         "duration_min": 30,
-        "type": "Weight Training (Full Body)"
+        "target": "Full Body",
+        "type": "Weight Training"
       },
       "total_burned_calories": 683
     },
@@ -114,7 +108,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "Goal Reached (123.5g Protein)",
       "weight_loss_status": "Excellent Deficit (Net 767 kcal)",
-      "recommendation": "ยินดีด้วยครับ! วันนี้คุณทำสำเร็จตามเป้าหมายทั้งสองอย่าง คือโปรตีนถึง 120g (ทำได้ 123.5g) และควบคุมแคลอรี่สุทธิได้ต่ำมากเพียง 767 kcal เป็นวันที่สมบูรณ์แบบมากครับ"
+      "recommendation": "เมื่อวานเป็นวันที่ยอดเยี่ยมมากครับ คุณทำโปรตีนได้ถึงเป้าหมายและมีการออกกำลังกายทั้ง Cardio และ Strength Training ที่เข้มข้น ส่งผลให้ Net Calories ต่ำกว่าเป้าหมายมากครับ"
     }
   }
 ]

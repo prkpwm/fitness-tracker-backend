@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-18",
-    "last_update": "2026-01-18 13:07:28",
+    "last_update": "2026-01-18 14:08:59",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,21 +81,27 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "strength_training": {
+        "calories_burned": 180,
+        "duration_min": 30,
+        "target": "Dumbbell Exercises",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 180
     },
     "daily_total_stats": {
       "total_intake_calories": 1292,
-      "total_burned_calories": 0,
-      "net_calories": 1292,
+      "total_burned_calories": 180,
+      "net_calories": 1112,
       "total_protein_g": 105.2,
       "total_carbs_g": 143,
       "total_fat_g": 32.3,
       "protein_per_kg": 1.24
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Almost Reached (105.2g/120g Protein)",
-      "weight_loss_status": "Perfect Deficit (Net 1292 kcal)",
-      "recommendation": "จากการปรับข้อมูลตามฉลาก เวย์โปรตีน 3 สกู๊ปให้โปรตีน 24g ทำให้ยอดรวมโปรตีนตอนนี้อยู่ที่ 105.2g (ขาดอีกเพียง 14.8g จะถึงเป้า) ส่วนพลังงานสุทธิอยู่ในช่วงที่เหมาะสมมากสำหรับการลดน้ำหนักครับ"
+      "muscle_maintenance": "Good Progress (105.2g/120g Protein)",
+      "weight_loss_status": "Aggressive Deficit (Net 1112 kcal)",
+      "recommendation": "การเล่นเวทช่วยกระตุ้นการสร้างกล้ามเนื้อได้ดีมากครับ ตอนนี้โปรตีนขาดอีกเพียง 14.8g จะถึงเป้าหมาย และพลังงานสุทธิอยู่ที่ 1,112 kcal ซึ่งต่ำกว่าเกณฑ์เล็กน้อยเนื่องจากมีการเบิร์นออก แนะนำให้พักผ่อนให้เพียงพอเพื่อการฟื้นฟูกล้ามเนื้อครับ"
     }
   }
 ]

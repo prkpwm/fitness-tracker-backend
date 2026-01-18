@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-18",
-    "last_update": "2026-01-18 18:09:22",
+    "last_update": "2026-01-18 18:11:37",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,11 +81,11 @@
       },
       {
         "time": "ดึก",
-        "item": "หมูกรอบ (40g)",
-        "calories": 216,
-        "protein_g": 6,
+        "item": "หมูกรอบ (ปรับปรุง)",
+        "calories": 170,
+        "protein_g": 5,
         "carbs_g": 0,
-        "fat_g": 21
+        "fat_g": 16.5
       },
       {
         "time": "ดึก",
@@ -121,18 +121,18 @@
       "total_burned_calories": 712
     },
     "daily_total_stats": {
-      "total_intake_calories": 2028,
+      "total_intake_calories": 1982,
       "total_burned_calories": 712,
-      "net_calories": 1316,
-      "total_protein_g": 148.2,
+      "net_calories": 1270,
+      "total_protein_g": 147.2,
       "total_carbs_g": 172,
-      "total_fat_g": 82.3,
-      "protein_per_kg": 1.74
+      "total_fat_g": 77.8,
+      "protein_per_kg": 1.73
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Success (148.2g/120g Protein)",
-      "weight_loss_status": "Perfect Deficit (Net 1316 kcal)",
-      "recommendation": "แม้จะมีการทาน KitKat เพิ่มเข้ามา แต่ด้วยการออกกำลังกายที่หนักมากและโปรตีนที่สูงถึง 148.2g ทำให้ภาพรวมของวันที่ 18 ยังคงอยู่ในเกณฑ์ลดน้ำหนักที่สมบูรณ์แบบ (1,316 kcal) ครับ"
+      "muscle_maintenance": "High Success (147.2g/120g Protein)",
+      "weight_loss_status": "Perfect Deficit (Net 1270 kcal)",
+      "recommendation": "หลังจากปรับลดแคลอรี่ของหมูกรอบลง พลังงานสุทธิของคุณอยู่ที่ 1,270 kcal ซึ่งยังคงอยู่ในช่วงลดน้ำหนักที่เหมาะสม และโปรตีนยังคงสูงมากเพียงพอต่อการซ่อมแซมกล้ามเนื้อจากการออกกำลังกายหนักครับ"
     }
   }
 ]

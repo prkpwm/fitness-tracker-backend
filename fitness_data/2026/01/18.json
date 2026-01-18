@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-18",
-    "last_update": "2026-01-18 16:00:13",
+    "last_update": "2026-01-18 18:09:22",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,6 +78,30 @@
         "protein_g": 24,
         "carbs_g": 3,
         "fat_g": 1.5
+      },
+      {
+        "time": "ดึก",
+        "item": "หมูกรอบ (40g)",
+        "calories": 216,
+        "protein_g": 6,
+        "carbs_g": 0,
+        "fat_g": 21
+      },
+      {
+        "time": "ดึก",
+        "item": "น่องไก่ล่าซอสบาร์บีคิว (200g)",
+        "calories": 380,
+        "protein_g": 36,
+        "carbs_g": 10,
+        "fat_g": 22
+      },
+      {
+        "time": "ดึก",
+        "item": "KitKat (2 ห่อเล็ก / 28g)",
+        "calories": 140,
+        "protein_g": 1,
+        "carbs_g": 19,
+        "fat_g": 7
       }
     ],
     "exercise_summary": {
@@ -97,18 +121,18 @@
       "total_burned_calories": 712
     },
     "daily_total_stats": {
-      "total_intake_calories": 1292,
+      "total_intake_calories": 2028,
       "total_burned_calories": 712,
-      "net_calories": 580,
-      "total_protein_g": 105.2,
-      "total_carbs_g": 143,
-      "total_fat_g": 32.3,
-      "protein_per_kg": 1.24
+      "net_calories": 1316,
+      "total_protein_g": 148.2,
+      "total_carbs_g": 172,
+      "total_fat_g": 82.3,
+      "protein_per_kg": 1.74
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (105.2g/120g Protein)",
-      "weight_loss_status": "Aggressive Deficit (Net 580 kcal)",
-      "recommendation": "วันนี้คุณออกกำลังกายหนักมากทั้งเวทเทรนนิ่งและการวิ่งกว่า 100 นาที เผาผลาญรวมไปถึง 712 kcal ทำให้พลังงานสุทธิเหลือเพียง 580 kcal ซึ่งถือว่าต่ำกว่าเกณฑ์ขั้นต่ำ (1,200 kcal) มากครับ แนะนำให้ทานมื้อดึกที่มีโปรตีนและคาร์โบไฮเดรตเชิงซ้อนเพิ่มเพื่อช่วยในการฟื้นฟูกล้ามเนื้อและป้องกันร่างกายอ่อนเพลียครับ"
+      "muscle_maintenance": "High Success (148.2g/120g Protein)",
+      "weight_loss_status": "Perfect Deficit (Net 1316 kcal)",
+      "recommendation": "แม้จะมีการทาน KitKat เพิ่มเข้ามา แต่ด้วยการออกกำลังกายที่หนักมากและโปรตีนที่สูงถึง 148.2g ทำให้ภาพรวมของวันที่ 18 ยังคงอยู่ในเกณฑ์ลดน้ำหนักที่สมบูรณ์แบบ (1,316 kcal) ครับ"
     }
   }
 ]

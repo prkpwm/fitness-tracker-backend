@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-18",
-    "last_update": "2026-01-18 14:08:59",
+    "last_update": "2026-01-18 16:00:13",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -81,18 +81,25 @@
       }
     ],
     "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 111,
+        "calories_burned": 532,
+        "distance_mi": 6.32,
+        "duration_min": 101.88,
+        "type": "Treadmill Running"
+      },
       "strength_training": {
         "calories_burned": 180,
         "duration_min": 30,
         "target": "Dumbbell Exercises",
         "type": "Weight Training"
       },
-      "total_burned_calories": 180
+      "total_burned_calories": 712
     },
     "daily_total_stats": {
       "total_intake_calories": 1292,
-      "total_burned_calories": 180,
-      "net_calories": 1112,
+      "total_burned_calories": 712,
+      "net_calories": 580,
       "total_protein_g": 105.2,
       "total_carbs_g": 143,
       "total_fat_g": 32.3,
@@ -100,8 +107,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Good Progress (105.2g/120g Protein)",
-      "weight_loss_status": "Aggressive Deficit (Net 1112 kcal)",
-      "recommendation": "การเล่นเวทช่วยกระตุ้นการสร้างกล้ามเนื้อได้ดีมากครับ ตอนนี้โปรตีนขาดอีกเพียง 14.8g จะถึงเป้าหมาย และพลังงานสุทธิอยู่ที่ 1,112 kcal ซึ่งต่ำกว่าเกณฑ์เล็กน้อยเนื่องจากมีการเบิร์นออก แนะนำให้พักผ่อนให้เพียงพอเพื่อการฟื้นฟูกล้ามเนื้อครับ"
+      "weight_loss_status": "Aggressive Deficit (Net 580 kcal)",
+      "recommendation": "วันนี้คุณออกกำลังกายหนักมากทั้งเวทเทรนนิ่งและการวิ่งกว่า 100 นาที เผาผลาญรวมไปถึง 712 kcal ทำให้พลังงานสุทธิเหลือเพียง 580 kcal ซึ่งถือว่าต่ำกว่าเกณฑ์ขั้นต่ำ (1,200 kcal) มากครับ แนะนำให้ทานมื้อดึกที่มีโปรตีนและคาร์โบไฮเดรตเชิงซ้อนเพิ่มเพื่อช่วยในการฟื้นฟูกล้ามเนื้อและป้องกันร่างกายอ่อนเพลียครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-18",
-    "last_update": "2026-01-18 12:36:39",
+    "last_update": "2026-01-18 13:06:27",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -33,7 +33,7 @@
       },
       {
         "time": "บ่าย",
-        "item": "แกงกะหรี่ญี่ปุ่น (หมู 170g - ไม่ใส่น้ำมัน)",
+        "item": "แกงกะหรี่ญี่ปุ่น (หมู 170g - ไม่ใส่น้ำมัน/มันฝรั่ง)",
         "calories": 320,
         "protein_g": 34,
         "carbs_g": 15,
@@ -62,24 +62,40 @@
         "protein_g": 0,
         "carbs_g": 24,
         "fat_g": 0
+      },
+      {
+        "time": "ดึก",
+        "item": "ขนมขาไก่ (30g)",
+        "calories": 160,
+        "protein_g": 2,
+        "carbs_g": 20,
+        "fat_g": 8
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 360,
+        "protein_g": 75,
+        "carbs_g": 9,
+        "fat_g": 3
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1012,
+      "total_intake_calories": 1532,
       "total_burned_calories": 0,
-      "net_calories": 1012,
-      "total_protein_g": 79.2,
-      "total_carbs_g": 120,
-      "total_fat_g": 22.8,
-      "protein_per_kg": 0.93
+      "net_calories": 1532,
+      "total_protein_g": 156.2,
+      "total_carbs_g": 149,
+      "total_fat_g": 33.8,
+      "protein_per_kg": 1.84
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (79.2g/120g Protein)",
-      "weight_loss_status": "Below Minimum Threshold (Net 1012 kcal)",
-      "recommendation": "ข้อมูลจากฉลากช่วยให้การคำนวณแม่นยำขึ้นครับ ตอนนี้พลังงานสุทธิยังไม่ถึง 1,200 kcal แนะนำให้ทานมื้อเย็นเพิ่ม โดยเน้นโปรตีนอีกประมาณ 40g เพื่อให้ถึงเป้าหมาย 120g และช่วยซ่อมแซมกล้ามเนื้อจากการวิ่งอย่างหนักเมื่อวานครับ"
+      "muscle_maintenance": "High Success (156.2g/120g Protein)",
+      "weight_loss_status": "Perfect Deficit (Net 1532 kcal)",
+      "recommendation": "ยอดเยี่ยมมากครับ! การเติมเวย์ 3 สกู๊ปทำให้โปรตีนรวมพุ่งสูงถึง 156.2g ซึ่งดีมากต่อการซ่อมแซมและเสริมสร้างกล้ามเนื้อ และพลังงานสุทธิ 1,532 kcal ก็อยู่ในช่วงเป้าหมาย (1,200-1,800) พอดีครับ วันนี้ถือว่าปิดจบได้อย่างสมบูรณ์แบบครับ"
     }
   }
 ]

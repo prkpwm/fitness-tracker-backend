@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-18",
-    "last_update": "2026-01-18 08:51:51",
+    "last_update": "2026-01-18 08:53:12",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -33,7 +33,7 @@
       },
       {
         "time": "บ่าย",
-        "item": "แกงกะหรี่ญี่ปุ่น (หมู 170g - ไม่ใส่มันฝรั่ง/น้ำมัน)",
+        "item": "แกงกะหรี่ญี่ปุ่น (หมู 170g - ไม่ใส่น้ำมัน/มันฝรั่ง)",
         "calories": 320,
         "protein_g": 34,
         "carbs_g": 15,
@@ -56,20 +56,22 @@
         "fat_g": 0
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
       "total_intake_calories": 912,
       "total_burned_calories": 0,
       "net_calories": 912,
       "total_protein_g": 79.2,
-      "total_carbs_g": 0,
-      "total_fat_g": 0,
-      "protein_per_kg": 0
+      "total_carbs_g": 96,
+      "total_fat_g": 22.8,
+      "protein_per_kg": 0.93
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (79.2g Protein)",
-      "weight_loss_status": "Below Min (Net 912 kcal)",
-      "recommendation": "ตอนนี้โปรตีนสะสมได้เกือบ 80g แล้วครับ ขาดอีกประมาณ 41g จะถึงเป้าหมาย 120g แนะนำมื้อเย็นเลือกโปรตีนเน้นๆ เพื่อให้สารอาหารครบถ้วนครับ"
+      "muscle_maintenance": "Good Progress (79.2g/120g Protein)",
+      "weight_loss_status": "Below Minimum Threshold (Net 912 kcal)",
+      "recommendation": "ปัจจุบันโปรตีนสะสมได้ 66% ของเป้าหมายแล้วครับ พลังงานสุทธิยังอยู่ต่ำกว่าเกณฑ์ 1,200 kcal แนะนำให้มื้อเย็นเพิ่มแหล่งโปรตีนสะอาดอีกประมาณ 40g เพื่อให้ถึงเป้าหมายการรักษามวลกล้ามเนื้อและเข้าสู่ช่วงลดน้ำหนักที่เหมาะสมครับ"
     }
   }
 ]

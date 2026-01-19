@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-19",
-    "last_update": "2026-01-18 18:16:26",
+    "last_update": "2026-01-19 13:42:24",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -22,24 +22,64 @@
         "protein_g": 1,
         "carbs_g": 15,
         "fat_g": 0
+      },
+      {
+        "time": "เย็น",
+        "item": "เวย์โปรตีน (3 สกู๊ป)",
+        "calories": 120,
+        "protein_g": 24,
+        "carbs_g": 3,
+        "fat_g": 1.5
+      },
+      {
+        "time": "เย็น",
+        "item": "ต้มไก่ (1 ชาม)",
+        "calories": 250,
+        "protein_g": 30,
+        "carbs_g": 5,
+        "fat_g": 12
+      },
+      {
+        "time": "เย็น",
+        "item": "ข้าวเหนียว (100g)",
+        "calories": 200,
+        "protein_g": 4,
+        "carbs_g": 45,
+        "fat_g": 0.5
+      },
+      {
+        "time": "ค่ำ",
+        "item": "KitKat (2 ห่อเล็ก / 28g)",
+        "calories": 140,
+        "protein_g": 1,
+        "carbs_g": 19,
+        "fat_g": 7
+      },
+      {
+        "time": "ดึก",
+        "item": "ไอศกรีมเอ็กซ์ตรีม (1 โคน/68g)",
+        "calories": 200,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 12
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 60,
+      "total_intake_calories": 970,
       "total_burned_calories": 0,
-      "net_calories": 60,
-      "total_protein_g": 1,
-      "total_carbs_g": 15,
-      "total_fat_g": 0,
-      "protein_per_kg": 0.01
+      "net_calories": 970,
+      "total_protein_g": 62,
+      "total_carbs_g": 108,
+      "total_fat_g": 33,
+      "protein_per_kg": 0.73
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Starting (1g/120g Protein)",
-      "weight_loss_status": "Below Minimum Threshold (Net 60 kcal)",
-      "recommendation": "เริ่มต้นเช้าวันใหม่ด้วยวิตามินจากส้มครับ วันนี้อย่าลืมเติมโปรตีนให้ถึงเป้าหมาย 120g เพื่อรักษามวลกล้ามเนื้อต่อเนื่องจากเมื่อวานนะครับ"
+      "muscle_maintenance": "Halfway Progress (62g/120g Protein)",
+      "weight_loss_status": "Below Minimum Threshold (Net 970 kcal)",
+      "recommendation": "บันทึกไอศกรีม 200 kcal เรียบร้อยครับ ตอนนี้โปรตีนรวมอยู่ที่ 62g ยังขาดอีกครึ่งหนึ่งถึงจะครบเป้าหมาย 120g และพลังงานรวมยังไม่ถึงเกณฑ์ขั้นต่ำ 1,200 kcal สำหรับวันนี้ครับ"
     }
   }
 ]

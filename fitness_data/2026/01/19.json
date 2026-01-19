@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-19",
-    "last_update": "2026-01-19 13:42:24",
+    "last_update": "2026-01-19 14:22:42",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -25,11 +25,11 @@
       },
       {
         "time": "เย็น",
-        "item": "เวย์โปรตีน (3 สกู๊ป)",
-        "calories": 120,
+        "item": "เวย์โปรตีน (รอบที่ 1)",
+        "calories": 150,
         "protein_g": 24,
-        "carbs_g": 3,
-        "fat_g": 1.5
+        "carbs_g": 2,
+        "fat_g": 0
       },
       {
         "time": "เย็น",
@@ -62,24 +62,32 @@
         "protein_g": 2,
         "carbs_g": 21,
         "fat_g": 12
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน (รอบที่ 2)",
+        "calories": 150,
+        "protein_g": 24,
+        "carbs_g": 2,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 970,
+      "total_intake_calories": 1150,
       "total_burned_calories": 0,
-      "net_calories": 970,
-      "total_protein_g": 62,
-      "total_carbs_g": 108,
-      "total_fat_g": 33,
-      "protein_per_kg": 0.73
+      "net_calories": 1150,
+      "total_protein_g": 86,
+      "total_carbs_g": 109,
+      "total_fat_g": 31.5,
+      "protein_per_kg": 1.01
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Halfway Progress (62g/120g Protein)",
-      "weight_loss_status": "Below Minimum Threshold (Net 970 kcal)",
-      "recommendation": "บันทึกไอศกรีม 200 kcal เรียบร้อยครับ ตอนนี้โปรตีนรวมอยู่ที่ 62g ยังขาดอีกครึ่งหนึ่งถึงจะครบเป้าหมาย 120g และพลังงานรวมยังไม่ถึงเกณฑ์ขั้นต่ำ 1,200 kcal สำหรับวันนี้ครับ"
+      "muscle_maintenance": "Good Progress (86g/120g Protein)",
+      "weight_loss_status": "Near Minimum Threshold (Net 1150 kcal)",
+      "recommendation": "โปรตีนขยับขึ้นมาเป็น 86g แล้วครับ ขาดอีก 34g จะถึงเป้าหมาย 120g ส่วนพลังงานรวมอยู่ที่ 1,150 kcal ซึ่งเกือบถึงเกณฑ์ขั้นต่ำ 1,200 kcal แล้วครับ"
     }
   }
 ]

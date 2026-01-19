@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-19",
-    "last_update": "2026-01-19 16:29:31",
+    "last_update": "2026-01-19 16:30:44",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -73,11 +73,11 @@
       },
       {
         "time": "ดึก",
-        "item": "แตงโม (ครึ่งลูก/ประมาณ 1.5kg)",
-        "calories": 450,
-        "protein_g": 9,
-        "carbs_g": 110,
-        "fat_g": 2
+        "item": "แตงโม (ปรับปรุง: ครึ่งลูกหนัก 1kg)",
+        "calories": 300,
+        "protein_g": 6,
+        "carbs_g": 75,
+        "fat_g": 1.5
       },
       {
         "time": "ดึก",
@@ -92,18 +92,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1825,
+      "total_intake_calories": 1675,
       "total_burned_calories": 0,
-      "net_calories": 1825,
-      "total_protein_g": 131,
-      "total_carbs_g": 222,
-      "total_fat_g": 33.5,
-      "protein_per_kg": 1.54
+      "net_calories": 1675,
+      "total_protein_g": 128,
+      "total_carbs_g": 187,
+      "total_fat_g": 33,
+      "protein_per_kg": 1.51
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Success (131g/120g Protein)",
-      "weight_loss_status": "Balanced Intake (Net 1825 kcal)",
-      "recommendation": "ยินดีด้วยครับ! วันนี้คุณทำโปรตีนรวมได้ถึง 131g ซึ่งเกินเป้าหมาย 120g มาได้สำเร็จ พลังงานรวมอยู่ที่ 1,825 kcal ถือว่าอยู่ในเกณฑ์ที่ดีมากสำหรับการรักษาและสร้างมวลกล้ามเนื้อครับ"
+      "muscle_maintenance": "High Success (128g/120g Protein)",
+      "weight_loss_status": "Balanced Intake (Net 1675 kcal)",
+      "recommendation": "หลังจากปรับขนาดแตงโมเป็น 1kg พลังงานรวมของวันอยู่ที่ 1,675 kcal และโปรตีนยังคงสูงกว่าเป้าหมายที่ 128g ถือเป็นวันที่ยอดเยี่ยมในการรักษามวลกล้ามเนื้อและควบคุมน้ำหนักครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-19",
-    "last_update": "2026-01-19 14:22:42",
+    "last_update": "2026-01-19 16:29:31",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,24 +70,40 @@
         "protein_g": 24,
         "carbs_g": 2,
         "fat_g": 0
+      },
+      {
+        "time": "ดึก",
+        "item": "แตงโม (ครึ่งลูก/ประมาณ 1.5kg)",
+        "calories": 450,
+        "protein_g": 9,
+        "carbs_g": 110,
+        "fat_g": 2
+      },
+      {
+        "time": "ดึก",
+        "item": "เวย์โปรตีน (รอบที่ 3: 1.5 สกู๊ป)",
+        "calories": 225,
+        "protein_g": 36,
+        "carbs_g": 3,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1150,
+      "total_intake_calories": 1825,
       "total_burned_calories": 0,
-      "net_calories": 1150,
-      "total_protein_g": 86,
-      "total_carbs_g": 109,
-      "total_fat_g": 31.5,
-      "protein_per_kg": 1.01
+      "net_calories": 1825,
+      "total_protein_g": 131,
+      "total_carbs_g": 222,
+      "total_fat_g": 33.5,
+      "protein_per_kg": 1.54
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (86g/120g Protein)",
-      "weight_loss_status": "Near Minimum Threshold (Net 1150 kcal)",
-      "recommendation": "โปรตีนขยับขึ้นมาเป็น 86g แล้วครับ ขาดอีก 34g จะถึงเป้าหมาย 120g ส่วนพลังงานรวมอยู่ที่ 1,150 kcal ซึ่งเกือบถึงเกณฑ์ขั้นต่ำ 1,200 kcal แล้วครับ"
+      "muscle_maintenance": "High Success (131g/120g Protein)",
+      "weight_loss_status": "Balanced Intake (Net 1825 kcal)",
+      "recommendation": "ยินดีด้วยครับ! วันนี้คุณทำโปรตีนรวมได้ถึง 131g ซึ่งเกินเป้าหมาย 120g มาได้สำเร็จ พลังงานรวมอยู่ที่ 1,825 kcal ถือว่าอยู่ในเกณฑ์ที่ดีมากสำหรับการรักษาและสร้างมวลกล้ามเนื้อครับ"
     }
   }
 ]

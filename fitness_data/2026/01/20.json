@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-20",
-    "last_update": "2026-01-20 13:34:58",
+    "last_update": "2026-01-20 14:11:34",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,7 +17,7 @@
     "food_diary": [
       {
         "time": "กลางวัน",
-        "item": "ไก่เหนียวผัดพริกแกง (ไม่ใส่น้ำมัน)",
+        "item": "ไก่เหนียวผัดพริกแกง",
         "calories": 360,
         "protein_g": 45,
         "carbs_g": 10,
@@ -25,23 +25,23 @@
       },
       {
         "time": "กลางวัน",
-        "item": "ข้าวเหนียว (150g)",
+        "item": "ข้าวเหนียว",
         "calories": 300,
         "protein_g": 6,
         "carbs_g": 68,
         "fat_g": 0.8
       },
       {
-        "time": "เย็น",
-        "item": "นมเปรี้ยวเมจิ (1 ขวด)",
+        "time": "บ่าย",
+        "item": "นมเปรี้ยวเมจิ",
         "calories": 70,
         "protein_g": 2,
         "carbs_g": 15,
         "fat_g": 0
       },
       {
-        "time": "เย็น",
-        "item": "ชามะนาว (2 ซอง)",
+        "time": "บ่าย",
+        "item": "ชามะนาว",
         "calories": 120,
         "protein_g": 0,
         "carbs_g": 30,
@@ -49,42 +49,35 @@
       },
       {
         "time": "เย็น",
-        "item": "เวย์โปรตีน (1 สกู๊ป)",
+        "item": "เวย์โปรตีน",
         "calories": 150,
         "protein_g": 24,
         "carbs_g": 2,
         "fat_g": 0
+      },
+      {
+        "time": "ค่ำ",
+        "item": "ไก่ราดซอสบาร์บีคิว (น่องไก่เล็ก)",
+        "calories": 450,
+        "protein_g": 54,
+        "carbs_g": 10,
+        "fat_g": 18
       }
     ],
-    "exercise_summary": {
-      "cardio_session_1": {
-        "avg_hr_bpm": 115,
-        "calories_burned": 424,
-        "distance_mi": 5.39,
-        "duration_min": 78.7,
-        "type": "Treadmill Running"
-      },
-      "strength_training": {
-        "calories_burned": 150,
-        "duration_min": 30,
-        "target": "General/Not Heavy",
-        "type": "Weight Training"
-      },
-      "total_burned_calories": 574
-    },
+    "exercise_summary": null,
     "daily_total_stats": {
-      "total_intake_calories": 1000,
+      "total_intake_calories": 1450,
       "total_burned_calories": 574,
-      "net_calories": 426,
-      "total_protein_g": 77,
-      "total_carbs_g": 125,
-      "total_fat_g": 15.8,
-      "protein_per_kg": 0.91
+      "net_calories": 876,
+      "total_protein_g": 131,
+      "total_carbs_g": 135,
+      "total_fat_g": 33.8,
+      "protein_per_kg": 1.54
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (77g/120g)",
-      "weight_loss_status": "Extreme Deficit (Net 426 kcal)",
-      "recommendation": "วันนี้มีการเผาผลาญจากการคาร์ดิโอที่สูงมาก ทำให้พลังงานสุทธิ (Net Calories) ต่ำกว่าเกณฑ์ที่แนะนำ (1,200-1,800 kcal) อย่างมาก แนะนำให้เพิ่มมื้อค่ำที่มีโปรตีนสูงอีก 43g เพื่อให้ถึงเป้าหมาย 120g และเพิ่มพลังงานรวมเพื่อป้องกันการสูญเสียกล้ามเนื้อครับ"
+      "muscle_maintenance": "High Success (131g/120g Protein)",
+      "weight_loss_status": "Excellent Deficit (Net 876 kcal)",
+      "recommendation": "การเลือกไม่ใส่น้ำมันในมื้อเย็นช่วยลดไขมันแฝงไปได้มากครับ วันนี้คุณทำโปรตีนได้ 131g (เกินเป้าหมาย) และมีพลังงานสุทธิที่ 876 kcal ซึ่งยอดเยี่ยมมากสำหรับการลดไขมันพร้อมกับรักษาพละกำลังจากการออกกำลังกายครับ"
     }
   }
 ]

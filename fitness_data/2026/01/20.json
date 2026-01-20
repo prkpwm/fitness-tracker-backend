@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-20",
-    "last_update": "2026-01-20 14:11:34",
+    "last_update": "2026-01-20 14:12:35",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,7 +17,7 @@
     "food_diary": [
       {
         "time": "กลางวัน",
-        "item": "ไก่เหนียวผัดพริกแกง",
+        "item": "ไก่เหนียวผัดพริกแกง (ไม่ใส่น้ำมัน)",
         "calories": 360,
         "protein_g": 45,
         "carbs_g": 10,
@@ -57,14 +57,30 @@
       },
       {
         "time": "ค่ำ",
-        "item": "ไก่ราดซอสบาร์บีคิว (น่องไก่เล็ก)",
+        "item": "น่องไก่เล็กราดซอสบาร์บีคิว (300g - ไม่ใส่น้ำมัน)",
         "calories": 450,
         "protein_g": 54,
         "carbs_g": 10,
         "fat_g": 18
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "details": [
+        {
+          "activity": "Weight Training (Light)",
+          "calories_burned": 150,
+          "duration_min": 30
+        },
+        {
+          "activity": "Treadmill Running",
+          "avg_hr_bpm": 115,
+          "calories_burned": 424,
+          "distance_mi": 5.39,
+          "duration": "1:18:44"
+        }
+      ],
+      "total_burned_calories": 574
+    },
     "daily_total_stats": {
       "total_intake_calories": 1450,
       "total_burned_calories": 574,
@@ -76,8 +92,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "High Success (131g/120g Protein)",
-      "weight_loss_status": "Excellent Deficit (Net 876 kcal)",
-      "recommendation": "การเลือกไม่ใส่น้ำมันในมื้อเย็นช่วยลดไขมันแฝงไปได้มากครับ วันนี้คุณทำโปรตีนได้ 131g (เกินเป้าหมาย) และมีพลังงานสุทธิที่ 876 kcal ซึ่งยอดเยี่ยมมากสำหรับการลดไขมันพร้อมกับรักษาพละกำลังจากการออกกำลังกายครับ"
+      "weight_loss_status": "Healthy Deficit (Net 876 kcal)",
+      "recommendation": "โปรตีนรวม 131g เกินเป้าหมาย 120g เยี่ยมมากครับ! ค่าพลังงานสุทธิ 876 kcal อยู่ในเกณฑ์ที่ช่วยลดไขมันได้ดีโดยไม่ทำให้เสียมวลกล้ามเนื้อเนื่องจากโปรตีนถึงเกณฑ์ครับ"
     }
   }
 ]

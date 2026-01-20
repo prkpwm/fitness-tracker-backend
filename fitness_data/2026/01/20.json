@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-20",
-    "last_update": "2026-01-20 06:52:08",
+    "last_update": "2026-01-20 06:53:28",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,7 +17,7 @@
     "food_diary": [
       {
         "time": "กลางวัน",
-        "item": "ไก่เหนียวผัดพริกแกง (240g - ไม่ใส่น้ำมัน)",
+        "item": "ไก่เหนียวผัดพริกแกง",
         "calories": 360,
         "protein_g": 45,
         "carbs_g": 10,
@@ -25,14 +25,16 @@
       },
       {
         "time": "กลางวัน",
-        "item": "ข้าวเหนียว (150g)",
+        "item": "ข้าวเหนียว",
         "calories": 300,
         "protein_g": 6,
         "carbs_g": 68,
         "fat_g": 0.8
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
       "total_intake_calories": 660,
       "total_burned_calories": 0,
@@ -44,8 +46,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Progressing (51g/120g Protein)",
-      "weight_loss_status": "Below Minimum Threshold (Net 660 kcal)",
-      "recommendation": "ตอนนี้ยอดโปรตีนรวมอยู่ที่ 51g แล้วครับ (เกือบครึ่งทางของเป้าหมาย) พลังงานรวมยังคงอยู่ในระดับที่ต่ำมากสำหรับมื้อกลางวัน แนะนำให้ทานโปรตีนเพิ่มเติมในมื้อถัดไปเพื่อให้ถึงเป้า 120g นะครับ"
+      "weight_loss_status": "Below Target (Current 660/1500 kcal)",
+      "recommendation": "ยอดโปรตีนสะสมอยู่ที่ 51g ยังขาดอีก 69g เพื่อให้ถึงเป้าหมาย 120g ครับ พลังงานยังเหลือพื้นที่อีกเยอะสำหรับมื้อถัดไป"
     }
   }
 ]

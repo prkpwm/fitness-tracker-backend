@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-20",
-    "last_update": "2026-01-20 14:12:35",
+    "last_update": "2026-01-20 14:13:38",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -25,23 +25,23 @@
       },
       {
         "time": "กลางวัน",
-        "item": "ข้าวเหนียว",
+        "item": "ข้าวเหนียว (150g)",
         "calories": 300,
         "protein_g": 6,
         "carbs_g": 68,
         "fat_g": 0.8
       },
       {
-        "time": "บ่าย",
-        "item": "นมเปรี้ยวเมจิ",
+        "time": "เย็น",
+        "item": "นมเปรี้ยวเมจิ (1 ขวด)",
         "calories": 70,
         "protein_g": 2,
         "carbs_g": 15,
         "fat_g": 0
       },
       {
-        "time": "บ่าย",
-        "item": "ชามะนาว",
+        "time": "เย็น",
+        "item": "ชามะนาว (2 ซอง)",
         "calories": 120,
         "protein_g": 0,
         "carbs_g": 30,
@@ -49,15 +49,15 @@
       },
       {
         "time": "เย็น",
-        "item": "เวย์โปรตีน",
+        "item": "เวย์โปรตีน (1 สกู๊ป)",
         "calories": 150,
         "protein_g": 24,
         "carbs_g": 2,
         "fat_g": 0
       },
       {
-        "time": "ค่ำ",
-        "item": "น่องไก่เล็กราดซอสบาร์บีคิว (300g - ไม่ใส่น้ำมัน)",
+        "time": "ดึก",
+        "item": "น่องไก่เล็กราดซอสบาร์บีคิว (300g ชั่งหลังสุก/ไม่ใส่น้ำมัน)",
         "calories": 450,
         "protein_g": 54,
         "carbs_g": 10,
@@ -65,20 +65,19 @@
       }
     ],
     "exercise_summary": {
-      "details": [
-        {
-          "activity": "Weight Training (Light)",
-          "calories_burned": 150,
-          "duration_min": 30
-        },
-        {
-          "activity": "Treadmill Running",
-          "avg_hr_bpm": 115,
-          "calories_burned": 424,
-          "distance_mi": 5.39,
-          "duration": "1:18:44"
-        }
-      ],
+      "cardio_session_1": {
+        "avg_hr_bpm": 115,
+        "calories_burned": 424,
+        "distance_mi": 5.39,
+        "duration_min": 78.7,
+        "type": "Treadmill Running"
+      },
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Not specified (Light)",
+        "type": "Weight Training"
+      },
       "total_burned_calories": 574
     },
     "daily_total_stats": {
@@ -93,7 +92,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "High Success (131g/120g Protein)",
       "weight_loss_status": "Healthy Deficit (Net 876 kcal)",
-      "recommendation": "โปรตีนรวม 131g เกินเป้าหมาย 120g เยี่ยมมากครับ! ค่าพลังงานสุทธิ 876 kcal อยู่ในเกณฑ์ที่ช่วยลดไขมันได้ดีโดยไม่ทำให้เสียมวลกล้ามเนื้อเนื่องจากโปรตีนถึงเกณฑ์ครับ"
+      "recommendation": "วันนี้ยอดเยี่ยมมากครับ โปรตีนทำได้เกินเป้าหมาย (131g) และมีการออกกำลังกายทั้งเวทและคาร์ดิโอที่สม่ำเสมอ พลังงานสุทธิ 876 kcal ถือเป็นช่วง Deficit ที่ดีมากสำหรับการลดไขมันโดยที่กล้ามเนื้อไม่หายครับ"
     }
   }
 ]

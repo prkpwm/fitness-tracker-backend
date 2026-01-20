@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-20",
-    "last_update": "2026-01-20 08:31:00",
+    "last_update": "2026-01-20 12:08:32",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -49,21 +49,24 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "activity": "Weight Training",
+      "duration_min": 30,
+      "intensity": "Light",
+      "total_burned_calories": 150
     },
     "daily_total_stats": {
       "total_intake_calories": 850,
-      "total_burned_calories": 0,
-      "net_calories": 850,
+      "total_burned_calories": 150,
+      "net_calories": 700,
       "total_protein_g": 53,
       "total_carbs_g": 123,
       "total_fat_g": 15.8,
       "protein_per_kg": 0.62
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (53g/120g Protein)",
-      "weight_loss_status": "Below Target (Current 850/1500 kcal)",
-      "recommendation": "ได้รับโปรตีนเพิ่มขึ้นเป็น 53g ครับ พลังงานรวมอยู่ที่ 850 kcal ยังเหลือพื้นที่ให้เติมโปรตีนสะอาดในมื้อเย็นอีกประมาณ 67g เพื่อให้ถึงเป้าหมาย 120g ครับ"
+      "muscle_maintenance": "Good Initiative (53g/120g Protein)",
+      "weight_loss_status": "High Deficit (Net 700 kcal)",
+      "recommendation": "เยี่ยมมากครับที่มีการเวทเทรนนิ่งเพื่อรักษามวลกล้ามเนื้อ แม้จะไม่หนักแต่ช่วยกระตุ้นการเผาผลาญได้ดี ตอนนี้ค่าพลังงานสุทธิ (Net Calories) อยู่ที่ 700 kcal ซึ่งค่อนข้างต่ำ แนะนำให้เติมมื้อเย็นที่มีโปรตีนสูงเพื่อซ่อมแซมกล้ามเนื้อที่เพิ่งใช้งานไปนะครับ"
     }
   }
 ]

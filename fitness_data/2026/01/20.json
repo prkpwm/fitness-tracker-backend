@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-20",
-    "last_update": "2026-01-20 12:24:41",
+    "last_update": "2026-01-20 13:32:02",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,7 +17,7 @@
     "food_diary": [
       {
         "time": "กลางวัน",
-        "item": "ไก่เหนียวผัดพริกแกง",
+        "item": "ไก่เหนียวผัดพริกแกง (ไม่ใส่น้ำมัน)",
         "calories": 360,
         "protein_g": 45,
         "carbs_g": 10,
@@ -56,16 +56,11 @@
         "fat_g": 0
       }
     ],
-    "exercise_summary": {
-      "activity": "Weight Training",
-      "duration_min": 30,
-      "intensity": "Light",
-      "total_burned_calories": 150
-    },
+    "exercise_summary": null,
     "daily_total_stats": {
       "total_intake_calories": 1000,
-      "total_burned_calories": 150,
-      "net_calories": 850,
+      "total_burned_calories": 574,
+      "net_calories": 426,
       "total_protein_g": 77,
       "total_carbs_g": 125,
       "total_fat_g": 15.8,
@@ -73,8 +68,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Good Progress (77g/120g Protein)",
-      "weight_loss_status": "High Deficit (Net 850 kcal)",
-      "recommendation": "ยอดโปรตีนสะสมเพิ่มขึ้นเป็น 77g แล้วครับ ขาดอีก 43g จะถึงเป้าหมาย 120g พลังงานรวมยังคงอยู่ในเกณฑ์ควบคุมน้ำหนักได้ดีมากครับ"
+      "weight_loss_status": "Extreme Deficit (Net 426 kcal)",
+      "recommendation": "วันนี้มีการเผาผลาญจากการออกกำลังกายสูงมาก (574 kcal) ทำให้พลังงานสุทธิเหลือเพียง 426 kcal ซึ่งต่ำกว่าเกณฑ์ลดน้ำหนักอย่างปลอดภัย แนะนำให้เพิ่มมื้อค่ำที่มีโปรตีนสูงอีกประมาณ 43g เพื่อให้ถึงเป้าหมาย 120g และเพิ่มพลังงานรวมให้ถึง 1,200 kcal ครับ"
     }
   }
 ]

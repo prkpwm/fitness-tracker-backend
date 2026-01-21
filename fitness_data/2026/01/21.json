@@ -1,0 +1,60 @@
+[
+  {
+    "date": "2026-01-21",
+    "last_update": "2026-01-21 04:38:39",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เช้า",
+        "item": "นมเปรี้ยวเมจิ (ครึ่งขวด)",
+        "calories": 35,
+        "protein_g": 1,
+        "carbs_g": 7.5,
+        "fat_g": 0
+      },
+      {
+        "time": "เช้า",
+        "item": "เวย์โปรตีน (1 สกู๊ป)",
+        "calories": 150,
+        "protein_g": 24,
+        "carbs_g": 2,
+        "fat_g": 0
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 111,
+        "calories_burned": 425,
+        "distance_mi": 5.21,
+        "duration_min": 85.7,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 425
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 185,
+      "total_burned_calories": 425,
+      "net_calories": -240,
+      "total_protein_g": 25,
+      "total_carbs_g": 9.5,
+      "total_fat_g": 0,
+      "protein_per_kg": 0.29
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Initial Stage (25g/120g Protein)",
+      "weight_loss_status": "Deficit (Net -240 kcal)",
+      "recommendation": "ได้รับโปรตีนเริ่มต้น 25g จากเวย์และนมเปรี้ยวครับ วันนี้คาร์ดิโอไปได้เยอะมาก ทำให้พลังงานสุทธิยังติดลบอยู่ แนะนำให้เติมมื้อหลักที่มีโปรตีนและสารอาหารครบถ้วนในมื้อถัดไปครับ"
+    }
+  }
+]

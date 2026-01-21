@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-21",
-    "last_update": "2026-01-21 13:41:40",
+    "last_update": "2026-01-21 13:44:59",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -80,21 +80,27 @@
         "duration_min": 85.7,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 425
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Core / Abs",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 575
     },
     "daily_total_stats": {
       "total_intake_calories": 1156,
-      "total_burned_calories": 425,
-      "net_calories": 731,
+      "total_burned_calories": 575,
+      "net_calories": 581,
       "total_protein_g": 131.5,
       "total_carbs_g": 102.1,
       "total_fat_g": 18.1,
       "protein_per_kg": 1.55
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Success (131.5g/120g Protein)",
-      "weight_loss_status": "Healthy Deficit (Net 731 kcal)",
-      "recommendation": "ยอดโปรตีนรวมวันนี้อยู่ที่ 131.5g ซึ่งยอดเยี่ยมมากครับ การเพิ่มแตงโมช่วยเติมน้ำและวิตามินได้ดีโดยที่แคลอรี่รวมยังอยู่ในระดับที่ช่วยลดไขมันได้อย่างมีประสิทธิภาพครับ"
+      "muscle_maintenance": "Excellent (131.5g/120g Protein)",
+      "weight_loss_status": "Aggressive Deficit (Net 581 kcal)",
+      "recommendation": "วันนี้โปรตีนสูงมากและมีทั้งคาร์ดิโอ + เวทช่วงลำตัว ถือว่ายอดเยี่ยมสำหรับการรักษากล้ามเนื้อ อย่างไรก็ตาม Net calories ค่อนข้างต่ำ แนะนำเสริมอาหารเบา ๆ หลังออกกำลังกาย (เช่น กล้วยหรือเวย์ครึ่งสกู๊ป) เพื่อช่วยฟื้นฟูร่างกาย"
     }
   }
 ]

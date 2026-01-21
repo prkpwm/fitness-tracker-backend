@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-21",
-    "last_update": "2026-01-21 04:38:39",
+    "last_update": "2026-01-21 13:41:40",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -30,6 +30,46 @@
         "protein_g": 24,
         "carbs_g": 2,
         "fat_g": 0
+      },
+      {
+        "time": "กลางวัน",
+        "item": "อกไก่ทอดไร้น้ำมัน (200g - ชั่งหลังสุก)",
+        "calories": 330,
+        "protein_g": 62,
+        "carbs_g": 0,
+        "fat_g": 8
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวสวย (170g)",
+        "calories": 221,
+        "protein_g": 4.6,
+        "carbs_g": 47.6,
+        "fat_g": 0.5
+      },
+      {
+        "time": "บ่าย",
+        "item": "ชามะนาว (1 ซอง)",
+        "calories": 60,
+        "protein_g": 0,
+        "carbs_g": 15,
+        "fat_g": 0
+      },
+      {
+        "time": "เย็น",
+        "item": "ไก่ย่าง (150g)",
+        "calories": 240,
+        "protein_g": 37.5,
+        "carbs_g": 0,
+        "fat_g": 9
+      },
+      {
+        "time": "ดึก",
+        "item": "แตงโม (400g)",
+        "calories": 120,
+        "protein_g": 2.4,
+        "carbs_g": 30,
+        "fat_g": 0.6
       }
     ],
     "exercise_summary": {
@@ -43,18 +83,18 @@
       "total_burned_calories": 425
     },
     "daily_total_stats": {
-      "total_intake_calories": 185,
+      "total_intake_calories": 1156,
       "total_burned_calories": 425,
-      "net_calories": -240,
-      "total_protein_g": 25,
-      "total_carbs_g": 9.5,
-      "total_fat_g": 0,
-      "protein_per_kg": 0.29
+      "net_calories": 731,
+      "total_protein_g": 131.5,
+      "total_carbs_g": 102.1,
+      "total_fat_g": 18.1,
+      "protein_per_kg": 1.55
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Initial Stage (25g/120g Protein)",
-      "weight_loss_status": "Deficit (Net -240 kcal)",
-      "recommendation": "ได้รับโปรตีนเริ่มต้น 25g จากเวย์และนมเปรี้ยวครับ วันนี้คาร์ดิโอไปได้เยอะมาก ทำให้พลังงานสุทธิยังติดลบอยู่ แนะนำให้เติมมื้อหลักที่มีโปรตีนและสารอาหารครบถ้วนในมื้อถัดไปครับ"
+      "muscle_maintenance": "High Success (131.5g/120g Protein)",
+      "weight_loss_status": "Healthy Deficit (Net 731 kcal)",
+      "recommendation": "ยอดโปรตีนรวมวันนี้อยู่ที่ 131.5g ซึ่งยอดเยี่ยมมากครับ การเพิ่มแตงโมช่วยเติมน้ำและวิตามินได้ดีโดยที่แคลอรี่รวมยังอยู่ในระดับที่ช่วยลดไขมันได้อย่างมีประสิทธิภาพครับ"
     }
   }
 ]

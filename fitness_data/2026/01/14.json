@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-14",
-    "last_update": "2026-01-14 15:59:18",
+    "last_update": "2026-01-21 13:43:25",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -48,14 +48,6 @@
         "fat_g": 0.5
       },
       {
-        "time": "กลางวัน",
-        "item": "เวย์โปรตีน (3 สกู๊ป)",
-        "calories": 120,
-        "protein_g": 24,
-        "carbs_g": 3,
-        "fat_g": 1.5
-      },
-      {
         "time": "เย็น",
         "item": "ผัดเผ็ดหมูป่า",
         "calories": 320,
@@ -78,50 +70,24 @@
         "protein_g": 4.5,
         "carbs_g": 52,
         "fat_g": 0.5
-      },
-      {
-        "time": "ค่ำ",
-        "item": "ไอศกรีมวานิลลาเคลือบช็อกโกแลต",
-        "calories": 200,
-        "protein_g": 2,
-        "carbs_g": 21,
-        "fat_g": 12
       }
     ],
     "exercise_summary": {
-      "cardio_session_1": {
-        "calories_burned": 643,
-        "distance_mi": 7.58,
-        "duration_min": 107.85,
-        "type": "Treadmill Running"
-      },
-      "cardio_session_2": {
-        "calories_burned": 162,
-        "distance_mi": 2.11,
-        "duration_min": 30.03,
-        "type": "Treadmill Running"
-      },
-      "strength_training": {
-        "calories_burned": 150,
-        "duration_min": 30,
-        "target": "Shoulder",
-        "type": "Weight Training"
-      },
-      "total_burned_calories": 955
+      "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1950,
-      "total_burned_calories": 955,
-      "net_calories": 995,
-      "total_protein_g": 120,
-      "total_carbs_g": 161,
-      "total_fat_g": 90.5,
-      "protein_per_kg": 1.41
+      "total_intake_calories": 1630,
+      "total_burned_calories": 0,
+      "net_calories": 1630,
+      "total_protein_g": 94,
+      "total_carbs_g": 137,
+      "total_fat_g": 77,
+      "protein_per_kg": 1.11
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Goal Achieved (120g Protein)",
-      "weight_loss_status": "High Deficit (Net 995 kcal)",
-      "recommendation": "วันนี้ทำได้สมบูรณ์แบบมากครับ ทั้งโปรตีนที่ครบ 120g และการวิ่งสะสมระยะที่ดึง Net Calories ลงมาต่ำกว่า 1,000 kcal ได้สำเร็จครับ"
+      "muscle_maintenance": "Good Progress (94g Protein)",
+      "weight_loss_status": "Slightly Over Goal Calories",
+      "recommendation": "ตอนนี้โปรตีนสะสมอยู่ที่ 94g ขาดอีกเพียง 26g จะถึงเป้าหมาย 120g ครับ พลังงานรวมเกินเป้าหมาย 1,500 kcal ไปเล็กน้อย หากมีเวลาออกกำลังกายเบาๆ จะช่วยให้แคลอรี่สุทธิกลับมาอยู่ในเกณฑ์ที่ต้องการครับ"
     }
   }
 ]

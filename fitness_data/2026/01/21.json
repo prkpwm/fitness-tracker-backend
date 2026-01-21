@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-21",
-    "last_update": "2026-01-21 13:44:59",
+    "last_update": "2026-01-21 13:47:15",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -70,6 +70,14 @@
         "protein_g": 2.4,
         "carbs_g": 30,
         "fat_g": 0.6
+      },
+      {
+        "time": "ดึก",
+        "item": "Reese’s Peanut Butter Cup (1 ชิ้น)",
+        "calories": 110,
+        "protein_g": 2,
+        "carbs_g": 12,
+        "fat_g": 6
       }
     ],
     "exercise_summary": {
@@ -89,18 +97,18 @@
       "total_burned_calories": 575
     },
     "daily_total_stats": {
-      "total_intake_calories": 1156,
+      "total_intake_calories": 1266,
       "total_burned_calories": 575,
-      "net_calories": 581,
-      "total_protein_g": 131.5,
-      "total_carbs_g": 102.1,
-      "total_fat_g": 18.1,
-      "protein_per_kg": 1.55
+      "net_calories": 691,
+      "total_protein_g": 133.5,
+      "total_carbs_g": 114.1,
+      "total_fat_g": 24.1,
+      "protein_per_kg": 1.57
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (131.5g/120g Protein)",
-      "weight_loss_status": "Aggressive Deficit (Net 581 kcal)",
-      "recommendation": "วันนี้โปรตีนสูงมากและมีทั้งคาร์ดิโอ + เวทช่วงลำตัว ถือว่ายอดเยี่ยมสำหรับการรักษากล้ามเนื้อ อย่างไรก็ตาม Net calories ค่อนข้างต่ำ แนะนำเสริมอาหารเบา ๆ หลังออกกำลังกาย (เช่น กล้วยหรือเวย์ครึ่งสกู๊ป) เพื่อช่วยฟื้นฟูร่างกาย"
+      "muscle_maintenance": "Excellent (133.5g/120g Protein)",
+      "weight_loss_status": "Very High Deficit (Net 691 kcal)",
+      "recommendation": "เพิ่มของหวานเล็กน้อยไม่กระทบเป้าหมาย โปรตีนยังสูงมากและมีทั้งคาร์ดิโอและเวท แต่ Net calories ยังต่ำกว่า min แนะนำเสริมอาหารอีกเล็กน้อยก่อนพักผ่อนเพื่อการฟื้นฟูที่ดีขึ้น"
     }
   }
 ]

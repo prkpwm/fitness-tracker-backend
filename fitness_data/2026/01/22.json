@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-22",
-    "last_update": "2026-01-22 10:54:01",
+    "last_update": "2026-01-22 10:56:12",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -73,11 +73,11 @@
       },
       {
         "time": "เย็น",
-        "item": "หมูย่าง (120g)",
-        "calories": 290,
-        "protein_g": 21,
+        "item": "หมูย่างมันน้อย (120g)",
+        "calories": 240,
+        "protein_g": 24,
         "carbs_g": 0,
-        "fat_g": 22
+        "fat_g": 12
       },
       {
         "time": "เย็น",
@@ -99,18 +99,18 @@
       "total_burned_calories": 443
     },
     "daily_total_stats": {
-      "total_intake_calories": 1810,
+      "total_intake_calories": 1760,
       "total_burned_calories": 443,
-      "net_calories": 1367,
-      "total_protein_g": 140.6,
+      "net_calories": 1317,
+      "total_protein_g": 143.6,
       "total_carbs_g": 133,
-      "total_fat_g": 76.1,
-      "protein_per_kg": 1.65
+      "total_fat_g": 66.1,
+      "protein_per_kg": 1.69
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Success (140.6g/120g Protein)",
-      "weight_loss_status": "Maintenance/Light Deficit (Net 1367 kcal)",
-      "recommendation": "วันนี้คุณทำเป้าหมายโปรตีนได้ยอดเยี่ยมมากครับ (140.6g) สูงกว่าเป้าหมายที่ตั้งไว้ ช่วยซ่อมแซมกล้ามเนื้อจากการวิ่งได้อย่างดี แม้จะมีขนมขาไก่เพิ่มเข้ามาแต่พลังงานสุทธิยังอยู่ในเกณฑ์ควบคุม แนะนำให้ดื่มน้ำเพิ่มขึ้นเพื่อช่วยการเผาผลาญและลดโซเดียมจากมื้อเย็นครับ"
+      "muscle_maintenance": "High Success (143.6g/120g Protein)",
+      "weight_loss_status": "Healthy Deficit (Net 1317 kcal)",
+      "recommendation": "วันนี้ยอดเยี่ยมมากครับ! การเปลี่ยนเป็นหมูย่างมันน้อยช่วยเพิ่มโปรตีนสะสมได้ถึง 143.6g และลดไขมันลงได้ชัดเจน พลังงานสุทธิ (Net Calories) อยู่ที่ 1317 ซึ่งต่ำกว่าค่า Maintenance (2100) อย่างเหมาะสมสำหรับการลดไขมันโดยไม่เสียกล้ามเนื้อครับ"
     }
   }
 ]

@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2026-01-22",
+    "last_update": "2026-01-22 05:12:41",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เช้า",
+        "item": "นมเปรี้ยวดีไลท์ (1 ขวด)",
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 15,
+        "fat_g": 0
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 114,
+        "calories_burned": 443,
+        "distance_mi": 5.22,
+        "duration_min": 79.5,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 443
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 70,
+      "total_burned_calories": 443,
+      "net_calories": -373,
+      "total_protein_g": 2,
+      "total_carbs_g": 15,
+      "total_fat_g": 0,
+      "protein_per_kg": 0.02
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Initial Stage (2g/120g Protein)",
+      "weight_loss_status": "Deficit (Net -373 kcal)",
+      "recommendation": "เริ่มต้นมื้อแรกด้วยนมเปรี้ยวดีไลท์ครับ พลังงานสุทธิยังติดลบอยู่มากเนื่องจากการวิ่งในช่วงเช้า แนะนำให้เพิ่มมื้อหลักที่มีโปรตีนสูงเพื่อขยับเข้าใกล้เป้าหมาย 120g ครับ"
+    }
+  }
+]

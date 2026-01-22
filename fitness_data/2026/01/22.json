@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-22",
-    "last_update": "2026-01-22 09:16:40",
+    "last_update": "2026-01-22 09:20:02",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -58,9 +58,9 @@
       {
         "time": "บ่าย",
         "item": "ชามะนาว (2 ซอง)",
-        "calories": 120,
+        "calories": 100,
         "protein_g": 0,
-        "carbs_g": 30,
+        "carbs_g": 24,
         "fat_g": 0
       }
     ],
@@ -75,18 +75,18 @@
       "total_burned_calories": 443
     },
     "daily_total_stats": {
-      "total_intake_calories": 1077,
+      "total_intake_calories": 1057,
       "total_burned_calories": 443,
-      "net_calories": 634,
+      "net_calories": 614,
       "total_protein_g": 91.9,
-      "total_carbs_g": 109.7,
+      "total_carbs_g": 103.7,
       "total_fat_g": 27.8,
       "protein_per_kg": 1.08
     },
     "ai_evaluation": {
       "muscle_maintenance": "Good Progress (91.9g/120g Protein)",
-      "weight_loss_status": "Healthy Deficit (Net 634 kcal)",
-      "recommendation": "ได้รับโปรตีนสะสม 91.9g แล้วครับ การเพิ่มชามะนาวช่วยเติมความสดชื่นและเพิ่มคาร์โบไฮเดรตได้ พลังงานสุทธิยังอยู่ในเกณฑ์ดีมากสำหรับการลดไขมัน แนะนำมื้อเย็นเน้นโปรตีนอีกนิดเพื่อให้ครบ 120g นะครับ"
+      "weight_loss_status": "Healthy Deficit (Net 614 kcal)",
+      "recommendation": "แก้ไขแคลอรี่ชามะนาวเรียบร้อยครับ ยอดโปรตีนยังอยู่ที่ 91.9g เท่าเดิม ขาดอีก 28.1g จะถึงเป้าหมาย 120g ครับ"
     }
   }
 ]

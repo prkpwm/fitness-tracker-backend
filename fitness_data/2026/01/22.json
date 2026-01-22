@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-22",
-    "last_update": "2026-01-22 10:56:12",
+    "last_update": "2026-01-22 15:09:05",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -25,7 +25,7 @@
       },
       {
         "time": "กลางวัน",
-        "item": "อกไก่ทอดไร้น้ำมันราดซอสแกงกะหรี่ญี่ปุ่น (200g - ชั่งหลังสุก)",
+        "item": "อกไก่ทอดไร้น้ำมันซอสแกงกะหรี่ญี่ปุ่น (200g สุก)",
         "calories": 450,
         "protein_g": 62,
         "carbs_g": 20,
@@ -49,7 +49,7 @@
       },
       {
         "time": "บ่าย",
-        "item": "คิทแคท (1 ชิ้น/บาร์)",
+        "item": "คิทแคท (1 บาร์เล็ก)",
         "calories": 70,
         "protein_g": 0.5,
         "carbs_g": 9.5,
@@ -96,21 +96,27 @@
         "duration_min": 79.5,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 443
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Full Body/Not Specified",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 593
     },
     "daily_total_stats": {
       "total_intake_calories": 1760,
-      "total_burned_calories": 443,
-      "net_calories": 1317,
+      "total_burned_calories": 593,
+      "net_calories": 1167,
       "total_protein_g": 143.6,
       "total_carbs_g": 133,
       "total_fat_g": 66.1,
       "protein_per_kg": 1.69
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Success (143.6g/120g Protein)",
-      "weight_loss_status": "Healthy Deficit (Net 1317 kcal)",
-      "recommendation": "วันนี้ยอดเยี่ยมมากครับ! การเปลี่ยนเป็นหมูย่างมันน้อยช่วยเพิ่มโปรตีนสะสมได้ถึง 143.6g และลดไขมันลงได้ชัดเจน พลังงานสุทธิ (Net Calories) อยู่ที่ 1317 ซึ่งต่ำกว่าค่า Maintenance (2100) อย่างเหมาะสมสำหรับการลดไขมันโดยไม่เสียกล้ามเนื้อครับ"
+      "muscle_maintenance": "High Success (143.6g Protein)",
+      "weight_loss_status": "Healthy Deficit (Net 1167 kcal)",
+      "recommendation": "วันนี้ทำได้ดีเยี่ยมตามเป้าหมายครับ โปรตีนสูงกว่าเกณฑ์ที่ตั้งไว้ (143.6g vs 120g) และมีทั้งคาร์ดิโอกับเวทเทรนนิ่ง ช่วยรักษากล้ามเนื้อได้ดีมาก พลังงานสุทธิอยู่ในช่วงที่น้ำหนักจะลดลงอย่างต่อเนื่องครับ"
     }
   }
 ]

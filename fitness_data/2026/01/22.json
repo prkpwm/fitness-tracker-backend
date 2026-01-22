@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-22",
-    "last_update": "2026-01-22 05:12:41",
+    "last_update": "2026-01-22 06:46:31",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -22,6 +22,38 @@
         "protein_g": 2,
         "carbs_g": 15,
         "fat_g": 0
+      },
+      {
+        "time": "กลางวัน",
+        "item": "อกไก่ทอดไร้น้ำมันราดซอสแกงกะหรี่ญี่ปุ่น (200g - ชั่งหลังสุก)",
+        "calories": 450,
+        "protein_g": 62,
+        "carbs_g": 20,
+        "fat_g": 12
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (90g)",
+        "calories": 117,
+        "protein_g": 2.4,
+        "carbs_g": 25.2,
+        "fat_g": 0.3
+      },
+      {
+        "time": "กลางวัน",
+        "item": "เกาเหลาต้มยำเนื้อลูกชิ้น (1 ชาม)",
+        "calories": 250,
+        "protein_g": 25,
+        "carbs_g": 10,
+        "fat_g": 12
+      },
+      {
+        "time": "บ่าย",
+        "item": "คิทแคท (1 ชิ้น)",
+        "calories": 105,
+        "protein_g": 1.3,
+        "carbs_g": 12.3,
+        "fat_g": 5.7
       }
     ],
     "exercise_summary": {
@@ -35,18 +67,18 @@
       "total_burned_calories": 443
     },
     "daily_total_stats": {
-      "total_intake_calories": 70,
+      "total_intake_calories": 992,
       "total_burned_calories": 443,
-      "net_calories": -373,
-      "total_protein_g": 2,
-      "total_carbs_g": 15,
-      "total_fat_g": 0,
-      "protein_per_kg": 0.02
+      "net_calories": 549,
+      "total_protein_g": 92.7,
+      "total_carbs_g": 82.5,
+      "total_fat_g": 30,
+      "protein_per_kg": 1.09
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Initial Stage (2g/120g Protein)",
-      "weight_loss_status": "Deficit (Net -373 kcal)",
-      "recommendation": "เริ่มต้นมื้อแรกด้วยนมเปรี้ยวดีไลท์ครับ พลังงานสุทธิยังติดลบอยู่มากเนื่องจากการวิ่งในช่วงเช้า แนะนำให้เพิ่มมื้อหลักที่มีโปรตีนสูงเพื่อขยับเข้าใกล้เป้าหมาย 120g ครับ"
+      "muscle_maintenance": "Good Progress (92.7g/120g Protein)",
+      "weight_loss_status": "Healthy Deficit (Net 549 kcal)",
+      "recommendation": "ยอดโปรตีนสะสมอยู่ที่ 92.7g ครับ วันนี้คุณคุมอาหารและออกกำลังกายได้ดีมาก ทำให้ยังมีโควตาสำหรับของหวานอย่างคิทแคทได้โดยไม่กระทบเป้าหมายการลดน้ำหนัก พลังงานสุทธิยังอยู่ในระดับที่น่าพอใจครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-23",
-    "last_update": "2026-01-23 06:02:39",
+    "last_update": "2026-01-23 06:44:14",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -41,19 +41,11 @@
       },
       {
         "time": "บ่าย",
-        "item": "เลย์แมกซ์ รสพริกปีศาจ (1 ซองเต็ม - 48g)",
-        "calories": 320,
-        "protein_g": 2,
-        "carbs_g": 26,
-        "fat_g": 18
-      },
-      {
-        "time": "บ่าย",
-        "item": "ขนมขาไก่ (1 หน่วย - 30g)",
+        "item": "เลย์แมกซ์ รสพริกปีศาจ (ครึ่งซอง - 24g)",
         "calories": 160,
-        "protein_g": 2,
-        "carbs_g": 16,
-        "fat_g": 10
+        "protein_g": 1,
+        "carbs_g": 13,
+        "fat_g": 9
       }
     ],
     "exercise_summary": {
@@ -76,18 +68,18 @@
       "total_burned_calories": 556
     },
     "daily_total_stats": {
-      "total_intake_calories": 1318,
+      "total_intake_calories": 998,
       "total_burned_calories": 556,
-      "net_calories": 762,
-      "total_protein_g": 83,
-      "total_carbs_g": 65,
-      "total_fat_g": 68,
-      "protein_per_kg": 0.98
+      "net_calories": 442,
+      "total_protein_g": 80,
+      "total_carbs_g": 36,
+      "total_fat_g": 49,
+      "protein_per_kg": 0.94
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (83.0g/120g Protein)",
-      "weight_loss_status": "Excellent Deficit (Net 762 kcal)",
-      "recommendation": "แก้ไขข้อมูลเรียบร้อยครับ ตอนนี้ Net Calories ลดลงมาอยู่ที่ 762 kcal ทำให้คุณยังมีพื้นที่เหลือสำหรับมื้อเย็นได้อีกพอสมควรครับ เป้าหมายโปรตีนยังขาดอีก 37g เพื่อให้ครบ 120g ครับ"
+      "muscle_maintenance": "Good Progress (80.0g/120g Protein)",
+      "weight_loss_status": "Excellent Deficit (Net 442 kcal)",
+      "recommendation": "หลังปรับลดขนมออกไป ตัวเลขดูดีขึ้นมากครับ ตอนนี้ Net Calories ต่ำเพียง 442 kcal และได้โปรตีนสะสมถึง 80g แล้ว มื้อเย็นวันนี้ถ้าเน้นโปรตีนลีนๆ อีก 40g (เช่น อกไก่ 150-200g) ก็จะบรรลุเป้าหมายกฎเหล็กทั้งเรื่องแคลอรี่และโปรตีนอย่างสมบูรณ์แบบครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-23",
-    "last_update": "2026-01-23 13:01:41",
+    "last_update": "2026-01-23 13:02:57",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -38,6 +38,30 @@
         "protein_g": 42,
         "carbs_g": 0,
         "fat_g": 21
+      },
+      {
+        "time": "บ่าย",
+        "item": "เลย์แมกซ์ รสพริกปีศาจ (ครึ่งซอง - 24g)",
+        "calories": 160,
+        "protein_g": 1,
+        "carbs_g": 13,
+        "fat_g": 9
+      },
+      {
+        "time": "เย็น",
+        "item": "อกไก่ชุบแป้งทอดไร้น้ำมัน (268g)",
+        "calories": 560,
+        "protein_g": 65,
+        "carbs_g": 25,
+        "fat_g": 22
+      },
+      {
+        "time": "ดึก",
+        "item": "คิทแคท (1 ชิ้น/บาร์)",
+        "calories": 70,
+        "protein_g": 0.5,
+        "carbs_g": 9.5,
+        "fat_g": 3.5
       }
     ],
     "exercise_summary": {
@@ -54,24 +78,24 @@
         "calories_burned": 101,
         "distance_km": 1.92,
         "distance_mi": 1.19,
-        "duration_min": 12.05,
+        "duration_min": 12.03,
         "type": "Treadmill Running"
       },
       "total_burned_calories": 556
     },
     "daily_total_stats": {
-      "total_intake_calories": 838,
+      "total_intake_calories": 1628,
       "total_burned_calories": 556,
-      "net_calories": 282,
-      "total_protein_g": 79,
-      "total_carbs_g": 23,
-      "total_fat_g": 40,
-      "protein_per_kg": 0.93
+      "net_calories": 1072,
+      "total_protein_g": 145.5,
+      "total_carbs_g": 70.5,
+      "total_fat_g": 74.5,
+      "protein_per_kg": 1.71
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (79.0g/120g Protein)",
-      "weight_loss_status": "Calorie Deficit (Net 282 kcal)",
-      "recommendation": "หมูย่างมันน้อยช่วยดึงยอดโปรตีนขึ้นมาได้ดีมากครับ ตอนนี้รวมได้ 79g แล้ว เหลืออีกเพียง 41g จะถึงเป้าหมายประจำวัน การเลือกส่วนมันน้อยช่วยให้คุมแคลอรี่ได้ดีเยี่ยมในขณะที่ได้โปรตีนสูงครับ"
+      "muscle_maintenance": "High Success (145.5g/120g Protein)",
+      "weight_loss_status": "Perfect Deficit (Net 1072 kcal)",
+      "recommendation": "ปิดท้ายวันได้ดีครับ แม้จะมีคิทแคทเพิ่มมา 1 ชิ้น แต่ภาพรวมโปรตีนสูงมากและพลังงานสุทธิยังอยู่ในเกณฑ์ควบคุมน้ำหนักที่ดีเยี่ยม (ประมาณ 1,000 kcal) เหมาะสำหรับการฟื้นฟูร่างกายหลังจากการวิ่งหนักในวันนี้ครับ"
     }
   }
 ]

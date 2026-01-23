@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-23",
-    "last_update": "2026-01-23 02:52:51",
+    "last_update": "2026-01-23 02:54:03",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -28,14 +28,14 @@
       "cardio_session_1": {
         "avg_hr_bpm": 117,
         "calories_burned": 455,
-        "distance_mi": 4.88,
+        "distance_km": 7.85,
         "duration_min": 77.95,
         "type": "Indoor Running"
       },
       "cardio_session_2": {
         "avg_hr_bpm": 128,
         "calories_burned": 101,
-        "distance_mi": 1.19,
+        "distance_km": 1.92,
         "duration_min": 12.05,
         "type": "Treadmill Running"
       },
@@ -53,7 +53,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "Insufficient (2.0g/120g Protein)",
       "weight_loss_status": "High Deficit (Net -486 kcal)",
-      "recommendation": "วันนี้คุณออกกำลังกายได้ยอดเยี่ยมมากด้วยการวิ่งถึง 2 เซสชัน รวมระยะทางกว่า 6 ไมล์ ทำให้เผาผลาญไปแล้ว 556 แคลอรี่ อย่างไรก็ตาม ปริมาณโปรตีนยังคงต่ำมาก ควรรับประทานอาหารที่มีโปรตีนสูงในมื้อถัดไปเพื่อซ่อมแซมกล้ามเนื้อจากการวิ่งที่หนักหน่วงครับ"
+      "recommendation": "อัปเดตหน่วยเป็นกิโลเมตรเรียบร้อยครับ วันนี้คุณวิ่งรวมระยะทางประมาณ 9.77 กม. ซึ่งเป็นการออกกำลังกายที่ดีมาก แต่ปริมาณโปรตีนยังคงต่ำเกินไปมากสำหรับการฟื้นฟูกล้ามเนื้อ แนะนำให้มื้อถัดไปทานเนื้อสัตว์หรือไข่ต้มเพื่อดึงยอดโปรตีนขึ้นมาครับ"
     }
   }
 ]

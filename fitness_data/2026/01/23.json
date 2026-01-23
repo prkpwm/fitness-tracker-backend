@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-23",
-    "last_update": "2026-01-23 02:54:03",
+    "last_update": "2026-01-23 02:55:31",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -29,6 +29,7 @@
         "avg_hr_bpm": 117,
         "calories_burned": 455,
         "distance_km": 7.85,
+        "distance_mi": 4.88,
         "duration_min": 77.95,
         "type": "Indoor Running"
       },
@@ -36,6 +37,7 @@
         "avg_hr_bpm": 128,
         "calories_burned": 101,
         "distance_km": 1.92,
+        "distance_mi": 1.19,
         "duration_min": 12.05,
         "type": "Treadmill Running"
       },
@@ -53,7 +55,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "Insufficient (2.0g/120g Protein)",
       "weight_loss_status": "High Deficit (Net -486 kcal)",
-      "recommendation": "อัปเดตหน่วยเป็นกิโลเมตรเรียบร้อยครับ วันนี้คุณวิ่งรวมระยะทางประมาณ 9.77 กม. ซึ่งเป็นการออกกำลังกายที่ดีมาก แต่ปริมาณโปรตีนยังคงต่ำเกินไปมากสำหรับการฟื้นฟูกล้ามเนื้อ แนะนำให้มื้อถัดไปทานเนื้อสัตว์หรือไข่ต้มเพื่อดึงยอดโปรตีนขึ้นมาครับ"
+      "recommendation": "บันทึกข้อมูลแบบ 2 หน่วย (km/mi) เรียบร้อยครับ เช้านี้คุณวิ่งรวมระยะทาง 9.77 กม. (6.07 ไมล์) ซึ่งยอดเยี่ยมมากครับ อย่าลืมเติมโปรตีนในมื้อถัดไปให้ถึงเป้าหมาย 120g นะครับ"
     }
   }
 ]

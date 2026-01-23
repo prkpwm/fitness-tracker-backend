@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-01-23",
+    "last_update": "2026-01-23 02:34:58",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เช้า",
+        "item": "นมเปรี้ยวเมจิ สูตรไม่เติมน้ำตาล (1 ขวด)",
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 13,
+        "fat_g": 1
+      },
+      {
+        "time": "เช้า",
+        "item": "ชามะนาวเนสที (1 ซอง)",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 12,
+        "fat_g": 0
+      },
+      {
+        "time": "สาย",
+        "item": "ขนมขาไก่ (30g)",
+        "calories": 160,
+        "protein_g": 2,
+        "carbs_g": 16,
+        "fat_g": 10
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 117,
+        "calories_burned": 455,
+        "distance_mi": 4.88,
+        "duration_min": 77.95,
+        "type": "Indoor Running"
+      },
+      "total_burned_calories": 455
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 280,
+      "total_burned_calories": 455,
+      "net_calories": -175,
+      "total_protein_g": 4,
+      "total_carbs_g": 41,
+      "total_fat_g": 11,
+      "protein_per_kg": 0.05
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Insufficient (4.0g/120g Protein)",
+      "weight_loss_status": "Active Deficit (Net -175 kcal)",
+      "recommendation": "เช้านี้มีการเผาผลาญที่ดีจากการวิ่ง 4.88 ไมล์ แต่ปริมาณโปรตีนยังต่ำมากเมื่อเทียบกับเป้าหมาย 120g แนะนำให้มื้อถัดไปเน้นแหล่งโปรตีนคุณภาพสูง เช่น เนื้อสัตว์ หรือไข่ต้ม เพื่อซ่อมแซมกล้ามเนื้อครับ"
+    }
+  }
+]

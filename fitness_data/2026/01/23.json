@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-23",
-    "last_update": "2026-01-23 04:17:30",
+    "last_update": "2026-01-23 06:02:39",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -38,6 +38,22 @@
         "protein_g": 42,
         "carbs_g": 0,
         "fat_g": 21
+      },
+      {
+        "time": "บ่าย",
+        "item": "เลย์แมกซ์ รสพริกปีศาจ (1 ซองเต็ม - 48g)",
+        "calories": 320,
+        "protein_g": 2,
+        "carbs_g": 26,
+        "fat_g": 18
+      },
+      {
+        "time": "บ่าย",
+        "item": "ขนมขาไก่ (1 หน่วย - 30g)",
+        "calories": 160,
+        "protein_g": 2,
+        "carbs_g": 16,
+        "fat_g": 10
       }
     ],
     "exercise_summary": {
@@ -60,18 +76,18 @@
       "total_burned_calories": 556
     },
     "daily_total_stats": {
-      "total_intake_calories": 838,
+      "total_intake_calories": 1318,
       "total_burned_calories": 556,
-      "net_calories": 282,
-      "total_protein_g": 79,
-      "total_carbs_g": 23,
-      "total_fat_g": 40,
-      "protein_per_kg": 0.93
+      "net_calories": 762,
+      "total_protein_g": 83,
+      "total_carbs_g": 65,
+      "total_fat_g": 68,
+      "protein_per_kg": 0.98
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (79.0g/120g Protein)",
-      "weight_loss_status": "Calorie Deficit (Net 282 kcal)",
-      "recommendation": "หมูย่างมันน้อยช่วยดึงยอดโปรตีนขึ้นมาได้ดีมากครับ ตอนนี้รวมได้ 79g แล้ว เหลืออีกเพียง 41g จะถึงเป้าหมายประจำวัน การเลือกส่วนมันน้อยช่วยให้คุมแคลอรี่ได้ดีเยี่ยมในขณะที่ได้โปรตีนสูงครับ"
+      "muscle_maintenance": "High Progress (83.0g/120g Protein)",
+      "weight_loss_status": "Excellent Deficit (Net 762 kcal)",
+      "recommendation": "แก้ไขข้อมูลเรียบร้อยครับ ตอนนี้ Net Calories ลดลงมาอยู่ที่ 762 kcal ทำให้คุณยังมีพื้นที่เหลือสำหรับมื้อเย็นได้อีกพอสมควรครับ เป้าหมายโปรตีนยังขาดอีก 37g เพื่อให้ครบ 120g ครับ"
     }
   }
 ]

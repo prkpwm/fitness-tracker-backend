@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-23",
-    "last_update": "2026-01-23 02:34:58",
+    "last_update": "2026-01-23 02:35:59",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -22,22 +22,6 @@
         "protein_g": 2,
         "carbs_g": 13,
         "fat_g": 1
-      },
-      {
-        "time": "เช้า",
-        "item": "ชามะนาวเนสที (1 ซอง)",
-        "calories": 50,
-        "protein_g": 0,
-        "carbs_g": 12,
-        "fat_g": 0
-      },
-      {
-        "time": "สาย",
-        "item": "ขนมขาไก่ (30g)",
-        "calories": 160,
-        "protein_g": 2,
-        "carbs_g": 16,
-        "fat_g": 10
       }
     ],
     "exercise_summary": {
@@ -51,18 +35,18 @@
       "total_burned_calories": 455
     },
     "daily_total_stats": {
-      "total_intake_calories": 280,
+      "total_intake_calories": 70,
       "total_burned_calories": 455,
-      "net_calories": -175,
-      "total_protein_g": 4,
-      "total_carbs_g": 41,
-      "total_fat_g": 11,
-      "protein_per_kg": 0.05
+      "net_calories": -385,
+      "total_protein_g": 2,
+      "total_carbs_g": 13,
+      "total_fat_g": 1,
+      "protein_per_kg": 0.02
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Insufficient (4.0g/120g Protein)",
-      "weight_loss_status": "Active Deficit (Net -175 kcal)",
-      "recommendation": "เช้านี้มีการเผาผลาญที่ดีจากการวิ่ง 4.88 ไมล์ แต่ปริมาณโปรตีนยังต่ำมากเมื่อเทียบกับเป้าหมาย 120g แนะนำให้มื้อถัดไปเน้นแหล่งโปรตีนคุณภาพสูง เช่น เนื้อสัตว์ หรือไข่ต้ม เพื่อซ่อมแซมกล้ามเนื้อครับ"
+      "muscle_maintenance": "Insufficient (2.0g/120g Protein)",
+      "weight_loss_status": "Active Deficit (Net -385 kcal)",
+      "recommendation": "รับทราบครับ ตอนนี้มีเพียงนมเปรี้ยวเมจิ 1 ขวด หลังจากการวิ่ง 4.88 ไมล์ พลังงานสุทธิยังติดลบอยู่มาก มื้อกลางวันและเย็นวันนี้แนะนำให้จัดหนักเรื่องโปรตีน (เป้าหมายเหลืออีก 118g) เพื่อป้องกันการสลายตัวของกล้ามเนื้อนะครับ"
     }
   }
 ]

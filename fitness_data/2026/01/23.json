@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-23",
-    "last_update": "2026-01-23 02:35:59",
+    "last_update": "2026-01-23 02:52:51",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -32,12 +32,19 @@
         "duration_min": 77.95,
         "type": "Indoor Running"
       },
-      "total_burned_calories": 455
+      "cardio_session_2": {
+        "avg_hr_bpm": 128,
+        "calories_burned": 101,
+        "distance_mi": 1.19,
+        "duration_min": 12.05,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 556
     },
     "daily_total_stats": {
       "total_intake_calories": 70,
-      "total_burned_calories": 455,
-      "net_calories": -385,
+      "total_burned_calories": 556,
+      "net_calories": -486,
       "total_protein_g": 2,
       "total_carbs_g": 13,
       "total_fat_g": 1,
@@ -45,8 +52,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "Insufficient (2.0g/120g Protein)",
-      "weight_loss_status": "Active Deficit (Net -385 kcal)",
-      "recommendation": "รับทราบครับ ตอนนี้มีเพียงนมเปรี้ยวเมจิ 1 ขวด หลังจากการวิ่ง 4.88 ไมล์ พลังงานสุทธิยังติดลบอยู่มาก มื้อกลางวันและเย็นวันนี้แนะนำให้จัดหนักเรื่องโปรตีน (เป้าหมายเหลืออีก 118g) เพื่อป้องกันการสลายตัวของกล้ามเนื้อนะครับ"
+      "weight_loss_status": "High Deficit (Net -486 kcal)",
+      "recommendation": "วันนี้คุณออกกำลังกายได้ยอดเยี่ยมมากด้วยการวิ่งถึง 2 เซสชัน รวมระยะทางกว่า 6 ไมล์ ทำให้เผาผลาญไปแล้ว 556 แคลอรี่ อย่างไรก็ตาม ปริมาณโปรตีนยังคงต่ำมาก ควรรับประทานอาหารที่มีโปรตีนสูงในมื้อถัดไปเพื่อซ่อมแซมกล้ามเนื้อจากการวิ่งที่หนักหน่วงครับ"
     }
   }
 ]

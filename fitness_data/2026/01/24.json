@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-24",
-    "last_update": "2026-01-24 11:53:17",
+    "last_update": "2026-01-24 11:56:03",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,6 +78,14 @@
         "protein_g": 1,
         "carbs_g": 10,
         "fat_g": 4
+      },
+      {
+        "time": "ดึก",
+        "item": "นมเปรี้ยวดีไลท์ (1 ขวด)",
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 15,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
@@ -97,18 +105,18 @@
       "total_burned_calories": 653
     },
     "daily_total_stats": {
-      "total_intake_calories": 1805,
+      "total_intake_calories": 1875,
       "total_burned_calories": 653,
-      "net_calories": 1152,
-      "total_protein_g": 135.3,
-      "total_carbs_g": 91.6,
+      "net_calories": 1222,
+      "total_protein_g": 137.3,
+      "total_carbs_g": 106.6,
       "total_fat_g": 93.2,
-      "protein_per_kg": 1.59
+      "protein_per_kg": 1.62
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Success (135.3g/120g Protein)",
-      "weight_loss_status": "Good Deficit (Net 1152 kcal)",
-      "recommendation": "บันทึกขนมน่องไก่ (80 kcal) เรียบร้อยครับ ภาพรวมวันนี้โปรตีนยังคงสูงกว่าเป้าหมายมาก และ Net Calories ยังคุมได้ดีที่ 1,152 kcal ครับ"
+      "muscle_maintenance": "Success (137.3g/120g Protein)",
+      "weight_loss_status": "Active Deficit (Net 1222 kcal)",
+      "recommendation": "บันทึกนมเปรี้ยวดีไลท์เรียบร้อยครับ วันนี้คุณทำโปรตีนได้สูงมาก (137.3g) เกินเป้าหมายที่ตั้งไว้ และยังรักษาแคลอรี่สุทธิอยู่ในช่วงที่เหมาะสมสำหรับการลดน้ำหนักครับ"
     }
   }
 ]

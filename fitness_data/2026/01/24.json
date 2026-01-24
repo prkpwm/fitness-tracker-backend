@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-24",
-    "last_update": "2026-01-24 10:36:27",
+    "last_update": "2026-01-24 11:53:17",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -54,6 +54,30 @@
         "protein_g": 56,
         "carbs_g": 4,
         "fat_g": 38
+      },
+      {
+        "time": "เย็น",
+        "item": "ข้าวเปล่า (120g)",
+        "calories": 156,
+        "protein_g": 3.2,
+        "carbs_g": 33.6,
+        "fat_g": 0.4
+      },
+      {
+        "time": "ดึก",
+        "item": "เลย์ (ครึ่งซอง - ประมาณ 23g)",
+        "calories": 125,
+        "protein_g": 1,
+        "carbs_g": 12,
+        "fat_g": 8
+      },
+      {
+        "time": "ดึก",
+        "item": "ขนมน่องไก่โลตัส (1 ซอง - 15g)",
+        "calories": 80,
+        "protein_g": 1,
+        "carbs_g": 10,
+        "fat_g": 4
       }
     ],
     "exercise_summary": {
@@ -73,18 +97,18 @@
       "total_burned_calories": 653
     },
     "daily_total_stats": {
-      "total_intake_calories": 1444,
+      "total_intake_calories": 1805,
       "total_burned_calories": 653,
-      "net_calories": 791,
-      "total_protein_g": 130.1,
-      "total_carbs_g": 36,
-      "total_fat_g": 80.8,
-      "protein_per_kg": 1.53
+      "net_calories": 1152,
+      "total_protein_g": 135.3,
+      "total_carbs_g": 91.6,
+      "total_fat_g": 93.2,
+      "protein_per_kg": 1.59
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Success (130.1g/120g Protein)",
-      "weight_loss_status": "Perfect Deficit (Net 791 kcal)",
-      "recommendation": "ยินดีด้วยครับ! วันนี้คุณบรรลุเป้าหมายโปรตีนที่ 130.1g (เกินเป้า 120g) และมี Net Calories อยู่ที่ 791 kcal ซึ่งดีเยี่ยมสำหรับการลดน้ำหนักควบคู่กับการรักษาหมวลกล้ามเนื้อครับ"
+      "muscle_maintenance": "Success (135.3g/120g Protein)",
+      "weight_loss_status": "Good Deficit (Net 1152 kcal)",
+      "recommendation": "บันทึกขนมน่องไก่ (80 kcal) เรียบร้อยครับ ภาพรวมวันนี้โปรตีนยังคงสูงกว่าเป้าหมายมาก และ Net Calories ยังคุมได้ดีที่ 1,152 kcal ครับ"
     }
   }
 ]

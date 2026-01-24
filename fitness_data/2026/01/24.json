@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-24",
-    "last_update": "2026-01-24 06:23:20",
+    "last_update": "2026-01-24 09:21:39",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -52,17 +52,22 @@
       "cardio_session_1": {
         "avg_hr_bpm": 110,
         "calories_burned": 503,
-        "distance_km": 9.83,
         "distance_mi": 6.11,
         "duration_min": 101.43,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 503
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Core/Abs",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 653
     },
     "daily_total_stats": {
       "total_intake_calories": 856,
-      "total_burned_calories": 503,
-      "net_calories": 353,
+      "total_burned_calories": 653,
+      "net_calories": 203,
       "total_protein_g": 74.1,
       "total_carbs_g": 32,
       "total_fat_g": 42.8,
@@ -70,8 +75,8 @@
     },
     "ai_evaluation": {
       "muscle_maintenance": "In Progress (74.1g/120g Protein)",
-      "weight_loss_status": "Active Deficit (Net 353 kcal)",
-      "recommendation": "เพิ่มไอศกรีมเรียบร้อยครับ แม้จะมีน้ำตาลเพิ่มมา 15 กรัม แต่ด้วยการวิ่งยาวเมื่อเช้า ทำให้ Net Calories ยังต่ำมากที่ 353 kcal ครับ มื้อเย็นวันนี้ยังต้องการโปรตีนอีก 45.9 กรัม เพื่อให้ครบเป้าหมาย 120 กรัมครับ"
+      "weight_loss_status": "Excellent Deficit (Net 203 kcal)",
+      "recommendation": "ผมบันทึกโครงสร้างตาม Schema ที่คุณกำหนดเรียบร้อยครับ วันนี้คุณออกกำลังกายได้ดีมากทั้ง Cardio และ Strength มื้อเย็นแนะนำให้เติมโปรตีนอีก 45.9 กรัมเพื่อให้ครบเป้าหมายครับ"
     }
   }
 ]

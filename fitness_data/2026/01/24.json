@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-24",
-    "last_update": "2026-01-24 09:21:39",
+    "last_update": "2026-01-24 10:36:27",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -46,6 +46,14 @@
         "protein_g": 2,
         "carbs_g": 21,
         "fat_g": 12
+      },
+      {
+        "time": "เย็น",
+        "item": "แกงใต้น้ำหมู (เนื้อหมู 280g)",
+        "calories": 588,
+        "protein_g": 56,
+        "carbs_g": 4,
+        "fat_g": 38
       }
     ],
     "exercise_summary": {
@@ -65,18 +73,18 @@
       "total_burned_calories": 653
     },
     "daily_total_stats": {
-      "total_intake_calories": 856,
+      "total_intake_calories": 1444,
       "total_burned_calories": 653,
-      "net_calories": 203,
-      "total_protein_g": 74.1,
-      "total_carbs_g": 32,
-      "total_fat_g": 42.8,
-      "protein_per_kg": 0.87
+      "net_calories": 791,
+      "total_protein_g": 130.1,
+      "total_carbs_g": 36,
+      "total_fat_g": 80.8,
+      "protein_per_kg": 1.53
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (74.1g/120g Protein)",
-      "weight_loss_status": "Excellent Deficit (Net 203 kcal)",
-      "recommendation": "ผมบันทึกโครงสร้างตาม Schema ที่คุณกำหนดเรียบร้อยครับ วันนี้คุณออกกำลังกายได้ดีมากทั้ง Cardio และ Strength มื้อเย็นแนะนำให้เติมโปรตีนอีก 45.9 กรัมเพื่อให้ครบเป้าหมายครับ"
+      "muscle_maintenance": "Success (130.1g/120g Protein)",
+      "weight_loss_status": "Perfect Deficit (Net 791 kcal)",
+      "recommendation": "ยินดีด้วยครับ! วันนี้คุณบรรลุเป้าหมายโปรตีนที่ 130.1g (เกินเป้า 120g) และมี Net Calories อยู่ที่ 791 kcal ซึ่งดีเยี่ยมสำหรับการลดน้ำหนักควบคู่กับการรักษาหมวลกล้ามเนื้อครับ"
     }
   }
 ]

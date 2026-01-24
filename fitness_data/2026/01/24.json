@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-24",
-    "last_update": "2026-01-24 06:19:46",
+    "last_update": "2026-01-24 06:23:20",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -33,11 +33,19 @@
       },
       {
         "time": "กลางวัน",
-        "item": "เกาเหลาเนื้อ พิเศษ (1 ชาม)",
+        "item": "เกาเหลาเนื้อพิเศษ (1 ชาม)",
         "calories": 350,
         "protein_g": 35,
         "carbs_g": 10,
         "fat_g": 18
+      },
+      {
+        "time": "บ่าย",
+        "item": "ไอศกรีมวานิลลาช็อกโกแลต (1 โคน)",
+        "calories": 200,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 12
       }
     ],
     "exercise_summary": {
@@ -52,18 +60,18 @@
       "total_burned_calories": 503
     },
     "daily_total_stats": {
-      "total_intake_calories": 656,
+      "total_intake_calories": 856,
       "total_burned_calories": 503,
-      "net_calories": 153,
-      "total_protein_g": 72.1,
-      "total_carbs_g": 11,
-      "total_fat_g": 30.8,
-      "protein_per_kg": 0.85
+      "net_calories": 353,
+      "total_protein_g": 74.1,
+      "total_carbs_g": 32,
+      "total_fat_g": 42.8,
+      "protein_per_kg": 0.87
     },
     "ai_evaluation": {
-      "muscle_maintenance": "High Progress (72.1g/120g Protein)",
-      "weight_loss_status": "Active Deficit (Net 153 kcal)",
-      "recommendation": "วันนี้ยอดโปรตีนพุ่งขึ้นมาได้ดีมากครับ รวมแล้ว 72.1g ขาดอีกเพียง 47.9g จะครบเป้าหมาย 120g ประจำวัน ด้วยต้นทุนจากการวิ่งเช้าเกือบ 10 กม. ทำให้ตอนนี้คุณยังมีพื้นที่แคลอรี่เหลือสำหรับมื้อเย็นได้อีกมากครับ"
+      "muscle_maintenance": "In Progress (74.1g/120g Protein)",
+      "weight_loss_status": "Active Deficit (Net 353 kcal)",
+      "recommendation": "เพิ่มไอศกรีมเรียบร้อยครับ แม้จะมีน้ำตาลเพิ่มมา 15 กรัม แต่ด้วยการวิ่งยาวเมื่อเช้า ทำให้ Net Calories ยังต่ำมากที่ 353 kcal ครับ มื้อเย็นวันนี้ยังต้องการโปรตีนอีก 45.9 กรัม เพื่อให้ครบเป้าหมาย 120 กรัมครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-25",
-    "last_update": "2026-01-25 10:28:23",
+    "last_update": "2026-01-25 12:25:03",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -15,22 +15,6 @@
       "recommended_daily_calories": 2100
     },
     "food_diary": [
-      {
-        "time": "กลางวัน",
-        "item": "เครื่องดื่มโว",
-        "calories": 50,
-        "protein_g": 0,
-        "carbs_g": 10,
-        "fat_g": 0
-      },
-      {
-        "time": "กลางวัน",
-        "item": "ชามะนาวเนสที (2 ซอง)",
-        "calories": 120,
-        "protein_g": 0,
-        "carbs_g": 30,
-        "fat_g": 0
-      },
       {
         "time": "กลางวัน",
         "item": "กะเพราหมูสับ (ปรับปรุงโปรตีน 30g และพริกหยวก)",
@@ -57,19 +41,27 @@
       },
       {
         "time": "อาหารว่าง",
-        "item": "ยูโร ครีโก เวเฟอร์โรลรสครีมนม",
-        "calories": 90,
-        "protein_g": 1,
-        "carbs_g": 13,
-        "fat_g": 3.5
-      },
-      {
-        "time": "อาหารว่าง",
         "item": "มะละกอสุก (340g)",
         "calories": 146,
         "protein_g": 1.6,
         "carbs_g": 36.7,
         "fat_g": 0.4
+      },
+      {
+        "time": "เย็น",
+        "item": "เวย์โปรตีน (1 ช้อนตวง)",
+        "calories": 120,
+        "protein_g": 25,
+        "carbs_g": 2,
+        "fat_g": 1
+      },
+      {
+        "time": "เย็น",
+        "item": "หมูย่าง (225g)",
+        "calories": 544,
+        "protein_g": 45,
+        "carbs_g": 0,
+        "fat_g": 40.5
       }
     ],
     "exercise_summary": {
@@ -96,18 +88,18 @@
       "total_burned_calories": 921
     },
     "daily_total_stats": {
-      "total_intake_calories": 1247,
+      "total_intake_calories": 1911,
       "total_burned_calories": 921,
-      "net_calories": 326,
-      "total_protein_g": 58.2,
-      "total_carbs_g": 147.1,
-      "total_fat_g": 45.9,
-      "protein_per_kg": 0.68
+      "net_calories": 990,
+      "total_protein_g": 128.2,
+      "total_carbs_g": 149.1,
+      "total_fat_g": 87.4,
+      "protein_per_kg": 1.51
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (58.2g / 120g Protein)",
-      "weight_loss_status": "Highly Aggressive Deficit (Net 326 kcal)",
-      "recommendation": "ตรวจสอบและแก้ไขโครงสร้างตาม Fitness Data API Schema เรียบร้อยแล้วครับ โดยเพิ่มฟิลด์ target ในส่วน strength_training และจัดกลุ่ม cardio_session ให้ถูกต้อง วันนี้คุณมี Activity ที่สูงมาก แนะนำให้ทานมื้อเย็นเพื่อเพิ่มโปรตีนอีก 62g ครับ"
+      "muscle_maintenance": "Excellent (128.2g / 120g Protein)",
+      "weight_loss_status": "Ideal Deficit (Net 990 kcal)",
+      "recommendation": "วันนี้ทำได้ยอดเยี่ยมมากครับ! ทั้งการออกกำลังกายที่หนักแน่นและการทานโปรตีนที่ถึงเป้าหมาย 128.2g ซึ่งช่วยรักษาและเสริมสร้างกล้ามเนื้อได้ดีมาก ยอดแคลอรี่สุทธิยังอยู่ในเกณฑ์ที่ลดน้ำหนักได้มีประสิทธิภาพครับ"
     }
   }
 ]

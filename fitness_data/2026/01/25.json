@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-25",
-    "last_update": "2026-01-25 10:27:03",
+    "last_update": "2026-01-25 10:28:23",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -33,7 +33,7 @@
       },
       {
         "time": "กลางวัน",
-        "item": "กะเพราหมูสับ (ปรับโปรตีน)",
+        "item": "กะเพราหมูสับ (ปรับปรุงโปรตีน 30g และพริกหยวก)",
         "calories": 380,
         "protein_g": 30,
         "carbs_g": 8,
@@ -90,7 +90,7 @@
       "strength_training": {
         "calories_burned": 150,
         "duration_min": 30,
-        "notes": "30 minutes session",
+        "target": "Full Body / Arm",
         "type": "Dumbbell Training"
       },
       "total_burned_calories": 921
@@ -105,9 +105,9 @@
       "protein_per_kg": 0.68
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (58.2g/120g)",
+      "muscle_maintenance": "In Progress (58.2g / 120g Protein)",
       "weight_loss_status": "Highly Aggressive Deficit (Net 326 kcal)",
-      "recommendation": "แก้ไขโครงสร้าง exercise_summary ตามกฎเหล็กเรียบร้อยครับ โดยแยก cardio_session_1, cardio_session_2 และ strength_training ออกจากกันตาม schema วันนี้คุณออกกำลังกายได้หนักมาก ยอดแคลอรี่สุทธิเหลือเพียง 326 kcal แนะนำให้ระวังเรื่องการพักผ่อนและการเติมโปรตีนให้เพียงพอครับ"
+      "recommendation": "ตรวจสอบและแก้ไขโครงสร้างตาม Fitness Data API Schema เรียบร้อยแล้วครับ โดยเพิ่มฟิลด์ target ในส่วน strength_training และจัดกลุ่ม cardio_session ให้ถูกต้อง วันนี้คุณมี Activity ที่สูงมาก แนะนำให้ทานมื้อเย็นเพื่อเพิ่มโปรตีนอีก 62g ครับ"
     }
   }
 ]

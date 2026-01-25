@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-25",
-    "last_update": "2026-01-25 06:52:10",
+    "last_update": "2026-01-25 06:54:23",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -33,11 +33,11 @@
       },
       {
         "time": "กลางวัน",
-        "item": "กะเพราหมูสับ (น้ำหนักรวม 195g รวมพริกหยวกและเครื่องปรุง)",
-        "calories": 300,
-        "protein_g": 20,
+        "item": "กะเพราหมูสับ (น้ำหนักรวม 195g รวมพริกหยวก)",
+        "calories": 380,
+        "protein_g": 30,
         "carbs_g": 8,
-        "fat_g": 21
+        "fat_g": 25
       },
       {
         "time": "กลางวัน",
@@ -57,7 +57,7 @@
       },
       {
         "time": "อาหารว่าง",
-        "item": "ยูโร ครีโก เวเฟอร์โรลรสครีมนม (1 ซอง)",
+        "item": "ยูโร ครีโก เวเฟอร์โรลรสครีมนม",
         "calories": 90,
         "protein_g": 1,
         "carbs_g": 13,
@@ -83,18 +83,18 @@
       "total_burned_calories": 369
     },
     "daily_total_stats": {
-      "total_intake_calories": 1167,
+      "total_intake_calories": 1247,
       "total_burned_calories": 369,
-      "net_calories": 798,
-      "total_protein_g": 48.2,
+      "net_calories": 878,
+      "total_protein_g": 58.2,
       "total_carbs_g": 147.1,
-      "total_fat_g": 41.9,
-      "protein_per_kg": 0.57
+      "total_fat_g": 45.9,
+      "protein_per_kg": 0.68
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Below Target (48.2g/120g Protein)",
-      "weight_loss_status": "Steady Deficit (Net 798 kcal)",
-      "recommendation": "เพิ่มมะละกอสุกแล้วครับ ตอนนี้ยอดแคลอรี่รวมยังอยู่ในเกณฑ์ดี แต่โปรตีนยังขาดอีกประมาณ 72 กรัม สำหรับมื้อเย็นแนะนำให้เน้นแหล่งโปรตีนสูงที่ไขมันต่ำเพื่อเติมเต็มส่วนที่ขาดนะครับ"
+      "muscle_maintenance": "In Progress (58.2g/120g Protein)",
+      "weight_loss_status": "Steady Deficit (Net 878 kcal)",
+      "recommendation": "ปรับโปรตีนกะเพราเป็น 30g แล้วครับ ทำให้ยอดรวมตอนนี้อยู่ที่ 58.2g ขาดอีกประมาณ 62g จะถึงเป้าหมาย มื้อเย็นลองหาโปรตีนเน้นๆ ทานเพิ่มนะครับ ยอดแคลอรี่สุทธิยังดูดีมากครับ"
     }
   }
 ]

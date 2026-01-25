@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-25",
-    "last_update": "2026-01-25 05:22:28",
+    "last_update": "2026-01-25 06:26:28",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -30,6 +30,30 @@
         "protein_g": 0,
         "carbs_g": 30,
         "fat_g": 0
+      },
+      {
+        "time": "กลางวัน",
+        "item": "กะเพราหมูสับ (น้ำหนักรวม 195g รวมพริกหยวกและเครื่องปรุง)",
+        "calories": 300,
+        "protein_g": 20,
+        "carbs_g": 8,
+        "fat_g": 21
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (170g)",
+        "calories": 221,
+        "protein_g": 4.6,
+        "carbs_g": 47.6,
+        "fat_g": 0.5
+      },
+      {
+        "time": "กลางวัน",
+        "item": "คั่วไข่ไม่ใส่น้ำมัน (3 ฟอง)",
+        "calories": 210,
+        "protein_g": 18,
+        "carbs_g": 1.8,
+        "fat_g": 15
       }
     ],
     "exercise_summary": {
@@ -43,18 +67,18 @@
       "total_burned_calories": 369
     },
     "daily_total_stats": {
-      "total_intake_calories": 170,
+      "total_intake_calories": 901,
       "total_burned_calories": 369,
-      "net_calories": -199,
-      "total_protein_g": 0,
-      "total_carbs_g": 42,
-      "total_fat_g": 0,
-      "protein_per_kg": 0
+      "net_calories": 532,
+      "total_protein_g": 42.6,
+      "total_carbs_g": 99.4,
+      "total_fat_g": 36.5,
+      "protein_per_kg": 0.5
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Not Started (0g/120g Protein)",
-      "weight_loss_status": "Active Deficit (Net -199 kcal)",
-      "recommendation": "บันทึกกฎเหล็กเพิ่มเติมแล้วครับ ตอนนี้คุณมีต้นทุนการเผาผลาญจากการวิ่งเช้าวันนี้ 369 kcal มื้ออาหารถัดไปอย่าลืมเน้นโปรตีนเพื่อไต่ระดับให้ถึงเป้าหมาย 120g นะครับ"
+      "muscle_maintenance": "Below Target (42.6g/120g Protein)",
+      "weight_loss_status": "Excellent Deficit (Net 532 kcal)",
+      "recommendation": "รับทราบเรื่องการเพิ่มพริกหยวกครับ พริกหยวกมีไฟเบอร์ดีแต่ทำให้โปรตีนจากหมูสับลดลงเล็กน้อยตามสัดส่วนน้ำหนัก ตอนนี้คุณได้รับโปรตีนไป 42.6g แนะนำมื้อถัดไปเน้นโปรตีนเสริมเพื่อให้ถึงเป้าหมาย 120g นะครับ"
     }
   }
 ]

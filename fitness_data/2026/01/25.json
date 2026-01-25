@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-25",
-    "last_update": "2026-01-25 06:26:28",
+    "last_update": "2026-01-25 06:28:12",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -49,11 +49,11 @@
       },
       {
         "time": "กลางวัน",
-        "item": "คั่วไข่ไม่ใส่น้ำมัน (3 ฟอง)",
-        "calories": 210,
-        "protein_g": 18,
+        "item": "คั่วไข่ไม่ใส่น้ำมัน (ไข่ไก่เบอร์ใหญ่ 3 ฟอง)",
+        "calories": 240,
+        "protein_g": 21,
         "carbs_g": 1.8,
-        "fat_g": 15
+        "fat_g": 16.5
       }
     ],
     "exercise_summary": {
@@ -67,18 +67,18 @@
       "total_burned_calories": 369
     },
     "daily_total_stats": {
-      "total_intake_calories": 901,
+      "total_intake_calories": 931,
       "total_burned_calories": 369,
-      "net_calories": 532,
-      "total_protein_g": 42.6,
+      "net_calories": 562,
+      "total_protein_g": 45.6,
       "total_carbs_g": 99.4,
-      "total_fat_g": 36.5,
-      "protein_per_kg": 0.5
+      "total_fat_g": 38,
+      "protein_per_kg": 0.54
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Below Target (42.6g/120g Protein)",
-      "weight_loss_status": "Excellent Deficit (Net 532 kcal)",
-      "recommendation": "รับทราบเรื่องการเพิ่มพริกหยวกครับ พริกหยวกมีไฟเบอร์ดีแต่ทำให้โปรตีนจากหมูสับลดลงเล็กน้อยตามสัดส่วนน้ำหนัก ตอนนี้คุณได้รับโปรตีนไป 42.6g แนะนำมื้อถัดไปเน้นโปรตีนเสริมเพื่อให้ถึงเป้าหมาย 120g นะครับ"
+      "muscle_maintenance": "Below Target (45.6g/120g Protein)",
+      "weight_loss_status": "Excellent Deficit (Net 562 kcal)",
+      "recommendation": "การใช้ไข่เบอร์ใหญ่ช่วยให้ได้โปรตีนเพิ่มขึ้นเป็น 45.6g ครับ ยอดแคลอรี่สุทธิยังคงดีมากสำหรับการลดน้ำหนัก แนะนำมื้อถัดไปเน้นโปรตีนเสริมเพื่อให้เข้าใกล้เป้าหมาย 120g ครับ"
     }
   }
 ]

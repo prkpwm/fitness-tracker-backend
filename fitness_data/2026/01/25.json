@@ -1,0 +1,60 @@
+[
+  {
+    "date": "2026-01-25",
+    "last_update": "2026-01-25 05:20:15",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "เครื่องดื่มโว",
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 12,
+        "fat_g": 0
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ชามะนาวเนสที (2 ซอง)",
+        "calories": 120,
+        "protein_g": 0,
+        "carbs_g": 30,
+        "fat_g": 0
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 105,
+        "calories_burned": 369,
+        "distance_mi": 5.08,
+        "duration_min": 85.85,
+        "type": "Indoor Running"
+      },
+      "total_burned_calories": 369
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 170,
+      "total_burned_calories": 369,
+      "net_calories": -199,
+      "total_protein_g": 0,
+      "total_carbs_g": 42,
+      "total_fat_g": 0,
+      "protein_per_kg": 0
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Not Started (0g/120g Protein)",
+      "weight_loss_status": "Active Deficit (Net -199 kcal)",
+      "recommendation": "บันทึกเครื่องดื่มเรียบร้อยครับ ตอนนี้คุณได้รับพลังงานไป 170 kcal อย่าลืมเติมสารอาหารหลักโดยเฉพาะโปรตีนในมื้อถัดไปเพื่อให้ถึงเป้าหมาย 120g นะครับ"
+    }
+  }
+]

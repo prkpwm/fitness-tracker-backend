@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-25",
-    "last_update": "2026-01-25 06:39:52",
+    "last_update": "2026-01-25 06:52:10",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -57,26 +57,25 @@
       },
       {
         "time": "อาหารว่าง",
-        "item": "ขนมน่องไก่โลตัส (1 ซอง - 15g)",
-        "calories": 80,
-        "protein_g": 1,
-        "carbs_g": 10,
-        "fat_g": 4
-      },
-      {
-        "time": "อาหารว่าง",
         "item": "ยูโร ครีโก เวเฟอร์โรลรสครีมนม (1 ซอง)",
         "calories": 90,
         "protein_g": 1,
         "carbs_g": 13,
         "fat_g": 3.5
+      },
+      {
+        "time": "อาหารว่าง",
+        "item": "มะละกอสุก (340g)",
+        "calories": 146,
+        "protein_g": 1.6,
+        "carbs_g": 36.7,
+        "fat_g": 0.4
       }
     ],
     "exercise_summary": {
       "cardio_session_1": {
         "avg_hr_bpm": 105,
         "calories_burned": 369,
-        "date": "25 Jan @ 10:50",
         "distance_mi": 5.08,
         "duration_min": 85.85,
         "type": "Indoor Running"
@@ -84,18 +83,18 @@
       "total_burned_calories": 369
     },
     "daily_total_stats": {
-      "total_intake_calories": 1101,
+      "total_intake_calories": 1167,
       "total_burned_calories": 369,
-      "net_calories": 732,
-      "total_protein_g": 47.6,
-      "total_carbs_g": 120.4,
-      "total_fat_g": 45.5,
-      "protein_per_kg": 0.56
+      "net_calories": 798,
+      "total_protein_g": 48.2,
+      "total_carbs_g": 147.1,
+      "total_fat_g": 41.9,
+      "protein_per_kg": 0.57
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Below Target (47.6g/120g Protein)",
-      "weight_loss_status": "Steady Deficit (Net 732 kcal)",
-      "recommendation": "เพิ่มขนมครีโก (90 kcal) เข้ามาในบันทึกแล้วครับ ยอดแคลอรี่รวมยังไม่เกินเป้าหมาย แต่โปรตีนยังขาดอีกค่อนข้างเยอะ (ประมาณ 72g) มื้อถัดไปพยายามเน้นโปรตีนจากเนื้อสัตว์หรือเวย์โปรตีนนะครับ"
+      "muscle_maintenance": "Below Target (48.2g/120g Protein)",
+      "weight_loss_status": "Steady Deficit (Net 798 kcal)",
+      "recommendation": "เพิ่มมะละกอสุกแล้วครับ ตอนนี้ยอดแคลอรี่รวมยังอยู่ในเกณฑ์ดี แต่โปรตีนยังขาดอีกประมาณ 72 กรัม สำหรับมื้อเย็นแนะนำให้เน้นแหล่งโปรตีนสูงที่ไขมันต่ำเพื่อเติมเต็มส่วนที่ขาดนะครับ"
     }
   }
 ]

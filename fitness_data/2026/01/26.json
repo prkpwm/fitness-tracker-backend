@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-26",
-    "last_update": "2026-01-26 14:14:16",
+    "last_update": "2026-01-26 15:11:57",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -94,24 +94,32 @@
         "protein_g": 0,
         "carbs_g": 0,
         "fat_g": 0
+      },
+      {
+        "time": "ก่อนนอน",
+        "item": "เวย์โปรตีน (1 ช้อนตวง)",
+        "calories": 120,
+        "protein_g": 25,
+        "carbs_g": 2,
+        "fat_g": 1
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1379,
+      "total_intake_calories": 1499,
       "total_burned_calories": 0,
-      "net_calories": 1379,
-      "total_protein_g": 99.8,
-      "total_carbs_g": 159.9,
-      "total_fat_g": 36.5,
-      "protein_per_kg": 1.17
+      "net_calories": 1499,
+      "total_protein_g": 124.8,
+      "total_carbs_g": 161.9,
+      "total_fat_g": 37.5,
+      "protein_per_kg": 1.47
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (99.8g / 120g Protein)",
-      "weight_loss_status": "Within Calorie Limit",
-      "recommendation": "เปลี่ยนเป็นบันทึกชุด A เรียบร้อยครับ ภาพรวมวันนี้คุณคุมแคลอรี่ได้ดีมาก เหลือพื้นที่อีกนิดหน่อยสำหรับมื้อเบาๆ หรือเวย์โปรตีนเพื่อปิดยอดโปรตีนให้ครบ 120g ครับ"
+      "muscle_maintenance": "Goal Achieved (124.8g / 120g Protein)",
+      "weight_loss_status": "Perfectly on Target (1,499/1,500 kcal)",
+      "recommendation": "ยินดีด้วยครับ! วันนี้คุณทำได้ยอดเยี่ยมมาก ทั้งแคลอรี่ที่คุมได้พอดีเป้าหมาย 1,500 kcal และโปรตีนที่ทานได้เกินเป้า 120g มาเล็กน้อย เป็นวันที่ดีมากสำหรับการรักษาและสร้างกล้ามเนื้อครับ"
     }
   }
 ]

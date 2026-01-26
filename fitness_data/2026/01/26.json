@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-26",
-    "last_update": "2026-01-26 03:35:02",
+    "last_update": "2026-01-26 11:45:34",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -38,24 +38,48 @@
         "protein_g": 0,
         "carbs_g": 0,
         "fat_g": 0
+      },
+      {
+        "time": "กลางวัน",
+        "item": "อกไก่ทอดไร้น้ำมัน (180g)",
+        "calories": 306,
+        "protein_g": 54,
+        "carbs_g": 0,
+        "fat_g": 9
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (160g)",
+        "calories": 208,
+        "protein_g": 4.3,
+        "carbs_g": 44.8,
+        "fat_g": 0.5
+      },
+      {
+        "time": "กลางวัน",
+        "item": "กะเพราหมูสับ (135g)",
+        "calories": 222,
+        "protein_g": 21,
+        "carbs_g": 4,
+        "fat_g": 14
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 140,
+      "total_intake_calories": 876,
       "total_burned_calories": 0,
-      "net_calories": 140,
-      "total_protein_g": 4,
-      "total_carbs_g": 30,
-      "total_fat_g": 0,
-      "protein_per_kg": 0.05
+      "net_calories": 876,
+      "total_protein_g": 83.3,
+      "total_carbs_g": 78.8,
+      "total_fat_g": 23.5,
+      "protein_per_kg": 0.98
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (4g / 120g Protein)",
-      "weight_loss_status": "Active",
-      "recommendation": "บันทึกอาหารเสริมชุด B เรียบร้อยครับ เน้นงานผิวในช่วงท้องว่าง วันนี้โปรตีนยังต้องการอีก 116g อย่าลืมจัดมื้อเที่ยงที่เน้นโปรตีนหนักๆ นะครับ"
+      "muscle_maintenance": "Excellent Progress (83.3g / 120g Protein)",
+      "weight_loss_status": "On Track",
+      "recommendation": "มื้อกลางวันโปรตีนแน่นมากครับ ตอนนี้สะสมโปรตีนไปได้ถึง 83.3g แล้ว เหลืออีกเพียง 36.7g ก็จะถึงเป้าหมายประจำวัน อย่าลืมทานอาหารเสริมชุด A หลังมื้ออาหารนี้นะครับ"
     }
   }
 ]

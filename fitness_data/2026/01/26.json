@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-26",
-    "last_update": "2026-01-26 03:34:18",
+    "last_update": "2026-01-26 03:35:02",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -30,6 +30,14 @@
         "protein_g": 2,
         "carbs_g": 15,
         "fat_g": 0
+      },
+      {
+        "time": "ท้องว่าง",
+        "item": "ชุด B: Gluta Collagen – INZENT (2 เม็ด)",
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
@@ -47,7 +55,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "In Progress (4g / 120g Protein)",
       "weight_loss_status": "Active",
-      "recommendation": "บันทึกนมเปรี้ยวเมจิเพิ่มแล้วครับ ตอนนี้รวมเป็น 2 ขวด ได้โปรตีน 4g อย่าลืมทานมื้อหลักที่มีโปรตีนสูงและเตรียมทานอาหารเสริมชุด A หลังมื้ออาหารถัดไปนะครับ"
+      "recommendation": "บันทึกอาหารเสริมชุด B เรียบร้อยครับ เน้นงานผิวในช่วงท้องว่าง วันนี้โปรตีนยังต้องการอีก 116g อย่าลืมจัดมื้อเที่ยงที่เน้นโปรตีนหนักๆ นะครับ"
     }
   }
 ]

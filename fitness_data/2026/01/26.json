@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-26",
-    "last_update": "2026-01-25 15:33:53",
+    "last_update": "2026-01-26 03:34:18",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,7 +17,15 @@
     "food_diary": [
       {
         "time": "เช้า",
-        "item": "นมเปรี้ยวดีไลท์ (1 ขวด)",
+        "item": "นมเปรี้ยวดีไลท์ (สูตรน้ำตาลต่ำ)",
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 15,
+        "fat_g": 0
+      },
+      {
+        "time": "เช้า",
+        "item": "นมเปรี้ยว Meiji (สูตรน้ำตาลต่ำ)",
         "calories": 70,
         "protein_g": 2,
         "carbs_g": 15,
@@ -28,18 +36,18 @@
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 70,
+      "total_intake_calories": 140,
       "total_burned_calories": 0,
-      "net_calories": 70,
-      "total_protein_g": 2,
-      "total_carbs_g": 15,
+      "net_calories": 140,
+      "total_protein_g": 4,
+      "total_carbs_g": 30,
       "total_fat_g": 0,
-      "protein_per_kg": 0.02
+      "protein_per_kg": 0.05
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Initial Stage (2g / 120g Protein)",
-      "weight_loss_status": "Starting Day",
-      "recommendation": "เริ่มต้นวันใหม่ด้วยนมเปรี้ยวดีไลท์ครับ อย่าลืมเติมโปรตีนหลักในมื้ออื่นๆ ให้ถึงเป้าหมาย 120g นะครับ"
+      "muscle_maintenance": "In Progress (4g / 120g Protein)",
+      "weight_loss_status": "Active",
+      "recommendation": "บันทึกนมเปรี้ยวเมจิเพิ่มแล้วครับ ตอนนี้รวมเป็น 2 ขวด ได้โปรตีน 4g อย่าลืมทานมื้อหลักที่มีโปรตีนสูงและเตรียมทานอาหารเสริมชุด A หลังมื้ออาหารถัดไปนะครับ"
     }
   }
 ]

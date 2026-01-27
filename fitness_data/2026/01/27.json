@@ -1,0 +1,77 @@
+[
+  {
+    "date": "2026-01-27",
+    "last_update": "2026-01-27 10:21:51",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "ต้มเล้ง (1 ที่)",
+        "calories": 150,
+        "protein_g": 20,
+        "carbs_g": 2,
+        "fat_g": 7
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (1 จาน)",
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 42,
+        "fat_g": 0.5
+      },
+      {
+        "time": "กลางวัน",
+        "item": "กะเพราไก่ (นิดหน่อย)",
+        "calories": 100,
+        "protein_g": 10,
+        "carbs_g": 2,
+        "fat_g": 6
+      },
+      {
+        "time": "ของว่าง",
+        "item": "ขนมไส้ครีม (3 ชิ้นเล็ก)",
+        "calories": 150,
+        "protein_g": 1.5,
+        "carbs_g": 21,
+        "fat_g": 6.6
+      },
+      {
+        "time": "ของว่าง",
+        "item": "ข้าวต้มมัด (1 ห่อ)",
+        "calories": 200,
+        "protein_g": 3,
+        "carbs_g": 38,
+        "fat_g": 4
+      }
+    ],
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 795,
+      "total_burned_calories": 0,
+      "net_calories": 795,
+      "total_protein_g": 38.5,
+      "total_carbs_g": 105,
+      "total_fat_g": 24.1,
+      "protein_per_kg": 0.45
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "In Progress (38.5g / 120g Protein)",
+      "weight_loss_status": "Watching carb intake",
+      "recommendation": "ตอนนี้แคลอรี่สะสมอยู่ที่ 795 kcal ครับ วันนี้ทานขนมไปพอสมควรทำให้คาร์โบไฮเดรตเริ่มสูงขึ้น มื้อเย็นแนะนำให้เน้นเป็นโปรตีนลีนๆ เพื่อให้ครบเป้าหมาย 120g โดยไม่ให้แคลอรี่เกิน 1,500 kcal ครับ"
+    }
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-27",
-    "last_update": "2026-01-27 10:21:51",
+    "last_update": "2026-01-27 12:12:28",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -54,24 +54,48 @@
         "protein_g": 3,
         "carbs_g": 38,
         "fat_g": 4
+      },
+      {
+        "time": "เย็น",
+        "item": "น่องไก่เล็ก (4 น่อง)",
+        "calories": 240,
+        "protein_g": 28,
+        "carbs_g": 0,
+        "fat_g": 14
+      },
+      {
+        "time": "เย็น",
+        "item": "ข้าวเหนียว (100g)",
+        "calories": 230,
+        "protein_g": 4.5,
+        "carbs_g": 50,
+        "fat_g": 0.5
+      },
+      {
+        "time": "เย็น",
+        "item": "ป่นกบ",
+        "calories": 120,
+        "protein_g": 18,
+        "carbs_g": 2,
+        "fat_g": 4
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 795,
+      "total_intake_calories": 1385,
       "total_burned_calories": 0,
-      "net_calories": 795,
-      "total_protein_g": 38.5,
-      "total_carbs_g": 105,
-      "total_fat_g": 24.1,
-      "protein_per_kg": 0.45
+      "net_calories": 1385,
+      "total_protein_g": 89,
+      "total_carbs_g": 157,
+      "total_fat_g": 42.6,
+      "protein_per_kg": 1.05
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (38.5g / 120g Protein)",
-      "weight_loss_status": "Watching carb intake",
-      "recommendation": "ตอนนี้แคลอรี่สะสมอยู่ที่ 795 kcal ครับ วันนี้ทานขนมไปพอสมควรทำให้คาร์โบไฮเดรตเริ่มสูงขึ้น มื้อเย็นแนะนำให้เน้นเป็นโปรตีนลีนๆ เพื่อให้ครบเป้าหมาย 120g โดยไม่ให้แคลอรี่เกิน 1,500 kcal ครับ"
+      "muscle_maintenance": "Good Progress (89.0g / 120g Protein)",
+      "weight_loss_status": "Within Calorie Limit (1,385/1,500 kcal)",
+      "recommendation": "วันนี้แคลอรี่รวมยังอยู่ในเกณฑ์ดีมากครับ แต่โปรตีนยังขาดอีก 31g หากยังไม่ล้าจนเกินไป แนะนำให้เสริมเวย์โปรตีน 1 สกู๊ปก่อนนอน จะช่วยให้โปรตีนแตะเป้าหมาย 120g ได้พอดี และแคลอรี่ยังไม่เกิน 1,500 kcal ครับ"
     }
   }
 ]

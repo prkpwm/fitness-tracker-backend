@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-28",
-    "last_update": "2026-01-28 10:45:22",
+    "last_update": "2026-01-28 10:46:25",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -41,29 +41,29 @@
       },
       {
         "time": "ของว่าง",
-        "item": "ข้าวต้มมัด (1 มัด/2 ห่อ)",
-        "calories": 400,
-        "protein_g": 6,
-        "carbs_g": 76,
-        "fat_g": 8
+        "item": "ข้าวต้มมัด (1 ห่อเล็ก)",
+        "calories": 200,
+        "protein_g": 3,
+        "carbs_g": 38,
+        "fat_g": 4
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1000,
+      "total_intake_calories": 800,
       "total_burned_calories": 0,
-      "net_calories": 1000,
-      "total_protein_g": 35.5,
-      "total_carbs_g": 151,
-      "total_fat_g": 27.5,
-      "protein_per_kg": 0.42
+      "net_calories": 800,
+      "total_protein_g": 32.5,
+      "total_carbs_g": 113,
+      "total_fat_g": 23.5,
+      "protein_per_kg": 0.38
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Need more protein (35.5g / 120g)",
-      "weight_loss_status": "Carbs are increasing",
-      "recommendation": "ตอนนี้แคลอรี่รวมอยู่ที่ 1,000 kcal พอดีครับ แต่เนื่องจากข้าวต้มมัดมีน้ำตาลและกะทิค่อนข้างสูง ทำให้คาร์โบไฮเดรตวันนี้พุ่งขึ้นเร็ว มื้อถัดไปแนะนำให้เน้นโปรตีนจากเนื้อสัตว์ไม่ติดมัน และเลี่ยงของหวานเพิ่มเติมนะครับ"
+      "muscle_maintenance": "Monitoring (32.5g Protein)",
+      "weight_loss_status": "Good calorie control",
+      "recommendation": "หลังจากปรับลดแคลอรี่ข้าวต้มมัดลง พลังงานรวมตอนนี้อยู่ที่ 800 kcal ซึ่งถือว่าคุมได้ดีมากครับ แต่โปรตีนยังค่อนข้างน้อย มื้อเย็นอย่าลืมเน้นโปรตีนให้มากขึ้นนะครับ"
     }
   }
 ]

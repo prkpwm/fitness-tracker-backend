@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-28",
-    "last_update": "2026-01-28 14:24:46",
+    "last_update": "2026-01-28 14:27:55",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -88,21 +88,26 @@
         "duration_min": 79.7,
         "type": "Indoor Running"
       },
-      "total_burned_calories": 513
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 663
     },
     "daily_total_stats": {
       "total_intake_calories": 1830,
-      "total_burned_calories": 513,
-      "net_calories": 1317,
+      "total_burned_calories": 663,
+      "net_calories": 1167,
       "total_protein_g": 123,
       "total_carbs_g": 205,
       "total_fat_g": 52,
       "protein_per_kg": 1.45
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Success (123g / 120g Protein)",
-      "weight_loss_status": "Perfect",
-      "recommendation": "ยินดีด้วยครับ! วันนี้คุณทำโปรตีนถึงเป้าหมายที่ 120 กรัมแล้ว (รวม 123 กรัม) และด้วยการออกกำลังกายที่เข้มข้น ทำให้แคลอรี่สุทธิยังอยู่ในเกณฑ์ดีมากสำหรับการลดน้ำหนัก วันนี้ถือว่าเป็นวันที่ยอดเยี่ยมมากครับ พักผ่อนให้เพียงพอนะครับ"
+      "muscle_maintenance": "Excellent (123g Protein)",
+      "weight_loss_status": "Highly Effective",
+      "recommendation": "วันนี้คุณมีวินัยดีเยี่ยมมากครับ ทั้งคาร์ดิโอและเวทเทรนนิ่ง รวมถึงทานโปรตีนได้เกินเป้าหมาย 120 กรัมแล้ว พลังงานสุทธิ (Net Calories) อยู่ในระดับที่เหมาะสมมากสำหรับการเผาผลาญไขมันและรักษาบุลกล้ามเนื้อครับ"
     }
   }
 ]

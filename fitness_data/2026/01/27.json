@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-27",
-    "last_update": "2026-01-27 14:46:11",
+    "last_update": "2026-01-28 02:46:04",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -86,6 +86,14 @@
         "protein_g": 4,
         "carbs_g": 37,
         "fat_g": 13
+      },
+      {
+        "time": "ก่อนนอน",
+        "item": "เวย์โปรตีน (1 ช้อนตวง)",
+        "calories": 120,
+        "protein_g": 25,
+        "carbs_g": 2,
+        "fat_g": 1
       }
     ],
     "exercise_summary": {
@@ -104,18 +112,18 @@
       "total_burned_calories": 706
     },
     "daily_total_stats": {
-      "total_intake_calories": 1665,
+      "total_intake_calories": 1785,
       "total_burned_calories": 706,
-      "net_calories": 959,
-      "total_protein_g": 93,
-      "total_carbs_g": 194,
-      "total_fat_g": 55.6,
-      "protein_per_kg": 1.09
+      "net_calories": 1079,
+      "total_protein_g": 118,
+      "total_carbs_g": 196,
+      "total_fat_g": 56.6,
+      "protein_per_kg": 1.39
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Consistent Progress (93.0g Protein)",
-      "weight_loss_status": "Excellent (Net Calories under 1,000)",
-      "recommendation": "วันนี้คุณมีวินัยในการออกกำลังกายสูงมากครับ! ทั้งคาร์ดิโอและเวทช่วงลำตัว ทำให้แคลอรี่สุทธิต่ำกว่า 1,000 kcal ซึ่งช่วยในการลดไขมันได้ดีมาก หากต้องการเสริมการสร้างกล้ามเนื้อ อย่าลืมเติมโปรตีนอีกนิดให้ถึงเป้า 120g นะครับ"
+      "muscle_maintenance": "Success (118.0g / 120g Protein)",
+      "weight_loss_status": "Excellent (Net Calories 1,079)",
+      "recommendation": "เมื่อวานคุณทำได้ดีมากครับ! โปรตีนรวมอยู่ที่ 118g เกือบแตะเป้าหมายที่ตั้งไว้ และแคลอรี่สุทธิยังอยู่ในระดับที่ต่ำมากช่วยส่งเสริมการลดไขมันได้ดีเยี่ยมครับ"
     }
   }
 ]

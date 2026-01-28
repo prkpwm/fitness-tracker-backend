@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-28",
-    "last_update": "2026-01-28 10:46:25",
+    "last_update": "2026-01-28 14:24:46",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -46,24 +46,63 @@
         "protein_g": 3,
         "carbs_g": 38,
         "fat_g": 4
+      },
+      {
+        "time": "ค่ำ",
+        "item": "ต้มยำหัวปลาน้ำใส (1 ถ้วย)",
+        "calories": 150,
+        "protein_g": 20,
+        "carbs_g": 5,
+        "fat_g": 4
+      },
+      {
+        "time": "ค่ำ",
+        "item": "เนื้อทอด (100g)",
+        "calories": 310,
+        "protein_g": 25,
+        "carbs_g": 0,
+        "fat_g": 22
+      },
+      {
+        "time": "ค่ำ",
+        "item": "ข้าวเปล่า (2 จาน)",
+        "calories": 390,
+        "protein_g": 8,
+        "carbs_g": 84,
+        "fat_g": 1
+      },
+      {
+        "time": "ก่อนนอน",
+        "item": "เวย์โปรตีน (1.5 ช้อนตวง)",
+        "calories": 180,
+        "protein_g": 37.5,
+        "carbs_g": 3,
+        "fat_g": 1.5
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_hr_bpm": 124,
+        "calories_burned": 513,
+        "distance_mi": 5.47,
+        "duration_min": 79.7,
+        "type": "Indoor Running"
+      },
+      "total_burned_calories": 513
     },
     "daily_total_stats": {
-      "total_intake_calories": 800,
-      "total_burned_calories": 0,
-      "net_calories": 800,
-      "total_protein_g": 32.5,
-      "total_carbs_g": 113,
-      "total_fat_g": 23.5,
-      "protein_per_kg": 0.38
+      "total_intake_calories": 1830,
+      "total_burned_calories": 513,
+      "net_calories": 1317,
+      "total_protein_g": 123,
+      "total_carbs_g": 205,
+      "total_fat_g": 52,
+      "protein_per_kg": 1.45
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Monitoring (32.5g Protein)",
-      "weight_loss_status": "Good calorie control",
-      "recommendation": "หลังจากปรับลดแคลอรี่ข้าวต้มมัดลง พลังงานรวมตอนนี้อยู่ที่ 800 kcal ซึ่งถือว่าคุมได้ดีมากครับ แต่โปรตีนยังค่อนข้างน้อย มื้อเย็นอย่าลืมเน้นโปรตีนให้มากขึ้นนะครับ"
+      "muscle_maintenance": "Success (123g / 120g Protein)",
+      "weight_loss_status": "Perfect",
+      "recommendation": "ยินดีด้วยครับ! วันนี้คุณทำโปรตีนถึงเป้าหมายที่ 120 กรัมแล้ว (รวม 123 กรัม) และด้วยการออกกำลังกายที่เข้มข้น ทำให้แคลอรี่สุทธิยังอยู่ในเกณฑ์ดีมากสำหรับการลดน้ำหนัก วันนี้ถือว่าเป็นวันที่ยอดเยี่ยมมากครับ พักผ่อนให้เพียงพอนะครับ"
     }
   }
 ]

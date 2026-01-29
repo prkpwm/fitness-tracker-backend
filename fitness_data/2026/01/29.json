@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-29",
-    "last_update": "2026-01-29 14:59:42",
+    "last_update": "2026-01-29 14:59:50",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -78,24 +78,45 @@
         "protein_g": 2,
         "carbs_g": 23,
         "fat_g": 1
+      },
+      {
+        "time": "หลังออกกำลังกาย",
+        "item": "เวย์โปรตีน (1 scoop)",
+        "calories": 150,
+        "protein_g": 24,
+        "carbs_g": 0,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_hr_bpm": 119,
+        "calories_burned": 468,
+        "distance_mi": 5.81,
+        "duration_min": 81,
+        "type": "Treadmill Running"
+      },
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "target": "Core/Abs",
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 618
     },
     "daily_total_stats": {
-      "total_intake_calories": 1583,
-      "total_burned_calories": 0,
-      "net_calories": 1583,
-      "total_protein_g": 73.6,
+      "total_intake_calories": 1733,
+      "total_burned_calories": 618,
+      "net_calories": 1115,
+      "total_protein_g": 97.6,
       "total_carbs_g": 144.2,
       "total_fat_g": 78.7,
-      "protein_per_kg": 0.87
+      "protein_per_kg": 1.15
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Inadequate (73.6g consumed, target 120g)",
-      "weight_loss_status": "Near Target (1583 / 1500 kcal)",
-      "recommendation": "คุณเลือกทานเฉพาะเนื้อแดงของหมูสามชั้นได้ดีมากครับ ช่วยคุมแคลอรี่ได้ดี แต่โปรตีนยังขาดอยู่ 46.4g แนะนำให้ทานเวย์โปรตีน 2 scoop เพื่อให้ถึงเป้าหมาย 120g ครับ"
+      "muscle_maintenance": "Good Progress (97.6g / 120g)",
+      "weight_loss_status": "Excellent (Net Calories 1115 kcal)",
+      "recommendation": "เพิ่มเวย์โปรตีนแล้วทำให้ยอดโปรตีนรวมวันนี้ขยับขึ้นมาเกือบถึง 100 กรัมแล้วครับ ดีมากสำหรับการซ่อมแซมกล้ามเนื้อหลังเวทเทรนนิ่ง หากต้องการให้ถึงเป้าหมาย 120 กรัม พรุ่งนี้ลองเพิ่มแหล่งโปรตีนในมื้อหลักอีกนิด หรือเพิ่มเวย์อีกสักครึ่งสกู๊ปนะครับ"
     }
   }
 ]

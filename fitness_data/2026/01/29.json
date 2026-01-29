@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-29",
-    "last_update": "2026-01-29 12:32:59",
+    "last_update": "2026-01-29 12:35:10",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -12,7 +12,7 @@
       "target_protein_g": 0,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
-      "recommended_daily_calories": 0
+      "recommended_daily_calories": 2100
     },
     "food_diary": [
       {
@@ -80,7 +80,9 @@
         "fat_g": 1
       }
     ],
-    "exercise_summary": null,
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
     "daily_total_stats": {
       "total_intake_calories": 1583,
       "total_burned_calories": 0,
@@ -88,12 +90,12 @@
       "total_protein_g": 73.6,
       "total_carbs_g": 144.2,
       "total_fat_g": 78.7,
-      "protein_per_kg": 0
+      "protein_per_kg": 0.87
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Progressing (73.6g / 120g Protein)",
-      "weight_loss_status": "On Track",
-      "recommendation": "การตัดส่วนหนังออกช่วยลดไขมันลงได้อีกพอสมควรครับ ตอนนี้พลังงานรวมอยู่ที่ 1,583 kcal (เกินเป้าเล็กน้อย) แต่โปรตีนยังอยู่ที่ 73.6g หากคุณเสริมเวย์โปรตีน 2 สกู๊ป จะช่วยให้โปรตีนถึงเป้า 120g ได้ทันทีครับ"
+      "muscle_maintenance": "Inadequate (73.6g consumed, target 120g)",
+      "weight_loss_status": "Near Target (1583 / 1500 kcal)",
+      "recommendation": "คุณเลือกทานเฉพาะเนื้อแดงของหมูสามชั้นได้ดีมากครับ ช่วยคุมแคลอรี่ได้ดี แต่โปรตีนยังขาดอยู่ 46.4g แนะนำให้ทานเวย์โปรตีน 2 scoop เพื่อให้ถึงเป้าหมาย 120g ครับ"
     }
   }
 ]

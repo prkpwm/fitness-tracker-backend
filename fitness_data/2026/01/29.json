@@ -1,0 +1,99 @@
+[
+  {
+    "date": "2026-01-29",
+    "last_update": "2026-01-29 12:32:59",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 0
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "ผัดผักรวม (1 จาน)",
+        "calories": 150,
+        "protein_g": 4,
+        "carbs_g": 12,
+        "fat_g": 10
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (1 จาน)",
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 42,
+        "fat_g": 0.5
+      },
+      {
+        "time": "กลางวัน",
+        "item": "หมูสามชั้นทอด (ไม่กินมัน/หนัง 100g)",
+        "calories": 250,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 16
+      },
+      {
+        "time": "กลางวัน",
+        "item": "กุนเชียง (20g)",
+        "calories": 72,
+        "protein_g": 2.4,
+        "carbs_g": 4.8,
+        "fat_g": 4.8
+      },
+      {
+        "time": "ของว่าง",
+        "item": "กะหรี่ปั๊บ (4 ชิ้น)",
+        "calories": 520,
+        "protein_g": 8,
+        "carbs_g": 60,
+        "fat_g": 28
+      },
+      {
+        "time": "เย็น",
+        "item": "หมูสามชั้นทอด (ไม่กินมัน/หนัง 100g)",
+        "calories": 250,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 16
+      },
+      {
+        "time": "เย็น",
+        "item": "กุนเชียง (10g)",
+        "calories": 36,
+        "protein_g": 1.2,
+        "carbs_g": 2.4,
+        "fat_g": 2.4
+      },
+      {
+        "time": "เย็น",
+        "item": "โจ๊กคนอร์ (1 ซอง)",
+        "calories": 110,
+        "protein_g": 2,
+        "carbs_g": 23,
+        "fat_g": 1
+      }
+    ],
+    "exercise_summary": null,
+    "daily_total_stats": {
+      "total_intake_calories": 1583,
+      "total_burned_calories": 0,
+      "net_calories": 1583,
+      "total_protein_g": 73.6,
+      "total_carbs_g": 144.2,
+      "total_fat_g": 78.7,
+      "protein_per_kg": 0
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Progressing (73.6g / 120g Protein)",
+      "weight_loss_status": "On Track",
+      "recommendation": "การตัดส่วนหนังออกช่วยลดไขมันลงได้อีกพอสมควรครับ ตอนนี้พลังงานรวมอยู่ที่ 1,583 kcal (เกินเป้าเล็กน้อย) แต่โปรตีนยังอยู่ที่ 73.6g หากคุณเสริมเวย์โปรตีน 2 สกู๊ป จะช่วยให้โปรตีนถึงเป้า 120g ได้ทันทีครับ"
+    }
+  }
+]

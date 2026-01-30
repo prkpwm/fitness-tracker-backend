@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-30",
-    "last_update": "2026-01-30 14:30:48",
+    "last_update": "2026-01-30 15:53:09",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -65,26 +65,33 @@
       }
     ],
     "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 121,
+        "calories_burned": 452,
+        "distance_mi": 5.84,
+        "duration_min": 73.8,
+        "type": "Indoor Running"
+      },
       "strength_training": {
         "calories_burned": 150,
         "duration_min": 30,
         "type": "Weight Training (Dumbbell)"
       },
-      "total_burned_calories": 150
+      "total_burned_calories": 602
     },
     "daily_total_stats": {
       "total_intake_calories": 1710,
-      "total_burned_calories": 150,
-      "net_calories": 1560,
+      "total_burned_calories": 602,
+      "net_calories": 1108,
       "total_protein_g": 111,
       "total_carbs_g": 127,
       "total_fat_g": 80.5,
       "protein_per_kg": 1.31
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent Progress (111g / 120g)",
-      "weight_loss_status": "Near Target (Net 1,560 kcal)",
-      "recommendation": "การเพิ่มเวทเทรนนิ่งด้วยดัมเบล 30 นาทีช่วยดึง Net Calories ลงมาอยู่ที่ 1,560 kcal ซึ่งใกล้เคียงเป้าหมาย 1,500 kcal มากครับ โปรตีนวันนี้ทำได้ดีมาก (111 กรัม) เหมาะสมอย่างยิ่งกับการซ่อมแซมกล้ามเนื้อหลังยกเวทครับ"
+      "muscle_maintenance": "Excellent (111g Protein)",
+      "weight_loss_status": "Successful Deficit",
+      "recommendation": "เยี่ยมมากครับ! หลังจากเพิ่มการวิ่ง Indoor วันนี้อีก 452 kcal ทำให้ Net Calories ของคุณลงมาอยู่ที่ 1,108 kcal ซึ่งต่ำกว่าเป้าหมาย 1,500 kcal อย่างสวยงาม ช่วยส่งเสริมการลดน้ำหนักได้ดีมากครับ นอกจากนี้ผมยังได้ลงข้อมูลการวิ่งย้อนหลังของเมื่อวาน (29 Jan) ไว้ในบันทึกให้แล้วด้วยครับ"
     }
   }
 ]

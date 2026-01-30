@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-30",
-    "last_update": "2026-01-30 11:27:15",
+    "last_update": "2026-01-30 12:23:35",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -46,24 +46,40 @@
         "protein_g": 2,
         "carbs_g": 15,
         "fat_g": 0
+      },
+      {
+        "time": "เย็น",
+        "item": "ยำมาม่าหมูสับใส่กุ้ง พิเศษ",
+        "calories": 450,
+        "protein_g": 25,
+        "carbs_g": 45,
+        "fat_g": 18
+      },
+      {
+        "time": "เย็น",
+        "item": "เนื้อวัวเพิ่มเติม (127g)",
+        "calories": 315,
+        "protein_g": 32,
+        "carbs_g": 0,
+        "fat_g": 20
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 945,
+      "total_intake_calories": 1710,
       "total_burned_calories": 0,
-      "net_calories": 945,
-      "total_protein_g": 54,
-      "total_carbs_g": 82,
-      "total_fat_g": 42.5,
-      "protein_per_kg": 0.64
+      "net_calories": 1710,
+      "total_protein_g": 111,
+      "total_carbs_g": 127,
+      "total_fat_g": 80.5,
+      "protein_per_kg": 1.31
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (54g / 120g)",
-      "weight_loss_status": "On Track",
-      "recommendation": "เพิ่มรายการของว่างเรียบร้อยแล้วครับ ตอนนี้พลังงานสะสมอยู่ที่ 945 kcal ยังเหลือโควตาสำหรับมื้อเย็นอีกพอสมควรเพื่อให้ถึงเป้า 1,500 kcal ครับ แนะนำเน้นโปรตีนในมื้อเย็นเพิ่มเติมเพื่อให้ใกล้เคียงเป้าหมาย 120g นะครับ"
+      "muscle_maintenance": "Almost Reached (111g / 120g)",
+      "weight_loss_status": "Slightly Over Goal (1,710 / 1,500 kcal)",
+      "recommendation": "วันนี้ยอดโปรตีนพุ่งขึ้นมาถึง 111 กรัม ซึ่งดีต่อการรักษาพื้นฐานกล้ามเนื้อมากครับ แต่อาจจะได้รับแคลอรี่เกินเป้าไปเล็กน้อยเนื่องจากเนื้อสัตว์ที่เพิ่มมา แนะนำให้ทำคาร์ดิโอเบาๆ หรือยืดเหยียดเพิ่มอีกสักนิด จะช่วยให้ Net Calories อยู่ในเกณฑ์ที่ต้องการได้พอดีครับ"
     }
   }
 ]

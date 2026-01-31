@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-30",
-    "last_update": "2026-01-30 15:53:09",
+    "last_update": "2026-01-31 09:58:59",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -62,6 +62,14 @@
         "protein_g": 32,
         "carbs_g": 0,
         "fat_g": 20
+      },
+      {
+        "time": "มื้อเพิ่มเติม",
+        "item": "เวย์โปรตีน (1 ช้อนโต๊ะ)",
+        "calories": 30,
+        "protein_g": 6,
+        "carbs_g": 0.5,
+        "fat_g": 0
       }
     ],
     "exercise_summary": {
@@ -80,18 +88,18 @@
       "total_burned_calories": 602
     },
     "daily_total_stats": {
-      "total_intake_calories": 1710,
+      "total_intake_calories": 1740,
       "total_burned_calories": 602,
-      "net_calories": 1108,
-      "total_protein_g": 111,
-      "total_carbs_g": 127,
+      "net_calories": 1138,
+      "total_protein_g": 117,
+      "total_carbs_g": 127.5,
       "total_fat_g": 80.5,
-      "protein_per_kg": 1.31
+      "protein_per_kg": 1.38
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (111g Protein)",
+      "muscle_maintenance": "Goal Reached (117g Protein)",
       "weight_loss_status": "Successful Deficit",
-      "recommendation": "เยี่ยมมากครับ! หลังจากเพิ่มการวิ่ง Indoor วันนี้อีก 452 kcal ทำให้ Net Calories ของคุณลงมาอยู่ที่ 1,108 kcal ซึ่งต่ำกว่าเป้าหมาย 1,500 kcal อย่างสวยงาม ช่วยส่งเสริมการลดน้ำหนักได้ดีมากครับ นอกจากนี้ผมยังได้ลงข้อมูลการวิ่งย้อนหลังของเมื่อวาน (29 Jan) ไว้ในบันทึกให้แล้วด้วยครับ"
+      "recommendation": "เพิ่มเวย์โปรตีน 1 ช้อนโต๊ะให้กับบันทึกของเมื่อวาน (30 ม.ค.) เรียบร้อยแล้วครับ ทำให้ยอดโปรตีนรวมพุ่งขึ้นเป็น 117 กรัม ซึ่งถือว่าใกล้เคียงเป้าหมาย 120 กรัมมากและเพียงพอสำหรับการรักษาพื้นฐานกล้ามเนื้อครับ Net Calories ยังคงอยู่ในเกณฑ์ที่ดีมากครับ"
     }
   }
 ]

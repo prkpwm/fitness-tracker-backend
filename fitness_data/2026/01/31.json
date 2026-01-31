@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-31",
-    "last_update": "2026-01-31 13:23:45",
+    "last_update": "2026-01-31 13:24:36",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -38,24 +38,40 @@
         "protein_g": 32,
         "carbs_g": 8,
         "fat_g": 24
+      },
+      {
+        "time": "ของว่าง",
+        "item": "Reese's Cookie (1 ชิ้น)",
+        "calories": 110,
+        "protein_g": 2,
+        "carbs_g": 12,
+        "fat_g": 6
+      },
+      {
+        "time": "ของว่าง",
+        "item": "KitKat (1 ชิ้น)",
+        "calories": 70,
+        "protein_g": 0.5,
+        "carbs_g": 9.5,
+        "fat_g": 3.5
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1262,
+      "total_intake_calories": 1442,
       "total_burned_calories": 0,
-      "net_calories": 1262,
-      "total_protein_g": 120,
-      "total_carbs_g": 19.2,
-      "total_fat_g": 79,
-      "protein_per_kg": 1.41
+      "net_calories": 1442,
+      "total_protein_g": 122.5,
+      "total_carbs_g": 40.7,
+      "total_fat_g": 88.5,
+      "protein_per_kg": 1.44
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Target Reached (120g / 120g)",
-      "weight_loss_status": "Excellent Intake Control",
-      "recommendation": "ยอดเยี่ยมมากครับ! หลังจากเพิ่มผัดผักใส่เนื้อ 120 กรัม ทำให้วันนี้คุณได้รับโปรตีนครบ 120 กรัมตามเป้าหมาย (Maintenance Protein Target) พอดีเป๊ะ ในขณะที่แคลอรี่รวมยังอยู่ที่ 1,262 kcal ซึ่งต่ำกว่าเป้าหมายการลดน้ำหนัก (1,500 kcal) เป็นวันที่คุมอาหารได้ดีมากครับ"
+      "muscle_maintenance": "Target Reached (122.5g)",
+      "weight_loss_status": "Perfect Control",
+      "recommendation": "บันทึกของว่าง Reese's Cookie และ KitKat อย่างละ 1 ชิ้นเรียบร้อยครับ แม้จะมีของว่างเพิ่มขึ้นมา แต่พลังงานรวม 1,442 kcal ยังอยู่ในเกณฑ์เป้าหมายการลดน้ำหนักของคุณ (1,500 kcal) และโปรตีนยังคงสูงเกินเกณฑ์ที่ต้องการครับ"
     }
   }
 ]

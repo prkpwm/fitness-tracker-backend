@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-30",
-    "last_update": "2026-01-31 09:58:59",
+    "last_update": "2026-01-31 09:59:46",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -65,11 +65,11 @@
       },
       {
         "time": "มื้อเพิ่มเติม",
-        "item": "เวย์โปรตีน (1 ช้อนโต๊ะ)",
-        "calories": 30,
-        "protein_g": 6,
-        "carbs_g": 0.5,
-        "fat_g": 0
+        "item": "เวย์โปรตีน (1 ช้อนตวง)",
+        "calories": 120,
+        "protein_g": 25,
+        "carbs_g": 2,
+        "fat_g": 1
       }
     ],
     "exercise_summary": {
@@ -88,18 +88,18 @@
       "total_burned_calories": 602
     },
     "daily_total_stats": {
-      "total_intake_calories": 1740,
+      "total_intake_calories": 1830,
       "total_burned_calories": 602,
-      "net_calories": 1138,
-      "total_protein_g": 117,
-      "total_carbs_g": 127.5,
-      "total_fat_g": 80.5,
-      "protein_per_kg": 1.38
+      "net_calories": 1228,
+      "total_protein_g": 136,
+      "total_carbs_g": 129,
+      "total_fat_g": 81.5,
+      "protein_per_kg": 1.6
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Goal Reached (117g Protein)",
-      "weight_loss_status": "Successful Deficit",
-      "recommendation": "เพิ่มเวย์โปรตีน 1 ช้อนโต๊ะให้กับบันทึกของเมื่อวาน (30 ม.ค.) เรียบร้อยแล้วครับ ทำให้ยอดโปรตีนรวมพุ่งขึ้นเป็น 117 กรัม ซึ่งถือว่าใกล้เคียงเป้าหมาย 120 กรัมมากและเพียงพอสำหรับการรักษาพื้นฐานกล้ามเนื้อครับ Net Calories ยังคงอยู่ในเกณฑ์ที่ดีมากครับ"
+      "muscle_maintenance": "Goal Surpassed (136g / 120g)",
+      "weight_loss_status": "Excellent Deficit",
+      "recommendation": "แก้ไขข้อมูลเป็น 1 ช้อนตวงเรียบร้อยแล้วครับ! การปรับนี้ทำให้ยอดโปรตีนรวมของเมื่อวานพุ่งขึ้นเป็น 136 กรัม ซึ่งเกินเป้าหมาย 120 กรัมไปอย่างสวยงาม ช่วยเรื่องการฟื้นฟูกล้ามเนื้อหลังยกเวทได้ดีมาก แม้ Intake จะเพิ่มขึ้นแต่ Net Calories ยังคงอยู่ในระดับที่ต่ำกว่าเป้าหมาย (1,228 kcal) เยี่ยมมากครับ"
     }
   }
 ]

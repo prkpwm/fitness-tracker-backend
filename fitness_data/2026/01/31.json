@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-31",
-    "last_update": "2026-01-31 17:20:10",
+    "last_update": "2026-01-31 17:21:25",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -84,9 +84,9 @@
       "protein_per_kg": 1.46
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Target Reached (124.5g Protein)",
-      "weight_loss_status": "Excellent (Caloric Deficit)",
-      "recommendation": "บันทึกการวิ่ง Treadmill 5.18 ไมล์ เรียบร้อยครับ ทำให้ค่า Net Calories ของคุณเหลือเพียง 1,122 kcal ซึ่งช่วยชดเชยส่วนที่กินเกินเป้าหมายไปได้เยอะมาก เป็นการจบท้ายวันที่ดีมากครับ"
+      "muscle_maintenance": "Excellent (Protein Target 120g Met)",
+      "weight_loss_status": "Success (Significant Deficit)",
+      "recommendation": "ภาพรวมวันนี้ยอดเยี่ยมครับ แม้แคลอรี่จากอาหารจะเกินเป้า 1,500 ไปเล็กน้อย (1512 kcal) แต่การวิ่ง Treadmill ช่วยสร้าง Caloric Deficit ได้มหาศาล ทำให้ Net Calories อยู่ที่ 1,122 kcal เท่านั้น และโปรตีนทำได้ถึง 124.5g สูงกว่าเป้าหมายที่ตั้งไว้ 120g ครับ"
     }
   }
 ]

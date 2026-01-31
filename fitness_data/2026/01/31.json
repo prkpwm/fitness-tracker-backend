@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-31",
-    "last_update": "2026-01-31 17:21:25",
+    "last_update": "2026-01-31 17:22:14",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -16,7 +16,7 @@
     },
     "food_diary": [
       {
-        "time": "มื้อหลัก 1",
+        "time": "กลางวัน",
         "item": "ข้าวหน้าเนื้อญี่ปุ่น (เนื้อวัว 297g + ข้าว)",
         "calories": 742,
         "protein_g": 74,
@@ -24,7 +24,7 @@
         "fat_g": 45
       },
       {
-        "time": "มื้อหลัก 1",
+        "time": "กลางวัน",
         "item": "ไข่ไก่ (2 ฟอง)",
         "calories": 140,
         "protein_g": 14,
@@ -32,7 +32,7 @@
         "fat_g": 10
       },
       {
-        "time": "มื้อหลัก 2",
+        "time": "เย็น",
         "item": "ผัดผักใส่น้ำมันน้อย (ใส่เนื้อวัว 120g)",
         "calories": 380,
         "protein_g": 32,
@@ -40,7 +40,7 @@
         "fat_g": 24
       },
       {
-        "time": "ของว่าง",
+        "time": "ดึก",
         "item": "Reese's Cookie (1 ชิ้น)",
         "calories": 110,
         "protein_g": 2,
@@ -48,7 +48,7 @@
         "fat_g": 6
       },
       {
-        "time": "ของว่าง",
+        "time": "ดึก",
         "item": "KitKat (1 ชิ้น)",
         "calories": 70,
         "protein_g": 0.5,
@@ -56,7 +56,7 @@
         "fat_g": 3.5
       },
       {
-        "time": "ของว่าง",
+        "time": "ดึก",
         "item": "นมเปรี้ยวดีไลท์ (1 ขวด)",
         "calories": 70,
         "protein_g": 2,
@@ -67,9 +67,9 @@
     "exercise_summary": {
       "cardio_session_1": {
         "avg_hr_bpm": 113,
-        "burned_calories": 390,
+        "calories_burned": 390,
         "distance_mi": 5.18,
-        "duration": "1:13:44",
+        "duration_min": 73.7,
         "type": "Treadmill Running"
       },
       "total_burned_calories": 390
@@ -84,9 +84,9 @@
       "protein_per_kg": 1.46
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (Protein Target 120g Met)",
-      "weight_loss_status": "Success (Significant Deficit)",
-      "recommendation": "ภาพรวมวันนี้ยอดเยี่ยมครับ แม้แคลอรี่จากอาหารจะเกินเป้า 1,500 ไปเล็กน้อย (1512 kcal) แต่การวิ่ง Treadmill ช่วยสร้าง Caloric Deficit ได้มหาศาล ทำให้ Net Calories อยู่ที่ 1,122 kcal เท่านั้น และโปรตีนทำได้ถึง 124.5g สูงกว่าเป้าหมายที่ตั้งไว้ 120g ครับ"
+      "muscle_maintenance": "Target Met (124.5g)",
+      "weight_loss_status": "Deficit Achieved",
+      "recommendation": "วันนี้คุมโปรตีนได้ยอดเยี่ยมเกินเป้า 120g และการวิ่งช่วยให้ Net Calories อยู่ในเกณฑ์ลดน้ำหนักได้ดีมากแม้จะมีของว่างเพิ่มเข้ามาครับ"
     }
   }
 ]

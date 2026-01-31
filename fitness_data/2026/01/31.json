@@ -1,0 +1,53 @@
+[
+  {
+    "date": "2026-01-31",
+    "last_update": "2026-01-31 10:02:05",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "มื้อหลัก",
+        "item": "ข้าวหน้าเนื้อญี่ปุ่น (เนื้อวัว 297g + ข้าว)",
+        "calories": 742,
+        "protein_g": 74,
+        "carbs_g": 10,
+        "fat_g": 45
+      },
+      {
+        "time": "มื้อหลัก",
+        "item": "ไข่ไก่ (2 ฟอง)",
+        "calories": 140,
+        "protein_g": 14,
+        "carbs_g": 1.2,
+        "fat_g": 10
+      }
+    ],
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 882,
+      "total_burned_calories": 0,
+      "net_calories": 882,
+      "total_protein_g": 88,
+      "total_carbs_g": 11.2,
+      "total_fat_g": 55,
+      "protein_per_kg": 1.04
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "High Protein Day (88g so far)",
+      "weight_loss_status": "On Track",
+      "recommendation": "บันทึกหมายเหตุเพิ่มเติมว่ารายการข้าวหน้าเนื้อได้รวมส่วนของข้าวเรียบร้อยแล้วครับ ตอนนี้สารอาหารครบถ้วนมาก โดยเฉพาะโปรตีนที่ได้จากเนื้อวัวเน้นๆ เกือบ 300 กรัมครับ"
+    }
+  }
+]

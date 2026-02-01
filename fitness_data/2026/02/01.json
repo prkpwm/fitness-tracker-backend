@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-01",
-    "last_update": "2026-02-01 16:32:06",
+    "last_update": "2026-02-01 16:32:07",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -71,21 +71,26 @@
         "duration_min": 40.9,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 707
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 857
     },
     "daily_total_stats": {
       "total_intake_calories": 1463,
-      "total_burned_calories": 707,
-      "net_calories": 756,
+      "total_burned_calories": 857,
+      "net_calories": 606,
       "total_protein_g": 129,
       "total_carbs_g": 60,
       "total_fat_g": 72.5,
       "protein_per_kg": 1.51
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (129g)",
-      "weight_loss_status": "Highly Successful",
-      "recommendation": "คุณทำได้ยอดเยี่ยมมากครับ! วันนี้ออกกำลังกายแบบ Cardio ไปถึง 2 รอบ เผาผลาญรวม 707 kcal และทานโปรตีนได้ถึง 129g ทำให้ค่า Net Calories อยู่ที่ 756 kcal เท่านั้น ซึ่งเป็นการสร้าง Calorie Deficit ที่มีประสิทธิภาพสูงมากในการลดไขมันครับ"
+      "muscle_maintenance": "Excellent (129g + Weight Training)",
+      "weight_loss_status": "Highly Successful (Strong Deficit)",
+      "recommendation": "บันทึกการเวทเทรนนิ่ง 30 นาทีเรียบร้อยครับ! วันนี้คุณออกกำลังกายได้หนักแน่นมาก ทั้งคาร์ดิโอ 2 รอบและเวทเทรนนิ่ง เผาผลาญรวม 857 kcal ทำให้ค่า Net Calories เหลือเพียง 606 kcal ซึ่งจะส่งผลดีมากต่อการลดไขมันและรักษาเกล้ามเนื้อครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-01",
-    "last_update": "2026-02-01 14:54:45",
+    "last_update": "2026-02-01 15:47:42",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -64,12 +64,19 @@
         "duration_min": 77.1,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 441
+      "cardio_session_2": {
+        "avg_hr_bpm": 120,
+        "calories_burned": 266,
+        "distance_mi": 2.45,
+        "duration_min": 40.9,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 707
     },
     "daily_total_stats": {
       "total_intake_calories": 1463,
-      "total_burned_calories": 441,
-      "net_calories": 1022,
+      "total_burned_calories": 707,
+      "net_calories": 756,
       "total_protein_g": 129,
       "total_carbs_g": 60,
       "total_fat_g": 72.5,
@@ -78,7 +85,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "Excellent (129g)",
       "weight_loss_status": "Highly Successful",
-      "recommendation": "เพิ่มนมสดไม่ใส่น้ำตาลเรียบร้อยครับ วันนี้โปรตีนของคุณพุ่งขึ้นไปถึง 129g ซึ่งเกินเป้าหมายมาเล็กน้อยในทางที่ดีมากครับ พลังงานรวมยังไม่เกินเป้า 1500 kcal วันนี้ถือว่าเป็นวันที่คุมสารอาหารได้ดีเยี่ยมมากครับ!"
+      "recommendation": "คุณทำได้ยอดเยี่ยมมากครับ! วันนี้ออกกำลังกายแบบ Cardio ไปถึง 2 รอบ เผาผลาญรวม 707 kcal และทานโปรตีนได้ถึง 129g ทำให้ค่า Net Calories อยู่ที่ 756 kcal เท่านั้น ซึ่งเป็นการสร้าง Calorie Deficit ที่มีประสิทธิภาพสูงมากในการลดไขมันครับ"
     }
   }
 ]

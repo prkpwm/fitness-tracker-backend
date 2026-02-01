@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-01",
-    "last_update": "2026-02-01 13:41:41",
+    "last_update": "2026-02-01 14:54:45",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -38,6 +38,22 @@
         "protein_g": 20,
         "carbs_g": 25,
         "fat_g": 20
+      },
+      {
+        "time": "ค่ำ",
+        "item": "เนื้อวัว (จากออมเนื้อ 127g)",
+        "calories": 318,
+        "protein_g": 32,
+        "carbs_g": 0,
+        "fat_g": 20
+      },
+      {
+        "time": "ค่ำ",
+        "item": "นมสดไม่ใส่น้ำตาล (1 กล่อง)",
+        "calories": 120,
+        "protein_g": 8,
+        "carbs_g": 10,
+        "fat_g": 5
       }
     ],
     "exercise_summary": {
@@ -51,18 +67,18 @@
       "total_burned_calories": 441
     },
     "daily_total_stats": {
-      "total_intake_calories": 1025,
+      "total_intake_calories": 1463,
       "total_burned_calories": 441,
-      "net_calories": 584,
-      "total_protein_g": 89,
-      "total_carbs_g": 50,
-      "total_fat_g": 47.5,
-      "protein_per_kg": 1.05
+      "net_calories": 1022,
+      "total_protein_g": 129,
+      "total_carbs_g": 60,
+      "total_fat_g": 72.5,
+      "protein_per_kg": 1.51
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good Progress (89g so far)",
-      "weight_loss_status": "On Track",
-      "recommendation": "เพิ่มลูกชิ้นย่างเข้าไปทำให้โปรตีนสะสมวันนี้ขยับขึ้นมาเป็น 89g แล้วครับ เหลืออีกเพียง 31g ก็จะถึงเป้าหมาย 120g แนะนำมื้อเบาๆ ที่มีโปรตีนสูงอีกนิดก่อนปิดวันครับ"
+      "muscle_maintenance": "Excellent (129g)",
+      "weight_loss_status": "Highly Successful",
+      "recommendation": "เพิ่มนมสดไม่ใส่น้ำตาลเรียบร้อยครับ วันนี้โปรตีนของคุณพุ่งขึ้นไปถึง 129g ซึ่งเกินเป้าหมายมาเล็กน้อยในทางที่ดีมากครับ พลังงานรวมยังไม่เกินเป้า 1500 kcal วันนี้ถือว่าเป็นวันที่คุมสารอาหารได้ดีเยี่ยมมากครับ!"
     }
   }
 ]

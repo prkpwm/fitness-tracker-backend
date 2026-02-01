@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-01",
-    "last_update": "2026-02-01 06:36:11",
+    "last_update": "2026-02-01 13:41:41",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -30,6 +30,14 @@
         "protein_g": 3,
         "carbs_g": 25,
         "fat_g": 1
+      },
+      {
+        "time": "เย็น",
+        "item": "ลูกชิ้นเนื้อย่าง (5 ไม้)",
+        "calories": 375,
+        "protein_g": 20,
+        "carbs_g": 25,
+        "fat_g": 20
       }
     ],
     "exercise_summary": {
@@ -43,18 +51,18 @@
       "total_burned_calories": 441
     },
     "daily_total_stats": {
-      "total_intake_calories": 650,
+      "total_intake_calories": 1025,
       "total_burned_calories": 441,
-      "net_calories": 209,
-      "total_protein_g": 69,
-      "total_carbs_g": 25,
-      "total_fat_g": 27.5,
-      "protein_per_kg": 0.81
+      "net_calories": 584,
+      "total_protein_g": 89,
+      "total_carbs_g": 50,
+      "total_fat_g": 47.5,
+      "protein_per_kg": 1.05
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (69g so far)",
-      "weight_loss_status": "Strong Deficit",
-      "recommendation": "ปรับข้อมูลเป็นเนื้อย่างมันน้อยแล้วครับ ทำให้ไขมันและแคลอรี่รวมลดลงไปได้อีก 133 kcal ช่วยให้ค่า Net Calories ของคุณเหลือเพียง 209 kcal เท่านั้น เยี่ยมมากครับ!"
+      "muscle_maintenance": "Good Progress (89g so far)",
+      "weight_loss_status": "On Track",
+      "recommendation": "เพิ่มลูกชิ้นย่างเข้าไปทำให้โปรตีนสะสมวันนี้ขยับขึ้นมาเป็น 89g แล้วครับ เหลืออีกเพียง 31g ก็จะถึงเป้าหมาย 120g แนะนำมื้อเบาๆ ที่มีโปรตีนสูงอีกนิดก่อนปิดวันครับ"
     }
   }
 ]

@@ -1,0 +1,60 @@
+[
+  {
+    "date": "2026-02-01",
+    "last_update": "2026-02-01 06:35:08",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "สเต็กเนื้อย่าง (265g)",
+        "calories": 663,
+        "protein_g": 66,
+        "carbs_g": 0,
+        "fat_g": 45
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ส้มตำ",
+        "calories": 120,
+        "protein_g": 3,
+        "carbs_g": 25,
+        "fat_g": 1
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 117,
+        "calories_burned": 441,
+        "distance_mi": 5.3,
+        "duration_min": 77.1,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 441
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 783,
+      "total_burned_calories": 441,
+      "net_calories": 342,
+      "total_protein_g": 69,
+      "total_carbs_g": 25,
+      "total_fat_g": 46,
+      "protein_per_kg": 0.81
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "In Progress (69g so far)",
+      "weight_loss_status": "Excellent Deficit",
+      "recommendation": "วันนี้การออกกำลังกายช่วยสร้าง Calorie Deficit ได้ดีมากครับ ตอนนี้ Net Calories อยู่ที่ 342 kcal เท่านั้น อย่าลืมเติมโปรตีนให้ถึงเป้า 120g เพื่อรักษาความแข็งแรงของกล้ามเนื้อนะครับ"
+    }
+  }
+]

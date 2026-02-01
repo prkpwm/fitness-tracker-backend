@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-01",
-    "last_update": "2026-02-01 06:35:08",
+    "last_update": "2026-02-01 06:36:11",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,11 +17,11 @@
     "food_diary": [
       {
         "time": "กลางวัน",
-        "item": "สเต็กเนื้อย่าง (265g)",
-        "calories": 663,
+        "item": "สเต็กเนื้อย่างมันน้อย (265g)",
+        "calories": 530,
         "protein_g": 66,
         "carbs_g": 0,
-        "fat_g": 45
+        "fat_g": 26.5
       },
       {
         "time": "กลางวัน",
@@ -43,18 +43,18 @@
       "total_burned_calories": 441
     },
     "daily_total_stats": {
-      "total_intake_calories": 783,
+      "total_intake_calories": 650,
       "total_burned_calories": 441,
-      "net_calories": 342,
+      "net_calories": 209,
       "total_protein_g": 69,
       "total_carbs_g": 25,
-      "total_fat_g": 46,
+      "total_fat_g": 27.5,
       "protein_per_kg": 0.81
     },
     "ai_evaluation": {
       "muscle_maintenance": "In Progress (69g so far)",
-      "weight_loss_status": "Excellent Deficit",
-      "recommendation": "วันนี้การออกกำลังกายช่วยสร้าง Calorie Deficit ได้ดีมากครับ ตอนนี้ Net Calories อยู่ที่ 342 kcal เท่านั้น อย่าลืมเติมโปรตีนให้ถึงเป้า 120g เพื่อรักษาความแข็งแรงของกล้ามเนื้อนะครับ"
+      "weight_loss_status": "Strong Deficit",
+      "recommendation": "ปรับข้อมูลเป็นเนื้อย่างมันน้อยแล้วครับ ทำให้ไขมันและแคลอรี่รวมลดลงไปได้อีก 133 kcal ช่วยให้ค่า Net Calories ของคุณเหลือเพียง 209 kcal เท่านั้น เยี่ยมมากครับ!"
     }
   }
 ]

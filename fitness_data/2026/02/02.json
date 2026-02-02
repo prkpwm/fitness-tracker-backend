@@ -1,0 +1,60 @@
+[
+  {
+    "date": "2026-02-02",
+    "last_update": "2026-02-02 10:22:35",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "ก๋วยเตี๋ยวเนื้อตุ๋น (1 ชาม)",
+        "calories": 350,
+        "protein_g": 25,
+        "carbs_g": 40,
+        "fat_g": 10
+      },
+      {
+        "time": "กลางวัน",
+        "item": "เนื้อวัวเพิ่มเติม (150g)",
+        "calories": 375,
+        "protein_g": 39,
+        "carbs_g": 0,
+        "fat_g": 24
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 134,
+        "calories_burned": 173,
+        "distance_mi": 1.8,
+        "duration_min": 19.33,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 173
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 725,
+      "total_burned_calories": 173,
+      "net_calories": 552,
+      "total_protein_g": 64,
+      "total_carbs_g": 40,
+      "total_fat_g": 34,
+      "protein_per_kg": 0.75
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Good progress (64g protein)",
+      "weight_loss_status": "On track",
+      "recommendation": "บันทึกก๋วยเตี๋ยวเนื้อตุ๋นและเนื้อวัวเพิ่ม 150 กรัมเรียบร้อยครับ มื้อนี้คุณได้รับโปรตีนคุณภาพสูงเพิ่มขึ้นมาก ช่วยในเรื่องการรักษาโปรตีนเป้าหมาย (120g) ได้ดีครับ ตอนนี้ค่า Net Calories อยู่ที่ 552 kcal ครับ"
+    }
+  }
+]

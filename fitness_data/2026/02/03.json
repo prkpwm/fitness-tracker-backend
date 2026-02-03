@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-03",
-    "last_update": "2026-02-03 13:54:45",
+    "last_update": "2026-02-03 13:57:24",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -38,24 +38,32 @@
         "protein_g": 70,
         "carbs_g": 10,
         "fat_g": 56
+      },
+      {
+        "time": "ของว่าง",
+        "item": "ขนมเปี๊ยะเตาไส้ไข่เค็ม (1 ชิ้น)",
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 22,
+        "fat_g": 6
       }
     ],
     "exercise_summary": {
       "total_burned_calories": 0
     },
     "daily_total_stats": {
-      "total_intake_calories": 1415,
+      "total_intake_calories": 1565,
       "total_burned_calories": 0,
-      "net_calories": 1415,
-      "total_protein_g": 104,
-      "total_carbs_g": 56,
-      "total_fat_g": 82.5,
-      "protein_per_kg": 1.22
+      "net_calories": 1565,
+      "total_protein_g": 107,
+      "total_carbs_g": 78,
+      "total_fat_g": 88.5,
+      "protein_per_kg": 1.26
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent progress (104g protein)",
-      "weight_loss_status": "On track (Under 1500 kcal goal)",
-      "recommendation": "จัดเต็มมื้อเย็นด้วยสุกี้ยากี้หมู 350 กรัม ทำให้วันนี้ได้รับโปรตีนไปแล้วถึง 104 กรัม ใกล้เคียงเป้าหมาย 120 กรัมมากครับ แคลอรี่รวมยังอยู่ในเกณฑ์ควบคุมที่ 1,415 kcal ครับ"
+      "muscle_maintenance": "Excellent progress (107g protein)",
+      "weight_loss_status": "Slightly over calorie goal",
+      "recommendation": "บันทึกขนมเปี๊ยะเตาไส้ไข่เค็มเรียบร้อยครับ ตอนนี้แคลอรี่รวมอยู่ที่ 1,565 kcal ซึ่งเกินเป้าหมาย 1,500 kcal มาเล็กน้อย แต่โปรตีนทำได้ดีมากครับ (107g) หากคืนนี้มีการขยับร่างกายเพิ่มอีกนิดจะช่วยให้กลับมาอยู่ในเกณฑ์เป้าหมายได้สมบูรณ์ครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-02",
-    "last_update": "2026-02-02 10:22:35",
+    "last_update": "2026-02-03 02:29:42",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -30,6 +30,30 @@
         "protein_g": 39,
         "carbs_g": 0,
         "fat_g": 24
+      },
+      {
+        "time": "เย็น",
+        "item": "ไก่นึ่ง (200g)",
+        "calories": 330,
+        "protein_g": 50,
+        "carbs_g": 0,
+        "fat_g": 12
+      },
+      {
+        "time": "เย็น",
+        "item": "ข้าวเหนียว (1 ห่อ)",
+        "calories": 230,
+        "protein_g": 4.5,
+        "carbs_g": 50,
+        "fat_g": 0.5
+      },
+      {
+        "time": "ค่ำ",
+        "item": "เวย์โปรตีน (1 ช้อนตวง)",
+        "calories": 120,
+        "protein_g": 25,
+        "carbs_g": 2,
+        "fat_g": 1
       }
     ],
     "exercise_summary": {
@@ -43,18 +67,18 @@
       "total_burned_calories": 173
     },
     "daily_total_stats": {
-      "total_intake_calories": 725,
+      "total_intake_calories": 1405,
       "total_burned_calories": 173,
-      "net_calories": 552,
-      "total_protein_g": 64,
-      "total_carbs_g": 40,
-      "total_fat_g": 34,
-      "protein_per_kg": 0.75
+      "net_calories": 1232,
+      "total_protein_g": 143.5,
+      "total_carbs_g": 92,
+      "total_fat_g": 47.5,
+      "protein_per_kg": 1.69
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good progress (64g protein)",
-      "weight_loss_status": "On track",
-      "recommendation": "บันทึกก๋วยเตี๋ยวเนื้อตุ๋นและเนื้อวัวเพิ่ม 150 กรัมเรียบร้อยครับ มื้อนี้คุณได้รับโปรตีนคุณภาพสูงเพิ่มขึ้นมาก ช่วยในเรื่องการรักษาโปรตีนเป้าหมาย (120g) ได้ดีครับ ตอนนี้ค่า Net Calories อยู่ที่ 552 kcal ครับ"
+      "muscle_maintenance": "Excellent (143.5g protein - Exceeded target)",
+      "weight_loss_status": "Successful (Calorie intake within limit)",
+      "recommendation": "เมื่อวานคุณทำได้ดีมากครับ! โปรตีนรวมสูงถึง 143.5g ซึ่งเกินเป้าหมาย 120g ช่วยรักษาและเสริมสร้างกล้ามเนื้อได้ดีมาก แคลอรี่รวมอยู่ที่ 1,405 kcal ซึ่งยังอยู่ในเกณฑ์ควบคุมสำหรับการลดน้ำหนักครับ"
     }
   }
 ]

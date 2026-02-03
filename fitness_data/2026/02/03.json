@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-03",
-    "last_update": "2026-02-03 15:19:11",
+    "last_update": "2026-02-03 15:20:37",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -56,21 +56,26 @@
         "duration_min": 68,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 427
+      "strength_training": {
+        "burned_calories": 150,
+        "duration_min": 30,
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 577
     },
     "daily_total_stats": {
       "total_intake_calories": 1565,
-      "total_burned_calories": 427,
-      "net_calories": 1138,
+      "total_burned_calories": 577,
+      "net_calories": 988,
       "total_protein_g": 107,
       "total_carbs_g": 78,
       "total_fat_g": 88.5,
       "protein_per_kg": 1.26
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (107g protein)",
-      "weight_loss_status": "Success (Net calories below 1500)",
-      "recommendation": "การวิ่งช่วยเผาผลาญไปได้ถึง 427 kcal ทำให้ค่า Net Calories ของคุณเหลือเพียง 1,138 kcal ซึ่งอยู่ในเกณฑ์ทำน้ำหนักลดได้ดีมากครับ แม้จะทานขนมเพิ่มแต่การออกกำลังกายช่วยชดเชยได้ดีเยี่ยมครับ"
+      "muscle_maintenance": "Excellent (107g protein + Weight Training)",
+      "weight_loss_status": "Highly Successful (Net calories \u003c 1000)",
+      "recommendation": "วันนี้วินัยดีเยี่ยมมากครับ ทั้งวิ่งและเวทเทรนนิ่ง ทำให้ Net Calories ลดลงมาเหลือเพียง 988 kcal ซึ่งส่งผลดีต่อการลดไขมันและรักษาภาวะกล้ามเนื้อได้ดีมากครับ"
     }
   }
 ]

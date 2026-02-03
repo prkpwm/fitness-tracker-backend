@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-03",
-    "last_update": "2026-02-03 13:57:24",
+    "last_update": "2026-02-03 15:19:11",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -49,21 +49,28 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_hr_bpm": 121,
+        "burned_calories": 427,
+        "distance_mi": 5.03,
+        "duration_min": 68,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 427
     },
     "daily_total_stats": {
       "total_intake_calories": 1565,
-      "total_burned_calories": 0,
-      "net_calories": 1565,
+      "total_burned_calories": 427,
+      "net_calories": 1138,
       "total_protein_g": 107,
       "total_carbs_g": 78,
       "total_fat_g": 88.5,
       "protein_per_kg": 1.26
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent progress (107g protein)",
-      "weight_loss_status": "Slightly over calorie goal",
-      "recommendation": "บันทึกขนมเปี๊ยะเตาไส้ไข่เค็มเรียบร้อยครับ ตอนนี้แคลอรี่รวมอยู่ที่ 1,565 kcal ซึ่งเกินเป้าหมาย 1,500 kcal มาเล็กน้อย แต่โปรตีนทำได้ดีมากครับ (107g) หากคืนนี้มีการขยับร่างกายเพิ่มอีกนิดจะช่วยให้กลับมาอยู่ในเกณฑ์เป้าหมายได้สมบูรณ์ครับ"
+      "muscle_maintenance": "Excellent (107g protein)",
+      "weight_loss_status": "Success (Net calories below 1500)",
+      "recommendation": "การวิ่งช่วยเผาผลาญไปได้ถึง 427 kcal ทำให้ค่า Net Calories ของคุณเหลือเพียง 1,138 kcal ซึ่งอยู่ในเกณฑ์ทำน้ำหนักลดได้ดีมากครับ แม้จะทานขนมเพิ่มแต่การออกกำลังกายช่วยชดเชยได้ดีเยี่ยมครับ"
     }
   }
 ]

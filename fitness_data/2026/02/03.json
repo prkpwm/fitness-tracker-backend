@@ -1,0 +1,61 @@
+[
+  {
+    "date": "2026-02-03",
+    "last_update": "2026-02-03 13:54:45",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "เนื้อผัดน้ำมันหอย (เนื้อวัว 120g)",
+        "calories": 380,
+        "protein_g": 30,
+        "carbs_g": 4,
+        "fat_g": 26
+      },
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวเปล่า (150g)",
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 42,
+        "fat_g": 0.5
+      },
+      {
+        "time": "เย็น",
+        "item": "สุกี้ยากี้เนื้อหมู (เนื้อหมู 350g)",
+        "calories": 840,
+        "protein_g": 70,
+        "carbs_g": 10,
+        "fat_g": 56
+      }
+    ],
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 1415,
+      "total_burned_calories": 0,
+      "net_calories": 1415,
+      "total_protein_g": 104,
+      "total_carbs_g": 56,
+      "total_fat_g": 82.5,
+      "protein_per_kg": 1.22
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Excellent progress (104g protein)",
+      "weight_loss_status": "On track (Under 1500 kcal goal)",
+      "recommendation": "จัดเต็มมื้อเย็นด้วยสุกี้ยากี้หมู 350 กรัม ทำให้วันนี้ได้รับโปรตีนไปแล้วถึง 104 กรัม ใกล้เคียงเป้าหมาย 120 กรัมมากครับ แคลอรี่รวมยังอยู่ในเกณฑ์ควบคุมที่ 1,415 kcal ครับ"
+    }
+  }
+]

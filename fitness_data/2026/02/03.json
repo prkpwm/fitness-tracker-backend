@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-03",
-    "last_update": "2026-02-03 15:20:37",
+    "last_update": "2026-02-03 15:21:37",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -51,14 +51,15 @@
     "exercise_summary": {
       "cardio_session_1": {
         "avg_hr_bpm": 121,
-        "burned_calories": 427,
+        "calories_burned": 427,
         "distance_mi": 5.03,
         "duration_min": 68,
         "type": "Treadmill Running"
       },
       "strength_training": {
-        "burned_calories": 150,
+        "calories_burned": 150,
         "duration_min": 30,
+        "target": "Full Body",
         "type": "Weight Training"
       },
       "total_burned_calories": 577
@@ -73,9 +74,9 @@
       "protein_per_kg": 1.26
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (107g protein + Weight Training)",
-      "weight_loss_status": "Highly Successful (Net calories \u003c 1000)",
-      "recommendation": "วันนี้วินัยดีเยี่ยมมากครับ ทั้งวิ่งและเวทเทรนนิ่ง ทำให้ Net Calories ลดลงมาเหลือเพียง 988 kcal ซึ่งส่งผลดีต่อการลดไขมันและรักษาภาวะกล้ามเนื้อได้ดีมากครับ"
+      "muscle_maintenance": "Adequate (107g protein + Resistance training)",
+      "weight_loss_status": "Excellent (Net calories 988 is below 1500 goal)",
+      "recommendation": "ได้รับโปรตีนใกล้เคียงเป้าหมาย (107/120g) และมีการออกกำลังกายที่เข้มข้นทั้งคาร์ดิโอและเวท ช่วยให้ค่า Net Calories อยู่ในเกณฑ์ลดน้ำหนักได้ดีมากครับ"
     }
   }
 ]

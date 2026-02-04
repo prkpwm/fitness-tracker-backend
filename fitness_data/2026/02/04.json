@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-04",
-    "last_update": "2026-02-04 16:07:13",
+    "last_update": "2026-02-04 16:08:12",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -51,14 +51,15 @@
     "exercise_summary": {
       "cardio_session_1": {
         "avg_hr_bpm": 121,
-        "burned_calories": 479,
+        "calories_burned": 479,
         "distance_mi": 5.9,
-        "duration": "1:17:24",
+        "duration_min": 77,
         "type": "Indoor Running"
       },
       "strength_training": {
-        "burned_calories": 150,
+        "calories_burned": 150,
         "duration_min": 30,
+        "target": "Full Body/General",
         "type": "Weight Training"
       },
       "total_burned_calories": 629
@@ -73,9 +74,9 @@
       "protein_per_kg": 2.01
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (Protein 171g is optimal for recovery)",
-      "weight_loss_status": "On Track (Net Calories 1,163 kcal is below 1,500 goal)",
-      "recommendation": "ยอดเยี่ยมมากครับ! การออกกำลังกายทั้งคาร์ดิโอ (479 kcal) และเวทเทรนนิ่ง (150 kcal) ช่วยดึงแคลอรี่สุทธิลงมาเหลือเพียง 1,163 kcal ซึ่งอยู่ในเกณฑ์ลดน้ำหนักที่ได้ผลดีมาก แถมยังได้โปรตีนสูงถึง 171g ช่วยซ่อมแซมกล้ามเนื้อหลังออกกำลังกายได้อย่างเต็มที่ครับ"
+      "muscle_maintenance": "Excellent (171g protein is well above the 120g target)",
+      "weight_loss_status": "Deficit Achieved (Net 1,163 kcal vs 1,500 goal)",
+      "recommendation": "อัปเดตโครงสร้าง JSON ตาม Schema ใหม่เรียบร้อยครับ วันนี้ภาพรวมดีมาก แม้ Intake จะแตะ 1,792 kcal แต่การออกกำลังกายช่วยดึง Net Calories ลงมาอยู่ในเกณฑ์ลดน้ำหนักที่ปลอดภัย และโปรตีนสูงถึง 2.0g ต่อน้ำหนักตัว (kg) ซึ่งเหมาะสมมากสำหรับการรักษามวลกล้ามเนื้อช่วงลดไขมันครับ"
     }
   }
 ]

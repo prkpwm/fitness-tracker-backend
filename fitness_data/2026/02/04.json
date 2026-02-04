@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-04",
-    "last_update": "2026-02-04 11:29:09",
+    "last_update": "2026-02-04 16:07:13",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -49,21 +49,33 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_hr_bpm": 121,
+        "burned_calories": 479,
+        "distance_mi": 5.9,
+        "duration": "1:17:24",
+        "type": "Indoor Running"
+      },
+      "strength_training": {
+        "burned_calories": 150,
+        "duration_min": 30,
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 629
     },
     "daily_total_stats": {
       "total_intake_calories": 1792,
-      "total_burned_calories": 0,
-      "net_calories": 1792,
+      "total_burned_calories": 629,
+      "net_calories": 1163,
       "total_protein_g": 171,
       "total_carbs_g": 22,
       "total_fat_g": 110.6,
       "protein_per_kg": 2.01
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (171g protein - High quality for muscle)",
-      "weight_loss_status": "Slight Surplus (Total 1,792 kcal)",
-      "recommendation": "ปรับสัดส่วนมื้อกลางวันเป็น เนื้อวัว 185g และเนื้อหมู 150g เรียบร้อยครับ ทำให้โปรตีนรวมพุ่งสูงถึง 171g (2g/kg) ซึ่งดีมากต่อกล้ามเนื้อ แต่แคลอรี่รวมขยับขึ้นมาที่ 1,792 kcal หากวันนี้ออกกำลังกายเพิ่มสักนิดจะช่วยดึงค่า Net Calories ให้อยู่ในเกณฑ์ลดน้ำหนักได้ดีขึ้นครับ"
+      "muscle_maintenance": "Excellent (Protein 171g is optimal for recovery)",
+      "weight_loss_status": "On Track (Net Calories 1,163 kcal is below 1,500 goal)",
+      "recommendation": "ยอดเยี่ยมมากครับ! การออกกำลังกายทั้งคาร์ดิโอ (479 kcal) และเวทเทรนนิ่ง (150 kcal) ช่วยดึงแคลอรี่สุทธิลงมาเหลือเพียง 1,163 kcal ซึ่งอยู่ในเกณฑ์ลดน้ำหนักที่ได้ผลดีมาก แถมยังได้โปรตีนสูงถึง 171g ช่วยซ่อมแซมกล้ามเนื้อหลังออกกำลังกายได้อย่างเต็มที่ครับ"
     }
   }
 ]

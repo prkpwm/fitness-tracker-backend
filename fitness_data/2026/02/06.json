@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-02-06",
+    "last_update": "2026-02-06 14:39:27",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เย็น",
+        "item": "ขนมจีน (2 ถ้วย)",
+        "calories": 300,
+        "protein_g": 6,
+        "carbs_g": 64,
+        "fat_g": 1
+      },
+      {
+        "time": "ค่ำ",
+        "item": "แกงกะหรี่ญี่ปุ่น (เนื้อหมู 550g - ไม่ใส่มันเพิ่ม)",
+        "calories": 1150,
+        "protein_g": 110,
+        "carbs_g": 25,
+        "fat_g": 68
+      },
+      {
+        "time": "ค่ำ",
+        "item": "ข้าวเปล่า (1 จาน)",
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 42,
+        "fat_g": 0.5
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 129,
+        "calories_burned": 671,
+        "distance_mi": 7.01,
+        "duration_min": 96,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 671
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 1645,
+      "total_burned_calories": 671,
+      "net_calories": 974,
+      "total_protein_g": 120,
+      "total_carbs_g": 131,
+      "total_fat_g": 69.5,
+      "protein_per_kg": 1.41
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Excellent (Protein 120g target met)",
+      "weight_loss_status": "Highly Efficient (Net calories under 1,000)",
+      "recommendation": "รับทราบครับ ปรับลดแคลอรี่และคาร์โบไฮเดรตลงเนื่องจากไม่ใส่มันฝรั่งในแกงกะหรี่ ทำให้ค่า Net Calories ของวันนี้ลดลงเหลือ 974 kcal ซึ่งถือเป็นตัวเลขที่สวยมากสำหรับการลดน้ำหนักและสร้างกล้ามเนื้อไปพร้อมกันครับ"
+    }
+  }
+]

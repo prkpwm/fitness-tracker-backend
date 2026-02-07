@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-07",
-    "last_update": "2026-02-07 17:59:47",
+    "last_update": "2026-02-07 18:00:49",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -38,6 +38,14 @@
         "protein_g": 45,
         "carbs_g": 0,
         "fat_g": 7.5
+      },
+      {
+        "time": "ของว่าง",
+        "item": "ลูกชิ้นปลาระเบิด (4 ไม้)",
+        "calories": 280,
+        "protein_g": 12,
+        "carbs_g": 24,
+        "fat_g": 16
       }
     ],
     "exercise_summary": {
@@ -56,18 +64,18 @@
       "total_burned_calories": 691
     },
     "daily_total_stats": {
-      "total_intake_calories": 1055,
+      "total_intake_calories": 1335,
       "total_burned_calories": 691,
-      "net_calories": 364,
-      "total_protein_g": 133,
-      "total_carbs_g": 43,
-      "total_fat_g": 37.5,
-      "protein_per_kg": 1.56
+      "net_calories": 644,
+      "total_protein_g": 145,
+      "total_carbs_g": 67,
+      "total_fat_g": 53.5,
+      "protein_per_kg": 1.71
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Perfect (Exceeded 120g target)",
-      "weight_loss_status": "Highly Efficient",
-      "recommendation": "ยอดเยี่ยมมากครับ! สรุปยอดของเมื่อวาน (7 ก.พ.) คุณทำโปรตีนได้ถึง 133 กรัม ซึ่งเกินเป้าหมายที่ตั้งไว้ ช่วยซ่อมแซมร่างกายจากการวิ่งยาวและการเวทเทรนนิ่งได้เต็มที่ แถม Net Calories ยังต่ำมาก ถือเป็นวันที่สมบูรณ์แบบมากครับ"
+      "muscle_maintenance": "Excellent (145g Protein)",
+      "weight_loss_status": "Strong Deficit",
+      "recommendation": "อัปเดตข้อมูลของเมื่อวาน (7 ก.พ.) เรียบร้อยครับ การเพิ่มลูกชิ้นปลาทำให้โปรตีนรวมพุ่งไปถึง 145 กรัม ถือว่าสูงมากและดีต่อกล้ามเนื้อสุดๆ แม้แคลอรี่จะเพิ่มขึ้นมานิดหน่อยแต่ Net Calories ยังอยู่ในระดับที่ลดน้ำหนักได้ดีเยี่ยมครับ"
     }
   }
 ]

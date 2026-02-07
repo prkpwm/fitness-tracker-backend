@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-07",
-    "last_update": "2026-02-07 15:35:10",
+    "last_update": "2026-02-07 17:59:47",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -30,6 +30,14 @@
         "protein_g": 0,
         "carbs_g": 35,
         "fat_g": 0
+      },
+      {
+        "time": "ค่ำ",
+        "item": "ไก่ทอดไร้น้ำมัน (150g)",
+        "calories": 255,
+        "protein_g": 45,
+        "carbs_g": 0,
+        "fat_g": 7.5
       }
     ],
     "exercise_summary": {
@@ -40,21 +48,26 @@
         "duration_min": 97,
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 541
+      "strength_training": {
+        "calories_burned": 150,
+        "duration_min": 30,
+        "type": "Weight Training"
+      },
+      "total_burned_calories": 691
     },
     "daily_total_stats": {
-      "total_intake_calories": 800,
-      "total_burned_calories": 541,
-      "net_calories": 259,
-      "total_protein_g": 88,
+      "total_intake_calories": 1055,
+      "total_burned_calories": 691,
+      "net_calories": 364,
+      "total_protein_g": 133,
       "total_carbs_g": 43,
-      "total_fat_g": 30,
-      "protein_per_kg": 1.04
+      "total_fat_g": 37.5,
+      "protein_per_kg": 1.56
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Good progress (88g/120g)",
-      "weight_loss_status": "Large Deficit (Net calories 259 kcal)",
-      "recommendation": "เกาเหลาหมูตุ๋นมื้อนี้ให้โปรตีนสูงมากครับ ช่วยให้ยอดรวมตอนนี้อยู่ที่ 88g แล้ว อีกเพียง 32g ก็จะถึงเป้าหมาย 120g ครับ แนะนำให้ทานโปรตีนเพิ่มอีกนิดในมื้อถัดไปเพื่อซ่อมแซมกล้ามเนื้อจากการวิ่ง PR 7.22 ไมล์ของวันนี้ครับ"
+      "muscle_maintenance": "Perfect (Exceeded 120g target)",
+      "weight_loss_status": "Highly Efficient",
+      "recommendation": "ยอดเยี่ยมมากครับ! สรุปยอดของเมื่อวาน (7 ก.พ.) คุณทำโปรตีนได้ถึง 133 กรัม ซึ่งเกินเป้าหมายที่ตั้งไว้ ช่วยซ่อมแซมร่างกายจากการวิ่งยาวและการเวทเทรนนิ่งได้เต็มที่ แถม Net Calories ยังต่ำมาก ถือเป็นวันที่สมบูรณ์แบบมากครับ"
     }
   }
 ]

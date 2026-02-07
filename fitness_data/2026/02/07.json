@@ -1,0 +1,60 @@
+[
+  {
+    "date": "2026-02-07",
+    "last_update": "2026-02-07 15:35:10",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "เย็น",
+        "item": "เกาเหลาหมูตุ๋น (550g)",
+        "calories": 660,
+        "protein_g": 88,
+        "carbs_g": 8,
+        "fat_g": 30
+      },
+      {
+        "time": "เย็น",
+        "item": "วุ้นเส้นต้นสน (ถุงเล็ก 40g)",
+        "calories": 140,
+        "protein_g": 0,
+        "carbs_g": 35,
+        "fat_g": 0
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 118,
+        "calories_burned": 541,
+        "distance_mi": 7.22,
+        "duration_min": 97,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 541
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 800,
+      "total_burned_calories": 541,
+      "net_calories": 259,
+      "total_protein_g": 88,
+      "total_carbs_g": 43,
+      "total_fat_g": 30,
+      "protein_per_kg": 1.04
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Good progress (88g/120g)",
+      "weight_loss_status": "Large Deficit (Net calories 259 kcal)",
+      "recommendation": "เกาเหลาหมูตุ๋นมื้อนี้ให้โปรตีนสูงมากครับ ช่วยให้ยอดรวมตอนนี้อยู่ที่ 88g แล้ว อีกเพียง 32g ก็จะถึงเป้าหมาย 120g ครับ แนะนำให้ทานโปรตีนเพิ่มอีกนิดในมื้อถัดไปเพื่อซ่อมแซมกล้ามเนื้อจากการวิ่ง PR 7.22 ไมล์ของวันนี้ครับ"
+    }
+  }
+]

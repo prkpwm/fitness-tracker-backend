@@ -1,0 +1,60 @@
+[
+  {
+    "date": "2026-02-08",
+    "last_update": "2026-02-08 10:15:11",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวผัดหมู (เนื้อหมู 283g)",
+        "calories": 850,
+        "protein_g": 62,
+        "carbs_g": 65,
+        "fat_g": 38
+      },
+      {
+        "time": "ของว่าง",
+        "item": "ไอศกรีมวานิลลาช็อกโกแลต",
+        "calories": 200,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 12
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 109,
+        "calories_burned": 406,
+        "distance_mi": 5.63,
+        "duration_min": 82,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 406
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 1050,
+      "total_burned_calories": 406,
+      "net_calories": 644,
+      "total_protein_g": 64,
+      "total_carbs_g": 86,
+      "total_fat_g": 50,
+      "protein_per_kg": 0.75
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Progressing (64g/120g)",
+      "weight_loss_status": "Safe Deficit",
+      "recommendation": "เพิ่มไอศกรีมวานิลลาเรียบร้อยครับ (200 kcal) ตอนนี้พลังงานรวมอยู่ที่ 1,050 kcal ยังอยู่ในเกณฑ์ที่ดีมากครับ แนะนำให้มื้อเย็นเน้นโปรตีนอีกสัก 56 กรัมเพื่อให้ถึงเป้าหมาย 120 กรัมของวันนี้นะครับ"
+    }
+  }
+]

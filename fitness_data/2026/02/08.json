@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-08",
-    "last_update": "2026-02-08 16:28:35",
+    "last_update": "2026-02-08 16:30:06",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,11 +17,11 @@
     "food_diary": [
       {
         "time": "กลางวัน",
-        "item": "ข้าวผัดหมู (เนื้อหมู 283g)",
-        "calories": 850,
-        "protein_g": 62,
-        "carbs_g": 65,
-        "fat_g": 38
+        "item": "ข้าวผัดหมู (หมู 283g + ไข่ 3 ฟอง)",
+        "calories": 1060,
+        "protein_g": 83,
+        "carbs_g": 67,
+        "fat_g": 53
       },
       {
         "time": "ของว่าง",
@@ -51,18 +51,18 @@
       "total_burned_calories": 406
     },
     "daily_total_stats": {
-      "total_intake_calories": 1410,
+      "total_intake_calories": 1620,
       "total_burned_calories": 406,
-      "net_calories": 1004,
-      "total_protein_g": 106,
-      "total_carbs_g": 92,
-      "total_fat_g": 68,
-      "protein_per_kg": 1.25
+      "net_calories": 1214,
+      "total_protein_g": 127,
+      "total_carbs_g": 94,
+      "total_fat_g": 83,
+      "protein_per_kg": 1.49
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Almost There (106g/120g)",
-      "weight_loss_status": "Excellent Deficit",
-      "recommendation": "บันทึกหมูนึ่งมะนาว 6 ไม้เรียบร้อยครับ! มื้อนี้ช่วยดึงค่าโปรตีนรวมขึ้นมาเป็น 106 กรัมแล้ว ใกล้ถึงเป้าหมาย 120 กรัมมากครับ ขาดอีกเพียง 14 กรัมเท่านั้น ส่วนพลังงานรวมยังอยู่ที่ 1,410 kcal ซึ่งคุมได้ดีมากเมื่อเทียบกับการวิ่งไป 406 kcal ในวันนี้ครับ"
+      "muscle_maintenance": "Goal Reached! (127g/120g)",
+      "weight_loss_status": "Perfect Deficit",
+      "recommendation": "อัปเดตข้าวผัดหมูใส่ไข่ 3 ฟองเรียบร้อยครับ! การเพิ่มไข่ทำให้คุณบรรลุเป้าหมายโปรตีนประจำวันแล้ว (ทะลุเป้ามาที่ 127 กรัม) แม้แคลอรี่รวมจะขยับขึ้นเป็น 1,620 kcal แต่เมื่อหักล้างกับที่ออกกำลังกายไป Net Calories ยังอยู่ที่ 1,214 kcal ซึ่งถือว่ายอดเยี่ยมมากสำหรับการลดน้ำหนักและสร้างกล้ามเนื้อครับ"
     }
   }
 ]

@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-02-09",
+    "last_update": "2026-02-09 12:56:07",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน/เย็น",
+        "item": "ไก่ทอดไร้น้ำมัน (120g)",
+        "calories": 204,
+        "protein_g": 36,
+        "carbs_g": 0,
+        "fat_g": 6
+      },
+      {
+        "time": "เย็น",
+        "item": "ข้าวเหนียว (100g)",
+        "calories": 230,
+        "protein_g": 4.5,
+        "carbs_g": 50,
+        "fat_g": 0.5
+      },
+      {
+        "time": "เย็น",
+        "item": "แกงไก่ใส่หน่อไม้ดอง",
+        "calories": 220,
+        "protein_g": 18,
+        "carbs_g": 10,
+        "fat_g": 12
+      },
+      {
+        "time": "ค่ำ",
+        "item": "ซาลาเปาหมูสับ (1 ลูก)",
+        "calories": 202,
+        "protein_g": 8,
+        "carbs_g": 28,
+        "fat_g": 6
+      },
+      {
+        "time": "ของว่าง",
+        "item": "ชูครีม (3 ชิ้น)",
+        "calories": 375,
+        "protein_g": 9,
+        "carbs_g": 36,
+        "fat_g": 21
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "avg_hr_bpm": 101,
+        "calories_burned": 247,
+        "distance_mi": 3.59,
+        "duration_min": 59,
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 247
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 1231,
+      "total_burned_calories": 247,
+      "net_calories": 984,
+      "total_protein_g": 75.5,
+      "total_carbs_g": 124,
+      "total_fat_g": 45.5,
+      "protein_per_kg": 0.89
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "In Progress (75.5g/120g)",
+      "weight_loss_status": "Good Deficit",
+      "recommendation": "อัปเดตชูครีมเป็น 3 ชิ้นเรียบร้อยครับ! พลังงานรวมยังไม่เกินเป้าหมาย 1,500 kcal แม้จะทานขนมเพิ่ม แต่ถ้าเย็นนี้มีโอกาส ลองเสริมโปรตีนอีกสักนิดเพื่อให้ใกล้เคียงเป้าหมาย 120 กรัมนะครับ"
+    }
+  }
+]

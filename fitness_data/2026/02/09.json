@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-09",
-    "last_update": "2026-02-09 12:56:07",
+    "last_update": "2026-02-10 14:05:46",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -54,6 +54,14 @@
         "protein_g": 9,
         "carbs_g": 36,
         "fat_g": 21
+      },
+      {
+        "time": "เพิ่มเติม",
+        "item": "เวย์โปรตีน (1 ช้อนตวง)",
+        "calories": 120,
+        "protein_g": 25,
+        "carbs_g": 2,
+        "fat_g": 1
       }
     ],
     "exercise_summary": {
@@ -67,18 +75,18 @@
       "total_burned_calories": 247
     },
     "daily_total_stats": {
-      "total_intake_calories": 1231,
+      "total_intake_calories": 1351,
       "total_burned_calories": 247,
-      "net_calories": 984,
-      "total_protein_g": 75.5,
-      "total_carbs_g": 124,
-      "total_fat_g": 45.5,
-      "protein_per_kg": 0.89
+      "net_calories": 1104,
+      "total_protein_g": 100.5,
+      "total_carbs_g": 126,
+      "total_fat_g": 46.5,
+      "protein_per_kg": 1.18
     },
     "ai_evaluation": {
-      "muscle_maintenance": "In Progress (75.5g/120g)",
-      "weight_loss_status": "Good Deficit",
-      "recommendation": "อัปเดตชูครีมเป็น 3 ชิ้นเรียบร้อยครับ! พลังงานรวมยังไม่เกินเป้าหมาย 1,500 kcal แม้จะทานขนมเพิ่ม แต่ถ้าเย็นนี้มีโอกาส ลองเสริมโปรตีนอีกสักนิดเพื่อให้ใกล้เคียงเป้าหมาย 120 กรัมนะครับ"
+      "muscle_maintenance": "Good (100.5g/120g)",
+      "weight_loss_status": "Perfect Deficit",
+      "recommendation": "เพิ่มเวย์โปรตีนให้เมื่อวานแล้วครับ! ทำให้โปรตีนรวมพุ่งขึ้นมาถึง 100.5 กรัม (1.18g ต่อนน.ตัวหนึ่งกิโลกรัม) ซึ่งใกล้เคียงเป้าหมาย 120 กรัมมาก ช่วยรักษาและสร้างกล้ามเนื้อได้ดีเยี่ยมในขณะที่ยังอยู่ในช่วงลดน้ำหนักครับ"
     }
   }
 ]

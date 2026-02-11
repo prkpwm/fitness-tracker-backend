@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-11",
-    "last_update": "2026-02-11 15:05:53",
+    "last_update": "2026-02-11 15:08:01",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -25,11 +25,11 @@
       },
       {
         "time": "มื้อเย็น",
-        "item": "ผัดฉ่าหมู + ไก่ทอดกระเทียม + ข้าวเปล่า",
-        "calories": 995,
-        "protein_g": 64,
-        "carbs_g": 57,
-        "fat_g": 56.5
+        "item": "ข้าวราดผัดฉ่าหมู + ไก่ทอดกระเทียม",
+        "calories": 850,
+        "protein_g": 55,
+        "carbs_g": 55,
+        "fat_g": 48
       },
       {
         "time": "ของว่าง",
@@ -47,21 +47,26 @@
         "duration": "1:21:37",
         "type": "Treadmill Running"
       },
-      "total_burned_calories": 509
+      "strength_training": {
+        "activity": "Weight Training",
+        "calories_burned": 150,
+        "duration_min": 30
+      },
+      "total_burned_calories": 659
     },
     "daily_total_stats": {
-      "total_intake_calories": 1977,
-      "total_burned_calories": 509,
-      "net_calories": 1468,
-      "total_protein_g": 137,
-      "total_carbs_g": 88,
-      "total_fat_g": 118.9,
+      "total_intake_calories": 1832,
+      "total_burned_calories": 659,
+      "net_calories": 1173,
+      "total_protein_g": 128,
+      "total_carbs_g": 86,
+      "total_fat_g": 110.4,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (137g/120g)",
-      "weight_loss_status": "On Track (Net \u003c 1500)",
-      "recommendation": "เพิ่มไอศกรีมวานิลลาให้แล้วครับ แม้จะมีของหวานแต่ Net Calories รวม (1,468 kcal) ยังไม่เกินเป้าหมาย 1,500 kcal ของคุณ และโปรตีนวันนี้สูงมาก ช่วยรักษาความคมชัดของกล้ามเนื้อได้ดีเยี่ยมครับ"
+      "muscle_maintenance": "Excellent (128g/120g)",
+      "weight_loss_status": "Highly Successful (Net \u003c 1200)",
+      "recommendation": "เพิ่มเวทเทรนนิ่ง 30 นาทีให้แล้วครับ วันนี้คุณออกกำลังกายได้ยอดเยี่ยมมาก ทั้งคาร์ดิโอและเวท ทำให้ค่า Net Calories วันนี้ต่ำกว่าเป้าหมายมาก (1,173 kcal) ส่งผลดีต่อการลดไขมันและสร้างกล้ามเนื้ออย่างยิ่งครับ"
     }
   }
 ]

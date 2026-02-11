@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2026-02-11",
+    "last_update": "2026-02-11 15:05:53",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 0
+    },
+    "food_diary": [
+      {
+        "time": "มื้อเที่ยง",
+        "item": "เกาเหลาต้มยำหมูพิเศษ + หมู 180g",
+        "calories": 782,
+        "protein_g": 71,
+        "carbs_g": 10,
+        "fat_g": 50.4
+      },
+      {
+        "time": "มื้อเย็น",
+        "item": "ผัดฉ่าหมู + ไก่ทอดกระเทียม + ข้าวเปล่า",
+        "calories": 995,
+        "protein_g": 64,
+        "carbs_g": 57,
+        "fat_g": 56.5
+      },
+      {
+        "time": "ของว่าง",
+        "item": "ไอศกรีมวานิลลา",
+        "calories": 200,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 12
+      }
+    ],
+    "exercise_summary": {
+      "cardio_session_1": {
+        "calories_burned": 509,
+        "distance_mi": 5.84,
+        "duration": "1:21:37",
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 509
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 1977,
+      "total_burned_calories": 509,
+      "net_calories": 1468,
+      "total_protein_g": 137,
+      "total_carbs_g": 88,
+      "total_fat_g": 118.9,
+      "protein_per_kg": 0
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Excellent (137g/120g)",
+      "weight_loss_status": "On Track (Net \u003c 1500)",
+      "recommendation": "เพิ่มไอศกรีมวานิลลาให้แล้วครับ แม้จะมีของหวานแต่ Net Calories รวม (1,468 kcal) ยังไม่เกินเป้าหมาย 1,500 kcal ของคุณ และโปรตีนวันนี้สูงมาก ช่วยรักษาความคมชัดของกล้ามเนื้อได้ดีเยี่ยมครับ"
+    }
+  }
+]

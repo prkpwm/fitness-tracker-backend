@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-12",
-    "last_update": "2026-02-12 16:44:31",
+    "last_update": "2026-02-12 16:45:14",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -43,10 +43,10 @@
     "exercise_summary": {
       "cardio_session_1": {
         "avg_heart_rate_bpm": 117,
-        "calories_burned": 262,
+        "calories_burned": 443,
         "distance_mi": 5.48,
         "duration_min": 86,
-        "note": "Adjusted time by removing 1 hour from 2:26:22",
+        "note": "Time adjusted to active only (1:26:22), but kept calories at 443 kcal as requested.",
         "type": "Treadmill Running"
       },
       "strength_training": {
@@ -54,12 +54,12 @@
         "calories_burned": 150,
         "duration_min": 30
       },
-      "total_burned_calories": 412
+      "total_burned_calories": 593
     },
     "daily_total_stats": {
       "total_intake_calories": 1321,
-      "total_burned_calories": 412,
-      "net_calories": 909,
+      "total_burned_calories": 593,
+      "net_calories": 728,
       "total_protein_g": 197.5,
       "total_carbs_g": 32.4,
       "total_fat_g": 36.7,
@@ -68,7 +68,7 @@
     "ai_evaluation": {
       "muscle_maintenance": "Excellent (197.5g protein)",
       "weight_loss_status": "Highly Successful",
-      "recommendation": "บันทึกการวิ่ง Treadmill (12 ก.พ.) โดยหักออก 1 ชม. เหลือเวลา 1:26:22 เรียบร้อยครับ พลังงานสุทธิเหลือเพียง 909 kcal วันนี้คุณทำได้ดีมากทั้งการเวทและวิ่งครับ"
+      "recommendation": "ปรับเวลาเป็น 1:26:22 (ตัดช่วงพักออก) โดยคงค่าเผาผลาญไว้ที่ 443 kcal ตามเดิมให้แล้วครับ วันนี้คุณเผาผลาญรวมไปถึง 593 kcal ทำให้ค่าพลังงานสุทธิ (Net) ต่ำมาก ดีต่อการลดน้ำหนักสุดๆ ครับ"
     }
   }
 ]

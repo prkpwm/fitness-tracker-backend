@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-10",
-    "last_update": "2026-02-10 14:08:06",
+    "last_update": "2026-02-12 02:00:58",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -12,7 +12,7 @@
       "target_protein_g": 0,
       "goal_calories": 1500,
       "maintenance_protein_target_g": 120,
-      "recommended_daily_calories": 2100
+      "recommended_daily_calories": 0
     },
     "food_diary": [
       {
@@ -65,21 +65,29 @@
       }
     ],
     "exercise_summary": {
-      "total_burned_calories": 0
+      "cardio_session_1": {
+        "avg_heart_rate": 121,
+        "avg_pace": "13:14 /mi",
+        "calories_burned": 473,
+        "distance_mi": 6.06,
+        "duration": "1:20:13",
+        "type": "Treadmill Running"
+      },
+      "total_burned_calories": 473
     },
     "daily_total_stats": {
       "total_intake_calories": 1460,
-      "total_burned_calories": 0,
-      "net_calories": 1460,
+      "total_burned_calories": 473,
+      "net_calories": 987,
       "total_protein_g": 113,
       "total_carbs_g": 89,
       "total_fat_g": 72,
-      "protein_per_kg": 1.33
+      "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (113g/120g)",
-      "weight_loss_status": "Perfectly on Target",
-      "recommendation": "เพิ่มไข่ตุ๋น 3 ฟองให้แล้วครับ! ตอนนี้โปรตีนรวมสูงถึง 113 กรัม ใกล้เคียงเป้าหมายมาก และแคลอรี่รวมอยู่ที่ 1,460 kcal ซึ่งเกือบถึงเป้าหมาย 1,500 kcal พอดี วันนี้ทำได้ดีมากครับ"
+      "muscle_maintenance": "Good (113g/120g)",
+      "weight_loss_status": "Highly Successful (Net \u003c 1000)",
+      "recommendation": "อัปเดตข้อมูลการวิ่งของวันที่ 10 ก.พ. ให้แล้วครับ คุณวิ่งไปถึง 6.06 ไมล์ ซึ่งช่วยเผาผลาญไปอีก 473 kcal ทำให้ค่า Net Calories วันนั้นลดลงมาเหลือเพียง 987 kcal เป็นตัวเลขที่ดีเยี่ยมสำหรับการลดน้ำหนักครับ"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-12",
-    "last_update": "2026-02-12 16:38:43",
+    "last_update": "2026-02-12 16:44:31",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -17,7 +17,7 @@
     "food_diary": [
       {
         "time": "มื้อกลางวัน",
-        "item": "อกไก่กระเทียม + อกไก่กะเพรา (ไก่รวม 558g)",
+        "item": "อกไก่กระเทียม + กะเพรา (558g)",
         "calories": 920,
         "protein_g": 139.5,
         "carbs_g": 10,
@@ -41,26 +41,34 @@
       }
     ],
     "exercise_summary": {
+      "cardio_session_1": {
+        "avg_heart_rate_bpm": 117,
+        "calories_burned": 262,
+        "distance_mi": 5.48,
+        "duration_min": 86,
+        "note": "Adjusted time by removing 1 hour from 2:26:22",
+        "type": "Treadmill Running"
+      },
       "strength_training": {
         "activity": "Weight Training",
         "calories_burned": 150,
         "duration_min": 30
       },
-      "total_burned_calories": 150
+      "total_burned_calories": 412
     },
     "daily_total_stats": {
       "total_intake_calories": 1321,
-      "total_burned_calories": 150,
-      "net_calories": 1171,
+      "total_burned_calories": 412,
+      "net_calories": 909,
       "total_protein_g": 197.5,
       "total_carbs_g": 32.4,
       "total_fat_g": 36.7,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (197.5g/120g)",
+      "muscle_maintenance": "Excellent (197.5g protein)",
       "weight_loss_status": "Highly Successful",
-      "recommendation": "บันทึกอกไก่ย่าง 180 กรัมให้แล้วครับ วันนี้คุณเน้นโปรตีนได้สูงมากเป็นพิเศษ (เกือบ 200 กรัม!) ในขณะที่แคลอรี่รวมยังไม่เกินเป้าหมาย 1500 kcal ถือเป็นวันที่วินัยดีเยี่ยมมากครับ"
+      "recommendation": "บันทึกการวิ่ง Treadmill (12 ก.พ.) โดยหักออก 1 ชม. เหลือเวลา 1:26:22 เรียบร้อยครับ พลังงานสุทธิเหลือเพียง 909 kcal วันนี้คุณทำได้ดีมากทั้งการเวทและวิ่งครับ"
     }
   }
 ]

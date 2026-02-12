@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-12",
-    "last_update": "2026-02-12 14:08:54",
+    "last_update": "2026-02-12 16:38:43",
     "user_profile": {
       "age": 28,
       "weight_kg": 85,
@@ -25,11 +25,19 @@
       },
       {
         "time": "มื้อกลางวัน",
-        "item": "ข้าวเปล่า (ครึ่งจาน - ประมาณ 80g)",
+        "item": "ข้าวเปล่า (ครึ่งจาน)",
         "calories": 104,
         "protein_g": 2.2,
         "carbs_g": 22.4,
         "fat_g": 0.2
+      },
+      {
+        "time": "มื้อเย็น",
+        "item": "อกไก่ย่าง (180g)",
+        "calories": 297,
+        "protein_g": 55.8,
+        "carbs_g": 0,
+        "fat_g": 6.5
       }
     ],
     "exercise_summary": {
@@ -41,18 +49,18 @@
       "total_burned_calories": 150
     },
     "daily_total_stats": {
-      "total_intake_calories": 1024,
+      "total_intake_calories": 1321,
       "total_burned_calories": 150,
-      "net_calories": 874,
-      "total_protein_g": 141.7,
+      "net_calories": 1171,
+      "total_protein_g": 197.5,
       "total_carbs_g": 32.4,
-      "total_fat_g": 30.2,
+      "total_fat_g": 36.7,
       "protein_per_kg": 0
     },
     "ai_evaluation": {
-      "muscle_maintenance": "Excellent (141.7g/120g)",
-      "weight_loss_status": "Highly Successful (Net \u003c 1000)",
-      "recommendation": "เพิ่มเวทเทรนนิ่ง 30 นาทีให้เรียบร้อยแล้วครับ! วันนี้คุณทำได้ยอดเยี่ยมมาก ทั้งโปรตีนที่สูงมากและการออกกำลังกายเสริม ทำให้พลังงานสุทธิ (Net Calories) อยู่ในระดับที่ลดไขมันได้อย่างมีประสิทธิภาพครับ"
+      "muscle_maintenance": "Excellent (197.5g/120g)",
+      "weight_loss_status": "Highly Successful",
+      "recommendation": "บันทึกอกไก่ย่าง 180 กรัมให้แล้วครับ วันนี้คุณเน้นโปรตีนได้สูงมากเป็นพิเศษ (เกือบ 200 กรัม!) ในขณะที่แคลอรี่รวมยังไม่เกินเป้าหมาย 1500 kcal ถือเป็นวันที่วินัยดีเยี่ยมมากครับ"
     }
   }
 ]

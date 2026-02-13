@@ -1,0 +1,69 @@
+[
+  {
+    "date": "2026-02-13",
+    "last_update": "2026-02-13 15:28:56",
+    "user_profile": {
+      "age": 28,
+      "weight_kg": 85,
+      "height_cm": 173,
+      "bmr_kcal": 0,
+      "tdee_maintenance_kcal": 0,
+      "target_lose_weight_kcal": 0,
+      "target_protein_g": 0,
+      "goal_calories": 1500,
+      "maintenance_protein_target_g": 120,
+      "recommended_daily_calories": 2100
+    },
+    "food_diary": [
+      {
+        "time": "กลางวัน",
+        "item": "ข้าวมันตับ + ไก่สับ (1 กล่อง)",
+        "calories": 650,
+        "protein_g": 35,
+        "carbs_g": 55,
+        "fat_g": 32
+      },
+      {
+        "time": "เย็น",
+        "item": "บะหมี่กึ่งสำเร็จรูป (1 ซอง)",
+        "calories": 280,
+        "protein_g": 4,
+        "carbs_g": 37,
+        "fat_g": 13
+      },
+      {
+        "time": "เย็น",
+        "item": "เนื้อหมู (293g - ชั่งดิบ)",
+        "calories": 703,
+        "protein_g": 58.6,
+        "carbs_g": 0,
+        "fat_g": 52.7
+      },
+      {
+        "time": "เย็น",
+        "item": "ขนมขาไก่ (1 ซอง)",
+        "calories": 160,
+        "protein_g": 2,
+        "carbs_g": 15,
+        "fat_g": 10
+      }
+    ],
+    "exercise_summary": {
+      "total_burned_calories": 0
+    },
+    "daily_total_stats": {
+      "total_intake_calories": 1793,
+      "total_burned_calories": 0,
+      "net_calories": 1793,
+      "total_protein_g": 99.6,
+      "total_carbs_g": 107,
+      "total_fat_g": 107.7,
+      "protein_per_kg": 1.17
+    },
+    "ai_evaluation": {
+      "muscle_maintenance": "Good (99.6g/120g)",
+      "weight_loss_status": "Above Calorie Goal",
+      "recommendation": "เพิ่มขนมขาไก่ให้แล้วครับ ตอนนี้แคลอรี่รวมอยู่ที่ 1,793 kcal หากวันนี้เน้นลดน้ำหนัก แนะนำให้เลี่ยงของว่างที่มีไขมันสูงเพิ่ม และถ้าไหวลองขยับร่างกายเพื่อช่วยเบิร์นส่วนเกินออกนะครับ"
+    }
+  }
+]
